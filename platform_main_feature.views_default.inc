@@ -175,9 +175,9 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="browse-all-item-wrapper">
-<a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a>
-<a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a>
-</div>';
+  <a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a>
+  <a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a>
+  </div>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
@@ -411,6 +411,11 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['table'] = 'islandora_solr';
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['field'] = 'RELS_EXT_hasModel_uri_mt';
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['value'] = 'islandora:sp_large_image_cmodel';
+  /* Filter criterion: Islandora Solr: fedora_datastreams_ms */
+  $handler->display->display_options['filters']['fedora_datastreams_ms']['id'] = 'fedora_datastreams_ms';
+  $handler->display->display_options['filters']['fedora_datastreams_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['fedora_datastreams_ms']['field'] = 'fedora_datastreams_ms';
+  $handler->display->display_options['filters']['fedora_datastreams_ms']['value'] = 'JPG';
 
   /* Display: Latest Objects in Collection */
   $handler = $view->new_display('block', 'Latest Objects in Collection', 'block_4');
