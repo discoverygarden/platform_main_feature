@@ -1058,12 +1058,13 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['mods_titleInfo_title_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_titleInfo_title_ms']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['mods_titleInfo_title_ms']['link_to_object'] = 1;
-  /* Field: Broken/missing handler */
+    /* Field: Islandora Solr: mods_titleInfo_none_subTitle_ms */
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['id'] = 'mods_titleInfo_none_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['field'] = 'mods_titleInfo_none_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['link_to_object'] = 0;
   /* Field: Islandora Solr: mods_abstract_ms */
   $handler->display->display_options['fields']['mods_abstract_ms_1']['id'] = 'mods_abstract_ms_1';
   $handler->display->display_options['fields']['mods_abstract_ms_1']['table'] = 'islandora_solr';
@@ -1123,12 +1124,13 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '5';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: mods_abstract_Summary_ms */
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['id'] = 'mods_abstract_Summary_ms';
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['field'] = 'mods_abstract_Summary_ms';
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['mods_abstract_Summary_ms']['link_to_object'] = 0;
   /* Contextual filter: Islandora Solr: PID */
   $handler->display->display_options['arguments']['PID']['id'] = 'PID';
   $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
