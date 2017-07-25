@@ -353,7 +353,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'bpldora_addtoany',
     'module' => 'bpldora',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
