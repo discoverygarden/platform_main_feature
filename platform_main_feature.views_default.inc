@@ -37,6 +37,8 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_image_block']['table'] = 'field_data_field_image_block';
   $handler->display->display_options['fields']['field_image_block']['field'] = 'field_image_block';
   $handler->display->display_options['fields']['field_image_block']['label'] = '';
+  $handler->display->display_options['fields']['field_image_block']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_image_block']['alter']['text'] = '<a title="Home" href="/">[field_image_block]</a>';
   $handler->display->display_options['fields']['field_image_block']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_image_block']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_image_block']['settings'] = array(
@@ -60,6 +62,7 @@ function platform_main_feature_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
+    t('<a title="Home" href="/">[field_image_block]</a>'),
     t('Block'),
   );
   $export['carnegie_library_image_block'] = $view;
@@ -367,14 +370,11 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['PID']['exclude'] = TRUE;
   $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
-  /* Field: Global: View */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['view']['id'] = 'view';
   $handler->display->display_options['fields']['view']['table'] = 'views';
   $handler->display->display_options['fields']['view']['field'] = 'view';
   $handler->display->display_options['fields']['view']['hide_empty'] = TRUE;
-  $handler->display->display_options['fields']['view']['view'] = 'featured_collection';
-  $handler->display->display_options['fields']['view']['display'] = 'block';
-  $handler->display->display_options['fields']['view']['arguments'] = '[%PID]';
   $handler->display->display_options['filter_groups']['operator'] = 'OR';
   $handler->display->display_options['filter_groups']['groups'] = array(
     1 => 'OR',
@@ -421,7 +421,7 @@ function platform_main_feature_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
-    t('View'),
+    t('Broken handler views.view'),
     t('Page'),
     t('Block'),
   );
@@ -481,6 +481,20 @@ function platform_main_feature_views_default_views() {
 
   /* Display: City of Boulder Logo */
   $handler = $view->new_display('block', 'City of Boulder Logo', 'block');
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Image */
+  $handler->display->display_options['fields']['field_image_block']['id'] = 'field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['table'] = 'field_data_field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['field'] = 'field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['label'] = '';
+  $handler->display->display_options['fields']['field_image_block']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_image_block']['alter']['text'] = '<a title="Boulder Colorado" href="https://bouldercolorado.gov/">[field_image_block]</a>';
+  $handler->display->display_options['fields']['field_image_block']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_image_block']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_image_block']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -498,6 +512,20 @@ function platform_main_feature_views_default_views() {
 
   /* Display: BPL Logo */
   $handler = $view->new_display('block', 'BPL Logo', 'block_1');
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Image */
+  $handler->display->display_options['fields']['field_image_block']['id'] = 'field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['table'] = 'field_data_field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['field'] = 'field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['label'] = '';
+  $handler->display->display_options['fields']['field_image_block']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_image_block']['alter']['text'] = '<a title="Boulder Library" href="https://boulderlibrary.org/">[field_image_block]</a>';
+  $handler->display->display_options['fields']['field_image_block']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_image_block']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_image_block']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
 
   /* Display: Museum of Boulder Logo */
   $handler = $view->new_display('block', 'Museum of Boulder Logo', 'block_2');
@@ -542,7 +570,9 @@ function platform_main_feature_views_default_views() {
     t('Asc'),
     t('Desc'),
     t('City of Boulder Logo'),
+    t('<a title="Boulder Colorado" href="https://bouldercolorado.gov/">[field_image_block]</a>'),
     t('BPL Logo'),
+    t('<a title="Boulder Library" href="https://boulderlibrary.org/">[field_image_block]</a>'),
     t('Museum of Boulder Logo'),
     t('Genealogical Society Logo'),
   );
@@ -1116,13 +1146,12 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['mods_titleInfo_title_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_titleInfo_title_ms']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['mods_titleInfo_title_ms']['link_to_object'] = 1;
-  /* Field: Islandora Solr: mods_titleInfo_none_subTitle_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['id'] = 'mods_titleInfo_none_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['field'] = 'mods_titleInfo_none_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['link_to_object'] = 0;
   /* Field: Islandora Solr: mods_abstract_ms */
   $handler->display->display_options['fields']['mods_abstract_ms_1']['id'] = 'mods_abstract_ms_1';
   $handler->display->display_options['fields']['mods_abstract_ms_1']['table'] = 'islandora_solr';
@@ -1182,13 +1211,12 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '5';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Islandora Solr: mods_abstract_Summary_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['id'] = 'mods_abstract_Summary_ms';
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['field'] = 'mods_abstract_Summary_ms';
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['mods_abstract_Summary_ms']['link_to_object'] = 0;
   /* Contextual filter: Islandora Solr: PID */
   $handler->display->display_options['arguments']['PID']['id'] = 'PID';
   $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';

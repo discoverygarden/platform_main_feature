@@ -234,7 +234,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -43,
+        'weight' => -45,
       ),
       'seven' => array(
         'region' => '',
@@ -313,6 +313,39 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['blockify-blockify-page-title'] = array(
+    'cache' => 4,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'blockify-page-title',
+    'module' => 'blockify',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => 'pre_content',
+        'status' => 1,
+        'theme' => 'boulder_theme',
+        'weight' => -51,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['bpldora-bpldora_addtoany'] = array(
     'cache' => 1,
     'css_class' => '',
@@ -330,10 +363,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'boulder_theme' => array(
-        'region' => 'content',
+        'region' => 'pre_content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -42,
+        'weight' => -50,
       ),
       'seven' => array(
         'region' => '',
@@ -366,7 +399,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -41,
+        'weight' => -44,
       ),
       'seven' => array(
         'region' => '',
@@ -399,7 +432,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -40,
+        'weight' => -43,
       ),
       'seven' => array(
         'region' => '',
@@ -465,7 +498,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -47,
+        'weight' => -49,
       ),
       'seven' => array(
         'region' => '',
@@ -485,7 +518,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'islandora_collection_search',
     'module' => 'islandora_collection_search',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'advanced-search',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -564,7 +597,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -46,
+        'weight' => -48,
       ),
       'seven' => array(
         'region' => '',
@@ -764,7 +797,7 @@ islandora/search/*',
         'region' => 'pre_content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -46,
+        'weight' => -49,
       ),
       'seven' => array(
         'region' => '',
@@ -863,7 +896,7 @@ islandora/search/*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -45,
+        'weight' => -47,
       ),
       'seven' => array(
         'region' => '',
@@ -1259,7 +1292,7 @@ islandora/search/*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -44,
+        'weight' => -46,
       ),
       'seven' => array(
         'region' => 'content',
@@ -2234,6 +2267,39 @@ islandora/search/*',
     'css_class' => '',
     'custom' => 0,
     'delta' => 'list_item_metadata-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'boulder_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-object_description-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'object_description-block',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',
