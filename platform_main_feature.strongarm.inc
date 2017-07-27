@@ -97,10 +97,10 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'blockify_blocks';
   $strongarm->value = array(
     'blockify-logo' => 'blockify-logo',
+    'blockify-page-title' => 'blockify-page-title',
     'blockify-breadcrumb' => 'blockify-breadcrumb',
     'blockify-site-name' => 0,
     'blockify-site-slogan' => 0,
-    'blockify-page-title' => 0,
     'blockify-tabs' => 0,
     'blockify-messages' => 0,
     'blockify-actions' => 0,
@@ -175,7 +175,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_collection_search_display_label';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['islandora_collection_search_display_label'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -204,9 +204,9 @@ function platform_main_feature_strongarm() {
     'islandora:newspaper_collection' => 'islandora:newspaper_collection',
     'islandora:sp_pdf_collection' => 'islandora:sp_pdf_collection',
     'islandora:sample_collection' => 'islandora:sample_collection',
+    'islandora:root' => 'islandora:root',
     'islandora:transformCollection' => 'islandora:transformCollection',
     'islandora:video_collection' => 'islandora:video_collection',
-    'islandora:root' => 'islandora:root',
   );
   $export['islandora_collection_search_searchable_collections'] = $strongarm;
 
