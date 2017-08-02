@@ -79,6 +79,12 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['table'] = 'islandora_solr';
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['field'] = 'RELS_EXT_hasModel_uri_mt';
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['value'] = 'islandora:collectionCModel';
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID']['id'] = 'PID';
+  $handler->display->display_options['filters']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID']['operator'] = '!=';
+  $handler->display->display_options['filters']['PID']['value'] = 'sdsu:1';
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
