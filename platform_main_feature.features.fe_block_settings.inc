@@ -19,7 +19,7 @@ function platform_main_feature_default_fe_block_settings() {
     'machine_name' => 'advanced_islandora_search_link',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'advanced-search',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(

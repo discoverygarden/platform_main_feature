@@ -70,10 +70,73 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-quick-links_browse-collections:islandora.
+  $menu_links['menu-quick-links_browse-collections:islandora'] = array(
+    'menu_name' => 'menu-quick-links',
+    'link_path' => 'islandora',
+    'router_path' => 'islandora',
+    'link_title' => 'Browse Collections',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-quick-links_browse-collections:islandora',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-quick-links_log-in:user/login.
+  $menu_links['menu-quick-links_log-in:user/login'] = array(
+    'menu_name' => 'menu-quick-links',
+    'link_path' => 'user/login',
+    'router_path' => 'user/login',
+    'link_title' => 'Log in',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-quick-links_log-in:user/login',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-quick-links_log-out:user/logout.
+  $menu_links['menu-quick-links_log-out:user/logout'] = array(
+    'menu_name' => 'menu-quick-links',
+    'link_path' => 'user/logout',
+    'router_path' => 'user/logout',
+    'link_title' => 'Log Out',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-quick-links_log-out:user/logout',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('About Us');
+  t('Browse Collections');
+  t('Log Out');
+  t('Log in');
   t('Make contact');
   t('My Bookmarks');
 

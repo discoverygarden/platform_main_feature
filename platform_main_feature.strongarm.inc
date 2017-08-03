@@ -1369,6 +1369,7 @@ function platform_main_feature_strongarm() {
       'meta' => 'meta',
     ),
     'zen_rebuild_registry' => 1,
+    'boulder_theme_logo_link' => 'https://boulderlibrary.org/',
   );
   $export['theme_boulder_theme_settings'] = $strongarm;
 
