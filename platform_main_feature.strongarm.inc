@@ -233,6 +233,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_metadata_display';
+  $strongarm->value = 'islandora_solr_metadata';
+  $export['islandora_metadata_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_show_print_option';
   $strongarm->value = 0;
   $export['islandora_show_print_option'] = $strongarm;
@@ -248,7 +255,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_primary_display';
-  $strongarm->value = 'grid';
+  $strongarm->value = 'default';
   $export['islandora_solr_primary_display'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -262,7 +269,7 @@ function platform_main_feature_strongarm() {
       'grid' => '0',
       'table' => '0',
     ),
-    'default' => 'grid',
+    'default' => 'default',
     'enabled' => array(
       'default' => 'default',
       'bookmark' => 0,
