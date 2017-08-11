@@ -85,6 +85,11 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['PID']['field'] = 'PID';
   $handler->display->display_options['filters']['PID']['operator'] = '!=';
   $handler->display->display_options['filters']['PID']['value'] = 'sdsu:1';
+  /* Filter criterion: Islandora Solr: RELS_EXT_isMemberOfCollection_uri_ms */
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_ms']['id'] = 'RELS_EXT_isMemberOfCollection_uri_ms';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_ms']['field'] = 'RELS_EXT_isMemberOfCollection_uri_ms';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_ms']['value'] = 'info:fedora/sdsu:2';
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
