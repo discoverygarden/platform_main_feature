@@ -10,23 +10,6 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_home:<front>.
-  $menu_links['main-menu_home:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Home',
-    'options' => array(
-      'identifier' => 'main-menu_home:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
   // Exported menu link: menu-engage_support-us:http://baseballhall.org/support.
   $menu_links['menu-engage_support-us:http://baseballhall.org/support'] = array(
     'menu_name' => 'menu-engage',
@@ -271,36 +254,23 @@ function platform_main_feature_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
+      'menu_attach_block' => array(
+        'name' => '',
+        'use_ajax' => 0,
+        'no_drop' => 0,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 674,
+        'plid' => 0,
+      ),
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -48,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_browse:islandora.
-  $menu_links['menu-header-menu_browse:islandora'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'islandora',
-    'router_path' => 'islandora',
-    'link_title' => 'Browse',
-    'options' => array(
-      'identifier' => 'menu-header-menu_browse:islandora',
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 1,
-    'weight' => -49,
     'customized' => 1,
   );
   // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
@@ -318,44 +288,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -44,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f.
-  $menu_links['menu-header-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
-    'router_path' => 'uuid',
-    'link_title' => 'Search',
-    'options' => array(
-      'menu_attach_block' => array(
-        'name' => 'islandora_solr|simple',
-        'use_ajax' => 0,
-        'no_drop' => 1,
-        'dropped' => 0,
-        'on_hover' => 0,
-        'orientation' => 'horizontal',
-        'mlid' => 727,
-        'plid' => 0,
-      ),
-      'attributes' => array(
-        'class' => array(
-          0 => 'search-hide-link',
-        ),
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-header-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -45,
+    'weight' => -43,
     'customized' => 1,
   );
   // Exported menu link: menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search.
@@ -369,7 +302,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
@@ -481,10 +414,8 @@ function platform_main_feature_menu_default_menu_links() {
   t('ABNER Online Library Catalog');
   t('About this site');
   t('Bookmarks');
-  t('Browse');
   t('Creative content license');
   t('Employment');
-  t('Home');
   t('Login');
   t('Logout');
   t('Make contact');
@@ -493,7 +424,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Policies');
   t('Privacy Statement/Your California Privacy Rights');
   t('Researchers');
-  t('Search');
   t('Support us');
   t('Terms');
   t('Visit our shop');
