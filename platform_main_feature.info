@@ -134,8 +134,13 @@ features[menu_links][] = menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-
 features[menu_links][] = menu-footer-menu_researchers:node/2
 features[menu_links][] = menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005
 features[menu_links][] = menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5
+features[menu_links][] = menu-header-menu_archive-and-collection:http://baseballhall.org/discover/archive-collection
 features[menu_links][] = menu-header-menu_bookmarks:islandora-bookmark
+features[menu_links][] = menu-header-menu_donate:https://community.baseballhall.org/sslpage.aspx?pid=1767
+features[menu_links][] = menu-header-menu_explore-the-collection:islandora
+features[menu_links][] = menu-header-menu_hall-of-famers:http://baseballhall.org/explorer
 features[menu_links][] = menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
+features[menu_links][] = menu-header-menu_search-the-collection:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f
 features[menu_links][] = menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search
 features[menu_links][] = menu-media-and-research-material_media-info:http://baseballhall.org/media-info
 features[menu_links][] = menu-media-and-research-material_news:http://baseballhall.org/news
