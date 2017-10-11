@@ -34,7 +34,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -40,
+        'weight' => -39,
       ),
       'seven' => array(
         'region' => '',
@@ -67,7 +67,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -38,
+        'weight' => -37,
       ),
       'seven' => array(
         'region' => '',
@@ -372,7 +372,7 @@ islandora/search*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -44,
+        'weight' => -42,
       ),
       'seven' => array(
         'region' => '',
@@ -405,7 +405,7 @@ islandora/search*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -49,
+        'weight' => -47,
       ),
       'seven' => array(
         'region' => '',
@@ -414,7 +414,7 @@ islandora/search*',
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => 'Collection Search',
     'visibility' => 0,
   );
 
@@ -426,8 +426,7 @@ islandora/search*',
     'module' => 'islandora_compound_object',
     'node_types' => array(),
     'pages' => 'islandora/object/*/manage
-islandora/object/*/manage/*
-islandora/edit_form/*',
+islandora/object/*/manage/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -473,7 +472,7 @@ islandora/edit_form/*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -41,
+        'weight' => -40,
       ),
       'seven' => array(
         'region' => '',
@@ -482,7 +481,7 @@ islandora/edit_form/*',
         'weight' => 0,
       ),
     ),
-    'title' => 'Explore',
+    'title' => 'Explore the Collection',
     'visibility' => 1,
   );
 
@@ -515,7 +514,7 @@ islandora/edit_form/*',
         'weight' => 0,
       ),
     ),
-    'title' => 'Facets',
+    'title' => 'Search Filters',
     'visibility' => 0,
   );
 
@@ -560,7 +559,13 @@ islandora/edit_form/*',
     'module' => 'islandora_solr',
     'node_types' => array(),
     'pages' => '',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 3,
+      'authenticated user' => 2,
+      'Curatorial/Research User' => 4,
+      'Library/Museum User' => 5,
+      'NBHFM Staff' => 6,
+    ),
     'themes' => array(
       'bartik' => array(
         'region' => '',
@@ -572,7 +577,7 @@ islandora/edit_form/*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -48,
+        'weight' => -46,
       ),
       'seven' => array(
         'region' => '',
@@ -1100,7 +1105,7 @@ islandora/edit_form/*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -42,
+        'weight' => -41,
       ),
       'seven' => array(
         'region' => 'content',
@@ -1219,7 +1224,7 @@ islandora/edit_form/*',
     'delta' => 'powered-by',
     'module' => 'system',
     'node_types' => array(),
-    'pages' => 'islandora/edit_form/*',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1496,7 +1501,7 @@ islandora/edit_form/*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -47,
+        'weight' => -45,
       ),
       'seven' => array(
         'region' => '',
@@ -1506,39 +1511,6 @@ islandora/edit_form/*',
       ),
     ),
     'title' => '',
-    'visibility' => 1,
-  );
-
-  $export['views-buy-block'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'buy-block',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => 'islandora/object/*',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'bhof_theme' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'bhof_theme',
-        'weight' => -43,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
     'visibility' => 1,
   );
 
@@ -1649,7 +1621,13 @@ islandora/edit_form/*',
     'module' => 'views',
     'node_types' => array(),
     'pages' => 'islandora/object/*',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 3,
+      'authenticated user' => 2,
+      'Curatorial/Research User' => 4,
+      'Library/Museum User' => 5,
+      'NBHFM Staff' => 6,
+    ),
     'themes' => array(
       'bartik' => array(
         'region' => '',
@@ -1661,7 +1639,7 @@ islandora/edit_form/*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -46,
+        'weight' => -44,
       ),
       'seven' => array(
         'region' => '',
@@ -1707,39 +1685,6 @@ islandora/edit_form/*',
     'visibility' => 1,
   );
 
-  $export['views-e29cd5833a7832b8286a440f8ef97dbf'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'e29cd5833a7832b8286a440f8ef97dbf',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'bhof_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bhof_theme',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
   $export['views-exsection_status-block'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -1760,7 +1705,7 @@ islandora/edit_form/*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -45,
+        'weight' => -43,
       ),
       'seven' => array(
         'region' => '',
@@ -1793,7 +1738,7 @@ islandora/edit_form/*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -50,
+        'weight' => -48,
       ),
       'seven' => array(
         'region' => '',
@@ -2202,39 +2147,6 @@ islandora/edit_form/*',
     'visibility' => 0,
   );
 
-  $export['views-plaque_view-block'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'plaque_view-block',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => 'islandora/object/islandora:50',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'bhof_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bhof_theme',
-        'weight' => -42,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 1,
-  );
-
   $export['views-serial_holdings_report-block'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -2260,7 +2172,7 @@ islandora/edit_form/*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -39,
+        'weight' => -38,
       ),
       'seven' => array(
         'region' => '',
@@ -2403,39 +2315,6 @@ islandora/edit_form/*',
     ),
     'title' => '',
     'visibility' => 1,
-  );
-
-  $export['views-useful_information-block'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'useful_information-block',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'bhof_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bhof_theme',
-        'weight' => 10,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
   );
 
   return $export;

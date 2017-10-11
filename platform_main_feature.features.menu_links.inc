@@ -10,23 +10,6 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_home:<front>.
-  $menu_links['main-menu_home:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Home',
-    'options' => array(
-      'identifier' => 'main-menu_home:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
   // Exported menu link: menu-engage_support-us:http://baseballhall.org/support.
   $menu_links['menu-engage_support-us:http://baseballhall.org/support'] = array(
     'menu_name' => 'menu-engage',
@@ -257,6 +240,39 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
+  // Exported menu link: menu-header-menu_archive-and-collection:http://baseballhall.org/discover/archive-collection.
+  $menu_links['menu-header-menu_archive-and-collection:http://baseballhall.org/discover/archive-collection'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'http://baseballhall.org/discover/archive-collection',
+    'router_path' => '',
+    'link_title' => 'Archive and Collection',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'menu_attach_block' => array(
+        'name' => '',
+        'use_ajax' => 0,
+        'no_drop' => 0,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 0,
+        'plid' => 0,
+      ),
+      'identifier' => 'menu-header-menu_archive-and-collection:http://baseballhall.org/discover/archive-collection',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+  );
   // Exported menu link: menu-header-menu_bookmarks:islandora-bookmark.
   $menu_links['menu-header-menu_bookmarks:islandora-bookmark'] = array(
     'menu_name' => 'menu-header-menu',
@@ -271,23 +287,76 @@ function platform_main_feature_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
+      'menu_attach_block' => array(
+        'name' => '',
+        'use_ajax' => 0,
+        'no_drop' => 0,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 674,
+        'plid' => 0,
+      ),
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_browse:islandora.
-  $menu_links['menu-header-menu_browse:islandora'] = array(
+  // Exported menu link: menu-header-menu_donate:https://community.baseballhall.org/sslpage.aspx?pid=1767.
+  $menu_links['menu-header-menu_donate:https://community.baseballhall.org/sslpage.aspx?pid=1767'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'https://community.baseballhall.org/sslpage.aspx?pid=1767',
+    'router_path' => '',
+    'link_title' => 'Donate',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'menu_attach_block' => array(
+        'name' => '',
+        'use_ajax' => 0,
+        'no_drop' => 0,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 698,
+        'plid' => 0,
+      ),
+      'identifier' => 'menu-header-menu_donate:https://community.baseballhall.org/sslpage.aspx?pid=1767',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -45,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_explore-the-collection:islandora.
+  $menu_links['menu-header-menu_explore-the-collection:islandora'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'islandora',
     'router_path' => 'islandora',
-    'link_title' => 'Browse',
+    'link_title' => 'Explore the Collection',
     'options' => array(
-      'identifier' => 'menu-header-menu_browse:islandora',
+      'identifier' => 'menu-header-menu_explore-the-collection:islandora',
+      'menu_attach_block' => array(
+        'name' => '',
+        'use_ajax' => 0,
+        'no_drop' => 0,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 673,
+        'plid' => 0,
+      ),
       'attributes' => array(),
       'item_attributes' => array(
         'id' => '',
@@ -298,9 +367,42 @@ function platform_main_feature_menu_default_menu_links() {
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
-    'has_children' => 1,
+    'has_children' => 0,
     'expanded' => 1,
     'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_hall-of-famers:http://baseballhall.org/explorer.
+  $menu_links['menu-header-menu_hall-of-famers:http://baseballhall.org/explorer'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'http://baseballhall.org/explorer',
+    'router_path' => '',
+    'link_title' => 'Hall of Famers',
+    'options' => array(
+      'menu_attach_block' => array(
+        'name' => '',
+        'use_ajax' => 0,
+        'no_drop' => 0,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 699,
+        'plid' => 0,
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-header-menu_hall-of-famers:http://baseballhall.org/explorer',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
@@ -318,15 +420,15 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -44,
+    'weight' => -43,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f.
-  $menu_links['menu-header-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f'] = array(
+  // Exported menu link: menu-header-menu_search-the-collection:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f.
+  $menu_links['menu-header-menu_search-the-collection:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
     'router_path' => 'uuid',
-    'link_title' => 'Search',
+    'link_title' => 'Search the Collection',
     'options' => array(
       'menu_attach_block' => array(
         'name' => 'islandora_solr|simple',
@@ -335,9 +437,10 @@ function platform_main_feature_menu_default_menu_links() {
         'dropped' => 0,
         'on_hover' => 0,
         'orientation' => 'horizontal',
-        'mlid' => 727,
+        'mlid' => 672,
         'plid' => 0,
       ),
+      'identifier' => 'menu-header-menu_search-the-collection:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
       'attributes' => array(
         'class' => array(
           0 => 'search-hide-link',
@@ -348,14 +451,13 @@ function platform_main_feature_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'menu-header-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
     ),
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -45,
+    'weight' => -44,
     'customized' => 1,
   );
   // Exported menu link: menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search.
@@ -369,7 +471,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
@@ -480,11 +582,13 @@ function platform_main_feature_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('ABNER Online Library Catalog');
   t('About this site');
+  t('Archive and Collection');
   t('Bookmarks');
-  t('Browse');
   t('Creative content license');
+  t('Donate');
   t('Employment');
-  t('Home');
+  t('Explore the Collection');
+  t('Hall of Famers');
   t('Login');
   t('Logout');
   t('Make contact');
@@ -493,7 +597,7 @@ function platform_main_feature_menu_default_menu_links() {
   t('Policies');
   t('Privacy Statement/Your California Privacy Rights');
   t('Researchers');
-  t('Search');
+  t('Search the Collection');
   t('Support us');
   t('Terms');
   t('Visit our shop');
