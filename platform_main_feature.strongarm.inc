@@ -107,6 +107,41 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'dgi_platform_rotator_behaviour';
+  $strongarm->value = 0;
+  $export['dgi_platform_rotator_behaviour'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'dgi_platform_rotator_dsid';
+  $strongarm->value = 'TN';
+  $export['dgi_platform_rotator_dsid'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'dgi_platform_rotator_legacy';
+  $strongarm->value = 0;
+  $export['dgi_platform_rotator_legacy'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'dgi_platform_rotator_style';
+  $strongarm->value = 0;
+  $export['dgi_platform_rotator_style'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'dgi_platform_rotator_transition';
+  $strongarm->value = 0;
+  $export['dgi_platform_rotator_transition'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'error_level';
   $strongarm->value = '2';
   $export['error_level'] = $strongarm;
@@ -121,9 +156,121 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_basic_collection_disable_display_generation';
+  $strongarm->value = 1;
+  $export['islandora_basic_collection_disable_display_generation'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_basic_collection_display_backend';
+  $strongarm->value = 'islandora_solr_query_backend';
+  $export['islandora_basic_collection_display_backend'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_all_pages';
+  $strongarm->value = 1;
+  $export['islandora_collection_search_all_pages'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_display_label';
+  $strongarm->value = 1;
+  $export['islandora_collection_search_display_label'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_retain_search_values';
+  $strongarm->value = 1;
+  $export['islandora_collection_search_retain_search_values'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_searchable_collections';
+  $strongarm->value = array(
+    'islandora:audio_collection' => 'islandora:audio_collection',
+    'islandora:bookCollection' => 'islandora:bookCollection',
+    'islandora:sp_basic_image_collection' => 'islandora:sp_basic_image_collection',
+    'islandora:binary_object_collection' => 'islandora:binary_object_collection',
+    'ir:citationCollection' => 'ir:citationCollection',
+    'islandora:compound_collection' => 'islandora:compound_collection',
+    'islandora:sp_document_collection' => 'islandora:sp_document_collection',
+    'islandora:entity_collection' => 'islandora:entity_collection',
+    'islandora:featured_collection' => 'islandora:featured_collection',
+    'islandora:sp_large_image_collection' => 'islandora:sp_large_image_collection',
+    'islandora:manuscriptCollection' => 'islandora:manuscriptCollection',
+    'islandora:newspaper_collection' => 'islandora:newspaper_collection',
+    'islandora:sp_pdf_collection' => 'islandora:sp_pdf_collection',
+    'islandora:sample_collection' => 'islandora:sample_collection',
+    'islandora:root' => 'islandora:root',
+    'islandora:transformCollection' => 'islandora:transformCollection',
+    'islandora:video_collection' => 'islandora:video_collection',
+  );
+  $export['islandora_collection_search_searchable_collections'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_imagecache_cache_solr_backend_display';
   $strongarm->value = 1;
   $export['islandora_imagecache_cache_solr_backend_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_collection_display_use_solr_display_profiles';
+  $strongarm->value = 1;
+  $export['islandora_solr_collection_display_use_solr_display_profiles'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_primary_display';
+  $strongarm->value = 'grid';
+  $export['islandora_solr_primary_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_primary_display_table';
+  $strongarm->value = array(
+    'weight' => array(
+      'bookmark' => '0',
+      'default' => '0',
+      'grid' => '0',
+      'table' => '0',
+    ),
+    'default' => 'grid',
+    'enabled' => array(
+      'bookmark' => 'bookmark',
+      'default' => 'default',
+      'table' => 'table',
+      'grid' => 'grid',
+    ),
+  );
+  $export['islandora_solr_primary_display_table'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_search_navigation';
+  $strongarm->value = 1;
+  $export['islandora_solr_search_navigation'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_secondary_display';
+  $strongarm->value = array(
+    'csv' => 'csv',
+    'rss' => 'rss',
+  );
+  $export['islandora_solr_secondary_display'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -149,6 +296,15 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_imagecache_default_thumbnail';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_imagecache_default_thumbnail'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'site_frontpage';
   $strongarm->value = 'front';
   $export['site_frontpage'] = $strongarm;
@@ -166,6 +322,56 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'site_slogan';
   $strongarm->value = 'Managing Digital Content';
   $export['site_slogan'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_default';
+  $strongarm->value = 'ir7_saas';
+  $export['theme_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_ir7_saas_settings';
+  $strongarm->value = array(
+    'toggle_logo' => 1,
+    'toggle_name' => 1,
+    'toggle_slogan' => 1,
+    'toggle_node_user_picture' => 1,
+    'toggle_comment_user_picture' => 1,
+    'toggle_favicon' => 1,
+    'toggle_main_menu' => 1,
+    'toggle_secondary_menu' => 0,
+    'default_logo' => 1,
+    'logo_path' => '',
+    'logo_upload' => '',
+    'default_favicon' => 1,
+    'favicon_path' => '',
+    'favicon_upload' => '',
+    'zen_breadcrumb' => 'yes',
+    'zen_breadcrumb_separator' => ' › ',
+    'zen_breadcrumb_home' => 1,
+    'zen_breadcrumb_trailing' => 1,
+    'zen_breadcrumb_title' => 0,
+    'zen_skip_link_anchor' => 'main-menu',
+    'zen_skip_link_text' => 'Jump to navigation',
+    'zen_meta' => array(
+      'html5' => 'html5',
+      'meta' => 'meta',
+    ),
+    'zen_rebuild_registry' => 0,
+    'ir7_saas_background_dsid' => 'OBJ',
+    'designkit_color' => array(
+      'background' => '#E2E2E2',
+      'header' => '#E2E2E2',
+      'content' => '#ffffff',
+      'navigation' => '#E2E2E2',
+      'footer' => '#E2E2E2',
+      'sidebars' => '#ffffff',
+    ),
+  );
+  $export['theme_ir7_saas_settings'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
