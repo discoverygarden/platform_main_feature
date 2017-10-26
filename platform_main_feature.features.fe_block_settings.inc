@@ -155,7 +155,10 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'islandora_collection_search',
     'module' => 'islandora_collection_search',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '<front>
+user/login
+user/*
+islandora-guided-ingest',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
