@@ -107,41 +107,6 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'dgi_platform_rotator_behaviour';
-  $strongarm->value = 0;
-  $export['dgi_platform_rotator_behaviour'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'dgi_platform_rotator_dsid';
-  $strongarm->value = 'TN';
-  $export['dgi_platform_rotator_dsid'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'dgi_platform_rotator_legacy';
-  $strongarm->value = 0;
-  $export['dgi_platform_rotator_legacy'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'dgi_platform_rotator_style';
-  $strongarm->value = 0;
-  $export['dgi_platform_rotator_style'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'dgi_platform_rotator_transition';
-  $strongarm->value = 0;
-  $export['dgi_platform_rotator_transition'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'error_level';
   $strongarm->value = '2';
   $export['error_level'] = $strongarm;
