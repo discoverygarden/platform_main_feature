@@ -1290,10 +1290,10 @@ function platform_main_feature_node_export_features_default() {
       \'body\' => array(
         \'und\' => array(
           array(
-            \'value\' => \'Islandora is an open source digital repository system based on Fedora Commons, Drupal and a host of additional applications. Begin exploring content by clicking the search button below, or browse repository in the above menu.\',
+            \'value\' => \'Islandora is an open source digital repository system based on Fedora Commons, Drupal and a host of additional applications. Begin exploring by clicking the search button below, or browse repository in the above menu. You can login using the username "admin" and password "islandora".\',
             \'summary\' => \'\',
             \'format\' => \'filtered_html\',
-            \'safe_value\' => "<p>Islandora is an open source digital repository system based on Fedora Commons, Drupal and a host of additional applications. Begin exploring content by clicking the search button below, or browse repository in the above menu.</p>\\n",
+            \'safe_value\' => "<p>Islandora is an open source digital repository system based on Fedora Commons, Drupal and a host of additional applications. Begin exploring by clicking the search button below, or browse repository in the above menu. You can login using the username \\"admin\\" and password \\"islandora\\".</p>\\n",
             \'safe_summary\' => \'\',
           ),
         ),

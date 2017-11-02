@@ -12,9 +12,9 @@ function platform_main_feature_default_fe_block_boxes() {
 
   $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Submit to collection Anonymous';
-  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'submit_to_collection_anonymous';
-  $fe_block_boxes->body = '<a href="/islandora"><i title="bookmark" class="icon-plus islandora-display-list-icon"></i> Submit to a collection</a>';
+  $fe_block_boxes->body = '<a href="/islandora"><i title="bookmark" class="icon-plus islandora-display-list-icon"></i> Submit to a collections</a>';
 
   $export['submit_to_collection_anonymous'] = $fe_block_boxes;
 

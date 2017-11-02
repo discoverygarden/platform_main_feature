@@ -155,10 +155,9 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'islandora_collection_search',
     'module' => 'islandora_collection_search',
     'node_types' => array(),
-    'pages' => '<front>
-user/login
-user/*
-islandora-guided-ingest',
+    'pages' => 'islandora/object/*
+islandora/search*
+islandora/search/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -181,7 +180,7 @@ islandora-guided-ingest',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['islandora_compound_object-compound_navigation'] = array(
