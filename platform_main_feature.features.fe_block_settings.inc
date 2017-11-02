@@ -167,10 +167,10 @@ islandora/search/*',
         'weight' => 0,
       ),
       'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'ir7_saas',
-        'weight' => -36,
+        'weight' => -35,
       ),
       'seven' => array(
         'region' => '',
