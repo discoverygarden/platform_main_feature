@@ -135,52 +135,6 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'islandora_collection_search_all_pages';
-  $strongarm->value = 1;
-  $export['islandora_collection_search_all_pages'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'islandora_collection_search_display_label';
-  $strongarm->value = 1;
-  $export['islandora_collection_search_display_label'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'islandora_collection_search_retain_search_values';
-  $strongarm->value = 1;
-  $export['islandora_collection_search_retain_search_values'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'islandora_collection_search_searchable_collections';
-  $strongarm->value = array(
-    'islandora:audio_collection' => 'islandora:audio_collection',
-    'islandora:bookCollection' => 'islandora:bookCollection',
-    'islandora:sp_basic_image_collection' => 'islandora:sp_basic_image_collection',
-    'islandora:binary_object_collection' => 'islandora:binary_object_collection',
-    'ir:citationCollection' => 'ir:citationCollection',
-    'islandora:compound_collection' => 'islandora:compound_collection',
-    'islandora:sp_document_collection' => 'islandora:sp_document_collection',
-    'islandora:entity_collection' => 'islandora:entity_collection',
-    'islandora:featured_collection' => 'islandora:featured_collection',
-    'islandora:sp_large_image_collection' => 'islandora:sp_large_image_collection',
-    'islandora:manuscriptCollection' => 'islandora:manuscriptCollection',
-    'islandora:newspaper_collection' => 'islandora:newspaper_collection',
-    'islandora:sp_pdf_collection' => 'islandora:sp_pdf_collection',
-    'islandora:sample_collection' => 'islandora:sample_collection',
-    'islandora:root' => 'islandora:root',
-    'islandora:transformCollection' => 'islandora:transformCollection',
-    'islandora:video_collection' => 'islandora:video_collection',
-  );
-  $export['islandora_collection_search_searchable_collections'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_imagecache_cache_solr_backend_display';
   $strongarm->value = 1;
   $export['islandora_imagecache_cache_solr_backend_display'] = $strongarm;

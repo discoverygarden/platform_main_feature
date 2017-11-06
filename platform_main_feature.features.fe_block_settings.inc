@@ -148,41 +148,6 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['islandora_collection_search-islandora_collection_search'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'islandora_collection_search',
-    'module' => 'islandora_collection_search',
-    'node_types' => array(),
-    'pages' => 'islandora/object/*
-islandora/search*
-islandora/search/*',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
-        'weight' => -34,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 1,
-  );
-
   $export['islandora_compound_object-compound_navigation'] = array(
     'cache' => -1,
     'css_class' => '',

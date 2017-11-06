@@ -153,14 +153,14 @@ function platform_main_feature_node_export_features_default() {
       \'field_replacement_image\' => array(
         \'und\' => array(
           array(
-            \'fid\' => \'1\',
+            \'fid\' => \'4\',
             \'uid\' => \'1\',
             \'filename\' => \'audio-file.png\',
             \'uri\' => \'public://audio-file.png\',
             \'filemime\' => \'image/png\',
             \'filesize\' => \'3644\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1509712159\',
+            \'timestamp\' => \'1509987948\',
             \'uuid\' => \'dea84dfa-96d7-4e71-9b04-a17be781d2d5\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -302,7 +302,7 @@ function platform_main_feature_node_export_features_default() {
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
       \'path\' => array(
-        \'source\' => \'node/3\',
+        \'source\' => \'node/2\',
         \'alias\' => \'researchers\',
         \'language\' => \'und\',
       ),
@@ -490,15 +490,15 @@ function platform_main_feature_node_export_features_default() {
       \'last_comment_uid\' => \'1\',
       \'log\' => \'\',
       \'menu\' => array(
-        \'link_title\' => \'About this site\',
+        \'link_title\' => \'Make contact\',
         \'mlid\' => 0,
         \'plid\' => \'0\',
-        \'menu_name\' => \'menu-header-menu\',
-        \'weight\' => \'0\',
+        \'menu_name\' => \'menu-footer-menu\',
+        \'weight\' => \'-47\',
         \'options\' => array(),
         \'module\' => \'menu\',
         \'expanded\' => \'0\',
-        \'hidden\' => \'1\',
+        \'hidden\' => \'0\',
         \'has_children\' => \'0\',
         \'customized\' => 0,
         \'parent_depth_limit\' => 8,
@@ -509,7 +509,7 @@ function platform_main_feature_node_export_features_default() {
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
       \'path\' => array(
-        \'source\' => \'node/5\',
+        \'source\' => \'node/4\',
         \'alias\' => \'make-contact\',
         \'language\' => \'und\',
       ),
@@ -615,7 +615,7 @@ function platform_main_feature_node_export_features_default() {
         \'options\' => array(),
         \'module\' => \'menu\',
         \'expanded\' => \'0\',
-        \'hidden\' => \'0\',
+        \'hidden\' => \'1\',
         \'has_children\' => \'0\',
         \'customized\' => 0,
         \'parent_depth_limit\' => 8,
@@ -626,7 +626,7 @@ function platform_main_feature_node_export_features_default() {
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
       \'path\' => array(
-        \'source\' => \'node/6\',
+        \'source\' => \'node/5\',
         \'alias\' => \'about\',
         \'language\' => \'und\',
       ),
@@ -717,14 +717,14 @@ function platform_main_feature_node_export_features_default() {
       \'field_replacement_image\' => array(
         \'und\' => array(
           array(
-            \'fid\' => \'2\',
+            \'fid\' => \'3\',
             \'uid\' => \'1\',
             \'filename\' => \'folderopened_yellow.png\',
             \'uri\' => \'public://folderopened_yellow_0.png\',
             \'filemime\' => \'image/png\',
             \'filesize\' => \'9321\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1509712159\',
+            \'timestamp\' => \'1509987948\',
             \'uuid\' => \'96baf7c3-f553-45cc-8226-40ae1ab15804\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -928,7 +928,7 @@ function platform_main_feature_node_export_features_default() {
             \'filemime\' => \'image/png\',
             \'filesize\' => \'2191\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1509712159\',
+            \'timestamp\' => \'1509987948\',
             \'uuid\' => \'ad9a4d02-bb15-4b1a-bd50-8bcb3ddd573b\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -1046,14 +1046,14 @@ function platform_main_feature_node_export_features_default() {
       \'field_replacement_image\' => array(
         \'und\' => array(
           array(
-            \'fid\' => \'4\',
+            \'fid\' => \'6\',
             \'uid\' => \'1\',
             \'filename\' => \'open-book.png\',
             \'uri\' => \'public://open-book.png\',
             \'filemime\' => \'image/png\',
             \'filesize\' => \'3712\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1509712159\',
+            \'timestamp\' => \'1509987948\',
             \'uuid\' => \'dcbddcb1-da44-4619-a963-5d6af7469612\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -1177,14 +1177,14 @@ function platform_main_feature_node_export_features_default() {
       \'field_replacement_image\' => array(
         \'und\' => array(
           array(
-            \'fid\' => \'5\',
+            \'fid\' => \'7\',
             \'uid\' => \'1\',
             \'filename\' => \'video-player.png\',
             \'uri\' => \'public://video-player.png\',
             \'filemime\' => \'image/png\',
             \'filesize\' => \'2298\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1509712159\',
+            \'timestamp\' => \'1509987948\',
             \'uuid\' => \'457016b5-ca74-450f-b085-7a5600e6d82c\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -1401,7 +1401,7 @@ function platform_main_feature_node_export_features_default() {
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
       \'path\' => array(
-        \'source\' => \'node/13\',
+        \'source\' => \'node/9\',
         \'alias\' => \'advanced-search\',
         \'language\' => \'und\',
       ),
@@ -1492,14 +1492,14 @@ function platform_main_feature_node_export_features_default() {
       \'field_replacement_image\' => array(
         \'und\' => array(
           array(
-            \'fid\' => \'6\',
+            \'fid\' => \'2\',
             \'uid\' => \'1\',
             \'filename\' => \'folderopened_yellow.png\',
             \'uri\' => \'public://folderopened_yellow.png\',
             \'filemime\' => \'image/png\',
             \'filesize\' => \'9321\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1509712159\',
+            \'timestamp\' => \'1509987948\',
             \'uuid\' => \'4fe1c2e8-455a-4b1f-b325-55b0d70960cb\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -1641,7 +1641,7 @@ function platform_main_feature_node_export_features_default() {
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
       \'path\' => array(
-        \'source\' => \'node/15\',
+        \'source\' => \'node/10\',
         \'alias\' => \'policies\',
         \'language\' => \'und\',
       ),
@@ -1740,14 +1740,14 @@ function platform_main_feature_node_export_features_default() {
       \'field_replacement_image\' => array(
         \'und\' => array(
           array(
-            \'fid\' => \'7\',
+            \'fid\' => \'5\',
             \'uid\' => \'1\',
             \'filename\' => \'camera.png\',
             \'uri\' => \'public://camera.png\',
             \'filemime\' => \'image/png\',
             \'filesize\' => \'4556\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1509712159\',
+            \'timestamp\' => \'1509987948\',
             \'uuid\' => \'4d47f9e0-d07c-4ae9-803a-79dbeeb8662e\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
