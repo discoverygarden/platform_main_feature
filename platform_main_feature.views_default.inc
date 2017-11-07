@@ -89,6 +89,7 @@ function platform_main_feature_views_default_views() {
   $handler = $view->new_display('block', 'Featured Collections', 'block_1');
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'Featured Collections';
+  $handler->display->display_options['defaults']['css_class'] = FALSE;
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '4';
@@ -129,24 +130,22 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
   $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['exclude'] = TRUE;
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
   /* Field: Islandora Solr: dc.description */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['label'] = '';
+  $handler->display->display_options['fields']['dc.description']['exclude'] = TRUE;
   $handler->display->display_options['fields']['dc.description']['alter']['max_length'] = '140';
   $handler->display->display_options['fields']['dc.description']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['dc.description']['alter']['trim'] = TRUE;
   $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filter criterion: Islandora Solr: dc.title */
-  $handler->display->display_options['filters']['dc.title']['id'] = 'dc.title';
-  $handler->display->display_options['filters']['dc.title']['table'] = 'islandora_solr';
-  $handler->display->display_options['filters']['dc.title']['field'] = 'dc.title';
-  $handler->display->display_options['filters']['dc.title']['group'] = 1;
   /* Filter criterion: Broken/missing handler */
   $handler->display->display_options['filters']['rels.isMemberOfCollection']['id'] = 'rels.isMemberOfCollection';
   $handler->display->display_options['filters']['rels.isMemberOfCollection']['table'] = 'islandora_solr';
@@ -243,6 +242,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_image_block']['field'] = 'field_image_block';
   $handler->display->display_options['fields']['field_image_block']['label'] = '';
   $handler->display->display_options['fields']['field_image_block']['element_type'] = '0';
+  $handler->display->display_options['fields']['field_image_block']['element_class'] = 'text-align: center';
   $handler->display->display_options['fields']['field_image_block']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_image_block']['element_wrapper_type'] = '0';
   $handler->display->display_options['fields']['field_image_block']['element_default_classes'] = FALSE;
@@ -319,6 +319,7 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Welcome Message */
   $handler = $view->new_display('block', 'Welcome Message', 'block_2');
+  $handler->display->display_options['defaults']['css_class'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
