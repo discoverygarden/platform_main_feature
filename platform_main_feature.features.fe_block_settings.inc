@@ -191,7 +191,8 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => 'advanced-search
 islandora/search?
 islandora/search/?
-islandora/search',
+islandora/search
+islandora/search*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
