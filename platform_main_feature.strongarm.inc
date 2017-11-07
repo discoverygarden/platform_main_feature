@@ -121,9 +121,75 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_basic_collection_disable_display_generation';
+  $strongarm->value = 1;
+  $export['islandora_basic_collection_disable_display_generation'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_basic_collection_display_backend';
+  $strongarm->value = 'islandora_solr_query_backend';
+  $export['islandora_basic_collection_display_backend'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_imagecache_cache_solr_backend_display';
   $strongarm->value = 1;
   $export['islandora_imagecache_cache_solr_backend_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_collection_display_use_solr_display_profiles';
+  $strongarm->value = 1;
+  $export['islandora_solr_collection_display_use_solr_display_profiles'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_primary_display';
+  $strongarm->value = 'grid';
+  $export['islandora_solr_primary_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_primary_display_table';
+  $strongarm->value = array(
+    'weight' => array(
+      'bookmark' => '0',
+      'default' => '0',
+      'grid' => '0',
+      'table' => '0',
+    ),
+    'default' => 'grid',
+    'enabled' => array(
+      'bookmark' => 'bookmark',
+      'default' => 'default',
+      'table' => 'table',
+      'grid' => 'grid',
+    ),
+  );
+  $export['islandora_solr_primary_display_table'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_search_navigation';
+  $strongarm->value = 1;
+  $export['islandora_solr_search_navigation'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_secondary_display';
+  $strongarm->value = array(
+    'csv' => 'csv',
+    'rss' => 'rss',
+  );
+  $export['islandora_solr_secondary_display'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -149,6 +215,312 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_imagecache_default_thumbnail';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_imagecache_default_thumbnail'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_add_class_active_owlcarousel_settings_default';
+  $strongarm->value = 0;
+  $export['owlcarousel_add_class_active_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_auto_height_owlcarousel_settings_default';
+  $strongarm->value = 0;
+  $export['owlcarousel_auto_height_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_auto_play_owlcarousel_settings_default';
+  $strongarm->value = '5000';
+  $export['owlcarousel_auto_play_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_base_class_owlcarousel_settings_default';
+  $strongarm->value = 'owl-carousel';
+  $export['owlcarousel_base_class_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_drag_before_anim_finish_owlcarousel_settings_default';
+  $strongarm->value = 1;
+  $export['owlcarousel_drag_before_anim_finish_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_desktop_owlcarousel_settings_default_items';
+  $strongarm->value = '1';
+  $export['owlcarousel_items_desktop_owlcarousel_settings_default_items'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_desktop_owlcarousel_settings_default_width';
+  $strongarm->value = '1199';
+  $export['owlcarousel_items_desktop_owlcarousel_settings_default_width'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_desktop_small_owlcarousel_settings_default_items';
+  $strongarm->value = '1';
+  $export['owlcarousel_items_desktop_small_owlcarousel_settings_default_items'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_desktop_small_owlcarousel_settings_default_width';
+  $strongarm->value = '979';
+  $export['owlcarousel_items_desktop_small_owlcarousel_settings_default_width'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_mobile_owlcarousel_settings_default_items';
+  $strongarm->value = '1';
+  $export['owlcarousel_items_mobile_owlcarousel_settings_default_items'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_mobile_owlcarousel_settings_default_width';
+  $strongarm->value = '479';
+  $export['owlcarousel_items_mobile_owlcarousel_settings_default_width'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_owlcarousel_settings_default';
+  $strongarm->value = '1';
+  $export['owlcarousel_items_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_scale_up_owlcarousel_settings_default';
+  $strongarm->value = 0;
+  $export['owlcarousel_items_scale_up_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_tablet_owlcarousel_settings_default_items';
+  $strongarm->value = '1';
+  $export['owlcarousel_items_tablet_owlcarousel_settings_default_items'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_tablet_owlcarousel_settings_default_width';
+  $strongarm->value = '768';
+  $export['owlcarousel_items_tablet_owlcarousel_settings_default_width'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_tablet_small_owlcarousel_settings_default_items';
+  $strongarm->value = '1';
+  $export['owlcarousel_items_tablet_small_owlcarousel_settings_default_items'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_tablet_small_owlcarousel_settings_default_width';
+  $strongarm->value = '768';
+  $export['owlcarousel_items_tablet_small_owlcarousel_settings_default_width'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_json_path_owlcarousel_settings_default';
+  $strongarm->value = '';
+  $export['owlcarousel_json_path_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_json_success_owlcarousel_settings_default';
+  $strongarm->value = '';
+  $export['owlcarousel_json_success_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_lazy_effect_owlcarousel_settings_default';
+  $strongarm->value = 'fadeIn';
+  $export['owlcarousel_lazy_effect_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_lazy_follow_owlcarousel_settings_default';
+  $strongarm->value = 0;
+  $export['owlcarousel_lazy_follow_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_lazy_load_owlcarousel_settings_default';
+  $strongarm->value = 0;
+  $export['owlcarousel_lazy_load_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_mouse_drag_owlcarousel_settings_default';
+  $strongarm->value = 1;
+  $export['owlcarousel_mouse_drag_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_navigation_owlcarousel_settings_default';
+  $strongarm->value = 1;
+  $export['owlcarousel_navigation_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_navigation_text_owlcarousel_settings_default';
+  $strongarm->value = array(
+    0 => 'prev',
+    1 => 'next',
+  );
+  $export['owlcarousel_navigation_text_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_override_ajax_pagination_owlcarousel_settings_default';
+  $strongarm->value = 0;
+  $export['owlcarousel_override_ajax_pagination_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_pagination_numbers_owlcarousel_settings_default';
+  $strongarm->value = 0;
+  $export['owlcarousel_pagination_numbers_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_pagination_owlcarousel_settings_default';
+  $strongarm->value = 1;
+  $export['owlcarousel_pagination_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_pagination_speed_owlcarousel_settings_default';
+  $strongarm->value = '800';
+  $export['owlcarousel_pagination_speed_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_responsive_base_width_owlcarousel_settings_default';
+  $strongarm->value = 'window';
+  $export['owlcarousel_responsive_base_width_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_responsive_owlcarousel_settings_default';
+  $strongarm->value = 1;
+  $export['owlcarousel_responsive_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_responsive_refresh_rate_owlcarousel_settings_default';
+  $strongarm->value = '100';
+  $export['owlcarousel_responsive_refresh_rate_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_rewind_nav_owlcarousel_settings_default';
+  $strongarm->value = 1;
+  $export['owlcarousel_rewind_nav_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_rewind_speed_owlcarousel_settings_default';
+  $strongarm->value = '1000';
+  $export['owlcarousel_rewind_speed_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_scroll_per_page_owlcarousel_settings_default';
+  $strongarm->value = 0;
+  $export['owlcarousel_scroll_per_page_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_settings_default';
+  $strongarm->value = 'owlcarousel_default';
+  $export['owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_single_item_owlcarousel_settings_default';
+  $strongarm->value = 1;
+  $export['owlcarousel_single_item_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_slide_speed_owlcarousel_settings_default';
+  $strongarm->value = '200';
+  $export['owlcarousel_slide_speed_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_stop_on_hover_owlcarousel_settings_default';
+  $strongarm->value = 1;
+  $export['owlcarousel_stop_on_hover_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_theme_owlcarousel_settings_default';
+  $strongarm->value = 'owl-theme';
+  $export['owlcarousel_theme_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_touch_drag_owlcarousel_settings_default';
+  $strongarm->value = 1;
+  $export['owlcarousel_touch_drag_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_transition_style_owlcarousel_settings_default';
+  $strongarm->value = 'goDown';
+  $export['owlcarousel_transition_style_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'site_frontpage';
   $strongarm->value = 'front';
   $export['site_frontpage'] = $strongarm;
@@ -166,6 +538,56 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'site_slogan';
   $strongarm->value = 'Managing Digital Content';
   $export['site_slogan'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_default';
+  $strongarm->value = 'ir7_saas';
+  $export['theme_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_ir7_saas_settings';
+  $strongarm->value = array(
+    'toggle_logo' => 1,
+    'toggle_name' => 1,
+    'toggle_slogan' => 1,
+    'toggle_node_user_picture' => 1,
+    'toggle_comment_user_picture' => 1,
+    'toggle_favicon' => 1,
+    'toggle_main_menu' => 1,
+    'toggle_secondary_menu' => 0,
+    'default_logo' => 1,
+    'logo_path' => '',
+    'logo_upload' => '',
+    'default_favicon' => 1,
+    'favicon_path' => '',
+    'favicon_upload' => '',
+    'zen_breadcrumb' => 'yes',
+    'zen_breadcrumb_separator' => ' › ',
+    'zen_breadcrumb_home' => 1,
+    'zen_breadcrumb_trailing' => 1,
+    'zen_breadcrumb_title' => 0,
+    'zen_skip_link_anchor' => 'main-menu',
+    'zen_skip_link_text' => 'Jump to navigation',
+    'zen_meta' => array(
+      'html5' => 'html5',
+      'meta' => 'meta',
+    ),
+    'zen_rebuild_registry' => 0,
+    'ir7_saas_background_dsid' => 'OBJ',
+    'designkit_color' => array(
+      'background' => '#E2E2E2',
+      'header' => '#E2E2E2',
+      'content' => '#ffffff',
+      'navigation' => '#E2E2E2',
+      'footer' => '#E2E2E2',
+      'sidebars' => '#ffffff',
+    ),
+  );
+  $export['theme_ir7_saas_settings'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

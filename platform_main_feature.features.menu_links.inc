@@ -147,20 +147,17 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
-  $menu_links['menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
+  // Exported menu link: menu-header-menu_about-this-site:node/150.
+  $menu_links['menu-header-menu_about-this-site:node/150'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
-    'router_path' => 'uuid',
+    'link_path' => 'node/150',
+    'router_path' => 'node/%',
     'link_title' => 'About this site',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
+      'identifier' => 'menu-header-menu_about-this-site:node/150',
     ),
     'module' => 'menu',
-    'hidden' => 1,
+    'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -178,6 +175,46 @@ function platform_main_feature_menu_default_menu_links() {
         'title' => '',
       ),
       'identifier' => 'menu-header-menu_browse-repository:islandora',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_log-in:user/login.
+  $menu_links['menu-header-menu_log-in:user/login'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'user/login',
+    'router_path' => 'user/login',
+    'link_title' => 'Log in',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Log in to this site',
+      ),
+      'identifier' => 'menu-header-menu_log-in:user/login',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_log-out:user/logout.
+  $menu_links['menu-header-menu_log-out:user/logout'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'user/logout',
+    'router_path' => 'user/logout',
+    'link_title' => 'Log out',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Log out of this site',
+      ),
+      'identifier' => 'menu-header-menu_log-out:user/logout',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -234,6 +271,8 @@ function platform_main_feature_menu_default_menu_links() {
   t('Browse Repository');
   t('Creative content license');
   t('Home');
+  t('Log in');
+  t('Log out');
   t('Login');
   t('Logout');
   t('Make contact');
