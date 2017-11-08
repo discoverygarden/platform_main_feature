@@ -95,8 +95,8 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
-    'background' => '#E2E2E2',
-    'header' => '#E2E2E2',
+    'background' => '#FFBE00',
+    'header' => '#FFFFFF',
     'content' => '#ffffff',
     'navigation' => '#E2E2E2',
     'footer' => '#E2E2E2',
@@ -108,14 +108,14 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'error_level';
-  $strongarm->value = '2';
+  $strongarm->value = '0';
   $export['error_level'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_admin_theme';
-  $strongarm->value = 1;
+  $strongarm->value = '1';
   $export['node_admin_theme'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -143,14 +143,14 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Islandora OnDemand';
+  $strongarm->value = 'New Orleans Jazz & Heritage Foundation ';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Managing Digital Content';
+  $strongarm->value = '';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -166,9 +166,8 @@ function platform_main_feature_strongarm() {
     'toggle_favicon' => 1,
     'toggle_main_menu' => 1,
     'toggle_secondary_menu' => 0,
-    'default_logo' => 1,
-    'logo_path' => '',
-    'logo_upload' => '',
+    'default_logo' => 0,
+    'logo_path' => 'public://Foundation Logo colorsm_1.jpg',
     'default_favicon' => 1,
     'favicon_path' => '',
     'favicon_upload' => '',
@@ -187,13 +186,14 @@ function platform_main_feature_strongarm() {
     'zen_rebuild_registry' => 0,
     'zen_wireframes' => 0,
     'designkit_color' => array(
-      'background' => '#E2E2E2',
-      'header' => '#E2E2E2',
+      'background' => '#FFBE00',
+      'header' => '#FFFFFF',
       'content' => '#ffffff',
       'navigation' => '#E2E2E2',
       'footer' => '#E2E2E2',
       'sidebars' => '#ffffff',
     ),
+    'jquery_update_jquery_version' => '',
   );
   $export['theme_ir7_settings'] = $strongarm;
 
