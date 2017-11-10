@@ -56,5 +56,20 @@ function platform_main_feature_image_default_styles() {
     ),
   );
 
+  // Exported image style: welcome_message_image_style.
+  $styles['welcome_message_image_style'] = array(
+    'label' => 'Welcome Message Image Style',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 1165,
+          'height' => 410,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   return $styles;
 }

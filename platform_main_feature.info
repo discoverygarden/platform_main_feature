@@ -100,6 +100,7 @@ features[field_instance][] = node-imagecache_default_thumbnail-field_replacement
 features[field_instance][] = node-imagecache_default_thumbnail-field_replacement_procedure
 features[image][] = islandora_imagecache_image_style_large
 features[image][] = islandora_imagecache_image_style_medium
+features[image][] = welcome_message_image_style
 features[menu_links][] = main-menu_home:<front>
 features[menu_links][] = menu-about_what-is-gcdamp:uuid/node/417718b4-c0e7-41a7-b0db-f3d60dea0f8a
 features[menu_links][] = menu-archives_islandora:islandora
