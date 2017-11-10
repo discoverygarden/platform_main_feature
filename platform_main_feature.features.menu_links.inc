@@ -27,6 +27,56 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-about_what-is-gcdamp:uuid/node/417718b4-c0e7-41a7-b0db-f3d60dea0f8a.
+  $menu_links['menu-about_what-is-gcdamp:uuid/node/417718b4-c0e7-41a7-b0db-f3d60dea0f8a'] = array(
+    'menu_name' => 'menu-about',
+    'link_path' => 'uuid/node/417718b4-c0e7-41a7-b0db-f3d60dea0f8a',
+    'router_path' => 'uuid',
+    'link_title' => 'What is GCDAMP?',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'icon' => array(
+        'icon' => '',
+        'wrapper' => '',
+        'wrapper_class' => '',
+        'position' => 'title_before',
+        'title_wrapper_element' => 'span',
+        'title_wrapper_class' => 'title',
+        'breadcrumb' => 0,
+        'title_wrapper' => 0,
+      ),
+      'identifier' => 'menu-about_what-is-gcdamp:uuid/node/417718b4-c0e7-41a7-b0db-f3d60dea0f8a',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-archives_islandora:islandora.
+  $menu_links['menu-archives_islandora:islandora'] = array(
+    'menu_name' => 'menu-archives',
+    'link_path' => 'islandora',
+    'router_path' => 'islandora',
+    'link_title' => 'Islandora',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-archives_islandora:islandora',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d.
   $menu_links['menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -264,13 +314,128 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-history_gcdamp-research:uuid/node/711041f4-39bb-491b-a864-38b34e017434.
+  $menu_links['menu-history_gcdamp-research:uuid/node/711041f4-39bb-491b-a864-38b34e017434'] = array(
+    'menu_name' => 'menu-history',
+    'link_path' => 'uuid/node/711041f4-39bb-491b-a864-38b34e017434',
+    'router_path' => 'uuid',
+    'link_title' => 'GCDAMP Research',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'icon' => array(
+        'icon' => '',
+        'wrapper' => '',
+        'wrapper_class' => '',
+        'position' => 'title_before',
+        'title_wrapper_element' => 'span',
+        'title_wrapper_class' => 'title',
+        'breadcrumb' => 0,
+        'title_wrapper' => 0,
+      ),
+      'identifier' => 'menu-history_gcdamp-research:uuid/node/711041f4-39bb-491b-a864-38b34e017434',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-people_gcdamp-stakeholders:islandora.
+  $menu_links['menu-people_gcdamp-stakeholders:islandora'] = array(
+    'menu_name' => 'menu-people',
+    'link_path' => 'islandora',
+    'router_path' => 'islandora',
+    'link_title' => 'GCDAMP Stakeholders',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-people_gcdamp-stakeholders:islandora',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-places_glen-canyon:uuid/node/97697e91-4a6d-484a-a260-bc43dddf5381.
+  $menu_links['menu-places_glen-canyon:uuid/node/97697e91-4a6d-484a-a260-bc43dddf5381'] = array(
+    'menu_name' => 'menu-places',
+    'link_path' => 'uuid/node/97697e91-4a6d-484a-a260-bc43dddf5381',
+    'router_path' => 'uuid',
+    'link_title' => 'Glen Canyon',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'icon' => array(
+        'icon' => '',
+        'wrapper' => '',
+        'wrapper_class' => '',
+        'position' => 'title_before',
+        'title_wrapper_element' => 'span',
+        'title_wrapper_class' => 'title',
+        'breadcrumb' => 0,
+        'title_wrapper' => 0,
+      ),
+      'identifier' => 'menu-places_glen-canyon:uuid/node/97697e91-4a6d-484a-a260-bc43dddf5381',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-search-menu_search:node/157.
+  $menu_links['menu-search-menu_search:node/157'] = array(
+    'menu_name' => 'menu-search-menu',
+    'link_path' => 'node/157',
+    'router_path' => 'node/%',
+    'link_title' => 'Search',
+    'options' => array(
+      'icon' => array(
+        'bundle' => 'dgi_default_bundle',
+        'icon' => 'search',
+        'wrapper' => '',
+        'wrapper_class' => '',
+        'position' => 'title_replace',
+        'breadcrumb' => 0,
+        'title_wrapper' => 0,
+        'title_wrapper_element' => 'span',
+        'title_wrapper_class' => 'title',
+      ),
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-search-menu_search:node/157',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('About this site');
   t('Browse Repository');
   t('Creative content license');
+  t('GCDAMP Research');
+  t('GCDAMP Stakeholders');
+  t('Glen Canyon');
   t('Home');
+  t('Islandora');
   t('Log in');
   t('Log out');
   t('Login');
@@ -279,6 +444,8 @@ function platform_main_feature_menu_default_menu_links() {
   t('My Bookmarks');
   t('Policies');
   t('Researchers');
+  t('Search');
+  t('What is GCDAMP?');
 
   return $menu_links;
 }

@@ -96,9 +96,9 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'background' => '#E2E2E2',
-    'header' => '#E2E2E2',
+    'header' => '#ffffff',
     'content' => '#ffffff',
-    'navigation' => '#E2E2E2',
+    'navigation' => '#ffffff',
     'footer' => '#E2E2E2',
     'sidebars' => '#ffffff',
   );
@@ -529,14 +529,14 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Islandora OnDemand';
+  $strongarm->value = 'The Glen Canyon Dam Adaptive Management Project';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Managing Digital Content';
+  $strongarm->value = 'GlenCanyonDamAdaptiveManagement.org';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -551,7 +551,7 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_ir7_saas_settings';
   $strongarm->value = array(
-    'toggle_logo' => 1,
+    'toggle_logo' => 0,
     'toggle_name' => 1,
     'toggle_slogan' => 1,
     'toggle_node_user_picture' => 1,
@@ -580,9 +580,9 @@ function platform_main_feature_strongarm() {
     'ir7_saas_background_dsid' => 'OBJ',
     'designkit_color' => array(
       'background' => '#E2E2E2',
-      'header' => '#E2E2E2',
+      'header' => '#ffffff',
       'content' => '#ffffff',
-      'navigation' => '#E2E2E2',
+      'navigation' => '#ffffff',
       'footer' => '#E2E2E2',
       'sidebars' => '#ffffff',
     ),
