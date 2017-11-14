@@ -394,6 +394,37 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-search-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f.
+  $menu_links['menu-search-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f'] = array(
+    'menu_name' => 'menu-search-menu',
+    'link_path' => 'uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
+    'router_path' => 'uuid',
+    'link_title' => 'Search',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-search-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
+      'icon' => array(
+        'bundle' => 'dgi_default_bundle',
+        'icon' => 'search',
+        'wrapper' => '',
+        'wrapper_class' => '',
+        'position' => 'title_replace',
+        'breadcrumb' => 0,
+        'title_wrapper' => 0,
+        'title_wrapper_element' => 'span',
+        'title_wrapper_class' => 'title',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
 
   // Translatables
   // Included for use with string extractors like potx.
@@ -413,6 +444,7 @@ function platform_main_feature_menu_default_menu_links() {
   t('My Bookmarks');
   t('Policies');
   t('Researchers');
+  t('Search');
   t('What is GCDAMP?');
 
   return $menu_links;
