@@ -394,37 +394,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-search-menu_search:node/157.
-  $menu_links['menu-search-menu_search:node/157'] = array(
-    'menu_name' => 'menu-search-menu',
-    'link_path' => 'node/157',
-    'router_path' => 'node/%',
-    'link_title' => 'Search',
-    'options' => array(
-      'icon' => array(
-        'bundle' => 'dgi_default_bundle',
-        'icon' => 'search',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_replace',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-      ),
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-search-menu_search:node/157',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
 
   // Translatables
   // Included for use with string extractors like potx.
@@ -444,7 +413,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('My Bookmarks');
   t('Policies');
   t('Researchers');
-  t('Search');
   t('What is GCDAMP?');
 
   return $menu_links;
