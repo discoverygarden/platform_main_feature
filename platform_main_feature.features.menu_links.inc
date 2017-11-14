@@ -394,13 +394,17 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-search-menu_search:node/157.
-  $menu_links['menu-search-menu_search:node/157'] = array(
+  // Exported menu link: menu-search-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f.
+  $menu_links['menu-search-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f'] = array(
     'menu_name' => 'menu-search-menu',
-    'link_path' => 'node/157',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
+    'router_path' => 'uuid',
     'link_title' => 'Search',
     'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-search-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
       'icon' => array(
         'bundle' => 'dgi_default_bundle',
         'icon' => 'search',
@@ -412,10 +416,6 @@ function platform_main_feature_menu_default_menu_links() {
         'title_wrapper_element' => 'span',
         'title_wrapper_class' => 'title',
       ),
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-search-menu_search:node/157',
     ),
     'module' => 'menu',
     'hidden' => 0,
