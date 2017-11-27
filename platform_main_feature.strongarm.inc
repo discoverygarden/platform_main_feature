@@ -108,7 +108,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'error_level';
-  $strongarm->value = '2';
+  $strongarm->value = '0';
   $export['error_level'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -271,6 +271,13 @@ function platform_main_feature_strongarm() {
     'rss' => 'rss',
   );
   $export['islandora_solr_secondary_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_videojs_responsive';
+  $strongarm->value = 1;
+  $export['islandora_videojs_responsive'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
