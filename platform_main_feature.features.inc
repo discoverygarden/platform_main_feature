@@ -8,6 +8,18 @@
  * Implements hook_ctools_plugin_api().
  */
 function platform_main_feature_ctools_plugin_api($module = NULL, $api = NULL) {
+  if ($module == "page_manager" && $api == "pages_default") {
+    return array("version" => "1");
+  }
+  if ($module == "panels" && $api == "layouts") {
+    return array("version" => "1");
+  }
+  if ($module == "panels_mini" && $api == "panels_default") {
+    return array("version" => "1");
+  }
+  if ($module == "pm_existing_pages" && $api == "pm_existing_pages") {
+    return array("version" => "1");
+  }
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
@@ -18,4 +30,132 @@ function platform_main_feature_ctools_plugin_api($module = NULL, $api = NULL) {
  */
 function platform_main_feature_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
+}
+
+/**
+ * Implements hook_image_default_styles().
+ */
+function platform_main_feature_image_default_styles() {
+  $styles = array();
+
+  // Exported image style: institution.
+  $styles['institution'] = array(
+    'label' => 'Institution',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 222,
+          'height' => 134,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  return $styles;
+}
+
+/**
+ * Implements hook_islandora_datastream_download_fields_features_default_fields().
+ */
+function platform_main_feature_islandora_datastream_download_fields_features_default_fields() {
+  return array(
+  0 => array(
+    'pid' => 'ir:citationCModel',
+    'config' => 'a:3:{s:3:"pid";s:17:"ir:citationCModel";s:11:"datastreams";a:8:{s:4:"MODS";i:1;s:3:"PDF";i:1;s:9:"FULL_TEXT";i:1;s:7:"PREVIEW";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  1 => array(
+    'pid' => 'ir:thesisCModel',
+    'config' => 'a:3:{s:3:"pid";s:15:"ir:thesisCModel";s:11:"datastreams";a:8:{s:4:"MODS";i:1;s:3:"PDF";i:1;s:9:"FULL_TEXT";i:1;s:7:"PREVIEW";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  2 => array(
+    'pid' => 'islandora:binaryObjectCModel',
+    'config' => 'a:3:{s:3:"pid";s:28:"islandora:binaryObjectCModel";s:11:"datastreams";a:3:{s:4:"MODS";i:1;s:2:"TN";i:0;s:3:"OBJ";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  3 => array(
+    'pid' => 'islandora:bookCModel',
+    'config' => 'a:3:{s:3:"pid";s:20:"islandora:bookCModel";s:11:"datastreams";a:6:{s:4:"MODS";i:1;s:3:"PDF";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  4 => array(
+    'pid' => 'islandora:collectionCModel',
+    'config' => 'a:3:{s:3:"pid";s:26:"islandora:collectionCModel";s:11:"datastreams";a:4:{s:2:"DC";i:1;s:2:"TN";i:1;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  5 => array(
+    'pid' => 'islandora:compoundCModel',
+    'config' => 'a:3:{s:3:"pid";s:24:"islandora:compoundCModel";s:11:"datastreams";a:5:{s:4:"MODS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  6 => array(
+    'pid' => 'islandora:eadCModel',
+    'config' => 'a:3:{s:3:"pid";s:19:"islandora:eadCModel";s:11:"datastreams";a:5:{s:3:"EAD";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  7 => array(
+    'pid' => 'islandora:findingAidCModel',
+    'config' => 'a:3:{s:3:"pid";s:26:"islandora:findingAidCModel";s:11:"datastreams";a:5:{s:3:"EAD";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  8 => array(
+    'pid' => 'islandora:intermediateCModel',
+    'config' => 'a:3:{s:3:"pid";s:28:"islandora:intermediateCModel";s:11:"datastreams";a:4:{s:4:"MODS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  9 => array(
+    'pid' => 'islandora:intermediateSerialCModelStub',
+    'config' => 'a:3:{s:3:"pid";s:38:"islandora:intermediateSerialCModelStub";s:11:"datastreams";a:0:{}s:15:"add_datastreams";s:0:"";}',
+  ),
+  10 => array(
+    'pid' => 'islandora:manuscriptCModel',
+    'config' => 'a:3:{s:3:"pid";s:26:"islandora:manuscriptCModel";s:11:"datastreams";a:5:{s:4:"MODS";i:1;s:3:"TEI";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  11 => array(
+    'pid' => 'islandora:manuscriptPageCModel',
+    'config' => 'a:3:{s:3:"pid";s:30:"islandora:manuscriptPageCModel";s:11:"datastreams";a:10:{s:4:"MODS";i:1;s:3:"JP2";i:1;s:3:"JPG";i:1;s:3:"OCR";i:1;s:4:"HOCR";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  12 => array(
+    'pid' => 'islandora:newspaperCModel',
+    'config' => 'a:3:{s:3:"pid";s:25:"islandora:newspaperCModel";s:11:"datastreams";a:5:{s:4:"MODS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  13 => array(
+    'pid' => 'islandora:newspaperIssueCModel',
+    'config' => 'a:3:{s:3:"pid";s:30:"islandora:newspaperIssueCModel";s:11:"datastreams";a:5:{s:4:"MODS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  14 => array(
+    'pid' => 'islandora:newspaperPageCModel',
+    'config' => 'a:3:{s:3:"pid";s:29:"islandora:newspaperPageCModel";s:11:"datastreams";a:10:{s:4:"MODS";i:1;s:3:"JP2";i:1;s:3:"JPG";i:1;s:3:"OCR";i:1;s:4:"HOCR";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  15 => array(
+    'pid' => 'islandora:pageCModel',
+    'config' => 'a:3:{s:3:"pid";s:20:"islandora:pageCModel";s:11:"datastreams";a:10:{s:4:"MODS";i:1;s:3:"JP2";i:1;s:3:"JPG";i:1;s:3:"OCR";i:1;s:4:"HOCR";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  16 => array(
+    'pid' => 'islandora:rootSerialCModel',
+    'config' => 'a:3:{s:3:"pid";s:26:"islandora:rootSerialCModel";s:11:"datastreams";a:5:{s:4:"MODS";i:1;s:13:"SERIAL-LEVELS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  17 => array(
+    'pid' => 'islandora:sp-audioCModel',
+    'config' => 'a:3:{s:3:"pid";s:24:"islandora:sp-audioCModel";s:11:"datastreams";a:8:{s:4:"MODS";i:1;s:9:"PROXY_MP3";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;s:6:"TECHMD";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  18 => array(
+    'pid' => 'islandora:sp_basic_image',
+    'config' => 'a:3:{s:3:"pid";s:24:"islandora:sp_basic_image";s:11:"datastreams";a:8:{s:4:"MODS";i:1;s:11:"MEDIUM_SIZE";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:6:"TECHMD";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  19 => array(
+    'pid' => 'islandora:sp_document',
+    'config' => 'a:3:{s:3:"pid";s:21:"islandora:sp_document";s:11:"datastreams";a:10:{s:4:"MODS";i:1;s:3:"PDF";i:1;s:9:"FULL_TEXT";i:1;s:7:"PREVIEW";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:6:"TECHMD";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  20 => array(
+    'pid' => 'islandora:sp_large_image_cmodel',
+    'config' => 'a:3:{s:3:"pid";s:31:"islandora:sp_large_image_cmodel";s:11:"datastreams";a:9:{s:4:"MODS";i:1;s:3:"JPG";i:1;s:3:"JP2";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;s:6:"TECHMD";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  21 => array(
+    'pid' => 'islandora:sp_pdf',
+    'config' => 'a:3:{s:3:"pid";s:16:"islandora:sp_pdf";s:11:"datastreams";a:10:{s:4:"MODS";i:1;s:4:"PDFA";i:1;s:9:"FULL_TEXT";i:1;s:7:"PREVIEW";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:6:"TECHMD";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  22 => array(
+    'pid' => 'islandora:sp_videoCModel',
+    'config' => 'a:3:{s:3:"pid";s:24:"islandora:sp_videoCModel";s:11:"datastreams";a:11:{s:4:"MODS";i:1;s:3:"OGG";i:1;s:3:"MKV";i:1;s:11:"TECHMD_FITS";i:1;s:3:"MP4";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:6:"TECHMD";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  23 => array(
+    'pid' => 'islandora:transformCModel',
+    'config' => 'a:3:{s:3:"pid";s:25:"islandora:transformCModel";s:11:"datastreams";a:5:{s:4:"XSLT";i:1;s:3:"CSS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+);
 }
