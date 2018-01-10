@@ -1041,6 +1041,7 @@ islandora/search/*',
   $export['menu-menu-default-institution-context'] = array(
     'cache' => -1,
     'css_class' => '',
+    'custom' => 0,
     'delta' => 'menu-default-institution-context',
     'module' => 'menu',
     'node_types' => array(),
@@ -1066,6 +1067,8 @@ islandora/search/*',
         'weight' => 0,
       ),
     ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['menu-menu-footer-lower-menu'] = array(
@@ -2524,6 +2527,7 @@ islandora/search/*',
   $export['views-object_description-block_2'] = array(
     'cache' => -1,
     'css_class' => '',
+    'custom' => 0,
     'delta' => 'object_description-block_2',
     'module' => 'views',
     'node_types' => array(),
@@ -2549,6 +2553,8 @@ islandora/search/*',
         'weight' => 0,
       ),
     ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['views-slideshow_galleria-block'] = array(

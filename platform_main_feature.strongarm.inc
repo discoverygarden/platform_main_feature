@@ -222,6 +222,20 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_limit_result_fields';
+  $strongarm->value = 1;
+  $export['islandora_solr_limit_result_fields'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_num_of_results';
+  $strongarm->value = '20';
+  $export['islandora_solr_num_of_results'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_primary_display';
   $strongarm->value = 'enhanced-grid';
   $export['islandora_solr_primary_display'] = $strongarm;
@@ -306,6 +320,27 @@ function platform_main_feature_strongarm() {
     0 => 'status',
   );
   $export['node_options_islandora_institution_inst'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'page_manager_node_view_disabled';
+  $strongarm->value = FALSE;
+  $export['page_manager_node_view_disabled'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pm_existing_pages_disabled_islandora_object';
+  $strongarm->value = FALSE;
+  $export['pm_existing_pages_disabled_islandora_object'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pm_existing_pages_disabled_islandora_search_results_page';
+  $strongarm->value = FALSE;
+  $export['pm_existing_pages_disabled_islandora_search_results_page'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

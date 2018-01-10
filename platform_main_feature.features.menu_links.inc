@@ -43,39 +43,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_advanced-search:node/4.
-  $menu_links['main-menu_advanced-search:node/4'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/4',
-    'router_path' => 'node/%',
-    'link_title' => 'Advanced Search',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_advanced-search:node/4',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-  );
   // Exported menu link: main-menu_all-institutions:islandora.
   $menu_links['main-menu_all-institutions:islandora'] = array(
     'menu_name' => 'main-menu',
@@ -762,7 +729,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('About Bellingtion');
   t('About Us');
   t('About this site');
-  t('Advanced Search');
   t('All Institutions');
   t('Browse repository');
   t('Disclaimers, Privacy & Copyright');
