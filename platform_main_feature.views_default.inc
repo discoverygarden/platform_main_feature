@@ -11,6 +11,661 @@ function platform_main_feature_views_default_views() {
   $export = array();
 
   $view = new view();
+  $view->name = 'all_institutions';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'All Institutions';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'All Institutions';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'full';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '10';
+  $handler->display->display_options['style_plugin'] = 'grid';
+  $handler->display->display_options['style_options']['columns'] = '5';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Header: Global: View area */
+  $handler->display->display_options['header']['view']['id'] = 'view';
+  $handler->display->display_options['header']['view']['table'] = 'views';
+  $handler->display->display_options['header']['view']['field'] = 'view';
+  $handler->display->display_options['header']['view']['view_to_insert'] = 'all_institutions_node_view:page';
+  /* Field: Islandora Solr: Datastream Image */
+  $handler->display->display_options['fields']['tn_cache']['id'] = 'tn_cache';
+  $handler->display->display_options['fields']['tn_cache']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['tn_cache']['field'] = 'tn_cache';
+  $handler->display->display_options['fields']['tn_cache']['label'] = '';
+  $handler->display->display_options['fields']['tn_cache']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['tn_cache']['link_to_object'] = 1;
+  $handler->display->display_options['fields']['tn_cache']['tn_style'] = 'institution';
+  /* Field: Islandora Solr: dc.title */
+  $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
+  /* Field: Islandora Solr: fgs_createdDate_dt */
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['id'] = 'fgs_createdDate_dt';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['field'] = 'fgs_createdDate_dt';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['label'] = '';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['link_to_object'] = 0;
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['date_format'] = 'custom';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['custom_date_format'] = 'd/m/Y';
+  /* Field: Islandora Solr: dc.description */
+  $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
+  $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
+  $handler->display->display_options['fields']['dc.description']['label'] = '';
+  $handler->display->display_options['fields']['dc.description']['alter']['max_length'] = '255';
+  $handler->display->display_options['fields']['dc.description']['alter']['trim'] = TRUE;
+  $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
+  $handler->display->display_options['filter_groups']['operator'] = 'OR';
+  $handler->display->display_options['filter_groups']['groups'] = array(
+    1 => 'AND',
+    2 => 'AND',
+    3 => 'AND',
+  );
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID']['id'] = 'PID';
+  $handler->display->display_options['filters']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID']['value'] = 'islandora:sp_large_image_collection';
+  $handler->display->display_options['filters']['PID']['group'] = 1;
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID_2']['id'] = 'PID_2';
+  $handler->display->display_options['filters']['PID_2']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID_2']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID_2']['value'] = 'islandora:sp_basic_image_collection';
+  $handler->display->display_options['filters']['PID_2']['group'] = 2;
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID_1']['id'] = 'PID_1';
+  $handler->display->display_options['filters']['PID_1']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID_1']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID_1']['value'] = 'islandora:ondemand_background_image_collection';
+  $handler->display->display_options['filters']['PID_1']['group'] = 3;
+
+  /* Display: Page */
+  $handler = $view->new_display('page', 'Page', 'page');
+  $handler->display->display_options['enabled'] = FALSE;
+  $handler->display->display_options['path'] = 'all-institutions';
+  $handler->display->display_options['menu']['type'] = 'normal';
+  $handler->display->display_options['menu']['title'] = 'All Institutions';
+  $handler->display->display_options['menu']['name'] = 'main-menu';
+  $translatables['all_institutions'] = array(
+    t('Master'),
+    t('All Institutions'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('Page'),
+  );
+  $export['all_institutions'] = $view;
+
+  $view = new view();
+  $view->name = 'all_institutions_node_view';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'All Institutions Node View';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'All Institutions Node View';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'full';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '10';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'node';
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = 'c22f8bdb-9a5f-497a-9f98-cab24ef272b8';
+
+  /* Display: Page */
+  $handler = $view->new_display('page', 'Page', 'page');
+  $handler->display->display_options['path'] = 'all-institutions-node-view';
+  $translatables['all_institutions_node_view'] = array(
+    t('Master'),
+    t('All Institutions Node View'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('Page'),
+  );
+  $export['all_institutions_node_view'] = $view;
+
+  $view = new view();
+  $view->name = 'bellington_archive_info';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'Bellington Archive Info';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Bellington Archive Info';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Institution Site Name */
+  $handler->display->display_options['fields']['field_institution_site_name']['id'] = 'field_institution_site_name';
+  $handler->display->display_options['fields']['field_institution_site_name']['table'] = 'field_data_field_institution_site_name';
+  $handler->display->display_options['fields']['field_institution_site_name']['field'] = 'field_institution_site_name';
+  $handler->display->display_options['fields']['field_institution_site_name']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_name']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_name']['element_label_colon'] = FALSE;
+  /* Field: Content: Institution Site Name Link */
+  $handler->display->display_options['fields']['field_institution_site_name_link']['id'] = 'field_institution_site_name_link';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['table'] = 'field_data_field_institution_site_name_link';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['field'] = 'field_institution_site_name_link';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_name_link']['element_label_colon'] = FALSE;
+  /* Field: Content: Institution Site Slogan */
+  $handler->display->display_options['fields']['field_institution_site_slogan']['id'] = 'field_institution_site_slogan';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['table'] = 'field_data_field_institution_site_slogan';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['field'] = 'field_institution_site_slogan';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_slogan']['element_label_colon'] = FALSE;
+  /* Field: Content: Institution Site Slogan Link */
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['id'] = 'field_institution_site_slogan_li';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['table'] = 'field_data_field_institution_site_slogan_li';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['field'] = 'field_institution_site_slogan_li';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['element_label_colon'] = FALSE;
+  /* Field: Global: Custom text */
+  $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['table'] = 'views';
+  $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['label'] = '';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>';
+  $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = 'c8de4fb2-ba0e-4d42-ab9a-74654cf47f78';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['bellington_archive_info'] = array(
+    t('Master'),
+    t('Bellington Archive Info'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>'),
+    t('Block'),
+  );
+  $export['bellington_archive_info'] = $view;
+
+  $view = new view();
+  $view->name = 'bellington_collection_logo';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'Bellington Collection Logo';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = '<none>';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Institution Logo */
+  $handler->display->display_options['fields']['field_institution_logo']['id'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['table'] = 'field_data_field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_institution_logo']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_institution_logo']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = '694c072c-3fca-474f-8d3b-92c38051e175';
+
+  /* Display: Bellington Logo */
+  $handler = $view->new_display('block', 'Bellington Logo', 'block');
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = 'c8de4fb2-ba0e-4d42-ab9a-74654cf47f78';
+
+  /* Display: UConn Logo */
+  $handler = $view->new_display('block', 'UConn Logo', 'block_1');
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Image */
+  $handler->display->display_options['fields']['field_image_block']['id'] = 'field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['table'] = 'field_data_field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['field'] = 'field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['label'] = '';
+  $handler->display->display_options['fields']['field_image_block']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_image_block']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_image_block']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = 'b7bf5104-d103-43e8-b686-97a72150dff7';
+  $translatables['bellington_collection_logo'] = array(
+    t('Master'),
+    t('<none>'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Bellington Logo'),
+    t('UConn Logo'),
+  );
+  $export['bellington_collection_logo'] = $view;
+
+  $view = new view();
+  $view->name = 'bellingtons_most_viewed';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'Bellingtons most viewed';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Bellingtons most viewed';
+  $handler->display->display_options['css_class'] = 'about-recent-additions';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'owlcarousel';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Header: Global: Text area */
+  $handler->display->display_options['header']['area']['id'] = 'area';
+  $handler->display->display_options['header']['area']['table'] = 'views';
+  $handler->display->display_options['header']['area']['field'] = 'area';
+  $handler->display->display_options['header']['area']['content'] = '<div>
+  <h5>Quick Look</h5>
+</div>';
+  $handler->display->display_options['header']['area']['format'] = 'full_html';
+  /* Footer: Global: Text area */
+  $handler->display->display_options['footer']['area']['id'] = 'area';
+  $handler->display->display_options['footer']['area']['table'] = 'views';
+  $handler->display->display_options['footer']['area']['field'] = 'area';
+  $handler->display->display_options['footer']['area']['content'] = '<div>
+  <a href="/islandora/object/islandora:13">More <i title="right-circle" class="icon icon-right-circle right-circle" aria-hidden="true"></i></a>
+</div>';
+  $handler->display->display_options['footer']['area']['format'] = 'full_html';
+  /* Field: Islandora Solr: Datastream Image */
+  $handler->display->display_options['fields']['tn_cache']['id'] = 'tn_cache';
+  $handler->display->display_options['fields']['tn_cache']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['tn_cache']['field'] = 'tn_cache';
+  $handler->display->display_options['fields']['tn_cache']['label'] = '';
+  $handler->display->display_options['fields']['tn_cache']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['tn_cache']['link_to_object'] = 0;
+  /* Field: Islandora Solr: dc.title */
+  $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['element_class'] = 'object-label';
+  $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
+  /* Sort criterion: Islandora Solr: fgs_createdDate_dt */
+  $handler->display->display_options['sorts']['fgs_createdDate_dt']['id'] = 'fgs_createdDate_dt';
+  $handler->display->display_options['sorts']['fgs_createdDate_dt']['table'] = 'islandora_solr';
+  $handler->display->display_options['sorts']['fgs_createdDate_dt']['field'] = 'fgs_createdDate_dt';
+  $handler->display->display_options['sorts']['fgs_createdDate_dt']['order'] = 'DESC';
+  /* Filter criterion: Islandora Solr: RELS_EXT_isMemberOfCollection_uri_mt */
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['id'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['field'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['value'] = 'islandora:13';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['bellingtons_most_viewed'] = array(
+    t('Master'),
+    t('Bellingtons most viewed'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<div>
+  <h5>Quick Look</h5>
+</div>'),
+    t('<div>
+  <a href="/islandora/object/islandora:13">More <i title="right-circle" class="icon icon-right-circle right-circle" aria-hidden="true"></i></a>
+</div>'),
+    t('Block'),
+  );
+  $export['bellingtons_most_viewed'] = $view;
+
+  $view = new view();
+  $view->name = 'caliauto_archive_info';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'CaliAuto Archive Info';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'CaliAuto Archive Info';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Institution Site Name */
+  $handler->display->display_options['fields']['field_institution_site_name']['id'] = 'field_institution_site_name';
+  $handler->display->display_options['fields']['field_institution_site_name']['table'] = 'field_data_field_institution_site_name';
+  $handler->display->display_options['fields']['field_institution_site_name']['field'] = 'field_institution_site_name';
+  $handler->display->display_options['fields']['field_institution_site_name']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_name']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_name']['element_label_colon'] = FALSE;
+  /* Field: Content: Institution Site Name Link */
+  $handler->display->display_options['fields']['field_institution_site_name_link']['id'] = 'field_institution_site_name_link';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['table'] = 'field_data_field_institution_site_name_link';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['field'] = 'field_institution_site_name_link';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_name_link']['element_label_colon'] = FALSE;
+  /* Field: Content: Institution Site Slogan */
+  $handler->display->display_options['fields']['field_institution_site_slogan']['id'] = 'field_institution_site_slogan';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['table'] = 'field_data_field_institution_site_slogan';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['field'] = 'field_institution_site_slogan';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_slogan']['element_label_colon'] = FALSE;
+  /* Field: Content: Institution Site Slogan Link */
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['id'] = 'field_institution_site_slogan_li';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['table'] = 'field_data_field_institution_site_slogan_li';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['field'] = 'field_institution_site_slogan_li';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['element_label_colon'] = FALSE;
+  /* Field: Global: Custom text */
+  $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['table'] = 'views';
+  $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['label'] = '';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>';
+  $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = '1dd94df1-5d8f-4c35-970e-9e0a02586aba';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['caliauto_archive_info'] = array(
+    t('Master'),
+    t('CaliAuto Archive Info'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>'),
+    t('Block'),
+  );
+  $export['caliauto_archive_info'] = $view;
+
+  $view = new view();
+  $view->name = 'caliauto_collection_logo';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'CaliAuto Collection Logo';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'CaliAuto Collection Logo';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Institution Logo */
+  $handler->display->display_options['fields']['field_institution_logo']['id'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['table'] = 'field_data_field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_institution_logo']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_institution_logo']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = '1dd94df1-5d8f-4c35-970e-9e0a02586aba';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['caliauto_collection_logo'] = array(
+    t('Master'),
+    t('CaliAuto Collection Logo'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Block'),
+  );
+  $export['caliauto_collection_logo'] = $view;
+
+  $view = new view();
   $view->name = 'clone_of_islandora_usage_stats_for_collections';
   $view->description = 'Usage Stats for Collections';
   $view->tag = 'default';
@@ -114,6 +769,22 @@ function platform_main_feature_views_default_views() {
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'usage_stats');
   $handler->display->display_options['block_description'] = 'Usage Stats for Collections';
+
+  /* Display: Collection Usage Views */
+  $handler = $view->new_display('block', 'Collection Usage Views', 'block_1');
+  $handler->display->display_options['defaults']['arguments'] = FALSE;
+  /* Contextual filter: COUNT(DISTINCT Islandora Usage Stats: PID) */
+  $handler->display->display_options['arguments']['pid']['id'] = 'pid';
+  $handler->display->display_options['arguments']['pid']['table'] = 'islandora_usage_stats_objects';
+  $handler->display->display_options['arguments']['pid']['field'] = 'pid';
+  $handler->display->display_options['arguments']['pid']['relationship'] = 'pid_id';
+  $handler->display->display_options['arguments']['pid']['group_type'] = 'count_distinct';
+  $handler->display->display_options['arguments']['pid']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['pid']['default_argument_type'] = 'raw';
+  $handler->display->display_options['arguments']['pid']['default_argument_options']['index'] = '2';
+  $handler->display->display_options['arguments']['pid']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['pid']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['pid']['summary_options']['items_per_page'] = '25';
   $translatables['clone_of_islandora_usage_stats_for_collections'] = array(
     t('Master'),
     t('Collection Usage Stats'),
@@ -135,8 +806,114 @@ function platform_main_feature_views_default_views() {
     t('All'),
     t('Block'),
     t('Usage Stats for Collections'),
+    t('Collection Usage Views'),
   );
   $export['clone_of_islandora_usage_stats_for_collections'] = $view;
+
+  $view = new view();
+  $view->name = 'current_archive_info';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'Current Archive Info';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Current Archive Info';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Institution Site Name */
+  $handler->display->display_options['fields']['field_institution_site_name']['id'] = 'field_institution_site_name';
+  $handler->display->display_options['fields']['field_institution_site_name']['table'] = 'field_data_field_institution_site_name';
+  $handler->display->display_options['fields']['field_institution_site_name']['field'] = 'field_institution_site_name';
+  $handler->display->display_options['fields']['field_institution_site_name']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_name']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_name']['element_label_colon'] = FALSE;
+  /* Field: Content: Institution Site Name Link */
+  $handler->display->display_options['fields']['field_institution_site_name_link']['id'] = 'field_institution_site_name_link';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['table'] = 'field_data_field_institution_site_name_link';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['field'] = 'field_institution_site_name_link';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_name_link']['element_label_colon'] = FALSE;
+  /* Field: Content: Institution Site Slogan */
+  $handler->display->display_options['fields']['field_institution_site_slogan']['id'] = 'field_institution_site_slogan';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['table'] = 'field_data_field_institution_site_slogan';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['field'] = 'field_institution_site_slogan';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_slogan']['element_label_colon'] = FALSE;
+  /* Field: Content: Institution Site Slogan Link */
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['id'] = 'field_institution_site_slogan_li';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['table'] = 'field_data_field_institution_site_slogan_li';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['field'] = 'field_institution_site_slogan_li';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['element_label_colon'] = FALSE;
+  /* Field: Global: Custom text */
+  $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['table'] = 'views';
+  $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['label'] = '';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>';
+  $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = '697a8710-c712-46c4-86d4-cc22830226b6';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['current_archive_info'] = array(
+    t('Master'),
+    t('Current Archive Info'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>'),
+    t('Block'),
+  );
+  $export['current_archive_info'] = $view;
 
   $view = new view();
   $view->name = 'footer_icon_and_info';
@@ -640,6 +1417,177 @@ function platform_main_feature_views_default_views() {
   $export['frontpage_solr_boxes'] = $view;
 
   $view = new view();
+  $view->name = 'hangten_archive_info';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'Hangten Archive Info';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Hangten Archive Info';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Institution Site Name */
+  $handler->display->display_options['fields']['field_institution_site_name']['id'] = 'field_institution_site_name';
+  $handler->display->display_options['fields']['field_institution_site_name']['table'] = 'field_data_field_institution_site_name';
+  $handler->display->display_options['fields']['field_institution_site_name']['field'] = 'field_institution_site_name';
+  $handler->display->display_options['fields']['field_institution_site_name']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_name']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_name']['element_label_colon'] = FALSE;
+  /* Field: Content: Institution Site Name Link */
+  $handler->display->display_options['fields']['field_institution_site_name_link']['id'] = 'field_institution_site_name_link';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['table'] = 'field_data_field_institution_site_name_link';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['field'] = 'field_institution_site_name_link';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_name_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_name_link']['element_label_colon'] = FALSE;
+  /* Field: Content: Institution Site Slogan */
+  $handler->display->display_options['fields']['field_institution_site_slogan']['id'] = 'field_institution_site_slogan';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['table'] = 'field_data_field_institution_site_slogan';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['field'] = 'field_institution_site_slogan';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_slogan']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_slogan']['element_label_colon'] = FALSE;
+  /* Field: Content: Institution Site Slogan Link */
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['id'] = 'field_institution_site_slogan_li';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['table'] = 'field_data_field_institution_site_slogan_li';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['field'] = 'field_institution_site_slogan_li';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_site_slogan_li']['element_label_colon'] = FALSE;
+  /* Field: Global: Custom text */
+  $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['table'] = 'views';
+  $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['label'] = '';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>';
+  $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = 'f3b4e475-850f-4fae-a294-a001eccdd3dc';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['hangten_archive_info'] = array(
+    t('Master'),
+    t('Hangten Archive Info'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>'),
+    t('Block'),
+  );
+  $export['hangten_archive_info'] = $view;
+
+  $view = new view();
+  $view->name = 'hangten_collection_logo';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'Hangten Collection Logo';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Hangten Collection Logo';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Institution Logo */
+  $handler->display->display_options['fields']['field_institution_logo']['id'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['table'] = 'field_data_field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_institution_logo']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_institution_logo']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = 'f3b4e475-850f-4fae-a294-a001eccdd3dc';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['hangten_collection_logo'] = array(
+    t('Master'),
+    t('Hangten Collection Logo'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Block'),
+  );
+  $export['hangten_collection_logo'] = $view;
+
+  $view = new view();
   $view->name = 'image_blocks';
   $view->description = '';
   $view->tag = 'default';
@@ -839,6 +1787,108 @@ function platform_main_feature_views_default_views() {
   $export['image_blocks'] = $view;
 
   $view = new view();
+  $view->name = 'object_description';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'Object Description';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Bellington Description';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: dc.title */
+  $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['element_type'] = 'h2';
+  $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
+  /* Field: Islandora Solr: mods_abstract_ms */
+  $handler->display->display_options['fields']['mods_abstract_ms']['id'] = 'mods_abstract_ms';
+  $handler->display->display_options['fields']['mods_abstract_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['mods_abstract_ms']['field'] = 'mods_abstract_ms';
+  $handler->display->display_options['fields']['mods_abstract_ms']['label'] = '';
+  $handler->display->display_options['fields']['mods_abstract_ms']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['mods_abstract_ms']['link_to_object'] = 0;
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID']['id'] = 'PID';
+  $handler->display->display_options['filters']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID']['value'] = 'islandora:13';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+
+  /* Display: All Institutions Description */
+  $handler = $view->new_display('block', 'All Institutions Description', 'block_1');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'All Institutions';
+  $handler->display->display_options['display_description'] = 'All Institutions Description';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Islandora Solr: mods_abstract_ms */
+  $handler->display->display_options['fields']['mods_abstract_ms']['id'] = 'mods_abstract_ms';
+  $handler->display->display_options['fields']['mods_abstract_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['mods_abstract_ms']['field'] = 'mods_abstract_ms';
+  $handler->display->display_options['fields']['mods_abstract_ms']['label'] = '';
+  $handler->display->display_options['fields']['mods_abstract_ms']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['mods_abstract_ms']['link_to_object'] = 0;
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID']['id'] = 'PID';
+  $handler->display->display_options['filters']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID']['value'] = 'islandora:5';
+
+  /* Display: Default Institution Object Description */
+  $handler = $view->new_display('block', 'Default Institution Object Description', 'block_2');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Defualt institution Object Description';
+  $handler->display->display_options['defaults']['arguments'] = FALSE;
+  /* Contextual filter: Islandora Solr: PID */
+  $handler->display->display_options['arguments']['PID']['id'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['arguments']['PID']['field'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['PID']['default_argument_type'] = 'raw';
+  $handler->display->display_options['arguments']['PID']['default_argument_options']['index'] = '2';
+  $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  $translatables['object_description'] = array(
+    t('Master'),
+    t('Bellington Description'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Block'),
+    t('All Institutions Description'),
+    t('All Institutions'),
+    t('Default Institution Object Description'),
+    t('Defualt institution Object Description'),
+    t('All'),
+  );
+  $export['object_description'] = $view;
+
+  $view = new view();
   $view->name = 'platform_front_page';
   $view->description = 'Emulates the default Drupal front page; you may set the default home page path to this view to make it your front page.';
   $view->tag = 'default';
@@ -955,7 +2005,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['style_options']['views_slideshow_cycle']['timeout'] = '5000';
   $handler->display->display_options['style_options']['views_slideshow_cycle']['speed'] = '700';
   $handler->display->display_options['style_options']['views_slideshow_cycle']['delay'] = '0';
-  $handler->display->display_options['style_options']['views_slideshow_cycle']['start_paused'] = 0;
   $handler->display->display_options['style_options']['views_slideshow_cycle']['remember_slide_days'] = '1';
   $handler->display->display_options['style_options']['views_slideshow_cycle']['items_per_slide'] = '1';
   $handler->display->display_options['style_options']['views_slideshow_cycle']['wait_for_image_load_timeout'] = '3000';
