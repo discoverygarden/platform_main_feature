@@ -834,7 +834,7 @@ function platform_main_feature_default_panels_mini() {
   $pane->uuid = '4e3c8d51-8167-4632-aa94-5bf4b5fabad6';
   $display->content['new-4e3c8d51-8167-4632-aa94-5bf4b5fabad6'] = $pane;
   $display->panels['center'][3] = 'new-4e3c8d51-8167-4632-aa94-5bf4b5fabad6';
-  $display->hide_title = PANELS_TITLE_FIXED;
+  $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = 'new-338f7677-f2e7-448a-b5c9-54fcf2b12c7c';
   $mini->display = $display;
   $export['test_minin_panel'] = $mini;
