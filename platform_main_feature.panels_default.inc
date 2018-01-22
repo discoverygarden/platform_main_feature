@@ -389,6 +389,23 @@ function platform_main_feature_default_panels_mini() {
         ),
         'not' => FALSE,
       ),
+      1 => array(
+        'name' => 'islandora_institution_mod_field_value',
+        'settings' => array(
+          'mods_field' => 'owner_inst',
+          'mods_value' => 'Archives & Special Collections',
+        ),
+        'not' => FALSE,
+      ),
+      2 => array(
+        'name' => 'path_visibility',
+        'settings' => array(
+          'visibility_setting' => '1',
+          'paths' => 'about-digitalarchive',
+        ),
+        'context' => 'empty',
+        'not' => FALSE,
+      ),
     ),
     'logic' => 'or',
   );
@@ -620,6 +637,85 @@ function platform_main_feature_default_panels_mini() {
   $pane->uuid = 'dcb32791-d94c-4d6e-b110-117e0f1e3000';
   $display->content['new-dcb32791-d94c-4d6e-b110-117e0f1e3000'] = $pane;
   $display->panels['center'][3] = 'new-dcb32791-d94c-4d6e-b110-117e0f1e3000';
+  $pane = new stdClass();
+  $pane->pid = 'new-13ad3dce-2a6e-47a1-ac4d-f4f7837eb1ed';
+  $pane->panel = 'center';
+  $pane->type = 'block';
+  $pane->subtype = 'views-4ec321651079ce0064161e71bafb1ce6';
+  $pane->shown = TRUE;
+  $pane->access = array(
+    'plugins' => array(
+      0 => array(
+        'name' => 'islandora_institution_mod_field_value',
+        'settings' => array(
+          'mods_field' => 'owner_inst',
+          'mods_value' => 'Archives & Special Collections',
+        ),
+        'not' => FALSE,
+      ),
+      1 => array(
+        'name' => 'path_visibility',
+        'settings' => array(
+          'visibility_setting' => '1',
+          'paths' => 'about-digitalarchive',
+        ),
+        'context' => 'empty',
+        'not' => FALSE,
+      ),
+    ),
+    'logic' => 'or',
+  );
+  $pane->configuration = array(
+    'override_title' => 1,
+    'override_title_text' => '',
+    'override_title_heading' => 'h2',
+  );
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 4;
+  $pane->locks = array();
+  $pane->uuid = '13ad3dce-2a6e-47a1-ac4d-f4f7837eb1ed';
+  $display->content['new-13ad3dce-2a6e-47a1-ac4d-f4f7837eb1ed'] = $pane;
+  $display->panels['center'][4] = 'new-13ad3dce-2a6e-47a1-ac4d-f4f7837eb1ed';
+  $pane = new stdClass();
+  $pane->pid = 'new-5070d5c0-3565-4b1e-858f-0517e4de617c';
+  $pane->panel = 'center';
+  $pane->type = 'block';
+  $pane->subtype = 'views-dfd006a7ccd885c07586abb22a0e7fc9';
+  $pane->shown = TRUE;
+  $pane->access = array(
+    'plugins' => array(
+      0 => array(
+        'name' => 'islandora_institution_mod_field_value',
+        'settings' => array(
+          'mods_field' => 'owner_inst',
+          'mods_value' => 'Connecticut Digital Archive',
+        ),
+        'not' => FALSE,
+      ),
+    ),
+    'logic' => 'or',
+  );
+  $pane->configuration = array(
+    'override_title' => 1,
+    'override_title_text' => '',
+    'override_title_heading' => 'h2',
+  );
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 5;
+  $pane->locks = array();
+  $pane->uuid = '5070d5c0-3565-4b1e-858f-0517e4de617c';
+  $display->content['new-5070d5c0-3565-4b1e-858f-0517e4de617c'] = $pane;
+  $display->panels['center'][5] = 'new-5070d5c0-3565-4b1e-858f-0517e4de617c';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-df9698ce-4148-42cb-8d7f-e7e6f33fa3b4';
   $mini->display = $display;
@@ -834,6 +930,85 @@ function platform_main_feature_default_panels_mini() {
   $pane->uuid = '4e3c8d51-8167-4632-aa94-5bf4b5fabad6';
   $display->content['new-4e3c8d51-8167-4632-aa94-5bf4b5fabad6'] = $pane;
   $display->panels['center'][3] = 'new-4e3c8d51-8167-4632-aa94-5bf4b5fabad6';
+  $pane = new stdClass();
+  $pane->pid = 'new-e9afc396-cc76-4d46-8255-07a4f3f3c698';
+  $pane->panel = 'center';
+  $pane->type = 'block';
+  $pane->subtype = 'views-4e2fcd9f25f368fc885f2d2a486460c2';
+  $pane->shown = TRUE;
+  $pane->access = array(
+    'plugins' => array(
+      0 => array(
+        'name' => 'islandora_institution_mod_field_value',
+        'settings' => array(
+          'mods_field' => 'owner_inst',
+          'mods_value' => 'Archives & Special Collections',
+        ),
+        'not' => FALSE,
+      ),
+      1 => array(
+        'name' => 'path_visibility',
+        'settings' => array(
+          'visibility_setting' => '1',
+          'paths' => 'about-digitalarchive',
+        ),
+        'context' => 'empty',
+        'not' => FALSE,
+      ),
+    ),
+    'logic' => 'or',
+  );
+  $pane->configuration = array(
+    'override_title' => 1,
+    'override_title_text' => '',
+    'override_title_heading' => 'h2',
+  );
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 4;
+  $pane->locks = array();
+  $pane->uuid = 'e9afc396-cc76-4d46-8255-07a4f3f3c698';
+  $display->content['new-e9afc396-cc76-4d46-8255-07a4f3f3c698'] = $pane;
+  $display->panels['center'][4] = 'new-e9afc396-cc76-4d46-8255-07a4f3f3c698';
+  $pane = new stdClass();
+  $pane->pid = 'new-0a6f8c51-e490-4dd8-a24a-89648d33c352';
+  $pane->panel = 'center';
+  $pane->type = 'block';
+  $pane->subtype = 'views-2ea22aa680aa43109d7ddb6fd5068817';
+  $pane->shown = TRUE;
+  $pane->access = array(
+    'plugins' => array(
+      0 => array(
+        'name' => 'islandora_institution_mod_field_value',
+        'settings' => array(
+          'mods_field' => 'owner_inst',
+          'mods_value' => 'Connecticut Digital Archive',
+        ),
+        'not' => FALSE,
+      ),
+    ),
+    'logic' => 'or',
+  );
+  $pane->configuration = array(
+    'override_title' => 1,
+    'override_title_text' => '',
+    'override_title_heading' => 'h2',
+  );
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 5;
+  $pane->locks = array();
+  $pane->uuid = '0a6f8c51-e490-4dd8-a24a-89648d33c352';
+  $display->content['new-0a6f8c51-e490-4dd8-a24a-89648d33c352'] = $pane;
+  $display->panels['center'][5] = 'new-0a6f8c51-e490-4dd8-a24a-89648d33c352';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = 'new-338f7677-f2e7-448a-b5c9-54fcf2b12c7c';
   $mini->display = $display;
