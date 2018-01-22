@@ -381,6 +381,108 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-digital-collection-social-m_facebook:https://www.facebook.com/.
+  $menu_links['menu-digital-collection-social-m_facebook:https://www.facebook.com/'] = array(
+    'menu_name' => 'menu-digital-collection-social-m',
+    'link_path' => 'https://www.facebook.com/',
+    'router_path' => '',
+    'link_title' => 'Facebook',
+    'options' => array(
+      'icon' => array(
+        'bundle' => 'dgi_default_bundle',
+        'icon' => 'facebook-squared',
+        'wrapper' => '',
+        'wrapper_class' => '',
+        'position' => 'title_replace',
+        'breadcrumb' => 0,
+        'title_wrapper' => 0,
+        'title_wrapper_element' => 'span',
+        'title_wrapper_class' => 'title',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-digital-collection-social-m_facebook:https://www.facebook.com/',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-digital-collection-social-m_pinterest:https://www.pinterest.ca/.
+  $menu_links['menu-digital-collection-social-m_pinterest:https://www.pinterest.ca/'] = array(
+    'menu_name' => 'menu-digital-collection-social-m',
+    'link_path' => 'https://www.pinterest.ca/',
+    'router_path' => '',
+    'link_title' => 'Pinterest',
+    'options' => array(
+      'icon' => array(
+        'bundle' => 'dgi_default_bundle',
+        'icon' => 'pinterest-squared',
+        'wrapper' => '',
+        'wrapper_class' => '',
+        'position' => 'title_replace',
+        'breadcrumb' => 0,
+        'title_wrapper' => 0,
+        'title_wrapper_element' => 'span',
+        'title_wrapper_class' => 'title',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-digital-collection-social-m_pinterest:https://www.pinterest.ca/',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-digital-collection-social-m_twitter:https://twitter.com.
+  $menu_links['menu-digital-collection-social-m_twitter:https://twitter.com'] = array(
+    'menu_name' => 'menu-digital-collection-social-m',
+    'link_path' => 'https://twitter.com',
+    'router_path' => '',
+    'link_title' => 'Twitter',
+    'options' => array(
+      'icon' => array(
+        'bundle' => 'dgi_default_bundle',
+        'icon' => 'twitter-squared',
+        'wrapper' => '',
+        'wrapper_class' => '',
+        'position' => 'title_replace',
+        'breadcrumb' => 0,
+        'title_wrapper' => 0,
+        'title_wrapper_element' => 'span',
+        'title_wrapper_class' => 'title',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-digital-collection-social-m_twitter:https://twitter.com',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: menu-footer-lower-menu_-university-of-connecticut:http://uconn.edu.
   $menu_links['menu-footer-lower-menu_-university-of-connecticut:http://uconn.edu'] = array(
     'menu_name' => 'menu-footer-lower-menu',

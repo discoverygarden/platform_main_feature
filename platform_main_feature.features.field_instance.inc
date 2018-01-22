@@ -272,6 +272,66 @@ function platform_main_feature_field_default_field_instances() {
   );
 
   // Exported field_instance:
+  // 'node-islandora_institution_inst-field_institution_header_logo'.
+  $field_instances['node-islandora_institution_inst-field_institution_header_logo'] = array(
+    'bundle' => 'islandora_institution_inst',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 9,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_institution_header_logo',
+    'label' => 'Institution Header Logo',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 0,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'image_field_caption' => array(
+        'enabled' => 0,
+      ),
+      'image_field_caption_wrapper' => array(
+        'image_field_caption_default' => array(
+          'format' => 'filtered_html',
+          'value' => '',
+        ),
+      ),
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 5,
+    ),
+  );
+
+  // Exported field_instance:
   // 'node-islandora_institution_inst-field_institution_image'.
   $field_instances['node-islandora_institution_inst-field_institution_image'] = array(
     'bundle' => 'islandora_institution_inst',
@@ -643,6 +703,7 @@ function platform_main_feature_field_default_field_instances() {
   t('Body');
   t('Content Model');
   t('Image URL');
+  t('Institution Header Logo');
   t('Institution Image');
   t('Institution Logo');
   t('Institution Site Name');
