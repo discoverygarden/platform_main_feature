@@ -148,7 +148,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt_1']['field'] = 'RELS_EXT_hasModel_uri_mt';
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt_1']['value'] = 'islandora:sp_large_image_cmodel';
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt_1']['group'] = 2;
-  
+
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
   $translatables['buy'] = array(
