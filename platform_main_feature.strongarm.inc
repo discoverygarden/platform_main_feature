@@ -517,6 +517,15 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_imagecache_default_thumbnail';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_imagecache_default_thumbnail'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_bhof_basic_page_pattern';
   $strongarm->value = '';
   $export['pathauto_node_bhof_basic_page_pattern'] = $strongarm;
