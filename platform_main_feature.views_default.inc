@@ -303,7 +303,7 @@ function platform_main_feature_views_default_views() {
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'Bellington Collection Logo';
+  $view->human_name = 'Institution Collection Logo';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -469,6 +469,23 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['uuid']['table'] = 'node';
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['value'] = 'bc455c26-912a-4111-8668-08baddddb536';
+
+  /* Display: Lormacks Logo */
+  $handler = $view->new_display('block', 'Lormacks Logo', 'block_5');
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = 'c239f1bb-4a8c-47fd-bf2d-86d2ba8ddf75';
   $translatables['bellington_collection_logo'] = array(
     t('Master'),
     t('<none>'),
@@ -483,6 +500,7 @@ function platform_main_feature_views_default_views() {
     t('Digital Collections'),
     t('Digital Collections Logo'),
     t('Connecticut Digital Archive'),
+    t('Lormacks Logo'),
   );
   $export['bellington_collection_logo'] = $view;
 

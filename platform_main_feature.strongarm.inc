@@ -180,7 +180,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_collection_search_advanced_search_alter';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['islandora_collection_search_advanced_search_alter'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -219,6 +219,16 @@ function platform_main_feature_strongarm() {
     'islandora:root' => 'islandora:root',
     'islandora:transformCollection' => 'islandora:transformCollection',
     'islandora:video_collection' => 'islandora:video_collection',
+    'islandora:5' => 0,
+    'islandora:34' => 0,
+    'islandora:13' => 0,
+    'islandora:15' => 0,
+    'islandora:30' => 0,
+    'islandora:17' => 0,
+    'islandora:38' => 0,
+    'islandora:40' => 0,
+    'islandora:36' => 0,
+    'islandora:32' => 0,
   );
   $export['islandora_collection_search_searchable_collections'] = $strongarm;
 
