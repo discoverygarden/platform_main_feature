@@ -739,7 +739,7 @@ function platform_main_feature_default_panels_mini() {
   );
   $pane->configuration = array(
     'override_title' => 1,
-    'override_title_text' => 'My Super Tiutle',
+    'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
   $pane->cache = array();
