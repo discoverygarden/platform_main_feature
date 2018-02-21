@@ -584,7 +584,9 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'advanced',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => 'advanced-search',
+    'pages' => 'advanced-search
+islandora/search
+islandora/search*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
