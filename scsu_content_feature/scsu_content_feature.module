@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SCSU Content Feature feature.
+ */
+
+include_once 'scsu_content_feature.features.inc';
