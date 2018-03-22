@@ -819,6 +819,22 @@ function platform_main_feature_default_page_manager_handlers() {
           'context' => 'argument_entity_id:node_1',
           'not' => FALSE,
         ),
+        2 => array(
+          'name' => 'node_type',
+          'settings' => array(
+            'type' => array(
+              'slideshow' => 'slideshow',
+              'imagecache_default_thumbnail' => 'imagecache_default_thumbnail',
+              'islandora_institution_inst' => 'islandora_institution_inst',
+              'image_block' => 'image_block',
+              'page' => 'page',
+              'social_media_icon' => 'social_media_icon',
+              'article' => 'article',
+            ),
+          ),
+          'context' => 'argument_entity_id:node_1',
+          'not' => FALSE,
+        ),
       ),
       'logic' => 'or',
     ),
