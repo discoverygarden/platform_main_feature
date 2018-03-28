@@ -78,6 +78,72 @@ function scsu_theme_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['menu-menu-footer-lower-menu'] = array(
+    'cache' => -1,
+    'css_class' => 'footer-lower-menu',
+    'custom' => 0,
+    'delta' => 'menu-footer-lower-menu',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -48,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['menu-menu-footer-menu'] = array(
+    'cache' => -1,
+    'css_class' => 'footer-menu-links',
+    'custom' => 0,
+    'delta' => 'menu-footer-menu',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -52,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['menu-menu-scsu-footer-menu-context'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -309,6 +375,72 @@ function scsu_theme_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-footer_icon_and_info-block'] = array(
+    'cache' => -1,
+    'css_class' => 'footer-university-info',
+    'custom' => 0,
+    'delta' => 'footer_icon_and_info-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -51,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['views-image_blocks-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'image_blocks-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 13,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['views-scsu_footer_contact-block'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -431,8 +563,8 @@ function scsu_theme_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'uconn_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'logo_header',
+        'status' => 1,
         'theme' => 'uconn_theme',
         'weight' => 0,
       ),
