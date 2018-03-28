@@ -431,8 +431,8 @@ function scsu_theme_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'uconn_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'logo_header',
+        'status' => 1,
         'theme' => 'uconn_theme',
         'weight' => 0,
       ),
