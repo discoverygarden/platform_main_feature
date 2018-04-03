@@ -152,6 +152,11 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['style_plugin'] = 'owlcarousel';
   $handler->display->display_options['style_options']['instance'] = 'owlcarousel_settings_featured-collection-single';
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* Header: Global: Result summary */
+  $handler->display->display_options['header']['result']['id'] = 'result';
+  $handler->display->display_options['header']['result']['table'] = 'views';
+  $handler->display->display_options['header']['result']['field'] = 'result';
+  $handler->display->display_options['header']['result']['content'] = '<span class="owl-pager-count">@current_page</span> of @per_page';
   /* Field: Islandora Solr: Score */
   $handler->display->display_options['fields']['score']['id'] = 'score';
   $handler->display->display_options['fields']['score']['table'] = 'islandora_solr';
@@ -196,7 +201,7 @@ function platform_main_feature_views_default_views() {
   $handler = $view->new_display('block', 'Featured Collection One', 'block');
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'some';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '2';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
   $handler->display->display_options['pager']['options']['offset'] = '0';
 
   /* Display: Featured Collection Two */
@@ -265,6 +270,12 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Featured Collection Four */
   $handler = $view->new_display('block', 'Featured Collection Four', 'block_3');
+  $handler->display->display_options['defaults']['header'] = FALSE;
+  /* Header: Global: Result summary */
+  $handler->display->display_options['header']['result']['id'] = 'result';
+  $handler->display->display_options['header']['result']['table'] = 'views';
+  $handler->display->display_options['header']['result']['field'] = 'result';
+  $handler->display->display_options['header']['result']['content'] = '<span class="owl-pager-count">@current_page</span> of @per_page';
 
   /* Display: Explore */
   $handler = $view->new_display('block', 'Explore', 'block_4');
@@ -292,6 +303,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $handler->display->display_options['defaults']['header'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Islandora Solr: Score */
   $handler->display->display_options['fields']['score']['id'] = 'score';
@@ -320,6 +332,15 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['fgs_label_ms']['label'] = '';
   $handler->display->display_options['fields']['fgs_label_ms']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['fgs_label_ms']['link_to_object'] = 1;
+
+  /* Display: Featured Collection Five */
+  $handler = $view->new_display('block', 'Featured Collection Five', 'block_5');
+  $handler->display->display_options['defaults']['header'] = FALSE;
+  /* Header: Global: Result summary */
+  $handler->display->display_options['header']['result']['id'] = 'result';
+  $handler->display->display_options['header']['result']['table'] = 'views';
+  $handler->display->display_options['header']['result']['field'] = 'result';
+  $handler->display->display_options['header']['result']['content'] = '<span class="owl-pager-count">@current_page</span> of @per_page';
   $translatables['featured_collection'] = array(
     t('Master'),
     t('Featured Collection'),
@@ -329,6 +350,7 @@ function platform_main_feature_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
+    t('<span class="owl-pager-count">@current_page</span> of @per_page'),
     t('Score'),
     t('PID'),
     t('Featured Collection One'),
@@ -336,6 +358,7 @@ function platform_main_feature_views_default_views() {
     t('Featured Collection Three'),
     t('Featured Collection Four'),
     t('Explore'),
+    t('Featured Collection Five'),
   );
   $export['featured_collection'] = $view;
 
