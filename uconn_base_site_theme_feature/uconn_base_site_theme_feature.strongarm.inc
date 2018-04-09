@@ -27,7 +27,7 @@ function uconn_base_site_theme_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'vagrantbase-trusty64';
+  $strongarm->value = 'University Libraries';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
