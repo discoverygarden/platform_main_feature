@@ -17,7 +17,7 @@ function uconn_base_site_theme_feature_strongarm() {
   $strongarm->value = array(
     'branding' => '#000e2f',
     'body' => '#ffffff',
-    'footer' => '#b5afaf',
+    'footer' => '#ffffff',
     'branding_icon_back' => '#1a4798',
     'header_background_color' => '#ffffff',
   );
@@ -27,7 +27,7 @@ function uconn_base_site_theme_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'University Libraries';
+  $strongarm->value = 'vagrantbase-trusty64';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -77,8 +77,8 @@ function uconn_base_site_theme_feature_strongarm() {
     'toggle_favicon' => 1,
     'toggle_main_menu' => 1,
     'toggle_secondary_menu' => 1,
-    'default_logo' => 0,
-    'logo_path' => 'public://uconn-main-wordmark.jpg',
+    'default_logo' => 1,
+    'logo_path' => '',
     'logo_upload' => '',
     'default_favicon' => 1,
     'favicon_path' => '',
@@ -107,7 +107,7 @@ function uconn_base_site_theme_feature_strongarm() {
     'designkit_color' => array(
       'branding' => '#000e2f',
       'body' => '#ffffff',
-      'footer' => '#b5afaf',
+      'footer' => '#ffffff',
       'branding_icon_back' => '#1a4798',
       'header_background_color' => '#ffffff',
     ),
