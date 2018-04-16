@@ -95,6 +95,7 @@ features[fe_block_settings][] = views-featured_collection-block_1
 features[fe_block_settings][] = views-featured_collection-block_2
 features[fe_block_settings][] = views-featured_collection-block_3
 features[fe_block_settings][] = views-featured_collection-block_4
+features[fe_block_settings][] = views-featured_collection-block_5
 features[fe_block_settings][] = views-footer_logos-block
 features[fe_block_settings][] = views-footer_logos-block_1
 features[fe_block_settings][] = views-footer_logos-block_2
