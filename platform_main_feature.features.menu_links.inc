@@ -10,6 +10,46 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: menu-footer-menu_boulder-genealogical-society:http://www.bouldergenealogy.org/.
+  $menu_links['menu-footer-menu_boulder-genealogical-society:http://www.bouldergenealogy.org/'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'http://www.bouldergenealogy.org/',
+    'router_path' => '',
+    'link_title' => 'Boulder Genealogical Society',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-menu_boulder-genealogical-society:http://www.bouldergenealogy.org/',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-footer-menu_museum-of-boulder:https://www.museumofboulder.org/.
+  $menu_links['menu-footer-menu_museum-of-boulder:https://www.museumofboulder.org/'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'https://www.museumofboulder.org/',
+    'router_path' => '',
+    'link_title' => 'Museum of Boulder',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-menu_museum-of-boulder:https://www.museumofboulder.org/',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+  );
   // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
   $menu_links['menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-header-menu',
@@ -134,10 +174,12 @@ function platform_main_feature_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('About Us');
+  t('Boulder Genealogical Society');
   t('Browse Collections');
   t('Log Out');
   t('Log in');
   t('Make contact');
+  t('Museum of Boulder');
   t('My Bookmarks');
 
   return $menu_links;
