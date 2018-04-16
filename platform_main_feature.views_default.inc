@@ -156,7 +156,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['header']['result']['id'] = 'result';
   $handler->display->display_options['header']['result']['table'] = 'views';
   $handler->display->display_options['header']['result']['field'] = 'result';
-  $handler->display->display_options['header']['result']['content'] = '<span class="owl-pager-count">@current_page</span> of @per_page';
+  $handler->display->display_options['header']['result']['content'] = '<span class="owl-pager-count"></span>';
   /* Field: Islandora Solr: Score */
   $handler->display->display_options['fields']['score']['id'] = 'score';
   $handler->display->display_options['fields']['score']['table'] = 'islandora_solr';
@@ -275,7 +275,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['header']['result']['id'] = 'result';
   $handler->display->display_options['header']['result']['table'] = 'views';
   $handler->display->display_options['header']['result']['field'] = 'result';
-  $handler->display->display_options['header']['result']['content'] = '<span class="owl-pager-count">@current_page</span> of @per_page';
+  $handler->display->display_options['header']['result']['content'] = '<span class="owl-pager-count"></span>';
 
   /* Display: Explore */
   $handler = $view->new_display('block', 'Explore', 'block_4');
@@ -340,7 +340,22 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['header']['result']['id'] = 'result';
   $handler->display->display_options['header']['result']['table'] = 'views';
   $handler->display->display_options['header']['result']['field'] = 'result';
-  $handler->display->display_options['header']['result']['content'] = '<span class="owl-pager-count">@current_page</span> of @per_page';
+  $handler->display->display_options['header']['result']['content'] = '<span class="owl-pager-count"></span>';
+
+  /* Display: Featured Collection Six */
+  $handler = $view->new_display('block', 'Featured Collection Six', 'block_6');
+
+  /* Display: Featured Collection Seven */
+  $handler = $view->new_display('block', 'Featured Collection Seven', 'block_7');
+
+  /* Display: Featured Collection Eight */
+  $handler = $view->new_display('block', 'Featured Collection Eight', 'block_8');
+
+  /* Display: Featured Collection Nine */
+  $handler = $view->new_display('block', 'Featured Collection Nine', 'block_9');
+
+  /* Display: Featured Collection Ten */
+  $handler = $view->new_display('block', 'Featured Collection Ten', 'block_10');
   $translatables['featured_collection'] = array(
     t('Master'),
     t('Featured Collection'),
@@ -350,7 +365,7 @@ function platform_main_feature_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
-    t('<span class="owl-pager-count">@current_page</span> of @per_page'),
+    t('<span class="owl-pager-count"></span>'),
     t('Score'),
     t('PID'),
     t('Featured Collection One'),
@@ -359,6 +374,11 @@ function platform_main_feature_views_default_views() {
     t('Featured Collection Four'),
     t('Explore'),
     t('Featured Collection Five'),
+    t('Featured Collection Six'),
+    t('Featured Collection Seven'),
+    t('Featured Collection Eight'),
+    t('Featured Collection Nine'),
+    t('Featured Collection Ten'),
   );
   $export['featured_collection'] = $view;
 
@@ -1081,13 +1101,12 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['mods_titleInfo_title_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_titleInfo_title_ms']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['mods_titleInfo_title_ms']['link_to_object'] = 1;
-  /* Field: Islandora Solr: mods_titleInfo_none_subTitle_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['id'] = 'mods_titleInfo_none_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['field'] = 'mods_titleInfo_none_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['link_to_object'] = 0;
   /* Field: Islandora Solr: mods_abstract_ms */
   $handler->display->display_options['fields']['mods_abstract_ms_1']['id'] = 'mods_abstract_ms_1';
   $handler->display->display_options['fields']['mods_abstract_ms_1']['table'] = 'islandora_solr';

@@ -10,6 +10,7 @@
 function platform_main_feature_default_blockgroups() {
   return array(
     'featured_collections_group' => 'Featured Collections Group',
+    'featured_collections_second' => 'Featured Collections Second Row',
   );
 }
 
