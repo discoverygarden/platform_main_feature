@@ -27,6 +27,27 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: management_captcha:admin/config/people/captcha.
+  $menu_links['management_captcha:admin/config/people/captcha'] = array(
+    'menu_name' => 'management',
+    'link_path' => 'admin/config/people/captcha',
+    'router_path' => 'admin/config/people/captcha',
+    'link_title' => 'CAPTCHA',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Administer how and where CAPTCHAs are used.',
+      ),
+      'identifier' => 'management_captcha:admin/config/people/captcha',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'management_people:admin/config/people',
+  );
   // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d.
   $menu_links['menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -211,6 +232,7 @@ function platform_main_feature_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('About this site');
+  t('CAPTCHA');
   t('Creative content license');
   t('Home');
   t('Login');
