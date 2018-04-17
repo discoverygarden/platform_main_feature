@@ -1101,7 +1101,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['mods_titleInfo_title_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_titleInfo_title_ms']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['mods_titleInfo_title_ms']['link_to_object'] = 1;
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: mods_titleInfo_none_subTitle_ms */
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['id'] = 'mods_titleInfo_none_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['field'] = 'mods_titleInfo_none_subTitle_ms';
