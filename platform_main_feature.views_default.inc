@@ -103,6 +103,24 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['menu']['type'] = 'normal';
   $handler->display->display_options['menu']['title'] = 'All Institutions';
   $handler->display->display_options['menu']['name'] = 'main-menu';
+  $translatables['all_institutions'] = array(
+    t('Master'),
+    t('All Institutions'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('Page'),
+  );
   $export['all_institutions'] = $view;
 
   $view = new view();
@@ -155,6 +173,24 @@ function platform_main_feature_views_default_views() {
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
   $handler->display->display_options['path'] = 'all-institutions-node-view';
+  $translatables['all_institutions_node_view'] = array(
+    t('Master'),
+    t('All Institutions Node View'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('Page'),
+  );
   $export['all_institutions_node_view'] = $view;
 
   $view = new view();
@@ -241,6 +277,25 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['bellington_archive_info'] = array(
+    t('Master'),
+    t('Bellington Archive Info'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>'),
+    t('Block'),
+  );
   $export['bellington_archive_info'] = $view;
 
   $view = new view();
@@ -431,6 +486,22 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['uuid']['table'] = 'node';
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['value'] = 'c239f1bb-4a8c-47fd-bf2d-86d2ba8ddf75';
+  $translatables['bellington_collection_logo'] = array(
+    t('Master'),
+    t('<none>'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Bellington Logo'),
+    t('UConn Logo'),
+    t('Digital Collections'),
+    t('Digital Collections Logo'),
+    t('Connecticut Digital Archive'),
+    t('Lormacks Logo'),
+  );
   $export['bellington_collection_logo'] = $view;
 
   $view = new view();
@@ -500,6 +571,23 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['bellingtons_most_viewed'] = array(
+    t('Master'),
+    t('Bellingtons most viewed'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<div>
+  <h5>Quick Look</h5>
+</div>'),
+    t('<div>
+  <a href="/islandora/object/islandora:13">More <i title="right-circle" class="icon icon-right-circle right-circle" aria-hidden="true"></i></a>
+</div>'),
+    t('Block'),
+  );
   $export['bellingtons_most_viewed'] = $view;
 
   $view = new view();
@@ -586,6 +674,25 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['caliauto_archive_info'] = array(
+    t('Master'),
+    t('CaliAuto Archive Info'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>'),
+    t('Block'),
+  );
   $export['caliauto_archive_info'] = $view;
 
   $view = new view();
@@ -641,6 +748,17 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['caliauto_collection_logo'] = array(
+    t('Master'),
+    t('CaliAuto Collection Logo'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Block'),
+  );
   $export['caliauto_collection_logo'] = $view;
 
   $view = new view();
@@ -763,6 +881,29 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['pid']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['pid']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['pid']['summary_options']['items_per_page'] = '25';
+  $translatables['clone_of_islandora_usage_stats_for_collections'] = array(
+    t('Master'),
+    t('Collection Usage Stats'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('No view counts found.'),
+    t('Collection'),
+    t('Object'),
+    t('Collection Object'),
+    t('Object Collection Access'),
+    t('<a href="/islandora/object/[pid]" title="[label]">[label]</a>'),
+    t('<span>[id] views</span>'),
+    t('.'),
+    t(','),
+    t('All'),
+    t('Block'),
+    t('Usage Stats for Collections'),
+    t('Collection Usage Views'),
+  );
   $export['clone_of_islandora_usage_stats_for_collections'] = $view;
 
   $view = new view();
@@ -807,6 +948,18 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['collection_thumbnail'] = array(
+    t('Master'),
+    t('Collection Thumbnail'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('All'),
+    t('Block'),
+  );
   $export['collection_thumbnail'] = $view;
 
   $view = new view();
@@ -893,6 +1046,25 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Digital Collections Archive Info */
   $handler = $view->new_display('block', 'Digital Collections Archive Info', 'block');
+  $translatables['connecticut_digital_archive_info'] = array(
+    t('Master'),
+    t('Current Archive Info'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>'),
+    t('Digital Collections Archive Info'),
+  );
   $export['connecticut_digital_archive_info'] = $view;
 
   $view = new view();
@@ -979,6 +1151,25 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['current_archive_info'] = array(
+    t('Master'),
+    t('Current Archive Info'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>'),
+    t('Block'),
+  );
   $export['current_archive_info'] = $view;
 
   $view = new view();
@@ -1065,6 +1256,25 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Digital Collections Archive Info */
   $handler = $view->new_display('block', 'Digital Collections Archive Info', 'block');
+  $translatables['digital_collections_archive_info'] = array(
+    t('Master'),
+    t('Current Archive Info'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>'),
+    t('Digital Collections Archive Info'),
+  );
   $export['digital_collections_archive_info'] = $view;
 
   $view = new view();
@@ -1134,6 +1344,23 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['digital_collections_most_viewed'] = array(
+    t('Master'),
+    t('Bellingtons most viewed'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<div>
+  <h5>Quick Look</h5>
+</div>'),
+    t('<div>
+  <a href="/islandora/object/islandora:13">More <i title="right-circle" class="icon icon-right-circle right-circle" aria-hidden="true"></i></a>
+</div>'),
+    t('Block'),
+  );
   $export['digital_collections_most_viewed'] = $view;
 
   $view = new view();
@@ -1208,6 +1435,25 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $translatables['footer_icon_and_info'] = array(
+    t('Master'),
+    t('Footer Icon and Info'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('Page'),
+    t('Block'),
+  );
   $export['footer_icon_and_info'] = $view;
 
   $view = new view();
@@ -1291,6 +1537,26 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $translatables['footer_social_media'] = array(
+    t('Master'),
+    t('Social Media'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('<a href="[field_social_link-value]" title="[title]">[field_social_media_icon]</a>'),
+    t('Page'),
+    t('Block'),
+  );
   $export['footer_social_media'] = $view;
 
   $view = new view();
@@ -1390,6 +1656,28 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $translatables['front_page_icons'] = array(
+    t('Master'),
+    t('Front Page Icons'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('<a href="[field_image_url]" title="[title]" target="_blank">
+[field_image_block]
+</a>'),
+    t('Page'),
+    t('Block'),
+  );
   $export['front_page_icons'] = $view;
 
   $view = new view();
@@ -1559,6 +1847,21 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['dc.title']['table'] = 'islandora_solr';
   $handler->display->display_options['filters']['dc.title']['field'] = 'dc.title';
   $handler->display->display_options['filters']['dc.title']['group'] = 1;
+  $translatables['frontpage_solr_boxes'] = array(
+    t('Master'),
+    t('Frontpage Solr boxes'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Browse Collections'),
+    t('Featured Collections'),
+    t('There are no featured collections.'),
+    t('<a href="islandora/object/[PID]"><img class="featured-thumb" src="islandora/object/[PID]/datastream/TN/view" alt=""/></a>'),
+    t('Recent additions'),
+  );
   $export['frontpage_solr_boxes'] = $view;
 
   $view = new view();
@@ -1645,6 +1948,25 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['hangten_archive_info'] = array(
+    t('Master'),
+    t('Hangten Archive Info'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('      <div class="header__name-and-slogan" id="name-and-slogan">
+          <h1 class="header__site-name" id="site-name">
+            <a href="[field_institution_site_name_link]" target="_blank" title="[field_institution_site_name_link]" class="header__site-link" rel="home"><span>[field_institution_site_name]</span></a>
+          </h1>
+          <div class="header__site-slogan" id="site-slogan">
+            <a href="[field_institution_site_slogan_li]" title="[field_institution_site_slogan]" class="header__site-slogan" rel="home"><span>[field_institution_site_slogan]</span></a>
+          </div>
+      </div>'),
+    t('Block'),
+  );
   $export['hangten_archive_info'] = $view;
 
   $view = new view();
@@ -1700,6 +2022,17 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['hangten_collection_logo'] = array(
+    t('Master'),
+    t('Hangten Collection Logo'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Block'),
+  );
   $export['hangten_collection_logo'] = $view;
 
   $view = new view();
@@ -1884,6 +2217,21 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['uuid']['table'] = 'node';
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['value'] = '9c8f491e-d901-4fc8-9b5d-75490185bdd6';
+  $translatables['image_blocks'] = array(
+    t('Master'),
+    t('Image blocks'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Image Block 1'),
+    t('<img src="sites/all/modules/platform_main_feature/images/award_winning.png"/>'),
+    t('Footer logo'),
+    t('<img src="/sites/all/modules/platform_main_feature/images/dgi-footer-logo.png"/>'),
+    t('Welcome Message'),
+  );
   $export['image_blocks'] = $view;
 
   $view = new view();
@@ -1970,6 +2318,22 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
+  $translatables['object_description'] = array(
+    t('Master'),
+    t('Bellington Description'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Block'),
+    t('All Institutions Description'),
+    t('All Institutions'),
+    t('Default Institution Object Description'),
+    t('Defualt institution Object Description'),
+    t('All'),
+  );
   $export['object_description'] = $view;
 
   $view = new view();
@@ -2021,6 +2385,23 @@ function platform_main_feature_views_default_views() {
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
   $handler->display->display_options['path'] = 'front';
+  $translatables['platform_front_page'] = array(
+    t('Master'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('Page'),
+  );
   $export['platform_front_page'] = $view;
 
   $view = new view();
@@ -2161,6 +2542,25 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $translatables['slideshow_galleria'] = array(
+    t('Master'),
+    t('None'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('Galleria Slideshow'),
+    t('Slideshow Galleria'),
+  );
   $export['slideshow_galleria'] = $view;
 
   $view = new view();
@@ -2226,6 +2626,21 @@ function platform_main_feature_views_default_views() {
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
+  $translatables['top_facet_searches'] = array(
+    t('Master'),
+    t('Top Facet Searches'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Facet Terms'),
+    t('# of Searches'),
+    t('.'),
+    t(','),
+    t('Block'),
+  );
   $export['top_facet_searches'] = $view;
 
   $view = new view();
@@ -2299,6 +2714,22 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['empty']['area']['empty'] = TRUE;
   $handler->display->display_options['empty']['area']['content'] = 'You need to configure Google Analytics to show the Top Site Searches';
   $handler->display->display_options['empty']['area']['format'] = 'filtered_html';
+  $translatables['top_site_searches'] = array(
+    t('Master'),
+    t('Top Site Searches'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Search Terms'),
+    t('# of Searches'),
+    t('.'),
+    t(','),
+    t('Block'),
+    t('You need to configure Google Analytics to show the Top Site Searches'),
+  );
   $export['top_site_searches'] = $view;
 
   return $export;
