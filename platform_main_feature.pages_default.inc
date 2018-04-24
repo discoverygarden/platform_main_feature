@@ -4457,34 +4457,6 @@ islandora/object/islandora:5',
   $display->content = array();
   $display->panels = array();
   $pane = new stdClass();
-  $pane->pid = 'new-9aae9f9c-ecff-4476-864a-39ffe49f6073';
-  $pane->panel = 'contextual_content';
-  $pane->type = 'pm_existing_pages';
-  $pane->subtype = 'pm_existing_pages';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    0 => 'task_id',
-    'task_id' => 'islandora_search_results_page',
-    'override_title' => 1,
-    'override_title_text' => 'All Search Results',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'display-none',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '9aae9f9c-ecff-4476-864a-39ffe49f6073';
-  $display->content['new-9aae9f9c-ecff-4476-864a-39ffe49f6073'] = $pane;
-  $display->panels['contextual_content'][0] = 'new-9aae9f9c-ecff-4476-864a-39ffe49f6073';
-  $pane = new stdClass();
   $pane->pid = 'new-8c320b5c-034e-4888-9e29-bc5f5cc2b45c';
   $pane->panel = 'contextual_content';
   $pane->type = 'block';
@@ -4502,11 +4474,11 @@ islandora/object/islandora:5',
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '8c320b5c-034e-4888-9e29-bc5f5cc2b45c';
   $display->content['new-8c320b5c-034e-4888-9e29-bc5f5cc2b45c'] = $pane;
-  $display->panels['contextual_content'][1] = 'new-8c320b5c-034e-4888-9e29-bc5f5cc2b45c';
+  $display->panels['contextual_content'][0] = 'new-8c320b5c-034e-4888-9e29-bc5f5cc2b45c';
   $pane = new stdClass();
   $pane->pid = 'new-0365568d-afdd-4bc0-83f7-838d6ad31567';
   $pane->panel = 'first_sidebar_left';
