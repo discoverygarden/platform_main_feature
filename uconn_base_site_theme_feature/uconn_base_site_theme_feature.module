@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the UCONN Base Site Theme Feature feature.
+ */
+
+include_once 'uconn_base_site_theme_feature.features.inc';

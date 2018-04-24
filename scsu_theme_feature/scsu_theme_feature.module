@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SCSU Theme Feature feature.
+ */
+
+include_once 'scsu_theme_feature.features.inc';

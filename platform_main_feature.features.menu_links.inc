@@ -10,39 +10,6 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_about-us:node/19.
-  $menu_links['main-menu_about-us:node/19'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/19',
-    'router_path' => 'node/%',
-    'link_title' => 'About Us',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_about-us:node/19',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-  );
   // Exported menu link: main-menu_all-institutions:islandora.
   $menu_links['main-menu_all-institutions:islandora'] = array(
     'menu_name' => 'main-menu',
@@ -91,39 +58,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -50,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-bellingtons-contextual-menu_about-bellingtion:node/18.
-  $menu_links['menu-bellingtons-contextual-menu_about-bellingtion:node/18'] = array(
-    'menu_name' => 'menu-bellingtons-contextual-menu',
-    'link_path' => 'node/18',
-    'router_path' => 'node/%',
-    'link_title' => 'About Bellingtion',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-bellingtons-contextual-menu_about-bellingtion:node/18',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
     'customized' => 1,
   );
   // Exported menu link: menu-bellingtons-social-media_facebook:https://www.facebook.com/.
@@ -828,8 +762,6 @@ function platform_main_feature_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('A to Z Index');
   t('About');
-  t('About Bellingtion');
-  t('About Us');
   t('About this site');
   t('All Institutions');
   t('Browse repository');
