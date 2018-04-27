@@ -46,36 +46,16 @@ function platform_main_feature_default_panels_mini() {
         'type' => 'row',
         'contains' => 'region',
         'children' => array(
-          0 => 'footer_region_left',
-          1 => 'center',
-          2 => 'footer_region_right',
+          0 => 'center',
         ),
         'parent' => 'main',
       ),
       'center' => array(
         'type' => 'region',
         'title' => 'Center',
-        'width' => '50.10591877361484',
+        'width' => 99.999999999998991,
         'width_type' => '%',
         'parent' => 'main-row',
-      ),
-      'footer_region_left' => array(
-        'type' => 'region',
-        'title' => 'Footer Region Left',
-        'width' => '24.94306508744334',
-        'width_type' => '%',
-        'parent' => 'main-row',
-        'class' => 'footer-region-left',
-        'hide_empty' => 0,
-      ),
-      'footer_region_right' => array(
-        'type' => 'region',
-        'title' => 'Footer Region Right',
-        'width' => '24.951016138940822',
-        'width_type' => '%',
-        'parent' => 'main-row',
-        'class' => 'footer-region-right',
-        'hide_empty' => 0,
       ),
       1 => array(
         'type' => 'row',
@@ -166,83 +146,8 @@ function platform_main_feature_default_panels_mini() {
   $pane->uuid = 'e40b288b-dc4c-462c-9690-55fc1e801ea9';
   $display->content['new-e40b288b-dc4c-462c-9690-55fc1e801ea9'] = $pane;
   $display->panels['footer_region_bottom'][0] = 'new-e40b288b-dc4c-462c-9690-55fc1e801ea9';
-  $pane = new stdClass();
-  $pane->pid = 'new-9c6583e8-845a-4f8f-adfc-7f7d61ef5ac3';
-  $pane->panel = 'footer_region_left';
-  $pane->type = 'block';
-  $pane->subtype = 'views-footer_icon_and_info-block';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'footer-university-info',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '9c6583e8-845a-4f8f-adfc-7f7d61ef5ac3';
-  $display->content['new-9c6583e8-845a-4f8f-adfc-7f7d61ef5ac3'] = $pane;
-  $display->panels['footer_region_left'][0] = 'new-9c6583e8-845a-4f8f-adfc-7f7d61ef5ac3';
-  $pane = new stdClass();
-  $pane->pid = 'new-0d5ac6a7-f411-4ca2-87af-542ee7974e1c';
-  $pane->panel = 'footer_region_right';
-  $pane->type = 'block';
-  $pane->subtype = 'menu-menu-library-support';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'btn-libraries',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '0d5ac6a7-f411-4ca2-87af-542ee7974e1c';
-  $display->content['new-0d5ac6a7-f411-4ca2-87af-542ee7974e1c'] = $pane;
-  $display->panels['footer_region_right'][0] = 'new-0d5ac6a7-f411-4ca2-87af-542ee7974e1c';
-  $pane = new stdClass();
-  $pane->pid = 'new-bab63333-4c08-40ef-8582-c84990a74563';
-  $pane->panel = 'footer_region_right';
-  $pane->type = 'block';
-  $pane->subtype = 'views-footer_social_media-block';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array();
-  $pane->extras = array();
-  $pane->position = 1;
-  $pane->locks = array();
-  $pane->uuid = 'bab63333-4c08-40ef-8582-c84990a74563';
-  $display->content['new-bab63333-4c08-40ef-8582-c84990a74563'] = $pane;
-  $display->panels['footer_region_right'][1] = 'new-bab63333-4c08-40ef-8582-c84990a74563';
   $display->hide_title = PANELS_TITLE_FIXED;
-  $display->title_pane = 'new-9c6583e8-845a-4f8f-adfc-7f7d61ef5ac3';
+  $display->title_pane = '0';
   $mini->display = $display;
   $export['footer'] = $mini;
 
@@ -864,8 +769,8 @@ function platform_main_feature_default_panels_mini() {
       3 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'Bellingtons',
+          'mods_field' => 'title',
+          'mods_value' => 'Bellingtons Online Collection',
         ),
         'not' => FALSE,
       ),
