@@ -1619,14 +1619,8 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filter_groups']['groups'] = array(
     1 => 'AND',
     2 => 'AND',
+    3 => 'AND',
   );
-  /* Filter criterion: Content: Published */
-  $handler->display->display_options['filters']['status']['id'] = 'status';
-  $handler->display->display_options['filters']['status']['table'] = 'node';
-  $handler->display->display_options['filters']['status']['field'] = 'status';
-  $handler->display->display_options['filters']['status']['value'] = 1;
-  $handler->display->display_options['filters']['status']['group'] = 1;
-  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
   /* Filter criterion: Content: Node UUID */
   $handler->display->display_options['filters']['uuid_1']['id'] = 'uuid_1';
   $handler->display->display_options['filters']['uuid_1']['table'] = 'node';
@@ -1634,11 +1628,17 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['uuid_1']['value'] = '81336753-b010-4409-90b4-422784f01c89';
   $handler->display->display_options['filters']['uuid_1']['group'] = 1;
   /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_2']['id'] = 'uuid_2';
+  $handler->display->display_options['filters']['uuid_2']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_2']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_2']['value'] = '8ed54dec-3a17-4d0f-94ff-0679a7a6bacc';
+  $handler->display->display_options['filters']['uuid_2']['group'] = 2;
+  /* Filter criterion: Content: Node UUID */
   $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['table'] = 'node';
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['value'] = '3ba99df5-4c20-4094-af98-149f9a5a006e';
-  $handler->display->display_options['filters']['uuid']['group'] = 2;
+  $handler->display->display_options['filters']['uuid']['group'] = 3;
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
@@ -1651,7 +1651,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '5';
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'grid';
-  $handler->display->display_options['style_options']['columns'] = '2';
+  $handler->display->display_options['style_options']['columns'] = '3';
   $handler->display->display_options['defaults']['style_options'] = FALSE;
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';

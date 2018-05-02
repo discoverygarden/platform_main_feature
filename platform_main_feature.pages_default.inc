@@ -1332,7 +1332,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -1;
+  $handler->weight = -2;
   $handler->conf = array(
     'title' => 'Archives & Special Collections',
     'no_blocks' => 0,
@@ -1349,8 +1349,8 @@ function platform_main_feature_default_page_manager_handlers() {
         0 => array(
           'name' => 'islandora_institution_mod_field_value',
           'settings' => array(
-            'mods_field' => 'owner_inst',
-            'mods_value' => 'Archives & Special Collections',
+            'solr_field' => 'mods_owner_inst_s',
+            'solr_value' => 'Archives & Special Collections',
           ),
           'not' => FALSE,
         ),
@@ -1895,7 +1895,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -4;
+  $handler->weight = -5;
   $handler->conf = array(
     'title' => 'Bellingtons Institute Collection',
     'no_blocks' => 0,
@@ -1912,13 +1912,13 @@ function platform_main_feature_default_page_manager_handlers() {
         0 => array(
           'name' => 'islandora_institution_mod_field_value',
           'settings' => array(
-            'mods_field' => 'owner_inst',
-            'mods_value' => 'Bellingtons',
+            'solr_field' => 'mods_owner_inst_s',
+            'solr_value' => 'Bellingtons',
           ),
           'not' => FALSE,
         ),
       ),
-      'logic' => 'and',
+      'logic' => 'or',
     ),
   );
   $display = new panels_display();
@@ -2160,16 +2160,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->subtype = 'page_tabs';
   $pane->shown = TRUE;
   $pane->access = array(
-    'plugins' => array(
-      0 => array(
-        'name' => 'islandora_institution_mod_field_value',
-        'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'Bellingtons',
-        ),
-        'not' => FALSE,
-      ),
-    ),
+    'plugins' => array(),
   );
   $pane->configuration = array(
     'type' => 'both',
@@ -2439,16 +2430,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->subtype = 'views-7dffc2c2672edc40792ded06c5f4e996';
   $pane->shown = TRUE;
   $pane->access = array(
-    'plugins' => array(
-      0 => array(
-        'name' => 'islandora_institution_mod_field_value',
-        'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'Bellingtons',
-        ),
-        'not' => FALSE,
-      ),
-    ),
+    'plugins' => array(),
   );
   $pane->configuration = array(
     'override_title' => 1,
@@ -2472,13 +2454,13 @@ function platform_main_feature_default_page_manager_handlers() {
   $export['pm_existing_pages_islandora_object__bellingtons-institute-collection'] = $handler;
 
   $handler = new stdClass();
-  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->disabled = TRUE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
   $handler->name = 'pm_existing_pages_islandora_object__caliauto-institute-collection';
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -3;
+  $handler->weight = -4;
   $handler->conf = array(
     'title' => 'CaliAuto Institute Collection',
     'no_blocks' => 0,
@@ -2491,16 +2473,7 @@ function platform_main_feature_default_page_manager_handlers() {
     'relationships' => array(),
     'name' => 'caliauto-institute-collection',
     'access' => array(
-      'plugins' => array(
-        0 => array(
-          'name' => 'uconndora',
-          'settings' => array(
-            'mods_field' => 'owner_inst',
-            'mods_value' => 'CaliAuto',
-          ),
-          'not' => FALSE,
-        ),
-      ),
+      'plugins' => array(),
       'logic' => 'and',
     ),
   );
@@ -2758,7 +2731,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 0;
+  $handler->weight = -1;
   $handler->conf = array(
     'title' => 'Connecticut Digital Archive',
     'no_blocks' => 0,
@@ -2775,8 +2748,8 @@ function platform_main_feature_default_page_manager_handlers() {
         0 => array(
           'name' => 'islandora_institution_mod_field_value',
           'settings' => array(
-            'mods_field' => 'owner_inst',
-            'mods_value' => 'Connecticut Digital Archive',
+            'solr_field' => 'mods_owner_inst_s',
+            'solr_value' => 'Archives & Special Collections',
           ),
           'not' => FALSE,
         ),
@@ -3330,7 +3303,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 2;
+  $handler->weight = 3;
   $handler->conf = array(
     'title' => 'Default Institution Layout',
     'no_blocks' => 0,
@@ -3347,7 +3320,7 @@ function platform_main_feature_default_page_manager_handlers() {
         0 => array(
           'name' => 'islandora_institution_default_institution',
           'settings' => array(
-            'mods_field' => 'owner_inst',
+            'mods_field' => 'mods_owner_inst_s',
           ),
           'not' => FALSE,
         ),
@@ -3813,13 +3786,13 @@ function platform_main_feature_default_page_manager_handlers() {
   $export['pm_existing_pages_islandora_object__default-institution-layout'] = $handler;
 
   $handler = new stdClass();
-  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->disabled = TRUE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
   $handler->name = 'pm_existing_pages_islandora_object__hangten';
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -2;
+  $handler->weight = -3;
   $handler->conf = array(
     'title' => 'Hangten Institute Collection',
     'no_blocks' => 0,
@@ -3832,16 +3805,7 @@ function platform_main_feature_default_page_manager_handlers() {
     'relationships' => array(),
     'name' => 'hangten',
     'access' => array(
-      'plugins' => array(
-        0 => array(
-          'name' => 'uconndora',
-          'settings' => array(
-            'mods_field' => 'owner_inst',
-            'mods_value' => 'Hangten',
-          ),
-          'not' => FALSE,
-        ),
-      ),
+      'plugins' => array(),
       'logic' => 'and',
     ),
   );
@@ -4099,7 +4063,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -5;
+  $handler->weight = -6;
   $handler->conf = array(
     'title' => 'All Institute Collection',
     'no_blocks' => 0,

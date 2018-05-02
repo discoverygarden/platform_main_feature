@@ -213,8 +213,8 @@ function platform_main_feature_default_panels_mini() {
       3 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'Bellingtons',
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'Bellingtons',
         ),
         'not' => FALSE,
       ),
@@ -248,8 +248,8 @@ function platform_main_feature_default_panels_mini() {
       1 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'uconn',
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'uconn',
         ),
         'not' => FALSE,
       ),
@@ -383,8 +383,8 @@ function platform_main_feature_default_panels_mini() {
       0 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'Archives & Special Collections',
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'Digital Collections',
         ),
         'not' => FALSE,
       ),
@@ -427,25 +427,29 @@ function platform_main_feature_default_panels_mini() {
       0 => array(
         'name' => 'islandora_institution_default_institution',
         'settings' => array(
-          'mods_field' => 'owner_inst',
+          'mods_field' => 'mods_owner_inst_s',
         ),
         'not' => FALSE,
       ),
       1 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'Connecticut Digital Archive',
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'CTDA',
         ),
         'not' => FALSE,
       ),
       2 => array(
-        'name' => 'path_visibility',
+        'name' => 'front',
+        'settings' => NULL,
+        'not' => FALSE,
+      ),
+      3 => array(
+        'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'visibility_setting' => '1',
-          'paths' => 'about-cda',
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'Archives & Special Collections',
         ),
-        'context' => 'empty',
         'not' => FALSE,
       ),
     ),
@@ -481,8 +485,8 @@ function platform_main_feature_default_panels_mini() {
       0 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'lormacks',
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'Lormaks',
         ),
         'not' => FALSE,
       ),
@@ -625,8 +629,8 @@ function platform_main_feature_default_panels_mini() {
       2 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'uconn',
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'uconn',
         ),
         'not' => FALSE,
       ),
@@ -669,8 +673,8 @@ function platform_main_feature_default_panels_mini() {
       1 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'uconn',
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'uconn',
         ),
         'not' => FALSE,
       ),
@@ -769,8 +773,8 @@ function platform_main_feature_default_panels_mini() {
       3 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'mods_field' => 'title',
-          'mods_value' => 'Bellingtons Online Collection',
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'Bellingtons',
         ),
         'not' => FALSE,
       ),
@@ -804,8 +808,8 @@ function platform_main_feature_default_panels_mini() {
       1 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'uconn',
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'Archives & Special Collections',
         ),
         'not' => FALSE,
       ),
@@ -906,6 +910,11 @@ function platform_main_feature_default_panels_mini() {
         'context' => 'empty',
         'not' => FALSE,
       ),
+      2 => array(
+        'name' => 'front',
+        'settings' => NULL,
+        'not' => FALSE,
+      ),
     ),
     'logic' => 'or',
   );
@@ -936,8 +945,8 @@ function platform_main_feature_default_panels_mini() {
       0 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'Archives & Special Collections',
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'Archives & Special Collections',
         ),
         'not' => FALSE,
       ),
@@ -970,57 +979,6 @@ function platform_main_feature_default_panels_mini() {
   $display->content['new-13ad3dce-2a6e-47a1-ac4d-f4f7837eb1ed'] = $pane;
   $display->panels['center'][4] = 'new-13ad3dce-2a6e-47a1-ac4d-f4f7837eb1ed';
   $pane = new stdClass();
-  $pane->pid = 'new-5070d5c0-3565-4b1e-858f-0517e4de617c';
-  $pane->panel = 'center';
-  $pane->type = 'block';
-  $pane->subtype = 'views-dfd006a7ccd885c07586abb22a0e7fc9';
-  $pane->shown = TRUE;
-  $pane->access = array(
-    'plugins' => array(
-      1 => array(
-        'name' => 'islandora_institution_default_institution',
-        'settings' => array(
-          'mods_field' => 'owner_inst',
-        ),
-        'not' => FALSE,
-      ),
-      2 => array(
-        'name' => 'islandora_institution_mod_field_value',
-        'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'Connecticut Digital Archive',
-        ),
-        'not' => FALSE,
-      ),
-      3 => array(
-        'name' => 'path_visibility',
-        'settings' => array(
-          'visibility_setting' => '1',
-          'paths' => 'about-cda',
-        ),
-        'context' => 'empty',
-        'not' => FALSE,
-      ),
-    ),
-    'logic' => 'or',
-  );
-  $pane->configuration = array(
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array();
-  $pane->extras = array();
-  $pane->position = 5;
-  $pane->locks = array();
-  $pane->uuid = '5070d5c0-3565-4b1e-858f-0517e4de617c';
-  $display->content['new-5070d5c0-3565-4b1e-858f-0517e4de617c'] = $pane;
-  $display->panels['center'][5] = 'new-5070d5c0-3565-4b1e-858f-0517e4de617c';
-  $pane = new stdClass();
   $pane->pid = 'new-f238e92f-84fb-47e5-8e40-975414107a0c';
   $pane->panel = 'center';
   $pane->type = 'block';
@@ -1031,8 +989,8 @@ function platform_main_feature_default_panels_mini() {
       0 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
-          'mods_field' => 'owner_inst',
-          'mods_value' => 'lormacks',
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'Lormaks',
         ),
         'not' => FALSE,
       ),
@@ -1059,11 +1017,67 @@ function platform_main_feature_default_panels_mini() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 6;
+  $pane->position = 5;
   $pane->locks = array();
   $pane->uuid = 'f238e92f-84fb-47e5-8e40-975414107a0c';
   $display->content['new-f238e92f-84fb-47e5-8e40-975414107a0c'] = $pane;
-  $display->panels['center'][6] = 'new-f238e92f-84fb-47e5-8e40-975414107a0c';
+  $display->panels['center'][5] = 'new-f238e92f-84fb-47e5-8e40-975414107a0c';
+  $pane = new stdClass();
+  $pane->pid = 'new-5070d5c0-3565-4b1e-858f-0517e4de617c';
+  $pane->panel = 'center';
+  $pane->type = 'block';
+  $pane->subtype = 'views-dfd006a7ccd885c07586abb22a0e7fc9';
+  $pane->shown = TRUE;
+  $pane->access = array(
+    'plugins' => array(
+      2 => array(
+        'name' => 'islandora_institution_mod_field_value',
+        'settings' => array(
+          'solr_field' => 'mods_owner_inst_s',
+          'solr_value' => 'Archives & Special Collections',
+        ),
+        'not' => FALSE,
+      ),
+      3 => array(
+        'name' => 'path_visibility',
+        'settings' => array(
+          'visibility_setting' => '1',
+          'paths' => 'about-cda',
+        ),
+        'context' => 'empty',
+        'not' => FALSE,
+      ),
+      4 => array(
+        'name' => 'front',
+        'settings' => NULL,
+        'not' => FALSE,
+      ),
+      5 => array(
+        'name' => 'islandora_institution_default_institution',
+        'settings' => array(
+          'mods_field' => 'mods_owner_inst_s',
+        ),
+        'not' => FALSE,
+      ),
+    ),
+    'logic' => 'or',
+  );
+  $pane->configuration = array(
+    'override_title' => 1,
+    'override_title_text' => '',
+    'override_title_heading' => 'h2',
+  );
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 6;
+  $pane->locks = array();
+  $pane->uuid = '5070d5c0-3565-4b1e-858f-0517e4de617c';
+  $display->content['new-5070d5c0-3565-4b1e-858f-0517e4de617c'] = $pane;
+  $display->panels['center'][6] = 'new-5070d5c0-3565-4b1e-858f-0517e4de617c';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-df9698ce-4148-42cb-8d7f-e7e6f33fa3b4';
   $mini->display = $display;
