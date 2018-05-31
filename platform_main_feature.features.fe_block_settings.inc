@@ -872,6 +872,138 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['menu-menu-avon-free-public-library-co'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'menu-avon-free-public-library-co',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['menu-menu-avon-free-public-library-so'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'menu-avon-free-public-library-so',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['menu-menu-barnum-museum-contextual-me'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'menu-barnum-museum-contextual-me',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['menu-menu-barnum-museum-social-media'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'menu-barnum-museum-social-media',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['menu-menu-bellingtons-contextual-menu'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -1004,6 +1136,39 @@ islandora/search/*',
     'visibility' => 1,
   );
 
+  $export['menu-menu-csl-contextual-menu'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'menu-csl-contextual-menu',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['menu-menu-default-institution-context'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -1070,6 +1235,72 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['menu-menu-footer-lower-menu'] = array(
+    'cache' => -1,
+    'css_class' => 'footer-lower-menu',
+    'custom' => 0,
+    'delta' => 'menu-footer-lower-menu',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -48,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['menu-menu-footer-menu'] = array(
+    'cache' => -1,
+    'css_class' => 'footer-menu-links',
+    'custom' => 0,
+    'delta' => 'menu-footer-menu',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -52,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['menu-menu-header-menu'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -1133,6 +1364,39 @@ islandora/search/*',
       ),
     ),
     'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['menu-menu-norwalk-public-library-cont'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'menu-norwalk-public-library-cont',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -1229,6 +1493,39 @@ islandora/search/*',
         'status' => 0,
         'theme' => 'uconn_theme',
         'weight' => 2,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['service_links-service_links'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'service_links',
+    'module' => 'service_links',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -1599,6 +1896,39 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['views-1194dd7f402d56ff2b01475c936a27fc'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => '1194dd7f402d56ff2b01475c936a27fc',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-1ebee786b8dd385ac4e0563015cf34df'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -1632,11 +1962,176 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['views-1f7a1a11e6c508ae09ee0cbc4d128b16'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => '1f7a1a11e6c508ae09ee0cbc4d128b16',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-2330b6cb076ca863ab7aa233ab1e1f79'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => '2330b6cb076ca863ab7aa233ab1e1f79',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-28f305e0b363163ab7222d28fcede019'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => '28f305e0b363163ab7222d28fcede019',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-2ea22aa680aa43109d7ddb6fd5068817'] = array(
     'cache' => -1,
     'css_class' => 'connecticut-digital-archive',
     'custom' => 0,
     'delta' => '2ea22aa680aa43109d7ddb6fd5068817',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-30151412eb73ff9de45ec4209bd0898d'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => '30151412eb73ff9de45ec4209bd0898d',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-4b35fc718ae24c8c04f9d27a0a59b795'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => '4b35fc718ae24c8c04f9d27a0a59b795',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',
@@ -1731,6 +2226,138 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['views-6d34bb1ff2bc6fed4080febc26959fd6'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => '6d34bb1ff2bc6fed4080febc26959fd6',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-6f9320f62b0ab6f7c51221bb24c23a7d'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => '6f9320f62b0ab6f7c51221bb24c23a7d',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-7518164537523ba73652c9a5fd647fe6'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => '7518164537523ba73652c9a5fd647fe6',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-761c3e690708edf1750acde484294c48'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => '761c3e690708edf1750acde484294c48',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-7dffc2c2672edc40792ded06c5f4e996'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -1797,11 +2424,110 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['views-a025059b1711a8f66b94a25134849659'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'a025059b1711a8f66b94a25134849659',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-a4227f966a652d5295e410a29425a55f'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'a4227f966a652d5295e410a29425a55f',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-a6803c27312ad17d6a196ab1793ef7e2'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
     'delta' => 'a6803c27312ad17d6a196ab1793ef7e2',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-aa_greg_archive_info-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'aa_greg_archive_info-block',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',
@@ -1863,11 +2589,110 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['views-bellington_archive_info-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'bellington_archive_info-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-bellington_archive_info-block_2'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'bellington_archive_info-block_2',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-bellingtons_most_viewed-block'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
     'delta' => 'bellingtons_most_viewed-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-bellingtons_most_viewed-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'bellingtons_most_viewed-block_1',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',
@@ -1929,11 +2754,77 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['views-caliauto_archive_info-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'caliauto_archive_info-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-caliauto_collection_logo-block'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
     'delta' => 'caliauto_collection_logo-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-chi_archive_info-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'chi_archive_info-block',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',
@@ -1995,11 +2886,77 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['views-csl_archive_info-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'csl_archive_info-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-current_archive_info-block'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
     'delta' => 'current_archive_info-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-d2f12eab585655e608458fff0c9a3e81'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'd2f12eab585655e608458fff0c9a3e81',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',
@@ -2094,6 +3051,105 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['views-e97765dd15448528002bef8a4a8db050'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'e97765dd15448528002bef8a4a8db050',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-e9b3e041b54489290f3b4b5d680c4d81'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'e9b3e041b54489290f3b4b5d680c4d81',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-f2ce6c3861e2f68b7a97434d6742aa2f'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'f2ce6c3861e2f68b7a97434d6742aa2f',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-f32166bd78937e8479ada0ac3cd95294'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -2124,6 +3180,72 @@ islandora/search/*',
       ),
     ),
     'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-ffbe57736519265e8834b674a37d1344'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'ffbe57736519265e8834b674a37d1344',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-footer_icon_and_info-block'] = array(
+    'cache' => -1,
+    'css_class' => 'footer-university-info',
+    'custom' => 0,
+    'delta' => 'footer_icon_and_info-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -51,
+      ),
+    ),
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -2167,7 +3289,7 @@ islandora/search/*',
     'delta' => 'front_page_icons-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -2190,7 +3312,7 @@ islandora/search/*',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['views-frontpage_solr_boxes-block'] = array(
@@ -2292,6 +3414,72 @@ islandora/search/*',
     'visibility' => 1,
   );
 
+  $export['views-greg_s_test_collection-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'greg_s_test_collection-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-greg_s_test_collection-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'greg_s_test_collection-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-hangten_archive_info-block'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -2358,6 +3546,39 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['views-hangten_collection_logo-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'hangten_collection_logo-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-image_blocks-block'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -2385,6 +3606,39 @@ islandora/search/*',
         'status' => 0,
         'theme' => 'uconn_theme',
         'weight' => 14,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['views-image_blocks-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'image_blocks-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 13,
       ),
     ),
     'title' => '<none>',
@@ -2421,6 +3675,39 @@ islandora/search/*',
       ),
     ),
     'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['views-litchfield_archive_info-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'litchfield_archive_info-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
     'visibility' => 0,
   );
 
