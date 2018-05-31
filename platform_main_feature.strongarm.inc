@@ -189,23 +189,36 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_collection_search_searchable_collections';
   $strongarm->value = array(
-    'islandora:audio_collection' => 'islandora:audio_collection',
-    'islandora:sp_basic_image_collection' => 'islandora:sp_basic_image_collection',
-    'islandora:binary_object_collection' => 'islandora:binary_object_collection',
-    'islandora:bookCollection' => 'islandora:bookCollection',
-    'ir:citationCollection' => 'ir:citationCollection',
-    'islandora:compound_collection' => 'islandora:compound_collection',
-    'islandora:sp_document_collection' => 'islandora:sp_document_collection',
-    'islandora:sp_large_image_collection' => 'islandora:sp_large_image_collection',
-    'islandora:manuscriptCollection' => 'islandora:manuscriptCollection',
-    'islandora:newspaper_collection' => 'islandora:newspaper_collection',
+    'islandora:18' => 'islandora:18',
     'islandora:sp_pdf_collection' => 'islandora:sp_pdf_collection',
-    'islandora:ondemand_background_image_collection' => 'islandora:ondemand_background_image_collection',
-    'islandora:2' => 'islandora:2',
-    'islandora:serial_collection' => 'islandora:serial_collection',
+    'islandora:25' => 'islandora:25',
     'islandora:root' => 'islandora:root',
     'islandora:transformCollection' => 'islandora:transformCollection',
     'islandora:video_collection' => 'islandora:video_collection',
+    '20002:555' => '20002:555',
+    '470002:root' => 0,
+    'islandora:29' => 0,
+    'Islandora:greg' => 0,
+    'islandora:70' => 0,
+    'islandora:audio_collection' => 0,
+    'islandora:75' => 0,
+    'islandora:sp_basic_image_collection' => 0,
+    'islandora:binary_object_collection' => 0,
+    'islandora:bookCollection' => 0,
+    'ir:citationCollection' => 0,
+    'islandora:compound_collection' => 0,
+    'islandora:sp_document_collection' => 0,
+    'islandora:entity_collection' => 0,
+    'islandora:sp_large_image_collection' => 0,
+    'islandora:manuscriptCollection' => 0,
+    'islandora:newspaper_collection' => 0,
+    'islandora:48' => 0,
+    'islandora:73' => 0,
+    'islandora:sample_collection' => 0,
+    'islandora:ondemand_background_image_collection' => 0,
+    'islandora:serial_collection' => 0,
+    '20002:Test' => 0,
+    '470002:2' => 0,
   );
   $export['islandora_collection_search_searchable_collections'] = $strongarm;
 
@@ -254,7 +267,6 @@ function platform_main_feature_strongarm() {
       'default' => '0',
       'grid' => '0',
       'table' => '0',
-      'xquery' => '0',
       'enhanced-grid' => '1',
     ),
     'default' => 'enhanced-grid',
@@ -263,7 +275,6 @@ function platform_main_feature_strongarm() {
       'default' => 'default',
       'grid' => 'grid',
       'table' => 'table',
-      'xquery' => 0,
       'enhanced-grid' => 'enhanced-grid',
     ),
   );
@@ -283,14 +294,14 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'jquery_update_jquery_version';
-  $strongarm->value = '1.8';
+  $strongarm->value = '1.7';
   $export['jquery_update_jquery_version'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_admin_theme';
-  $strongarm->value = '1';
+  $strongarm->value = 1;
   $export['node_admin_theme'] = $strongarm;
 
   $strongarm = new stdClass();
