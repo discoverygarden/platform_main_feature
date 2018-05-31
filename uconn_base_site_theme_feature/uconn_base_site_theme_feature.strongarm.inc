@@ -17,7 +17,7 @@ function uconn_base_site_theme_feature_strongarm() {
   $strongarm->value = array(
     'branding' => '#000e2f',
     'body' => '#ffffff',
-    'footer' => '#b5afaf',
+    'footer' => '#ffffff',
     'branding_icon_back' => '#1a4798',
     'header_background_color' => '#ffffff',
   );
@@ -107,7 +107,7 @@ function uconn_base_site_theme_feature_strongarm() {
     'designkit_color' => array(
       'branding' => '#000e2f',
       'body' => '#ffffff',
-      'footer' => '#b5afaf',
+      'footer' => '#ffffff',
       'branding_icon_back' => '#1a4798',
       'header_background_color' => '#ffffff',
     ),
