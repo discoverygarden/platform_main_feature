@@ -496,6 +496,86 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_facet_pages_fields_data';
+  $strongarm->value = array(
+    array(
+      'solr_field' => 'bhof_mods_subject_name_player_ms',
+      'label' => 'Subject—Person (Players)',
+      'path' => 'subject_person_players',
+    ),
+    array(
+      'solr_field' => 'bhof_mods_subject_name_non_player_ms',
+      'label' => 'Subject—Person (Non-Players)',
+      'path' => 'subject_person_non_players',
+    ),
+    array(
+      'solr_field' => 'bhof_mods_subject_name_association_ms',
+      'label' => 'Subject – Association',
+      'path' => 'subject_association',
+    ),
+    array(
+      'solr_field' => 'bhof_mods_subject_name_team_ms',
+      'label' => 'Subject – Team',
+      'path' => 'subject_team',
+    ),
+    array(
+      'solr_field' => 'bhof_mods_subject_topic_place_ms',
+      'label' => 'Subject – Place',
+      'path' => 'subject_place',
+    ),
+    array(
+      'solr_field' => 'bhof_mods_subject_name_organization_ms',
+      'label' => 'Subject – Organization',
+      'path' => 'subject_organization',
+    ),
+    array(
+      'solr_field' => 'bhof_mods_subject_name_league_ms',
+      'label' => 'Subject – League',
+      'path' => 'subject_league',
+    ),
+    array(
+      'solr_field' => 'bhof_mods_subject_topic_event_ms',
+      'label' => 'Subject – Event',
+      'path' => 'subject_event',
+    ),
+    array(
+      'solr_field' => 'mods_subject_temporal_ms',
+      'label' => 'Subjects – Chronological',
+      'path' => 'subjects_chronological',
+    ),
+    array(
+      'solr_field' => 'bhof_mods_subject_genre_ms',
+      'label' => 'Subject – Genre',
+      'path' => 'subject_genre',
+    ),
+    array(
+      'solr_field' => 'bhof_mods_subject_topic_ms',
+      'label' => 'Subject - Topic',
+      'path' => 'subject_topic',
+    ),
+    array(
+      'solr_field' => 'bhof_mods_subject_general_ms',
+      'label' => 'Subject – General',
+      'path' => 'subject_general',
+    ),
+    array(
+      'solr_field' => 'mods_subject_authority_local_topic_ms',
+      'label' => 'Subject – Non-Standard',
+      'path' => 'subject_non_standard',
+    ),
+  );
+  $export['islandora_solr_facet_pages_fields_data'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_facet_pages_search_form';
+  $strongarm->value = 1;
+  $export['islandora_solr_facet_pages_search_form'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_admin_theme';
   $strongarm->value = 1;
   $export['node_admin_theme'] = $strongarm;
