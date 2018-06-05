@@ -495,6 +495,15 @@ function platform_main_feature_default_panels_mini() {
         ),
         'not' => FALSE,
       ),
+      5 => array(
+        'name' => 'path_visibility',
+        'settings' => array(
+          'visibility_setting' => '1',
+          'paths' => 'islandora/object/islandora:root',
+        ),
+        'context' => 'empty',
+        'not' => FALSE,
+      ),
     ),
     'logic' => 'or',
   );
@@ -1328,7 +1337,7 @@ function platform_main_feature_default_panels_mini() {
         'name' => 'path_visibility',
         'settings' => array(
           'visibility_setting' => '1',
-          'paths' => 'about-cda',
+          'paths' => 'about-ctda',
         ),
         'context' => 'empty',
         'not' => FALSE,
@@ -1343,6 +1352,15 @@ function platform_main_feature_default_panels_mini() {
         'settings' => array(
           'solr_field' => 'mods_titleInfo_title_ms',
         ),
+        'not' => FALSE,
+      ),
+      7 => array(
+        'name' => 'path_visibility',
+        'settings' => array(
+          'visibility_setting' => '1',
+          'paths' => 'islandora/object/islandora:root',
+        ),
+        'context' => 'empty',
         'not' => FALSE,
       ),
     ),

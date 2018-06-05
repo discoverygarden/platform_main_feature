@@ -293,21 +293,6 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
     ),
   ),
   6 => array(
-    'solr_field' => 'RELS_EXT_isMemberOfCollection_uri_mt',
-    'field_type' => 'facet_fields',
-    'weight' => 1,
-    'solr_field_settings' => array(
-      'label' => 'Collection',
-      'sort_by' => 'count',
-      'pid_object_label' => 1,
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  7 => array(
     'solr_field' => 'mods_subject_geographic_ms',
     'field_type' => 'facet_fields',
     'weight' => 2,
@@ -322,7 +307,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  8 => array(
+  7 => array(
     'solr_field' => 'mods_subject_topic_ms',
     'field_type' => 'facet_fields',
     'weight' => 3,
@@ -337,7 +322,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  9 => array(
+  8 => array(
     'solr_field' => 'mods_originInfo_dateIssued_dt',
     'field_type' => 'facet_fields',
     'weight' => 4,
@@ -362,7 +347,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  10 => array(
+  9 => array(
     'solr_field' => 'mods_note_ownership_ms',
     'field_type' => 'facet_fields',
     'weight' => 5,
@@ -377,7 +362,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  11 => array(
+  10 => array(
     'solr_field' => 'mods_typeOfResource_ms',
     'field_type' => 'facet_fields',
     'weight' => 6,
@@ -392,7 +377,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  12 => array(
+  11 => array(
     'solr_field' => 'Mods_genre_ms',
     'field_type' => 'facet_fields',
     'weight' => 7,
@@ -400,6 +385,21 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       'label' => 'Genre',
       'sort_by' => 'count',
       'pid_object_label' => NULL,
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  12 => array(
+    'solr_field' => 'RELS_EXT_isMemberOfCollection_uri_ms',
+    'field_type' => 'facet_fields',
+    'weight' => 7,
+    'solr_field_settings' => array(
+      'label' => 'Collection Test',
+      'sort_by' => 'count',
+      'pid_object_label' => 1,
       'permissions' => array(
         1 => 1,
         2 => 2,

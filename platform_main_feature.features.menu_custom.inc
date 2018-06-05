@@ -46,12 +46,6 @@ function platform_main_feature_menu_default_menu_custom() {
     'title' => 'Browse Content',
     'description' => '',
   );
-  // Exported menu: menu-csl-contextual-menu.
-  $menus['menu-csl-contextual-menu'] = array(
-    'menu_name' => 'menu-csl-contextual-menu',
-    'title' => 'CSL Contextual Menu',
-    'description' => '',
-  );
   // Exported menu: menu-digital-collection-social-m.
   $menus['menu-digital-collection-social-m'] = array(
     'menu_name' => 'menu-digital-collection-social-m',
@@ -71,7 +65,6 @@ function platform_main_feature_menu_default_menu_custom() {
   t('Barnum Museum Social Media');
   t('Barnum Museum contextual menu');
   t('Browse Content');
-  t('CSL Contextual Menu');
   t('Digital Collection Social Media Menu');
   t('Main menu');
   t('Norwalk Public Library Contextual Menu');

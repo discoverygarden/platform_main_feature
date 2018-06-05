@@ -608,7 +608,7 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['islandora_solr-search_navigation'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'limiter',
     'custom' => 0,
     'delta' => 'search_navigation',
     'module' => 'islandora_solr',
@@ -629,13 +629,13 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'uconn_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'uconn_theme',
         'weight' => -10,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -1134,39 +1134,6 @@ islandora/search/*',
     ),
     'title' => 'Browse Content',
     'visibility' => 1,
-  );
-
-  $export['menu-menu-csl-contextual-menu'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'menu-csl-contextual-menu',
-    'module' => 'menu',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-      'uconn_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'uconn_theme',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
   );
 
   $export['menu-menu-default-institution-context'] = array(
@@ -2858,39 +2825,6 @@ islandora/search/*',
     'css_class' => '',
     'custom' => 0,
     'delta' => 'collection_thumbnail-block',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-      'uconn_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'uconn_theme',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['views-csl_archive_info-block'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'csl_archive_info-block',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',
