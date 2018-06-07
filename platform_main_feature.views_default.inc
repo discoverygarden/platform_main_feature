@@ -2006,7 +2006,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['fgs_createdDate_dt']['label'] = 'Inducted';
   $handler->display->display_options['fields']['fgs_createdDate_dt']['link_to_object'] = 0;
   $handler->display->display_options['fields']['fgs_createdDate_dt']['date_format'] = 'short';
-  /* Field: Islandora Solr: dc.description */
+  /* Field: Islandora Solr: dc.type */
   $handler->display->display_options['fields']['dc.type']['id'] = 'dc.type';
   $handler->display->display_options['fields']['dc.type']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.type']['field'] = 'dc.type';
