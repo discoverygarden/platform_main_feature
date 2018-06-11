@@ -122,7 +122,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_collection_metadata_display';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['islandora_collection_metadata_display'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -498,67 +498,67 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_facet_pages_fields_data';
   $strongarm->value = array(
-    array(
+    0 => array(
       'solr_field' => 'bhof_mods_subject_name_player_ms',
       'label' => 'Subject—Person (Players)',
       'path' => 'subject_person_players',
     ),
-    array(
+    1 => array(
       'solr_field' => 'bhof_mods_subject_name_non_player_ms',
       'label' => 'Subject—Person (Non-Players)',
       'path' => 'subject_person_non_players',
     ),
-    array(
+    2 => array(
       'solr_field' => 'bhof_mods_subject_name_association_ms',
       'label' => 'Subject – Association',
       'path' => 'subject_association',
     ),
-    array(
+    3 => array(
       'solr_field' => 'bhof_mods_subject_name_team_ms',
       'label' => 'Subject – Team',
       'path' => 'subject_team',
     ),
-    array(
+    4 => array(
       'solr_field' => 'bhof_mods_subject_topic_place_ms',
       'label' => 'Subject – Place',
       'path' => 'subject_place',
     ),
-    array(
+    5 => array(
       'solr_field' => 'bhof_mods_subject_name_organization_ms',
       'label' => 'Subject – Organization',
       'path' => 'subject_organization',
     ),
-    array(
+    6 => array(
       'solr_field' => 'bhof_mods_subject_name_league_ms',
       'label' => 'Subject – League',
       'path' => 'subject_league',
     ),
-    array(
+    7 => array(
       'solr_field' => 'bhof_mods_subject_topic_event_ms',
       'label' => 'Subject – Event',
       'path' => 'subject_event',
     ),
-    array(
+    8 => array(
       'solr_field' => 'mods_subject_temporal_ms',
       'label' => 'Subjects – Chronological',
       'path' => 'subjects_chronological',
     ),
-    array(
+    9 => array(
       'solr_field' => 'bhof_mods_subject_genre_ms',
       'label' => 'Subject – Genre',
       'path' => 'subject_genre',
     ),
-    array(
+    10 => array(
       'solr_field' => 'bhof_mods_subject_topic_ms',
       'label' => 'Subject - Topic',
       'path' => 'subject_topic',
     ),
-    array(
+    11 => array(
       'solr_field' => 'bhof_mods_subject_general_ms',
       'label' => 'Subject – General',
       'path' => 'subject_general',
     ),
-    array(
+    12 => array(
       'solr_field' => 'mods_subject_authority_local_topic_ms',
       'label' => 'Subject – Non-Standard',
       'path' => 'subject_non_standard',

@@ -135,7 +135,6 @@ function platform_main_feature_views_default_views() {
     1 => 'AND',
     2 => 'AND',
   );
-
   /* Filter criterion: Islandora Solr: RELS_EXT_hasModel_uri_mt */
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['id'] = 'RELS_EXT_hasModel_uri_mt';
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['table'] = 'islandora_solr';
