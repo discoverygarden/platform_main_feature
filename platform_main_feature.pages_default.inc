@@ -25138,7 +25138,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '30002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -37925,27 +37925,11 @@ islandora/object/islandora:5',
     'name' => 'university-of-connecticut',
     'access' => array(
       'plugins' => array(
-        0 => array(
+        3 => array(
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
-            'namespace' => '20002',
-            'begins_with' => '1',
-          ),
-          'not' => FALSE,
-        ),
-        1 => array(
-          'name' => 'islandora_institution_namespace_value',
-          'settings' => array(
-            'namespace' => '20003',
-            'begins_with' => '1',
-          ),
-          'not' => FALSE,
-        ),
-        2 => array(
-          'name' => 'islandora_institution_namespace_value',
-          'settings' => array(
-            'namespace' => '20004',
-            'begins_with' => '1',
+            'namespace' => '20002,20003,20004',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),

@@ -305,7 +305,7 @@ function platform_main_feature_default_panels_mini() {
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
           'namespace' => '30002',
-          'begins_with' => '1',
+          'operation' => 'is_equal_to',
         ),
         'not' => FALSE,
       ),
@@ -339,8 +339,8 @@ function platform_main_feature_default_panels_mini() {
       0 => array(
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
-          'namespace' => '20002',
-          'begins_with' => '1',
+          'namespace' => '20002,20003,20004',
+          'operation' => 'is_equal_to',
         ),
         'not' => FALSE,
       ),
@@ -511,13 +511,6 @@ function platform_main_feature_default_panels_mini() {
   $pane->shown = TRUE;
   $pane->access = array(
     'plugins' => array(
-      0 => array(
-        'name' => 'islandora_institution_default_institution',
-        'settings' => array(
-          'solr_field' => 'mods_owner_inst_s',
-        ),
-        'not' => FALSE,
-      ),
       1 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
@@ -540,13 +533,12 @@ function platform_main_feature_default_panels_mini() {
         'not' => FALSE,
       ),
       4 => array(
-        'name' => 'path_visibility',
+        'name' => 'islandora_institution_namespace_value',
         'settings' => array(
-          'visibility_setting' => '1',
-          'paths' => 'islandora/object/islandora:root',
+          'namespace' => '2000,1400,3000,480002',
+          'operation' => 'begins_with',
         ),
-        'context' => 'empty',
-        'not' => FALSE,
+        'not' => TRUE,
       ),
     ),
     'logic' => 'or',
@@ -1216,20 +1208,12 @@ function platform_main_feature_default_panels_mini() {
         'not' => FALSE,
       ),
       5 => array(
-        'name' => 'islandora_institution_default_institution',
+        'name' => 'islandora_institution_namespace_value',
         'settings' => array(
-          'solr_field' => 'mods_owner_inst_s',
+          'namespace' => '2000,1400,3000,480002',
+          'operation' => 'begins_with',
         ),
-        'not' => FALSE,
-      ),
-      6 => array(
-        'name' => 'path_visibility',
-        'settings' => array(
-          'visibility_setting' => '1',
-          'paths' => 'islandora/object/islandora:root',
-        ),
-        'context' => 'empty',
-        'not' => FALSE,
+        'not' => TRUE,
       ),
     ),
     'logic' => 'or',
@@ -1262,8 +1246,8 @@ function platform_main_feature_default_panels_mini() {
       0 => array(
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
-          'namespace' => '20002',
-          'begins_with' => '1',
+          'namespace' => '20002,20003,20004',
+          'operation' => 'is_equal_to',
         ),
         'not' => FALSE,
       ),
@@ -1411,7 +1395,7 @@ function platform_main_feature_default_panels_mini() {
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
           'namespace' => '30002',
-          'begins_with' => '1',
+          'operation' => 'is_equal_to',
         ),
         'not' => FALSE,
       ),

@@ -2858,6 +2858,22 @@ function platform_main_feature_views_default_views() {
   $handler = $view->new_display('block', 'Connecticut State Library Logo', 'block_41');
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'Connecticut State Library Logo';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Institution Logo */
+  $handler->display->display_options['fields']['field_institution_logo']['id'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['table'] = 'field_data_field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/30002:csl" title=[field_institution_logo-title]">
+ [field_institution_logo]
+</a>';
+  $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_institution_logo']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_institution_logo']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -2878,6 +2894,22 @@ function platform_main_feature_views_default_views() {
   $handler = $view->new_display('block', 'UCONN Institution Logo', 'block_42');
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'UCONN Institution Logo';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Institution Logo */
+  $handler->display->display_options['fields']['field_institution_logo']['id'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['table'] = 'field_data_field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/20002:UniversityofConnecticut" title=[field_institution_logo-title]">
+ [field_institution_logo]
+</a>';
+  $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_institution_logo']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_institution_logo']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -3077,7 +3109,13 @@ function platform_main_feature_views_default_views() {
  [field_institution_logo]
 </a>'),
     t('Connecticut State Library Logo'),
+    t('<a href="/islandora/object/30002:csl" title=[field_institution_logo-title]">
+ [field_institution_logo]
+</a>'),
     t('UCONN Institution Logo'),
+    t('<a href="/islandora/object/20002:UniversityofConnecticut" title=[field_institution_logo-title]">
+ [field_institution_logo]
+</a>'),
     t('CHI Logo'),
   );
   $export['bellington_collection_logo'] = $view;

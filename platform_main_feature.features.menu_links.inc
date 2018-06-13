@@ -77,44 +77,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: management_administration:admin.
-  $menu_links['management_administration:admin'] = array(
-    'menu_name' => 'management',
-    'link_path' => 'admin',
-    'router_path' => 'admin',
-    'link_title' => 'Administration',
-    'options' => array(
-      'identifier' => 'management_administration:admin',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => 9,
-    'customized' => 0,
-  );
-  // Exported menu link: management_dashboard:admin/dashboard.
-  $menu_links['management_dashboard:admin/dashboard'] = array(
-    'menu_name' => 'management',
-    'link_path' => 'admin/dashboard',
-    'router_path' => 'admin/dashboard',
-    'link_title' => 'Dashboard',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'View and customize your dashboard.',
-      ),
-      'identifier' => 'management_dashboard:admin/dashboard',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -15,
-    'customized' => 0,
-    'parent_identifier' => 'management_administration:admin',
-  );
   // Exported menu link: menu-american-school-for-the-dea_about--:node/20.
   $menu_links['menu-american-school-for-the-dea_about--:node/20'] = array(
     'menu_name' => 'menu-american-school-for-the-dea',
@@ -4579,6 +4541,7 @@ function platform_main_feature_menu_default_menu_links() {
     'options' => array(
       'attributes' => array(),
       'identifier' => 'menu-footer-menu_login:user/login',
+      'alter' => TRUE,
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -4597,6 +4560,7 @@ function platform_main_feature_menu_default_menu_links() {
     'options' => array(
       'attributes' => array(),
       'identifier' => 'menu-footer-menu_logout:user/logout',
+      'alter' => TRUE,
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -9268,6 +9232,7 @@ function platform_main_feature_menu_default_menu_links() {
     'link_title' => 'Log out',
     'options' => array(
       'identifier' => 'user-menu_log-out:user/logout',
+      'alter' => TRUE,
     ),
     'module' => 'system',
     'hidden' => 1,
@@ -9339,7 +9304,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('About this site');
   t('About |');
   t('About | ');
-  t('Administration');
   t('Advanced Search');
   t('All Collections');
   t('All Institutions');
@@ -9366,7 +9330,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Contact');
   t('Contact Us');
   t('Contact |');
-  t('Dashboard');
   t('Disclaimers, Privacy & Copyright');
   t('Enfield Public Library Collections |');
   t('Facebook');
