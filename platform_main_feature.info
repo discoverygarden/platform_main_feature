@@ -888,6 +888,7 @@ features[variable][] = islandora_collection_search_all_pages
 features[variable][] = islandora_collection_search_retain_search_values
 features[variable][] = islandora_collection_search_searchable_collections
 features[variable][] = islandora_imagecache_cache_solr_backend_display
+features[variable][] = islandora_solr_base_sort
 features[variable][] = islandora_solr_collection_display_use_solr_display_profiles
 features[variable][] = islandora_solr_limit_result_fields
 features[variable][] = islandora_solr_num_of_results
