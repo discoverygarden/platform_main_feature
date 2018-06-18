@@ -1211,6 +1211,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_base_sort';
+  $strongarm->value = 'mods_titleInfo_title_ss asc';
+  $export['islandora_solr_base_sort'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_collection_display_use_solr_display_profiles';
   $strongarm->value = 1;
   $export['islandora_solr_collection_display_use_solr_display_profiles'] = $strongarm;
@@ -1247,6 +1254,7 @@ function platform_main_feature_strongarm() {
       'grid' => '0',
       'table' => '0',
       'enhanced-grid' => '1',
+      'xquery' => '2',
     ),
     'default' => 'enhanced-grid',
     'enabled' => array(
@@ -1255,6 +1263,7 @@ function platform_main_feature_strongarm() {
       'grid' => 'grid',
       'table' => 'table',
       'enhanced-grid' => 'enhanced-grid',
+      'xquery' => 0,
     ),
   );
   $export['islandora_solr_primary_display_table'] = $strongarm;
