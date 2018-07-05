@@ -27,13 +27,14 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 0,
   );
-  // Exported menu link: main-menu_all-institutions:islandora.
-  $menu_links['main-menu_all-institutions:islandora'] = array(
+  // Exported menu link: main-menu_home:<front>.
+  $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'islandora',
-    'router_path' => 'islandora',
-    'link_title' => 'All Institutions',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Home',
     'options' => array(
+      'identifier' => 'main-menu_home:<front>',
       'icon' => array(
         'icon' => '',
         'wrapper' => '',
@@ -50,24 +51,6 @@ function platform_main_feature_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_all-institutions:islandora',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-  );
-  // Exported menu link: main-menu_home:<front>.
-  $menu_links['main-menu_home:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Home',
-    'options' => array(
-      'identifier' => 'main-menu_home:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -1964,39 +1947,6 @@ function platform_main_feature_menu_default_menu_links() {
         'style' => '',
       ),
       'identifier' => 'menu-browse-content_barnum-museum:http://hdl.handle.net/11134/60002%3ABarnumMuseum',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-browse-content_bibliomation:http://hdl.handle.net/11134/140002%3ABiblio.
-  $menu_links['menu-browse-content_bibliomation:http://hdl.handle.net/11134/140002%3ABiblio'] = array(
-    'menu_name' => 'menu-browse-content',
-    'link_path' => 'http://hdl.handle.net/11134/140002%3ABiblio',
-    'router_path' => '',
-    'link_title' => 'Bibliomation',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-browse-content_bibliomation:http://hdl.handle.net/11134/140002%3ABiblio',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -4496,7 +4446,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-footer-menu_join:https://confluence.uits.uconn.edu/confluence/display/CTDA/Join+the+CTDA.
@@ -4529,26 +4479,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-footer-menu_login:user/login.
-  $menu_links['menu-footer-menu_login:user/login'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'user/login',
-    'router_path' => 'user/login',
-    'link_title' => 'Login',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-footer-menu_login:user/login',
-      'alter' => TRUE,
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
+    'weight' => -49,
     'customized' => 1,
   );
   // Exported menu link: menu-footer-menu_logout:user/logout.
@@ -4567,25 +4498,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -45,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-footer-menu_policies:http://lib.uconn.edu/services/research/research-data/archiving/.
-  $menu_links['menu-footer-menu_policies:http://lib.uconn.edu/services/research/research-data/archiving/'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'http://lib.uconn.edu/services/research/research-data/archiving/',
-    'router_path' => '',
-    'link_title' => 'Policies',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-footer-menu_policies:http://lib.uconn.edu/services/research/research-data/archiving/',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
+    'weight' => -46,
     'customized' => 1,
   );
   // Exported menu link: menu-groton-public-library-conte_about--:node/36.
@@ -9306,13 +9219,11 @@ function platform_main_feature_menu_default_menu_links() {
   t('About | ');
   t('Advanced Search');
   t('All Collections');
-  t('All Institutions');
   t('Avon Free Public Library');
   t('Avon Free Public Library Collections | ');
   t('Barnum Museum');
   t('Barnum Museum Collections | ');
   t('Bethel Public Library Collections |');
-  t('Bibliomation');
   t('Bibliomation Collections');
   t('Bibliomation Collections |');
   t('Bill Memorial Library Collections |');
@@ -9349,7 +9260,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Linkedin');
   t('Litchfield Historical Society Collections |');
   t('Log out');
-  t('Login');
   t('Logout');
   t('Lyman Allyn Art Museum Collections |');
   t('Make contact');
@@ -9362,7 +9272,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Norwalk Public Library Collection |');
   t('Pinterest');
   t('Pintrest');
-  t('Policies');
   t('Search');
   t('Slater Memorial Museum Collections |');
   t('Stonington Historical Society Collections |');

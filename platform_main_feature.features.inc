@@ -71,7 +71,7 @@ function platform_main_feature_islandora_datastream_download_fields_features_def
   ),
   2 => array(
     'pid' => 'islandora:binaryObjectCModel',
-    'config' => 'a:3:{s:3:"pid";s:28:"islandora:binaryObjectCModel";s:11:"datastreams";a:3:{s:4:"MODS";i:1;s:2:"TN";i:0;s:3:"OBJ";i:0;}s:15:"add_datastreams";s:0:"";}',
+    'config' => 'a:3:{s:3:"pid";s:28:"islandora:binaryObjectCModel";s:11:"datastreams";a:3:{s:3:"OBJ";i:1;s:4:"MODS";i:1;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
   3 => array(
     'pid' => 'islandora:bookCModel',
@@ -79,81 +79,109 @@ function platform_main_feature_islandora_datastream_download_fields_features_def
   ),
   4 => array(
     'pid' => 'islandora:collectionCModel',
-    'config' => 'a:3:{s:3:"pid";s:26:"islandora:collectionCModel";s:11:"datastreams";a:4:{s:2:"DC";i:1;s:2:"TN";i:1;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;}s:15:"add_datastreams";s:0:"";}',
+    'config' => 'a:3:{s:3:"pid";s:26:"islandora:collectionCModel";s:11:"datastreams";a:4:{s:2:"DC";i:1;s:2:"TN";i:1;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;}s:15:"add_datastreams";s:4:"MODS";}',
   ),
   5 => array(
     'pid' => 'islandora:compoundCModel',
-    'config' => 'a:3:{s:3:"pid";s:24:"islandora:compoundCModel";s:11:"datastreams";a:5:{s:4:"MODS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+    'config' => 'a:3:{s:3:"pid";s:24:"islandora:compoundCModel";s:11:"datastreams";a:4:{s:4:"MODS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
   6 => array(
     'pid' => 'islandora:eadCModel',
-    'config' => 'a:3:{s:3:"pid";s:19:"islandora:eadCModel";s:11:"datastreams";a:5:{s:3:"EAD";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+    'config' => 'a:3:{s:3:"pid";s:19:"islandora:eadCModel";s:11:"datastreams";a:5:{s:3:"EAD";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:3:"PDF";}',
   ),
   7 => array(
-    'pid' => 'islandora:findingAidCModel',
-    'config' => 'a:3:{s:3:"pid";s:26:"islandora:findingAidCModel";s:11:"datastreams";a:5:{s:3:"EAD";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+    'pid' => 'islandora:entityCModel',
+    'config' => 'a:3:{s:3:"pid";s:22:"islandora:entityCModel";s:11:"datastreams";a:7:{s:4:"MODS";i:1;s:7:"EAC-CPF";i:1;s:4:"MADS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
   8 => array(
+    'pid' => 'islandora:eventCModel',
+    'config' => 'a:3:{s:3:"pid";s:21:"islandora:eventCModel";s:11:"datastreams";a:7:{s:4:"MODS";i:1;s:7:"EAC-CPF";i:1;s:4:"MADS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  9 => array(
+    'pid' => 'islandora:findingAidCModel',
+    'config' => 'a:3:{s:3:"pid";s:26:"islandora:findingAidCModel";s:11:"datastreams";a:5:{s:3:"EAD";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:3:"PDF";}',
+  ),
+  10 => array(
     'pid' => 'islandora:intermediateCModel',
     'config' => 'a:3:{s:3:"pid";s:28:"islandora:intermediateCModel";s:11:"datastreams";a:4:{s:4:"MODS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
-  9 => array(
+  11 => array(
     'pid' => 'islandora:intermediateSerialCModelStub',
     'config' => 'a:3:{s:3:"pid";s:38:"islandora:intermediateSerialCModelStub";s:11:"datastreams";a:0:{}s:15:"add_datastreams";s:0:"";}',
   ),
-  10 => array(
+  12 => array(
     'pid' => 'islandora:manuscriptCModel',
     'config' => 'a:3:{s:3:"pid";s:26:"islandora:manuscriptCModel";s:11:"datastreams";a:5:{s:4:"MODS";i:1;s:3:"TEI";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
-  11 => array(
+  13 => array(
     'pid' => 'islandora:manuscriptPageCModel',
-    'config' => 'a:3:{s:3:"pid";s:30:"islandora:manuscriptPageCModel";s:11:"datastreams";a:10:{s:4:"MODS";i:1;s:3:"JP2";i:1;s:3:"JPG";i:1;s:3:"OCR";i:1;s:4:"HOCR";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+    'config' => 'a:3:{s:3:"pid";s:30:"islandora:manuscriptPageCModel";s:11:"datastreams";a:9:{s:3:"JPG";i:1;s:3:"OCR";i:1;s:4:"HOCR";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:3:"JP2";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
-  12 => array(
+  14 => array(
     'pid' => 'islandora:newspaperCModel',
     'config' => 'a:3:{s:3:"pid";s:25:"islandora:newspaperCModel";s:11:"datastreams";a:5:{s:4:"MODS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
-  13 => array(
-    'pid' => 'islandora:newspaperIssueCModel',
-    'config' => 'a:3:{s:3:"pid";s:30:"islandora:newspaperIssueCModel";s:11:"datastreams";a:5:{s:4:"MODS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
-  ),
-  14 => array(
-    'pid' => 'islandora:newspaperPageCModel',
-    'config' => 'a:3:{s:3:"pid";s:29:"islandora:newspaperPageCModel";s:11:"datastreams";a:10:{s:4:"MODS";i:1;s:3:"JP2";i:1;s:3:"JPG";i:1;s:3:"OCR";i:1;s:4:"HOCR";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
-  ),
   15 => array(
-    'pid' => 'islandora:pageCModel',
-    'config' => 'a:3:{s:3:"pid";s:20:"islandora:pageCModel";s:11:"datastreams";a:10:{s:4:"MODS";i:1;s:3:"JP2";i:1;s:3:"JPG";i:1;s:3:"OCR";i:1;s:4:"HOCR";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+    'pid' => 'islandora:newspaperIssueCModel',
+    'config' => 'a:3:{s:3:"pid";s:30:"islandora:newspaperIssueCModel";s:11:"datastreams";a:5:{s:4:"MODS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:3:"PDF";}',
   ),
   16 => array(
+    'pid' => 'islandora:newspaperPageCModel',
+    'config' => 'a:3:{s:3:"pid";s:29:"islandora:newspaperPageCModel";s:11:"datastreams";a:9:{s:3:"JPG";i:1;s:3:"OCR";i:1;s:4:"HOCR";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:3:"JP2";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:4:"MODS";}',
+  ),
+  17 => array(
+    'pid' => 'islandora:organizationCModel',
+    'config' => 'a:3:{s:3:"pid";s:28:"islandora:organizationCModel";s:11:"datastreams";a:7:{s:4:"MODS";i:1;s:7:"EAC-CPF";i:1;s:4:"MADS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  18 => array(
+    'pid' => 'islandora:pageCModel',
+    'config' => 'a:3:{s:3:"pid";s:20:"islandora:pageCModel";s:11:"datastreams";a:9:{s:3:"JPG";i:1;s:3:"OCR";i:1;s:4:"HOCR";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:3:"JP2";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:4:"MODS";}',
+  ),
+  19 => array(
+    'pid' => 'islandora:personCModel',
+    'config' => 'a:3:{s:3:"pid";s:22:"islandora:personCModel";s:11:"datastreams";a:7:{s:4:"MODS";i:1;s:7:"EAC-CPF";i:1;s:4:"MADS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  20 => array(
+    'pid' => 'islandora:placeCModel',
+    'config' => 'a:3:{s:3:"pid";s:21:"islandora:placeCModel";s:11:"datastreams";a:7:{s:4:"MODS";i:1;s:7:"EAC-CPF";i:1;s:4:"MADS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  21 => array(
     'pid' => 'islandora:rootSerialCModel',
     'config' => 'a:3:{s:3:"pid";s:26:"islandora:rootSerialCModel";s:11:"datastreams";a:5:{s:4:"MODS";i:1;s:13:"SERIAL-LEVELS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
-  17 => array(
+  22 => array(
     'pid' => 'islandora:sp-audioCModel',
-    'config' => 'a:3:{s:3:"pid";s:24:"islandora:sp-audioCModel";s:11:"datastreams";a:8:{s:4:"MODS";i:1;s:9:"PROXY_MP3";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;s:6:"TECHMD";i:0;}s:15:"add_datastreams";s:0:"";}',
+    'config' => 'a:3:{s:3:"pid";s:24:"islandora:sp-audioCModel";s:11:"datastreams";a:8:{s:4:"MODS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:9:"PROXY_MP3";i:0;s:2:"TN";i:0;s:6:"TECHMD";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
-  18 => array(
+  23 => array(
     'pid' => 'islandora:sp_basic_image',
     'config' => 'a:3:{s:3:"pid";s:24:"islandora:sp_basic_image";s:11:"datastreams";a:8:{s:4:"MODS";i:1;s:11:"MEDIUM_SIZE";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:6:"TECHMD";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
-  19 => array(
+  24 => array(
+    'pid' => 'islandora:sp_disk_image',
+    'config' => 'a:3:{s:3:"pid";s:23:"islandora:sp_disk_image";s:11:"datastreams";a:10:{s:4:"MODS";i:1;s:12:"TECHMD_DFXML";i:1;s:5:"PHOTO";i:1;s:3:"JPG";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:6:"TECHMD";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  25 => array(
     'pid' => 'islandora:sp_document',
     'config' => 'a:3:{s:3:"pid";s:21:"islandora:sp_document";s:11:"datastreams";a:10:{s:4:"MODS";i:1;s:3:"PDF";i:1;s:9:"FULL_TEXT";i:1;s:7:"PREVIEW";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:6:"TECHMD";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
-  20 => array(
+  26 => array(
     'pid' => 'islandora:sp_large_image_cmodel',
-    'config' => 'a:3:{s:3:"pid";s:31:"islandora:sp_large_image_cmodel";s:11:"datastreams";a:9:{s:4:"MODS";i:1;s:3:"JPG";i:1;s:3:"JP2";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;s:6:"TECHMD";i:0;}s:15:"add_datastreams";s:0:"";}',
+    'config' => 'a:3:{s:3:"pid";s:31:"islandora:sp_large_image_cmodel";s:11:"datastreams";a:9:{s:4:"MODS";i:1;s:3:"JPG";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:2:"TN";i:0;s:3:"JP2";i:0;s:6:"TECHMD";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
-  21 => array(
+  27 => array(
     'pid' => 'islandora:sp_pdf',
     'config' => 'a:3:{s:3:"pid";s:16:"islandora:sp_pdf";s:11:"datastreams";a:10:{s:4:"MODS";i:1;s:4:"PDFA";i:1;s:9:"FULL_TEXT";i:1;s:7:"PREVIEW";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:6:"TECHMD";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
-  22 => array(
+  28 => array(
     'pid' => 'islandora:sp_videoCModel',
-    'config' => 'a:3:{s:3:"pid";s:24:"islandora:sp_videoCModel";s:11:"datastreams";a:11:{s:4:"MODS";i:1;s:3:"OGG";i:1;s:3:"MKV";i:1;s:11:"TECHMD_FITS";i:1;s:3:"MP4";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:6:"TECHMD";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+    'config' => 'a:3:{s:3:"pid";s:24:"islandora:sp_videoCModel";s:11:"datastreams";a:11:{s:4:"MODS";i:1;s:11:"TECHMD_FITS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:6:"TECHMD";i:0;s:2:"TN";i:0;s:3:"OGG";i:0;s:3:"MKV";i:0;s:3:"MP4";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
-  23 => array(
+  29 => array(
+    'pid' => 'islandora:sp_web_archive',
+    'config' => 'a:3:{s:3:"pid";s:24:"islandora:sp_web_archive";s:11:"datastreams";a:14:{s:4:"MODS";i:1;s:8:"WARC_CSV";i:1;s:13:"WARC_FILTERED";i:1;s:10:"SCREENSHOT";i:1;s:3:"PNG";i:1;s:3:"PDF";i:1;s:11:"MEDIUM_SIZE";i:1;s:3:"JPG";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;s:3:"OBJ";i:0;s:6:"TECHMD";i:0;s:2:"TN";i:0;}s:15:"add_datastreams";s:0:"";}',
+  ),
+  30 => array(
     'pid' => 'islandora:transformCModel',
     'config' => 'a:3:{s:3:"pid";s:25:"islandora:transformCModel";s:11:"datastreams";a:5:{s:4:"XSLT";i:1;s:3:"CSS";i:1;s:2:"DC";i:0;s:8:"RELS-EXT";i:0;s:8:"RELS-INT";i:0;}s:15:"add_datastreams";s:0:"";}',
   ),
@@ -202,6 +230,19 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
     ),
   ),
   2 => array(
+    'solr_field' => 'catch_all_fields_mt',
+    'field_type' => 'search_fields',
+    'weight' => -10,
+    'solr_field_settings' => array(
+      'label' => 'All fields',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  3 => array(
     'solr_field' => 'mods_originInfo_dateIssued_dt',
     'field_type' => 'facet_fields',
     'weight' => -10,
@@ -226,7 +267,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  3 => array(
+  4 => array(
     'solr_field' => 'mods_typeOfResource_ms',
     'field_type' => 'facet_fields',
     'weight' => -9,
@@ -241,7 +282,20 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  4 => array(
+  5 => array(
+    'solr_field' => 'mods_titleInfo_title_mt',
+    'field_type' => 'search_fields',
+    'weight' => -9,
+    'solr_field_settings' => array(
+      'label' => 'Title',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  6 => array(
     'solr_field' => 'dc.date',
     'field_type' => 'result_fields',
     'weight' => -8,
@@ -264,7 +318,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       'link_to_search' => FALSE,
     ),
   ),
-  5 => array(
+  7 => array(
     'solr_field' => 'mods_note_ownership_ms',
     'field_type' => 'facet_fields',
     'weight' => -8,
@@ -279,7 +333,20 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  6 => array(
+  8 => array(
+    'solr_field' => 'mods_name_personal_namePart_mt',
+    'field_type' => 'search_fields',
+    'weight' => -8,
+    'solr_field_settings' => array(
+      'label' => 'Creator',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  9 => array(
     'solr_field' => 'mods_subject_topic_ms',
     'field_type' => 'facet_fields',
     'weight' => -7,
@@ -294,7 +361,33 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  7 => array(
+  10 => array(
+    'solr_field' => 'mods_typeOfResource_mt',
+    'field_type' => 'search_fields',
+    'weight' => -7,
+    'solr_field_settings' => array(
+      'label' => 'Material Type',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  11 => array(
+    'solr_field' => 'mods_abstract_mt',
+    'field_type' => 'search_fields',
+    'weight' => -6,
+    'solr_field_settings' => array(
+      'label' => 'Description',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  12 => array(
     'solr_field' => 'mods_subject_geographic_ms',
     'field_type' => 'facet_fields',
     'weight' => -6,
@@ -309,7 +402,20 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  8 => array(
+  13 => array(
+    'solr_field' => 'mods_subject_topic_mt',
+    'field_type' => 'search_fields',
+    'weight' => -5,
+    'solr_field_settings' => array(
+      'label' => 'Topic',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  14 => array(
     'solr_field' => 'mods_name_personal_namePart_ms',
     'field_type' => 'facet_fields',
     'weight' => -5,
@@ -324,7 +430,20 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  9 => array(
+  15 => array(
+    'solr_field' => 'mods_subject_geographic_mt',
+    'field_type' => 'search_fields',
+    'weight' => -4,
+    'solr_field_settings' => array(
+      'label' => 'Place',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  16 => array(
     'solr_field' => 'mods_name_corporate_namePart_ms',
     'field_type' => 'facet_fields',
     'weight' => -4,
@@ -339,12 +458,12 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  10 => array(
-    'solr_field' => 'mods_titleInfo_title_mt',
+  17 => array(
+    'solr_field' => 'mods_note_ownership_mt',
     'field_type' => 'search_fields',
-    'weight' => 0,
+    'weight' => -3,
     'solr_field_settings' => array(
-      'label' => 'Title',
+      'label' => 'Held By',
       'permissions' => array(
         1 => 1,
         2 => 2,
@@ -352,7 +471,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  11 => array(
+  18 => array(
     'solr_field' => 'fgs_createdDate_dt',
     'field_type' => 'sort_fields',
     'weight' => 1,
@@ -365,124 +484,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  12 => array(
-    'solr_field' => 'mods_name_personal_namePart_mt',
-    'field_type' => 'search_fields',
-    'weight' => 1,
-    'solr_field_settings' => array(
-      'label' => 'Creator',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  13 => array(
-    'solr_field' => 'mods_typeOfResource_mt',
-    'field_type' => 'search_fields',
-    'weight' => 2,
-    'solr_field_settings' => array(
-      'label' => 'Material Type',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  14 => array(
-    'solr_field' => 'mods_origininfo_dateissued_ss',
-    'field_type' => 'sort_fields',
-    'weight' => 2,
-    'solr_field_settings' => array(
-      'label' => 'origin date',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  15 => array(
-    'solr_field' => 'mods_abstract_mt',
-    'field_type' => 'search_fields',
-    'weight' => 3,
-    'solr_field_settings' => array(
-      'label' => 'Description',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  16 => array(
-    'solr_field' => 'mods_originInfo_encoding_w3cdtf_keyDate_yes_dateIssued_ss',
-    'field_type' => 'sort_fields',
-    'weight' => 3,
-    'solr_field_settings' => array(
-      'label' => 'origin key date',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  17 => array(
-    'solr_field' => 'mods_subject_topic_mt',
-    'field_type' => 'search_fields',
-    'weight' => 4,
-    'solr_field_settings' => array(
-      'label' => 'Topic',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  18 => array(
-    'solr_field' => 'mods_subject_geographic_mt',
-    'field_type' => 'search_fields',
-    'weight' => 5,
-    'solr_field_settings' => array(
-      'label' => 'Place',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
   19 => array(
-    'solr_field' => 'mods_note_ownership_mt',
-    'field_type' => 'search_fields',
-    'weight' => 6,
-    'solr_field_settings' => array(
-      'label' => 'Held By',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  20 => array(
-    'solr_field' => 'OCR_t',
-    'field_type' => 'search_fields',
-    'weight' => 8,
-    'solr_field_settings' => array(
-      'label' => 'Full Text',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  21 => array(
     'solr_field' => 'RELS_EXT_isMemberOfCollection_uri_ms',
     'field_type' => 'facet_fields',
     'weight' => 8,

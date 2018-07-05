@@ -16565,7 +16565,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '290002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -16748,7 +16748,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = 'American School for the Deaf';
+  $display->title = '';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__american-school-for-the-deaf';
@@ -16977,17 +16977,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-6ce1797d-f326-475c-a976-f9e0da419ed8';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -16999,9 +16996,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '6ce1797d-f326-475c-a976-f9e0da419ed8';
+  $display->content['new-6ce1797d-f326-475c-a976-f9e0da419ed8'] = $pane;
+  $display->panels['region_right'][0] = 'new-6ce1797d-f326-475c-a976-f9e0da419ed8';
   $pane = new stdClass();
   $pane->pid = 'new-e2e4d4e2-dce3-46b9-9444-3af068874adc';
   $pane->panel = 'region_right';
@@ -17520,18 +17517,15 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-a0ff6d6b-47e4-4345-92c2-318efc6c1c12'] = $pane;
   $display->panels['region_main_content'][1] = 'new-a0ff6d6b-47e4-4345-92c2-318efc6c1c12';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-27b61840-28ab-4559-a77c-60757c7cf280';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
     'override_title' => 1,
-    'override_title_text' => '<none>',
+    'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
   $pane->cache = array();
@@ -17542,14 +17536,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '27b61840-28ab-4559-a77c-60757c7cf280';
+  $display->content['new-27b61840-28ab-4559-a77c-60757c7cf280'] = $pane;
+  $display->panels['region_right'][0] = 'new-27b61840-28ab-4559-a77c-60757c7cf280';
   $pane = new stdClass();
-  $pane->pid = 'new-de55e6e9-506c-431b-8672-46a7a04fc649';
+  $pane->pid = 'new-100fcbb2-99fe-4512-bbc9-fa4c613bc639';
   $pane->panel = 'region_right';
   $pane->type = 'block';
-  $pane->subtype = 'views-object_description-block_2';
+  $pane->subtype = 'uconndora-uconndora_metadata_description';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
@@ -17565,30 +17559,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 1;
   $pane->locks = array();
-  $pane->uuid = 'de55e6e9-506c-431b-8672-46a7a04fc649';
-  $display->content['new-de55e6e9-506c-431b-8672-46a7a04fc649'] = $pane;
-  $display->panels['region_right'][1] = 'new-de55e6e9-506c-431b-8672-46a7a04fc649';
-  $pane = new stdClass();
-  $pane->pid = 'new-100fcbb2-99fe-4512-bbc9-fa4c613bc639';
-  $pane->panel = 'region_right';
-  $pane->type = 'block';
-  $pane->subtype = 'uconndora-uconndora_metadata_description';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array();
-  $pane->css = array();
-  $pane->extras = array();
-  $pane->position = 2;
-  $pane->locks = array();
   $pane->uuid = '100fcbb2-99fe-4512-bbc9-fa4c613bc639';
   $display->content['new-100fcbb2-99fe-4512-bbc9-fa4c613bc639'] = $pane;
-  $display->panels['region_right'][2] = 'new-100fcbb2-99fe-4512-bbc9-fa4c613bc639';
+  $display->panels['region_right'][1] = 'new-100fcbb2-99fe-4512-bbc9-fa4c613bc639';
   $pane = new stdClass();
   $pane->pid = 'new-c894f489-ca4a-4178-93b6-10560cd2a7d4';
   $pane->panel = 'test_region';
@@ -17623,7 +17596,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'c894f489-ca4a-4178-93b6-10560cd2a7d4';
   $display->content['new-c894f489-ca4a-4178-93b6-10560cd2a7d4'] = $pane;
   $display->panels['test_region'][0] = 'new-c894f489-ca4a-4178-93b6-10560cd2a7d4';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__archives-special-collections'] = $handler;
@@ -17653,7 +17626,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '150002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -17836,7 +17809,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Avon Free Public Library Collection';
+  $display->title = '';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__avon-free-public-library-collection';
@@ -18065,17 +18038,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-989bc65c-0ffe-44ec-87fb-a2a1ebfec3ab';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -18087,9 +18057,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '989bc65c-0ffe-44ec-87fb-a2a1ebfec3ab';
+  $display->content['new-989bc65c-0ffe-44ec-87fb-a2a1ebfec3ab'] = $pane;
+  $display->panels['region_right'][0] = 'new-989bc65c-0ffe-44ec-87fb-a2a1ebfec3ab';
   $pane = new stdClass();
   $pane->pid = 'new-92be84f3-62ba-4be4-bb82-ce075650dd4f';
   $pane->panel = 'region_right';
@@ -18166,7 +18136,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '60002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -18578,17 +18548,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-5a43cf9c-7f1b-43d4-be2a-07bc31cc81d6';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -18600,9 +18567,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '5a43cf9c-7f1b-43d4-be2a-07bc31cc81d6';
+  $display->content['new-5a43cf9c-7f1b-43d4-be2a-07bc31cc81d6'] = $pane;
+  $display->panels['region_right'][0] = 'new-5a43cf9c-7f1b-43d4-be2a-07bc31cc81d6';
   $pane = new stdClass();
   $pane->pid = 'new-d90a0abc-706d-4f3f-8dd7-0b1cf01b529a';
   $pane->panel = 'region_right';
@@ -18649,7 +18616,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '4330fe3b-fee9-4573-87d0-7d3dc85b0642';
   $display->content['new-4330fe3b-fee9-4573-87d0-7d3dc85b0642'] = $pane;
   $display->panels['test_region'][0] = 'new-4330fe3b-fee9-4573-87d0-7d3dc85b0642';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__barnum-museum-collection'] = $handler;
@@ -19244,7 +19211,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '140006',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -19656,17 +19623,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-bdbb4742-3eed-4f33-ba7e-810b2748d8aa';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -19678,9 +19642,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'bdbb4742-3eed-4f33-ba7e-810b2748d8aa';
+  $display->content['new-bdbb4742-3eed-4f33-ba7e-810b2748d8aa'] = $pane;
+  $display->panels['region_right'][0] = 'new-bdbb4742-3eed-4f33-ba7e-810b2748d8aa';
   $pane = new stdClass();
   $pane->pid = 'new-3914e8e8-c4d8-442b-9869-18b4cf56e765';
   $pane->panel = 'region_right';
@@ -19727,7 +19691,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '6e10c6d7-d31f-4dcd-b37b-d642f6e3177b';
   $display->content['new-6e10c6d7-d31f-4dcd-b37b-d642f6e3177b'] = $pane;
   $display->panels['test_region'][0] = 'new-6e10c6d7-d31f-4dcd-b37b-d642f6e3177b';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__bethel-public-library-collection'] = $handler;
@@ -19757,7 +19721,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '140002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -20172,17 +20136,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-6342b36e-1f4f-4461-a67a-458b4beaf349';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -20194,9 +20155,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '6342b36e-1f4f-4461-a67a-458b4beaf349';
+  $display->content['new-6342b36e-1f4f-4461-a67a-458b4beaf349'] = $pane;
+  $display->panels['region_right'][0] = 'new-6342b36e-1f4f-4461-a67a-458b4beaf349';
   $pane = new stdClass();
   $pane->pid = 'new-ac316cba-4efc-4933-b88b-ab1d5a814c8f';
   $pane->panel = 'region_right';
@@ -20243,7 +20204,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'c67166a2-3d50-42d7-9b62-7dec6e639aa4';
   $display->content['new-c67166a2-3d50-42d7-9b62-7dec6e639aa4'] = $pane;
   $display->panels['test_region'][0] = 'new-c67166a2-3d50-42d7-9b62-7dec6e639aa4';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__bibliomation-collection'] = $handler;
@@ -20273,7 +20234,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '350002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -20685,17 +20646,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-329f377f-b58b-4d3d-b95c-ddd55d291b06';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -20707,9 +20665,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '329f377f-b58b-4d3d-b95c-ddd55d291b06';
+  $display->content['new-329f377f-b58b-4d3d-b95c-ddd55d291b06'] = $pane;
+  $display->panels['region_right'][0] = 'new-329f377f-b58b-4d3d-b95c-ddd55d291b06';
   $pane = new stdClass();
   $pane->pid = 'new-353b9cdf-c30f-47c7-8778-165972838cb0';
   $pane->panel = 'region_right';
@@ -20756,7 +20714,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'c5e17078-adfe-44f6-aad4-81b7ed94fcdb';
   $display->content['new-c5e17078-adfe-44f6-aad4-81b7ed94fcdb'] = $pane;
   $display->panels['test_region'][0] = 'new-c5e17078-adfe-44f6-aad4-81b7ed94fcdb';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__bill-memorial-library-collection'] = $handler;
@@ -20786,7 +20744,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '110002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -21172,17 +21130,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-7adff704-6032-4b90-b671-33bc81eac9ad';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -21194,9 +21149,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '7adff704-6032-4b90-b671-33bc81eac9ad';
+  $display->content['new-7adff704-6032-4b90-b671-33bc81eac9ad'] = $pane;
+  $display->panels['region_right'][0] = 'new-7adff704-6032-4b90-b671-33bc81eac9ad';
   $pane = new stdClass();
   $pane->pid = 'new-affcb42d-0398-44ca-a140-81aee9612d72';
   $pane->panel = 'region_right';
@@ -21243,7 +21198,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '91576f16-1ab2-47aa-baf0-00cf9ab10be6';
   $display->content['new-91576f16-1ab2-47aa-baf0-00cf9ab10be6'] = $pane;
   $display->panels['test_region'][0] = 'new-91576f16-1ab2-47aa-baf0-00cf9ab10be6';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__bridgeport-history-center-collection'] = $handler;
@@ -21273,7 +21228,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '460002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -21685,17 +21640,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-05b20b16-b27f-49ad-aac8-85dc1e0bd9c0';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -21707,9 +21659,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '05b20b16-b27f-49ad-aac8-85dc1e0bd9c0';
+  $display->content['new-05b20b16-b27f-49ad-aac8-85dc1e0bd9c0'] = $pane;
+  $display->panels['region_right'][0] = 'new-05b20b16-b27f-49ad-aac8-85dc1e0bd9c0';
   $pane = new stdClass();
   $pane->pid = 'new-e6dad77a-df0f-4183-9a4c-e76d5aa1c69a';
   $pane->panel = 'region_right';
@@ -21756,7 +21708,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '2ab87053-2924-4349-8b1f-2136131bb78c';
   $display->content['new-2ab87053-2924-4349-8b1f-2136131bb78c'] = $pane;
   $display->panels['test_region'][0] = 'new-2ab87053-2924-4349-8b1f-2136131bb78c';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__cahsl-collection'] = $handler;
@@ -22057,7 +22009,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '320002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -22469,17 +22421,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-ce205656-4170-45cc-a0b7-05ea361d083a';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -22491,9 +22440,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'ce205656-4170-45cc-a0b7-05ea361d083a';
+  $display->content['new-ce205656-4170-45cc-a0b7-05ea361d083a'] = $pane;
+  $display->panels['region_right'][0] = 'new-ce205656-4170-45cc-a0b7-05ea361d083a';
   $pane = new stdClass();
   $pane->pid = 'new-2c4dd96f-ce3a-4561-b9d1-e2368ec29118';
   $pane->panel = 'region_right';
@@ -22540,7 +22489,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '4d93c112-0b02-4cb2-8c7d-1cfc7b754863';
   $display->content['new-4d93c112-0b02-4cb2-8c7d-1cfc7b754863'] = $pane;
   $display->panels['test_region'][0] = 'new-4d93c112-0b02-4cb2-8c7d-1cfc7b754863';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__case-memorial-library-collection'] = $handler;
@@ -22570,7 +22519,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '480002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -22956,17 +22905,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-3bbf37d4-50ee-4abd-9807-876eac238d2a';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -22978,9 +22924,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '3bbf37d4-50ee-4abd-9807-876eac238d2a';
+  $display->content['new-3bbf37d4-50ee-4abd-9807-876eac238d2a'] = $pane;
+  $display->panels['region_right'][0] = 'new-3bbf37d4-50ee-4abd-9807-876eac238d2a';
   $pane = new stdClass();
   $pane->pid = 'new-e19bc1d9-028a-4900-9a3e-9daaa014e999';
   $pane->panel = 'region_right';
@@ -23027,7 +22973,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '4181eaca-0ad4-4500-be99-4b8fa3dbc188';
   $display->content['new-4181eaca-0ad4-4500-be99-4b8fa3dbc188'] = $pane;
   $display->panels['test_region'][0] = 'new-4181eaca-0ad4-4500-be99-4b8fa3dbc188';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__chi'] = $handler;
@@ -23057,7 +23003,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '40002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -23469,17 +23415,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-652f438d-754b-47b9-ad74-e697aec96f2d';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -23491,9 +23434,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '652f438d-754b-47b9-ad74-e697aec96f2d';
+  $display->content['new-652f438d-754b-47b9-ad74-e697aec96f2d'] = $pane;
+  $display->panels['region_right'][0] = 'new-652f438d-754b-47b9-ad74-e697aec96f2d';
   $pane = new stdClass();
   $pane->pid = 'new-39618fa9-6236-4e3c-b1aa-f9853e586e72';
   $pane->panel = 'region_right';
@@ -23540,7 +23483,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'c2990bdb-83c7-46d7-a884-2f2c82672ae3';
   $display->content['new-c2990bdb-83c7-46d7-a884-2f2c82672ae3'] = $pane;
   $display->panels['test_region'][0] = 'new-c2990bdb-83c7-46d7-a884-2f2c82672ae3';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__chs-collection'] = $handler;
@@ -23570,7 +23513,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '490002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -23982,17 +23925,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-bf417f6e-e6d8-4209-8735-1ef3b9722013';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -24004,9 +23944,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'bf417f6e-e6d8-4209-8735-1ef3b9722013';
+  $display->content['new-bf417f6e-e6d8-4209-8735-1ef3b9722013'] = $pane;
+  $display->panels['region_right'][0] = 'new-bf417f6e-e6d8-4209-8735-1ef3b9722013';
   $pane = new stdClass();
   $pane->pid = 'new-d58f681a-a5f7-4c1e-b112-6647001e7189';
   $pane->panel = 'region_right';
@@ -24053,7 +23993,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '7adbce51-a0b2-4bab-b1d2-084d379bf0ec';
   $display->content['new-7adbce51-a0b2-4bab-b1d2-084d379bf0ec'] = $pane;
   $display->panels['test_region'][0] = 'new-7adbce51-a0b2-4bab-b1d2-084d379bf0ec';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__connecticut-college-collection'] = $handler;
@@ -24525,18 +24465,15 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-a0ff6d6b-47e4-4345-92c2-318efc6c1c12'] = $pane;
   $display->panels['region_main_content'][1] = 'new-a0ff6d6b-47e4-4345-92c2-318efc6c1c12';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-d5a2e6a4-e182-49e4-9b67-4884444f2df1';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
     'override_title' => 1,
-    'override_title_text' => '<none>',
+    'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
   $pane->cache = array();
@@ -24547,9 +24484,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'd5a2e6a4-e182-49e4-9b67-4884444f2df1';
+  $display->content['new-d5a2e6a4-e182-49e4-9b67-4884444f2df1'] = $pane;
+  $display->panels['region_right'][0] = 'new-d5a2e6a4-e182-49e4-9b67-4884444f2df1';
   $pane = new stdClass();
   $pane->pid = 'new-89f177f9-a699-4f50-95fc-0330888615d4';
   $pane->panel = 'region_right';
@@ -24616,7 +24553,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'c894f489-ca4a-4178-93b6-10560cd2a7d4';
   $display->content['new-c894f489-ca4a-4178-93b6-10560cd2a7d4'] = $pane;
   $display->panels['test_region'][0] = 'new-c894f489-ca4a-4178-93b6-10560cd2a7d4';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__connecticut-digital-archive'] = $handler;
@@ -24646,7 +24583,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '370002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -25058,17 +24995,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-065adccd-b149-46fa-96db-cc757c48c09e';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -25080,9 +25014,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '065adccd-b149-46fa-96db-cc757c48c09e';
+  $display->content['new-065adccd-b149-46fa-96db-cc757c48c09e'] = $pane;
+  $display->panels['region_right'][0] = 'new-065adccd-b149-46fa-96db-cc757c48c09e';
   $pane = new stdClass();
   $pane->pid = 'new-9836e344-27df-4afb-831d-97ca3cfbf29a';
   $pane->panel = 'region_right';
@@ -25129,7 +25063,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '2fe74107-2da0-429b-a5e9-01e4ea49e69a';
   $display->content['new-2fe74107-2da0-429b-a5e9-01e4ea49e69a'] = $pane;
   $display->panels['test_region'][0] = 'new-2fe74107-2da0-429b-a5e9-01e4ea49e69a';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__connecticut-landmarks-collection'] = $handler;
@@ -25571,17 +25505,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-4af58bd1-ba4a-4408-93bf-e49ec085d11b';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -25593,9 +25524,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '4af58bd1-ba4a-4408-93bf-e49ec085d11b';
+  $display->content['new-4af58bd1-ba4a-4408-93bf-e49ec085d11b'] = $pane;
+  $display->panels['region_right'][0] = 'new-4af58bd1-ba4a-4408-93bf-e49ec085d11b';
   $pane = new stdClass();
   $pane->pid = 'new-24bf171b-e305-46e9-b664-c679f36007e3';
   $pane->panel = 'region_right';
@@ -25642,7 +25573,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'b5699808-142a-4c79-9661-a1c31871b52f';
   $display->content['new-b5699808-142a-4c79-9661-a1c31871b52f'] = $pane;
   $display->panels['test_region'][0] = 'new-b5699808-142a-4c79-9661-a1c31871b52f';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__connecticut-state-library'] = $handler;
@@ -25672,7 +25603,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '20006',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -26084,17 +26015,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-8b34c3b7-e143-425c-8294-8f99822857d9';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -26106,9 +26034,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '8b34c3b7-e143-425c-8294-8f99822857d9';
+  $display->content['new-8b34c3b7-e143-425c-8294-8f99822857d9'] = $pane;
+  $display->panels['region_right'][0] = 'new-8b34c3b7-e143-425c-8294-8f99822857d9';
   $pane = new stdClass();
   $pane->pid = 'new-c708a46f-0571-49fb-ab28-d1771a0119a9';
   $pane->panel = 'region_right';
@@ -26155,7 +26083,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '23f83dcd-7c5c-4434-a9c5-1357b42b1c53';
   $display->content['new-23f83dcd-7c5c-4434-a9c5-1357b42b1c53'] = $pane;
   $display->panels['test_region'][0] = 'new-23f83dcd-7c5c-4434-a9c5-1357b42b1c53';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__ct-state-museum-of-natural-history-collection'] = $handler;
@@ -26562,17 +26490,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-3b5230e9-6639-4af0-a89c-a934988d31ce';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -26584,9 +26509,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '3b5230e9-6639-4af0-a89c-a934988d31ce';
+  $display->content['new-3b5230e9-6639-4af0-a89c-a934988d31ce'] = $pane;
+  $display->panels['region_right'][0] = 'new-3b5230e9-6639-4af0-a89c-a934988d31ce';
   $pane = new stdClass();
   $pane->pid = 'new-78db92d8-f7ae-4602-90d1-91cc7163c38f';
   $pane->panel = 'region_right';
@@ -26633,7 +26558,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '5da76868-3441-4538-bb17-2cab1aa60cff';
   $display->content['new-5da76868-3441-4538-bb17-2cab1aa60cff'] = $pane;
   $display->panels['test_region'][0] = 'new-5da76868-3441-4538-bb17-2cab1aa60cff';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__default-institution-layout'] = $handler;
@@ -26663,7 +26588,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '430002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -27075,17 +27000,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-650bb2ea-1d31-4ad6-b6ec-773ce9fba07b';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -27097,9 +27019,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '650bb2ea-1d31-4ad6-b6ec-773ce9fba07b';
+  $display->content['new-650bb2ea-1d31-4ad6-b6ec-773ce9fba07b'] = $pane;
+  $display->panels['region_right'][0] = 'new-650bb2ea-1d31-4ad6-b6ec-773ce9fba07b';
   $pane = new stdClass();
   $pane->pid = 'new-1cd2632a-7519-4863-89bb-e2747f2be9b6';
   $pane->panel = 'region_right';
@@ -27146,7 +27068,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '7c61bc41-fdbd-4224-be04-d41df81dfcdb';
   $display->content['new-7c61bc41-fdbd-4224-be04-d41df81dfcdb'] = $pane;
   $display->panels['test_region'][0] = 'new-7c61bc41-fdbd-4224-be04-d41df81dfcdb';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__enfield-public-library-collection'] = $handler;
@@ -27176,7 +27098,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '80002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -27588,17 +27510,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-88288f5a-53e7-44e8-b40a-0f854db283b0';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -27610,9 +27529,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '88288f5a-53e7-44e8-b40a-0f854db283b0';
+  $display->content['new-88288f5a-53e7-44e8-b40a-0f854db283b0'] = $pane;
+  $display->panels['region_right'][0] = 'new-88288f5a-53e7-44e8-b40a-0f854db283b0';
   $pane = new stdClass();
   $pane->pid = 'new-79c1f8e1-22ab-4f51-8822-801e3f43485d';
   $pane->panel = 'region_right';
@@ -27659,7 +27578,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'b4254e2d-9487-4cd9-9f5a-c2f7b1087c16';
   $display->content['new-b4254e2d-9487-4cd9-9f5a-c2f7b1087c16'] = $pane;
   $display->panels['test_region'][0] = 'new-b4254e2d-9487-4cd9-9f5a-c2f7b1087c16';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__fairfield-museum-history-center'] = $handler;
@@ -27689,7 +27608,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '270002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -28101,17 +28020,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-d4362985-3a73-4ceb-9a85-3a06eb66e26a';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -28123,9 +28039,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'd4362985-3a73-4ceb-9a85-3a06eb66e26a';
+  $display->content['new-d4362985-3a73-4ceb-9a85-3a06eb66e26a'] = $pane;
+  $display->panels['region_right'][0] = 'new-d4362985-3a73-4ceb-9a85-3a06eb66e26a';
   $pane = new stdClass();
   $pane->pid = 'new-e9311244-6777-4fc6-aa6b-899a4565703b';
   $pane->panel = 'region_right';
@@ -28172,7 +28088,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '5b1761e5-118b-44b1-9476-3622b945cd73';
   $display->content['new-5b1761e5-118b-44b1-9476-3622b945cd73'] = $pane;
   $display->panels['test_region'][0] = 'new-5b1761e5-118b-44b1-9476-3622b945cd73';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__florence-griswold-museum-collection'] = $handler;
@@ -28202,7 +28118,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '180002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -28614,17 +28530,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-a928a612-3178-4fc4-95f1-35bcd925c3fb';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -28636,9 +28549,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'a928a612-3178-4fc4-95f1-35bcd925c3fb';
+  $display->content['new-a928a612-3178-4fc4-95f1-35bcd925c3fb'] = $pane;
+  $display->panels['region_right'][0] = 'new-a928a612-3178-4fc4-95f1-35bcd925c3fb';
   $pane = new stdClass();
   $pane->pid = 'new-faf1d5a0-de8d-4733-bca2-b5aaab3f993d';
   $pane->panel = 'region_right';
@@ -28685,7 +28598,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '549e4635-93f9-4a2e-96b6-d34d14deafba';
   $display->content['new-549e4635-93f9-4a2e-96b6-d34d14deafba'] = $pane;
   $display->panels['test_region'][0] = 'new-549e4635-93f9-4a2e-96b6-d34d14deafba';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__groton-public-library-collection'] = $handler;
@@ -28715,7 +28628,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '140019',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -29127,17 +29040,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-86a09872-6565-4d9b-936f-61b4d06dab8f';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -29149,9 +29059,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '86a09872-6565-4d9b-936f-61b4d06dab8f';
+  $display->content['new-86a09872-6565-4d9b-936f-61b4d06dab8f'] = $pane;
+  $display->panels['region_right'][0] = 'new-86a09872-6565-4d9b-936f-61b4d06dab8f';
   $pane = new stdClass();
   $pane->pid = 'new-8adbc578-7a21-4288-87c3-8ac5a135e522';
   $pane->panel = 'region_right';
@@ -29198,7 +29108,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '54fae31c-06b3-4589-9524-0d13626e5653';
   $display->content['new-54fae31c-06b3-4589-9524-0d13626e5653'] = $pane;
   $display->panels['test_region'][0] = 'new-54fae31c-06b3-4589-9524-0d13626e5653';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__hagaman-memorial-library-collection'] = $handler;
@@ -29499,7 +29409,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '310002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -29911,17 +29821,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-f5180336-aaf7-4aa8-a17b-f93fca199b47';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -29933,9 +29840,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'f5180336-aaf7-4aa8-a17b-f93fca199b47';
+  $display->content['new-f5180336-aaf7-4aa8-a17b-f93fca199b47'] = $pane;
+  $display->panels['region_right'][0] = 'new-f5180336-aaf7-4aa8-a17b-f93fca199b47';
   $pane = new stdClass();
   $pane->pid = 'new-a86e3c9c-67c3-47b4-a0a2-52c70147124e';
   $pane->panel = 'region_right';
@@ -29982,7 +29889,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '9520321b-e516-4bfb-91f9-243ce2b7c32a';
   $display->content['new-9520321b-e516-4bfb-91f9-243ce2b7c32a'] = $pane;
   $display->panels['test_region'][0] = 'new-9520321b-e516-4bfb-91f9-243ce2b7c32a';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__hartford-medical-society-collection'] = $handler;
@@ -30012,7 +29919,15 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '310002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
+          ),
+          'not' => FALSE,
+        ),
+        1 => array(
+          'name' => 'islandora_institution_namespace_value',
+          'settings' => array(
+            'namespace' => '5000',
+            'operation' => 'begins_with',
           ),
           'not' => FALSE,
         ),
@@ -30424,17 +30339,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-44fa25ee-3127-4432-94c5-2f95e73059d6';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -30446,9 +30358,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '44fa25ee-3127-4432-94c5-2f95e73059d6';
+  $display->content['new-44fa25ee-3127-4432-94c5-2f95e73059d6'] = $pane;
+  $display->panels['region_right'][0] = 'new-44fa25ee-3127-4432-94c5-2f95e73059d6';
   $pane = new stdClass();
   $pane->pid = 'new-7e3e0cfc-2f9d-41d4-8384-9aec44cc2e0e';
   $pane->panel = 'region_right';
@@ -30495,7 +30407,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '7162beaf-b374-4e9e-a56a-6c017172530f';
   $display->content['new-7162beaf-b374-4e9e-a56a-6c017172530f'] = $pane;
   $display->panels['test_region'][0] = 'new-7162beaf-b374-4e9e-a56a-6c017172530f';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__hartford-public-library-collection'] = $handler;
@@ -30525,7 +30437,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '220002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -30937,17 +30849,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-cc726af7-3b72-4e1e-b222-fb117452a942';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -30959,9 +30868,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'cc726af7-3b72-4e1e-b222-fb117452a942';
+  $display->content['new-cc726af7-3b72-4e1e-b222-fb117452a942'] = $pane;
+  $display->panels['region_right'][0] = 'new-cc726af7-3b72-4e1e-b222-fb117452a942';
   $pane = new stdClass();
   $pane->pid = 'new-22f81be6-e410-4d41-881a-ded0193c4c7f';
   $pane->panel = 'region_right';
@@ -31008,7 +30917,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'a83ef171-7e57-4ea2-856c-ce6317e1bbfa';
   $display->content['new-a83ef171-7e57-4ea2-856c-ce6317e1bbfa'] = $pane;
   $display->panels['test_region'][0] = 'new-a83ef171-7e57-4ea2-856c-ce6317e1bbfa';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__ivoryton-library-association-collection'] = $handler;
@@ -31038,7 +30947,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '140026',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -31450,17 +31359,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-2183ecaf-1144-4993-a3e1-096eaf0c888f';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -31472,9 +31378,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '2183ecaf-1144-4993-a3e1-096eaf0c888f';
+  $display->content['new-2183ecaf-1144-4993-a3e1-096eaf0c888f'] = $pane;
+  $display->panels['region_right'][0] = 'new-2183ecaf-1144-4993-a3e1-096eaf0c888f';
   $pane = new stdClass();
   $pane->pid = 'new-e9dfdd00-2608-4cd7-a8f7-b2928ef2b855';
   $pane->panel = 'region_right';
@@ -31521,7 +31427,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '875ca574-fcb6-48f2-b5f6-53ad1e88801f';
   $display->content['new-875ca574-fcb6-48f2-b5f6-53ad1e88801f'] = $pane;
   $display->panels['test_region'][0] = 'new-875ca574-fcb6-48f2-b5f6-53ad1e88801f';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__kent-memorial-library-collection'] = $handler;
@@ -31551,7 +31457,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '400002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -31963,36 +31869,10 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
-  $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array();
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
-  $pane = new stdClass();
-  $pane->pid = 'new-de55e6e9-506c-431b-8672-46a7a04fc649';
+  $pane->pid = 'new-fa086c98-bcfc-4d2c-80ff-a95d7f8df8bf';
   $pane->panel = 'region_right';
   $pane->type = 'block';
-  $pane->subtype = 'views-object_description-block_2';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
@@ -32006,11 +31886,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = 'de55e6e9-506c-431b-8672-46a7a04fc649';
-  $display->content['new-de55e6e9-506c-431b-8672-46a7a04fc649'] = $pane;
-  $display->panels['region_right'][1] = 'new-de55e6e9-506c-431b-8672-46a7a04fc649';
+  $pane->uuid = 'fa086c98-bcfc-4d2c-80ff-a95d7f8df8bf';
+  $display->content['new-fa086c98-bcfc-4d2c-80ff-a95d7f8df8bf'] = $pane;
+  $display->panels['region_right'][0] = 'new-fa086c98-bcfc-4d2c-80ff-a95d7f8df8bf';
   $pane = new stdClass();
   $pane->pid = 'new-069cc346-d077-4862-96d6-817278f7f17d';
   $pane->panel = 'region_right';
@@ -32029,11 +31909,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '069cc346-d077-4862-96d6-817278f7f17d';
   $display->content['new-069cc346-d077-4862-96d6-817278f7f17d'] = $pane;
-  $display->panels['region_right'][2] = 'new-069cc346-d077-4862-96d6-817278f7f17d';
+  $display->panels['region_right'][1] = 'new-069cc346-d077-4862-96d6-817278f7f17d';
   $pane = new stdClass();
   $pane->pid = 'new-e06acd1e-65ab-45d4-bae9-67a35393fafd';
   $pane->panel = 'test_region';
@@ -32057,7 +31937,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'e06acd1e-65ab-45d4-bae9-67a35393fafd';
   $display->content['new-e06acd1e-65ab-45d4-bae9-67a35393fafd'] = $pane;
   $display->panels['test_region'][0] = 'new-e06acd1e-65ab-45d4-bae9-67a35393fafd';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__litchfield-historical-society-collection'] = $handler;
@@ -32087,7 +31967,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '170002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -32499,17 +32379,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-ebba43a6-ca13-4793-b460-2272a937a2ff';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -32521,9 +32398,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'ebba43a6-ca13-4793-b460-2272a937a2ff';
+  $display->content['new-ebba43a6-ca13-4793-b460-2272a937a2ff'] = $pane;
+  $display->panels['region_right'][0] = 'new-ebba43a6-ca13-4793-b460-2272a937a2ff';
   $pane = new stdClass();
   $pane->pid = 'new-da2645e9-0038-402d-b094-8a0be3ad7ff5';
   $pane->panel = 'region_right';
@@ -32570,7 +32447,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'f31c9428-310b-4249-86b7-c140ff0bccd8';
   $display->content['new-f31c9428-310b-4249-86b7-c140ff0bccd8'] = $pane;
   $display->panels['test_region'][0] = 'new-f31c9428-310b-4249-86b7-c140ff0bccd8';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__lyman-allyn-art-museum-collection'] = $handler;
@@ -32600,7 +32477,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '260002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -33012,17 +32889,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-fc7024e5-6cea-4d5e-a6e1-0114eab20365';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -33034,9 +32908,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'fc7024e5-6cea-4d5e-a6e1-0114eab20365';
+  $display->content['new-fc7024e5-6cea-4d5e-a6e1-0114eab20365'] = $pane;
+  $display->panels['region_right'][0] = 'new-fc7024e5-6cea-4d5e-a6e1-0114eab20365';
   $pane = new stdClass();
   $pane->pid = 'new-383f8ea4-ac29-4d41-aff2-8aabe44ed382';
   $pane->panel = 'region_right';
@@ -33083,7 +32957,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'e1052532-dea9-47bb-a30c-b9d122a7d185';
   $display->content['new-e1052532-dea9-47bb-a30c-b9d122a7d185'] = $pane;
   $display->panels['test_region'][0] = 'new-e1052532-dea9-47bb-a30c-b9d122a7d185';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__mattatuck-museum-collection'] = $handler;
@@ -33113,7 +32987,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '200002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -33525,17 +33399,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-fc791092-3900-4dbe-82ba-77a52ccf80c3';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -33547,9 +33418,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'fc791092-3900-4dbe-82ba-77a52ccf80c3';
+  $display->content['new-fc791092-3900-4dbe-82ba-77a52ccf80c3'] = $pane;
+  $display->panels['region_right'][0] = 'new-fc791092-3900-4dbe-82ba-77a52ccf80c3';
   $pane = new stdClass();
   $pane->pid = 'new-e56a3f0a-afc9-4572-81df-dc1779b63cf1';
   $pane->panel = 'region_right';
@@ -33596,7 +33467,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'b0b2fcc7-2b87-43f1-8be9-f9cc3aedc799';
   $display->content['new-b0b2fcc7-2b87-43f1-8be9-f9cc3aedc799'] = $pane;
   $display->panels['test_region'][0] = 'new-b0b2fcc7-2b87-43f1-8be9-f9cc3aedc799';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__mystic-arts-center-collection'] = $handler;
@@ -33626,7 +33497,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '70002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -34038,17 +33909,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-465b4202-166b-4aeb-a511-a1712c93d501';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -34060,9 +33928,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '465b4202-166b-4aeb-a511-a1712c93d501';
+  $display->content['new-465b4202-166b-4aeb-a511-a1712c93d501'] = $pane;
+  $display->panels['region_right'][0] = 'new-465b4202-166b-4aeb-a511-a1712c93d501';
   $pane = new stdClass();
   $pane->pid = 'new-0ecd8d74-3295-4b94-8476-c3c9d7b422ff';
   $pane->panel = 'region_right';
@@ -34109,7 +33977,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'eeb3ef49-95e7-4048-99cd-b00eaa3f3401';
   $display->content['new-eeb3ef49-95e7-4048-99cd-b00eaa3f3401'] = $pane;
   $display->panels['test_region'][0] = 'new-eeb3ef49-95e7-4048-99cd-b00eaa3f3401';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__mystic-seaport-collections'] = $handler;
@@ -34139,7 +34007,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '210002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -34551,17 +34419,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-e9a9a1b7-3833-41c2-9f41-89e625627d10';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -34573,9 +34438,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'e9a9a1b7-3833-41c2-9f41-89e625627d10';
+  $display->content['new-e9a9a1b7-3833-41c2-9f41-89e625627d10'] = $pane;
+  $display->panels['region_right'][0] = 'new-e9a9a1b7-3833-41c2-9f41-89e625627d10';
   $pane = new stdClass();
   $pane->pid = 'new-ec3aefc0-0358-4e4a-b0a7-5f95c9a1e018';
   $pane->panel = 'region_right';
@@ -34622,7 +34487,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'bc9c04cc-bcee-4437-8a5c-877a8efccb2f';
   $display->content['new-bc9c04cc-bcee-4437-8a5c-877a8efccb2f'] = $pane;
   $display->panels['test_region'][0] = 'new-bc9c04cc-bcee-4437-8a5c-877a8efccb2f';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__new-britain-museum-of-american-art-collection'] = $handler;
@@ -34652,7 +34517,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '280002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -35064,17 +34929,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-5e315000-4588-48c8-b164-a2553617b779';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -35086,9 +34948,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '5e315000-4588-48c8-b164-a2553617b779';
+  $display->content['new-5e315000-4588-48c8-b164-a2553617b779'] = $pane;
+  $display->panels['region_right'][0] = 'new-5e315000-4588-48c8-b164-a2553617b779';
   $pane = new stdClass();
   $pane->pid = 'new-10966b8c-e8d8-4dff-9083-793470682492';
   $pane->panel = 'region_right';
@@ -35135,7 +34997,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'f182859a-7872-458b-8043-f4fd00a56d76';
   $display->content['new-f182859a-7872-458b-8043-f4fd00a56d76'] = $pane;
   $display->panels['test_region'][0] = 'new-f182859a-7872-458b-8043-f4fd00a56d76';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__new-haven-museum-collection'] = $handler;
@@ -35165,7 +35027,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '450002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -35577,17 +35439,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-60e76c17-efda-40f0-a399-43b09c98d331';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -35599,9 +35458,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '60e76c17-efda-40f0-a399-43b09c98d331';
+  $display->content['new-60e76c17-efda-40f0-a399-43b09c98d331'] = $pane;
+  $display->panels['region_right'][0] = 'new-60e76c17-efda-40f0-a399-43b09c98d331';
   $pane = new stdClass();
   $pane->pid = 'new-40dd6c9e-e882-4371-8bbd-0bafe6eb0add';
   $pane->panel = 'region_right';
@@ -35648,7 +35507,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '93c42e45-6c1b-4635-a38b-eb13be96047f';
   $display->content['new-93c42e45-6c1b-4635-a38b-eb13be96047f'] = $pane;
   $display->panels['test_region'][0] = 'new-93c42e45-6c1b-4635-a38b-eb13be96047f';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__norwalk-public-library-collection'] = $handler;
@@ -35724,6 +35583,15 @@ function platform_main_feature_default_page_manager_handlers() {
           'settings' => array(
             'visibility_setting' => '1',
             'paths' => 'islandora/object/60002:ptb_manuscripts',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        6 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_sculpture',
           ),
           'context' => 'empty',
           'not' => FALSE,
@@ -35907,7 +35775,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = 'P.T. Barnum Digital Collection';
+  $display->title = '';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__p-t-barnum-digital-collection';
@@ -36110,17 +35978,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-85c21834-1bc5-4718-b6c2-8d35be1e1927';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'h1',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -36132,9 +35997,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '85c21834-1bc5-4718-b6c2-8d35be1e1927';
+  $display->content['new-85c21834-1bc5-4718-b6c2-8d35be1e1927'] = $pane;
+  $display->panels['region_right'][0] = 'new-85c21834-1bc5-4718-b6c2-8d35be1e1927';
   $pane = new stdClass();
   $pane->pid = 'new-9775394a-881a-430d-8df0-cc659943c790';
   $pane->panel = 'region_right';
@@ -36518,7 +36383,7 @@ islandora/object/islandora:5',
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '240002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -36930,17 +36795,14 @@ islandora/object/islandora:5',
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-c1def081-7d8b-44c5-b5d0-474008fbd6ed';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -36952,9 +36814,9 @@ islandora/object/islandora:5',
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'c1def081-7d8b-44c5-b5d0-474008fbd6ed';
+  $display->content['new-c1def081-7d8b-44c5-b5d0-474008fbd6ed'] = $pane;
+  $display->panels['region_right'][0] = 'new-c1def081-7d8b-44c5-b5d0-474008fbd6ed';
   $pane = new stdClass();
   $pane->pid = 'new-f63b4644-1bc5-4d5a-8990-429f1dcea1c1';
   $pane->panel = 'region_right';
@@ -37001,7 +36863,7 @@ islandora/object/islandora:5',
   $pane->uuid = 'a25b1982-de51-41f9-9e0b-b6b9f4a825cc';
   $display->content['new-a25b1982-de51-41f9-9e0b-b6b9f4a825cc'] = $pane;
   $display->panels['test_region'][0] = 'new-a25b1982-de51-41f9-9e0b-b6b9f4a825cc';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__panel_context_fb06b8af-2f7b-4112-aa02-2f784e91f5c9'] = $handler;
@@ -37031,7 +36893,7 @@ islandora/object/islandora:5',
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '230002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -37443,17 +37305,14 @@ islandora/object/islandora:5',
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-b6f6dfd7-4a7a-40dc-884d-abfce6461c9f';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -37465,9 +37324,9 @@ islandora/object/islandora:5',
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'b6f6dfd7-4a7a-40dc-884d-abfce6461c9f';
+  $display->content['new-b6f6dfd7-4a7a-40dc-884d-abfce6461c9f'] = $pane;
+  $display->panels['region_right'][0] = 'new-b6f6dfd7-4a7a-40dc-884d-abfce6461c9f';
   $pane = new stdClass();
   $pane->pid = 'new-8ab64b44-1904-48fc-92c7-970aa27c2295';
   $pane->panel = 'region_right';
@@ -37514,7 +37373,7 @@ islandora/object/islandora:5',
   $pane->uuid = 'be7d0d62-6e21-4720-8324-299aad03c291';
   $display->content['new-be7d0d62-6e21-4720-8324-299aad03c291'] = $pane;
   $display->panels['test_region'][0] = 'new-be7d0d62-6e21-4720-8324-299aad03c291';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__slater-memorial-museum-collection'] = $handler;
@@ -37895,17 +37754,14 @@ islandora/object/islandora:5',
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-f0fd61b2-9015-4cf5-a45e-4a0200e29661';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -37917,9 +37773,9 @@ islandora/object/islandora:5',
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'f0fd61b2-9015-4cf5-a45e-4a0200e29661';
+  $display->content['new-f0fd61b2-9015-4cf5-a45e-4a0200e29661'] = $pane;
+  $display->panels['region_right'][0] = 'new-f0fd61b2-9015-4cf5-a45e-4a0200e29661';
   $pane = new stdClass();
   $pane->pid = 'new-9af4e406-18f7-47d6-bd09-68abb05e0b25';
   $pane->panel = 'region_right';
@@ -37973,7 +37829,7 @@ islandora/object/islandora:5',
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '20002,20003,20004',
-            'operation' => 'is_equal_to',
+            'operation' => 'begins_with',
           ),
           'not' => FALSE,
         ),
@@ -38385,17 +38241,14 @@ islandora/object/islandora:5',
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-53df26cd-a558-47dd-9f1a-096e1375d907';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -38407,9 +38260,9 @@ islandora/object/islandora:5',
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '53df26cd-a558-47dd-9f1a-096e1375d907';
+  $display->content['new-53df26cd-a558-47dd-9f1a-096e1375d907'] = $pane;
+  $display->panels['region_right'][0] = 'new-53df26cd-a558-47dd-9f1a-096e1375d907';
   $pane = new stdClass();
   $pane->pid = 'new-357bd138-441e-4e54-b079-be4f10239b0a';
   $pane->panel = 'region_right';
@@ -38456,7 +38309,7 @@ islandora/object/islandora:5',
   $pane->uuid = 'a2791a74-aa7a-44df-8b89-59e745493bb9';
   $display->content['new-a2791a74-aa7a-44df-8b89-59e745493bb9'] = $pane;
   $display->panels['test_region'][0] = 'new-a2791a74-aa7a-44df-8b89-59e745493bb9';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__university-of-connecticut'] = $handler;
@@ -38486,7 +38339,7 @@ islandora/object/islandora:5',
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '250002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -38898,17 +38751,14 @@ islandora/object/islandora:5',
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-a6dfb40a-de2b-48fd-93a6-b79eb1ce194e';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -38920,9 +38770,9 @@ islandora/object/islandora:5',
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'a6dfb40a-de2b-48fd-93a6-b79eb1ce194e';
+  $display->content['new-a6dfb40a-de2b-48fd-93a6-b79eb1ce194e'] = $pane;
+  $display->panels['region_right'][0] = 'new-a6dfb40a-de2b-48fd-93a6-b79eb1ce194e';
   $pane = new stdClass();
   $pane->pid = 'new-3fcab832-77ce-42b7-979e-e1cd185ca61d';
   $pane->panel = 'region_right';
@@ -38969,7 +38819,7 @@ islandora/object/islandora:5',
   $pane->uuid = 'f09d28c2-7693-408e-8d4d-015735db3bbf';
   $display->content['new-f09d28c2-7693-408e-8d4d-015735db3bbf'] = $pane;
   $display->panels['test_region'][0] = 'new-f09d28c2-7693-408e-8d4d-015735db3bbf';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__wadsworth-athenum-museum-of-art-collection'] = $handler;
@@ -38999,7 +38849,7 @@ islandora/object/islandora:5',
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '360002',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -39385,17 +39235,14 @@ islandora/object/islandora:5',
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-d6c0e218-e201-4dea-a083-8f70465c4049';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -39407,9 +39254,9 @@ islandora/object/islandora:5',
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = 'd6c0e218-e201-4dea-a083-8f70465c4049';
+  $display->content['new-d6c0e218-e201-4dea-a083-8f70465c4049'] = $pane;
+  $display->panels['region_right'][0] = 'new-d6c0e218-e201-4dea-a083-8f70465c4049';
   $pane = new stdClass();
   $pane->pid = 'new-ce1de8b2-9cc5-419e-ad0f-d102be44c703';
   $pane->panel = 'region_right';
@@ -39456,7 +39303,7 @@ islandora/object/islandora:5',
   $pane->uuid = '6d6cba93-8f14-4442-8e5f-34cc2ec2ae28';
   $display->content['new-6d6cba93-8f14-4442-8e5f-34cc2ec2ae28'] = $pane;
   $display->panels['test_region'][0] = 'new-6d6cba93-8f14-4442-8e5f-34cc2ec2ae28';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__windham-textile-history-museum-collection'] = $handler;
@@ -39486,7 +39333,7 @@ islandora/object/islandora:5',
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
             'namespace' => '140026',
-            'begins_with' => '1',
+            'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
         ),
@@ -39898,17 +39745,14 @@ islandora/object/islandora:5',
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->pid = 'new-410e59a4-857e-4f1e-a0fc-ce0cebfa0116';
   $pane->panel = 'region_right';
-  $pane->type = 'page_title';
-  $pane->subtype = 'page_title';
+  $pane->type = 'block';
+  $pane->subtype = 'views-mods_page_title-block';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'markup' => 'none',
-    'class' => '',
-    'id' => '',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -39920,9 +39764,9 @@ islandora/object/islandora:5',
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
-  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
-  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
+  $pane->uuid = '410e59a4-857e-4f1e-a0fc-ce0cebfa0116';
+  $display->content['new-410e59a4-857e-4f1e-a0fc-ce0cebfa0116'] = $pane;
+  $display->panels['region_right'][0] = 'new-410e59a4-857e-4f1e-a0fc-ce0cebfa0116';
   $pane = new stdClass();
   $pane->pid = 'new-443b23e6-e0f8-4e22-b231-a6c5d2dc5467';
   $pane->panel = 'region_right';
@@ -39969,7 +39813,7 @@ islandora/object/islandora:5',
   $pane->uuid = 'fd9aab9b-15b6-4721-abcc-faa33380823d';
   $display->content['new-fd9aab9b-15b6-4721-abcc-faa33380823d'] = $pane;
   $display->panels['test_region'][0] = 'new-fd9aab9b-15b6-4721-abcc-faa33380823d';
-  $display->hide_title = PANELS_TITLE_PANE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__woodbury-public-library-collection'] = $handler;

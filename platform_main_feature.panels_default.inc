@@ -304,8 +304,8 @@ function platform_main_feature_default_panels_mini() {
       1 => array(
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
-          'namespace' => '30002',
-          'operation' => 'is_equal_to',
+          'namespace' => '3000',
+          'operation' => 'begins_with',
         ),
         'not' => FALSE,
       ),
@@ -339,12 +339,13 @@ function platform_main_feature_default_panels_mini() {
       0 => array(
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
-          'namespace' => '20002,20003,20004',
-          'operation' => 'is_equal_to',
+          'namespace' => '2000',
+          'operation' => 'begins_with',
         ),
         'not' => FALSE,
       ),
     ),
+    'logic' => 'or',
   );
   $pane->configuration = array(
     'override_title' => 1,
@@ -519,11 +520,6 @@ function platform_main_feature_default_panels_mini() {
         ),
         'not' => FALSE,
       ),
-      2 => array(
-        'name' => 'front',
-        'settings' => NULL,
-        'not' => FALSE,
-      ),
       3 => array(
         'name' => 'islandora_institution_mod_field_value',
         'settings' => array(
@@ -532,7 +528,12 @@ function platform_main_feature_default_panels_mini() {
         ),
         'not' => FALSE,
       ),
-      4 => array(
+      9 => array(
+        'name' => 'front',
+        'settings' => NULL,
+        'not' => FALSE,
+      ),
+      10 => array(
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
           'namespace' => '2000,1400,3000,480002',
@@ -554,7 +555,7 @@ function platform_main_feature_default_panels_mini() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'connecticut-digital-archive',
+    'css_class' => 'connecticut-digital-archive about-hide',
   );
   $pane->extras = array();
   $pane->position = 7;
@@ -627,7 +628,7 @@ function platform_main_feature_default_panels_mini() {
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
           'namespace' => '480002',
-          'begins_with' => '1',
+          'operation' => 'is_equal_to',
         ),
         'not' => FALSE,
       ),
@@ -658,14 +659,6 @@ function platform_main_feature_default_panels_mini() {
   $pane->shown = TRUE;
   $pane->access = array(
     'plugins' => array(
-      0 => array(
-        'name' => 'islandora_institution_namespace_value',
-        'settings' => array(
-          'namespace' => '140002',
-          'begins_with' => '1',
-        ),
-        'not' => FALSE,
-      ),
       1 => array(
         'name' => 'path_visibility',
         'settings' => array(
@@ -678,32 +671,8 @@ function platform_main_feature_default_panels_mini() {
       2 => array(
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
-          'namespace' => '140006',
-          'begins_with' => '1',
-        ),
-        'not' => FALSE,
-      ),
-      3 => array(
-        'name' => 'islandora_institution_namespace_value',
-        'settings' => array(
-          'namespace' => '140019',
-          'begins_with' => '1',
-        ),
-        'not' => FALSE,
-      ),
-      4 => array(
-        'name' => 'islandora_institution_namespace_value',
-        'settings' => array(
-          'namespace' => '140026',
-          'begins_with' => '1',
-        ),
-        'not' => FALSE,
-      ),
-      5 => array(
-        'name' => 'islandora_institution_namespace_value',
-        'settings' => array(
-          'namespace' => '140065',
-          'begins_with' => '1',
+          'namespace' => '1400',
+          'operation' => 'begins_with',
         ),
         'not' => FALSE,
       ),
@@ -1207,7 +1176,16 @@ function platform_main_feature_default_panels_mini() {
         'settings' => NULL,
         'not' => FALSE,
       ),
-      5 => array(
+      6 => array(
+        'name' => 'path_visibility',
+        'settings' => array(
+          'visibility_setting' => '1',
+          'paths' => 'islandora/object/islandora:root',
+        ),
+        'context' => 'empty',
+        'not' => FALSE,
+      ),
+      7 => array(
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
           'namespace' => '2000,1400,3000,480002',
@@ -1227,7 +1205,10 @@ function platform_main_feature_default_panels_mini() {
   $pane->style = array(
     'settings' => NULL,
   );
-  $pane->css = array();
+  $pane->css = array(
+    'css_id' => '',
+    'css_class' => 'about-hide',
+  );
   $pane->extras = array();
   $pane->position = 5;
   $pane->locks = array();
@@ -1246,8 +1227,8 @@ function platform_main_feature_default_panels_mini() {
       0 => array(
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
-          'namespace' => '20002,20003,20004',
-          'operation' => 'is_equal_to',
+          'namespace' => '2000',
+          'operation' => 'begins_with',
         ),
         'not' => FALSE,
       ),
@@ -1290,7 +1271,7 @@ function platform_main_feature_default_panels_mini() {
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
           'namespace' => '480002',
-          'begins_with' => '1',
+          'operation' => 'is_equal_to',
         ),
         'not' => FALSE,
       ),
@@ -1330,14 +1311,6 @@ function platform_main_feature_default_panels_mini() {
   $pane->shown = TRUE;
   $pane->access = array(
     'plugins' => array(
-      0 => array(
-        'name' => 'islandora_institution_namespace_value',
-        'settings' => array(
-          'namespace' => '140002',
-          'begins_with' => '1',
-        ),
-        'not' => FALSE,
-      ),
       1 => array(
         'name' => 'path_visibility',
         'settings' => array(
@@ -1350,8 +1323,8 @@ function platform_main_feature_default_panels_mini() {
       2 => array(
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
-          'namespace' => '140006',
-          'begins_with' => '1',
+          'namespace' => '1400',
+          'operation' => 'begins_with',
         ),
         'not' => FALSE,
       ),
@@ -1394,8 +1367,8 @@ function platform_main_feature_default_panels_mini() {
       1 => array(
         'name' => 'islandora_institution_namespace_value',
         'settings' => array(
-          'namespace' => '30002',
-          'operation' => 'is_equal_to',
+          'namespace' => '3000',
+          'operation' => 'begins_with',
         ),
         'not' => FALSE,
       ),
