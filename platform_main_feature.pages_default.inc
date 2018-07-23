@@ -35596,6 +35596,123 @@ function platform_main_feature_default_page_manager_handlers() {
           'context' => 'empty',
           'not' => FALSE,
         ),
+        7 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_clothing',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        8 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_decorativearts',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        9 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_record',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        10 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_equipment',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        11 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_furniture',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        12 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_jewelry',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        13 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_newspapers',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        14 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_paintings',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        15 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_photographs',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        16 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_prints',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        17 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_programs',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        18 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_sheetmusic',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+        19 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'islandora/object/60002:ptb_souvenirs',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
       ),
       'logic' => 'or',
     ),
