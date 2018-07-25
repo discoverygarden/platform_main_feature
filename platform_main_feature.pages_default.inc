@@ -17,7 +17,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -24;
+  $handler->weight = -27;
   $handler->conf = array(
     'title' => 'About Archives & Special Collections',
     'no_blocks' => 0,
@@ -401,7 +401,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 18;
+  $handler->weight = 23;
   $handler->conf = array(
     'title' => 'About Page Template',
     'no_blocks' => 0,
@@ -660,7 +660,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -20;
+  $handler->weight = -23;
   $handler->conf = array(
     'title' => 'Avon Free Public Library About Page',
     'no_blocks' => 0,
@@ -1017,7 +1017,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -19;
+  $handler->weight = -22;
   $handler->conf = array(
     'title' => 'Barnum Museum About Page',
     'no_blocks' => 0,
@@ -1351,7 +1351,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -18;
+  $handler->weight = -21;
   $handler->conf = array(
     'title' => 'Bethel Public Library About Page',
     'no_blocks' => 0,
@@ -1639,7 +1639,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -1665,7 +1665,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -1708,7 +1708,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -17;
+  $handler->weight = -20;
   $handler->conf = array(
     'title' => 'Bibliomation About Page',
     'no_blocks' => 0,
@@ -2065,7 +2065,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -16;
+  $handler->weight = -19;
   $handler->conf = array(
     'title' => 'Bill Memorial Library About Page',
     'no_blocks' => 0,
@@ -2422,7 +2422,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -22;
+  $handler->weight = -25;
   $handler->conf = array(
     'title' => 'Bridgeport History Center About Page',
     'no_blocks' => 0,
@@ -2641,35 +2641,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
   $display->panels['center'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -2692,11 +2663,61 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $pane = new stdClass();
+  $pane->pid = 'new-ee10b443-b56b-48d5-9f08-a733bb07735e';
+  $pane->panel = 'header_region_top';
+  $pane->type = 'node_body';
+  $pane->subtype = 'node_body';
+  $pane->shown = TRUE;
+  $pane->access = array();
+  $pane->configuration = array(
+    'context' => 'argument_entity_id:node_1',
+    'override_title' => 0,
+    'override_title_text' => '',
+    'override_title_heading' => 'h2',
+  );
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 1;
+  $pane->locks = array();
+  $pane->uuid = 'ee10b443-b56b-48d5-9f08-a733bb07735e';
+  $display->content['new-ee10b443-b56b-48d5-9f08-a733bb07735e'] = $pane;
+  $display->panels['header_region_top'][1] = 'new-ee10b443-b56b-48d5-9f08-a733bb07735e';
+  $pane = new stdClass();
+  $pane->pid = 'new-f26f018c-6ca5-4cae-878a-5b6d7b7fa24c';
+  $pane->panel = 'header_title';
+  $pane->type = 'block';
+  $pane->subtype = 'menu-menu-bridgeport-history-center-c';
+  $pane->shown = TRUE;
+  $pane->access = array();
+  $pane->configuration = array(
+    'override_title' => 1,
+    'override_title_text' => '',
+    'override_title_heading' => 'h2',
+  );
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array(
+    'css_id' => '',
+    'css_class' => 'panel-social-media-menu',
+  );
+  $pane->extras = array();
+  $pane->position = 0;
+  $pane->locks = array();
+  $pane->uuid = 'f26f018c-6ca5-4cae-878a-5b6d7b7fa24c';
+  $display->content['new-f26f018c-6ca5-4cae-878a-5b6d7b7fa24c'] = $pane;
+  $display->panels['header_title'][0] = 'new-f26f018c-6ca5-4cae-878a-5b6d7b7fa24c';
   $pane = new stdClass();
   $pane->pid = 'new-e61e0f12-a952-4ece-8f10-7d99deeac45d';
   $pane->panel = 'node_description';
@@ -2788,13 +2809,13 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -15;
+  $handler->weight = -18;
   $handler->conf = array(
     'title' => 'Case Memorial Library About Page',
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => 'about-institutions',
+    'body_classes_to_add' => 'about-institutions casememorial',
     'css_id' => '',
     'css' => '',
     'contexts' => array(
@@ -3076,7 +3097,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -3102,7 +3123,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -3145,7 +3166,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 19;
+  $handler->weight = 22;
   $handler->conf = array(
     'title' => 'CHI About Page (Disabled)',
     'no_blocks' => 0,
@@ -3529,7 +3550,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -14;
+  $handler->weight = -17;
   $handler->conf = array(
     'title' => 'Connecticut College About Page',
     'no_blocks' => 0,
@@ -3693,7 +3714,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Connecticut College';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__connecticut-college-about-page';
@@ -3817,7 +3838,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -3843,7 +3864,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -3863,13 +3884,13 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -13;
+  $handler->weight = -16;
   $handler->conf = array(
     'title' => 'Connecticut Historical Society About Page',
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => 'about-institutions',
+    'body_classes_to_add' => 'about-institutions chs',
     'css_id' => '',
     'css' => '',
     'contexts' => array(
@@ -4027,7 +4048,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Connecticut Historical Society';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__connecticut-historical-society-about-page';
@@ -4151,7 +4172,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -4177,7 +4198,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -4220,13 +4241,13 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -12;
+  $handler->weight = -15;
   $handler->conf = array(
     'title' => 'Connecticut Landmarks About Page',
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => 'about-institutions',
+    'body_classes_to_add' => 'about-institutions ct-landmarks',
     'css_id' => '',
     'css' => '',
     'contexts' => array(
@@ -4246,7 +4267,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'path_visibility',
           'settings' => array(
             'visibility_setting' => '1',
-            'paths' => 'about-connecticut-landmarks',
+            'paths' => 'about-ct-landmarks',
           ),
           'context' => 'empty',
           'not' => FALSE,
@@ -4384,7 +4405,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Connecticut Landmarks';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__connecticut-landmarks-about-page';
@@ -4508,7 +4529,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -4534,7 +4555,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -4577,7 +4598,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 20;
+  $handler->weight = 24;
   $handler->conf = array(
     'title' => 'Connecticut State Library About Page',
     'no_blocks' => 0,
@@ -4961,7 +4982,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -11;
+  $handler->weight = -14;
   $handler->conf = array(
     'title' => 'Connecticut State Museum of Natural History About Page',
     'no_blocks' => 0,
@@ -5249,7 +5270,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -5275,7 +5296,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -5318,7 +5339,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 15;
+  $handler->weight = 16;
   $handler->conf = array(
     'title' => 'CSL About Page',
     'no_blocks' => 0,
@@ -5344,7 +5365,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'path_visibility',
           'settings' => array(
             'visibility_setting' => '1',
-            'paths' => 'about-csl',
+            'paths' => 'about-ct-state-library',
           ),
           'context' => 'empty',
           'not' => FALSE,
@@ -5482,7 +5503,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Connecticut State Library';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__csl-about-page';
@@ -5615,10 +5636,10 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-7870f86d-0c28-4013-a321-ab202267df59'] = $pane;
   $display->panels['header_title'][0] = 'new-7870f86d-0c28-4013-a321-ab202267df59';
   $pane = new stdClass();
-  $pane->pid = 'new-cfba35b9-1623-4ea9-8ecb-7a1d4e030577';
+  $pane->pid = 'new-4389b8b0-4fc6-4a5b-a4d5-c4facf551360';
   $pane->panel = 'header_title';
   $pane->type = 'block';
-  $pane->subtype = 'menu-menu-connecticut-state-museum-of';
+  $pane->subtype = 'menu-menu-connecticut-state-library-s';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
@@ -5637,9 +5658,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 1;
   $pane->locks = array();
-  $pane->uuid = 'cfba35b9-1623-4ea9-8ecb-7a1d4e030577';
-  $display->content['new-cfba35b9-1623-4ea9-8ecb-7a1d4e030577'] = $pane;
-  $display->panels['header_title'][1] = 'new-cfba35b9-1623-4ea9-8ecb-7a1d4e030577';
+  $pane->uuid = '4389b8b0-4fc6-4a5b-a4d5-c4facf551360';
+  $display->content['new-4389b8b0-4fc6-4a5b-a4d5-c4facf551360'] = $pane;
+  $display->panels['header_title'][1] = 'new-4389b8b0-4fc6-4a5b-a4d5-c4facf551360';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
@@ -5652,7 +5673,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 13;
+  $handler->weight = 12;
   $handler->conf = array(
     'title' => 'CTDA About Page',
     'no_blocks' => 0,
@@ -5963,7 +5984,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -21;
+  $handler->weight = -24;
   $handler->conf = array(
     'title' => 'Digital Collections About Page',
     'no_blocks' => 0,
@@ -6347,7 +6368,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -10;
+  $handler->weight = -13;
   $handler->conf = array(
     'title' => 'Enfield Public Library About Page',
     'no_blocks' => 0,
@@ -6511,7 +6532,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Enfield Public Library';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__enfield-public-library-about-page';
@@ -6635,7 +6656,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -6661,7 +6682,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -6704,7 +6725,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -9;
+  $handler->weight = -12;
   $handler->conf = array(
     'title' => 'Fairfield Museum & History Center About Page',
     'no_blocks' => 0,
@@ -6730,7 +6751,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'path_visibility',
           'settings' => array(
             'visibility_setting' => '1',
-            'paths' => 'about-the-fairfield-museum-and-history-center',
+            'paths' => 'about-fairfield-museum-and-history-center',
           ),
           'context' => 'empty',
           'not' => FALSE,
@@ -6868,7 +6889,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Fairfield Museum and History Center';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__fairfield-museum-history-center';
@@ -6992,7 +7013,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -7018,7 +7039,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -7061,7 +7082,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -8;
+  $handler->weight = -11;
   $handler->conf = array(
     'title' => 'Florence Griswold Museum About Page',
     'no_blocks' => 0,
@@ -7225,7 +7246,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Florence Griswold Museum';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__florence-griswold-museum-about-page';
@@ -7349,7 +7370,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -7375,7 +7396,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -7418,7 +7439,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -7;
+  $handler->weight = -10;
   $handler->conf = array(
     'title' => 'Groton Public Library About Page',
     'no_blocks' => 0,
@@ -7582,7 +7603,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Groton Public Library';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__groton-public-library-about-page';
@@ -7706,7 +7727,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -7732,7 +7753,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -7775,13 +7796,13 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -6;
+  $handler->weight = -9;
   $handler->conf = array(
     'title' => 'Hagaman Memorial Library About Page',
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => 'about-institutions',
+    'body_classes_to_add' => 'about-institutions biblio',
     'css_id' => '',
     'css' => '',
     'contexts' => array(
@@ -7939,7 +7960,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Hagaman Memorial Library';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__hagaman-memorial-library';
@@ -7994,35 +8015,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -8045,11 +8037,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -8069,11 +8061,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-8ee4b035-7c00-447e-9686-90541a6ac035';
   $pane->panel = 'header_title';
@@ -8092,7 +8084,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -8118,7 +8110,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -8161,7 +8153,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -5;
+  $handler->weight = -8;
   $handler->conf = array(
     'title' => 'Hartford Medical Society About Page',
     'no_blocks' => 0,
@@ -8325,7 +8317,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Hartford Medical Society';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__hartford-medical-society-about-page';
@@ -8380,35 +8372,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -8431,11 +8394,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -8455,11 +8418,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-0b00f673-0a72-49a6-b8a5-b22f7c0f266a';
   $pane->panel = 'header_title';
@@ -8478,7 +8441,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -8504,7 +8467,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -8547,7 +8510,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -4;
+  $handler->weight = -7;
   $handler->conf = array(
     'title' => 'Hartford Public Library About Page',
     'no_blocks' => 0,
@@ -8712,7 +8675,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Hartford Public Library';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__hartford-public-library-about-page';
@@ -8836,7 +8799,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -8862,7 +8825,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -8905,7 +8868,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -3;
+  $handler->weight = -6;
   $handler->conf = array(
     'title' => 'Ivoryton Library Association About Page',
     'no_blocks' => 0,
@@ -9069,7 +9032,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Ivoryton Library Association';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__ivoryton-library-association';
@@ -9124,35 +9087,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -9175,11 +9109,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -9199,11 +9133,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-e33f8a7b-7d16-49c4-9106-2853ae94a95d';
   $pane->panel = 'header_title';
@@ -9222,7 +9156,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -9248,7 +9182,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -9291,7 +9225,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -2;
+  $handler->weight = -5;
   $handler->conf = array(
     'title' => 'Kent Memorial Library About Page',
     'no_blocks' => 0,
@@ -9317,7 +9251,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'path_visibility',
           'settings' => array(
             'visibility_setting' => '1',
-            'paths' => 'about-kent-memorial-library',
+            'paths' => 'about-kent-memorial-library-suffield',
           ),
           'context' => 'empty',
           'not' => FALSE,
@@ -9455,7 +9389,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Kent Memorial Library Suffield';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__kent-memorial-library-about-page';
@@ -9648,13 +9582,13 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -1;
+  $handler->weight = -4;
   $handler->conf = array(
     'title' => 'Litchfield Historical Society About Page',
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => 'about-institutions',
+    'body_classes_to_add' => 'about-institutions biblio',
     'css_id' => '',
     'css' => '',
     'contexts' => array(
@@ -9812,7 +9746,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Litchfield Historical Society - Bibliomation Digital Collections';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__litchfield-historical-society-about-page';
@@ -9867,35 +9801,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -9918,11 +9823,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -9942,11 +9847,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-d93a5755-d6f3-4988-b5a5-d3eae0a5b788';
   $pane->panel = 'header_title';
@@ -9965,7 +9870,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -9991,7 +9896,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -10034,7 +9939,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 0;
+  $handler->weight = -3;
   $handler->conf = array(
     'title' => 'Lyman Allyn Art Museum About Page',
     'no_blocks' => 0,
@@ -10060,7 +9965,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'path_visibility',
           'settings' => array(
             'visibility_setting' => '1',
-            'paths' => 'about-lyman-allyn-art-muesum',
+            'paths' => 'about-lyman-allyn-art-museum',
           ),
           'context' => 'empty',
           'not' => FALSE,
@@ -10198,7 +10103,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Lyman Allyn Art Museum';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__lyman-allyn-art-museum-about-page';
@@ -10253,35 +10158,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -10304,11 +10180,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -10328,11 +10204,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-b7a2286b-c7de-422d-8538-aca5a93c098d';
   $pane->panel = 'header_title';
@@ -10351,7 +10227,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -10377,7 +10253,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -10420,7 +10296,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 1;
+  $handler->weight = -1;
   $handler->conf = array(
     'title' => 'Mattatuck Museum About Page',
     'no_blocks' => 0,
@@ -10584,7 +10460,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Mattatuck Museum';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__mattatuck-museum-about-page';
@@ -10639,35 +10515,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -10690,11 +10537,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -10714,11 +10561,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-f5c2e05f-f7f4-4094-b416-2182a33aaed0';
   $pane->panel = 'header_title';
@@ -10737,7 +10584,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -10763,7 +10610,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -10806,7 +10653,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 2;
+  $handler->weight = 0;
   $handler->conf = array(
     'title' => 'Mystic Arts Center About Page',
     'no_blocks' => 0,
@@ -11025,35 +10872,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -11076,11 +10894,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -11100,11 +10918,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-ea7fcaae-a4b4-4961-ae76-982353b610d7';
   $pane->panel = 'header_title';
@@ -11123,7 +10941,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -11149,7 +10967,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -11192,7 +11010,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 3;
+  $handler->weight = 1;
   $handler->conf = array(
     'title' => 'Mystic Seaport About Page',
     'no_blocks' => 0,
@@ -11411,35 +11229,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -11462,11 +11251,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -11486,11 +11275,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-68824b91-9ef8-4c6e-ae14-132e8f4e6396';
   $pane->panel = 'header_title';
@@ -11509,7 +11298,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -11535,7 +11324,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -11578,7 +11367,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 4;
+  $handler->weight = 2;
   $handler->conf = array(
     'title' => 'New Britain Museum of American Art About Page',
     'no_blocks' => 0,
@@ -11797,35 +11586,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -11848,11 +11608,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -11872,11 +11632,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-0abe6da7-a426-49c5-97a6-4250a318c42b';
   $pane->panel = 'header_title';
@@ -11895,7 +11655,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -11921,7 +11681,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -11964,7 +11724,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 5;
+  $handler->weight = 3;
   $handler->conf = array(
     'title' => 'New Haven Museum About Page',
     'no_blocks' => 0,
@@ -12128,7 +11888,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About New Haven Museum';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__new-haven-museum-about-page';
@@ -12183,35 +11943,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -12234,11 +11965,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -12258,11 +11989,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-8d67505a-9961-4eb0-a7b0-e814c1254da7';
   $pane->panel = 'header_title';
@@ -12281,7 +12012,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -12307,7 +12038,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -12350,7 +12081,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 6;
+  $handler->weight = 4;
   $handler->conf = array(
     'title' => 'Norwalk Public Library About Page',
     'no_blocks' => 0,
@@ -12514,7 +12245,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Norwalk Public Library';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__norwalk-public-library-about-page';
@@ -12569,35 +12300,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -12620,11 +12322,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -12644,11 +12346,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-d98b6f92-7d3e-4f9e-9da7-eba7f3d7a63e';
   $pane->panel = 'header_title';
@@ -12667,7 +12369,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -12693,7 +12395,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -12736,7 +12438,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 12;
+  $handler->weight = 10;
   $handler->conf = array(
     'title' => 'P.T. Barnum Digital Collection About Page',
     'no_blocks' => 0,
@@ -12900,7 +12602,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About the P.T. Barnum Digital Collection';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__p-t-barnum-digital-collection-about-page';
@@ -12955,35 +12657,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -13006,11 +12679,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -13030,11 +12703,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-e883fe94-0925-46a6-b97d-f73d9ee64ee3';
   $pane->panel = 'header_title';
@@ -13070,7 +12743,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 16;
+  $handler->weight = 17;
   $handler->conf = array(
     'title' => 'CHI About Page',
     'no_blocks' => 0,
@@ -13378,7 +13051,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 17;
+  $handler->weight = 21;
   $handler->conf = array(
     'title' => 'Basic Page',
     'no_blocks' => 0,
@@ -13541,7 +13214,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -23;
+  $handler->weight = -26;
   $handler->conf = array(
     'title' => 'Bellingtons Historical Society About Page',
     'no_blocks' => 0,
@@ -13925,7 +13598,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 7;
+  $handler->weight = 5;
   $handler->conf = array(
     'title' => 'Slater Memorial Museum About Page',
     'no_blocks' => 0,
@@ -14089,7 +13762,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Slater Memorial Museum';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__slater-memorial-museum-about-page';
@@ -14144,35 +13817,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -14195,11 +13839,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -14219,11 +13863,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-6fe49d83-3f67-4372-90de-7f1aaf516e96';
   $pane->panel = 'header_title';
@@ -14242,7 +13886,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -14268,7 +13912,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -14311,7 +13955,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 8;
+  $handler->weight = 6;
   $handler->conf = array(
     'title' => 'Stonington Historical Society',
     'no_blocks' => 0,
@@ -14475,7 +14119,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About the Stonington Historical Society';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__stonington-historical-society';
@@ -14530,35 +14174,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -14581,11 +14196,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -14605,11 +14220,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-4a78669c-83f1-4ef2-be66-426edacf9c15';
   $pane->panel = 'header_title';
@@ -14628,7 +14243,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -14654,7 +14269,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -15031,7 +14646,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 21;
+  $handler->weight = 25;
   $handler->conf = array(
     'title' => 'UCONN Institution About',
     'no_blocks' => 0,
@@ -15415,7 +15030,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 9;
+  $handler->weight = 7;
   $handler->conf = array(
     'title' => 'Wadsworth Atheneum Museum of Art',
     'no_blocks' => 0,
@@ -15579,7 +15194,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Wadsworth Atheneum Museum of Art';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__wadsworth-athenuem-museum-of-art';
@@ -15634,35 +15249,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -15685,11 +15271,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -15709,11 +15295,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-cf713121-3603-45ac-a81c-dff598d8120c';
   $pane->panel = 'header_title';
@@ -15732,7 +15318,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -15758,7 +15344,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -15801,7 +15387,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 10;
+  $handler->weight = 8;
   $handler->conf = array(
     'title' => 'Windham Textile & History Museum About Page',
     'no_blocks' => 0,
@@ -16020,35 +15606,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -16071,11 +15628,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -16095,11 +15652,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-8d81833b-d6b4-4087-af8c-248c03131bcf';
   $pane->panel = 'header_title';
@@ -16118,7 +15675,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -16161,7 +15718,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 11;
+  $handler->weight = 9;
   $handler->conf = array(
     'title' => 'Woodbury Public Library About Page',
     'no_blocks' => 0,
@@ -16325,7 +15882,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Woodbury Public Library - Bibliomation Digital Collections';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__woodbury-public-library-about-page';
@@ -16380,35 +15937,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-468aa436-1362-4ce2-8382-5d4aee5a6ad4'] = $pane;
   $display->panels['center'][0] = 'new-468aa436-1362-4ce2-8382-5d4aee5a6ad4';
   $pane = new stdClass();
-  $pane->pid = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane->panel = 'header_region_top';
-  $pane->type = 'custom';
-  $pane->subtype = 'custom';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'admin_title' => 'About Node label',
-    'title' => '<none>',
-    'title_heading' => 'h2',
-    'body' => 'About',
-    'format' => 'filtered_html',
-    'substitute' => 1,
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'about-label',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $display->content['new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7'] = $pane;
-  $display->panels['header_region_top'][0] = 'new-6078321c-4fb8-46c5-9bab-7b9eb236dfa7';
-  $pane = new stdClass();
   $pane->pid = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane->panel = 'header_region_top';
   $pane->type = 'node_title';
@@ -16431,11 +15959,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 1;
+  $pane->position = 0;
   $pane->locks = array();
   $pane->uuid = '5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $display->content['new-5e960bb5-3503-43ce-8be0-7d67cc4407fd'] = $pane;
-  $display->panels['header_region_top'][1] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
+  $display->panels['header_region_top'][0] = 'new-5e960bb5-3503-43ce-8be0-7d67cc4407fd';
   $pane = new stdClass();
   $pane->pid = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane->panel = 'header_region_top';
@@ -16455,11 +15983,11 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 2;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $display->content['new-7207f16c-0f9b-4f07-9331-f0ac20b315b0'] = $pane;
-  $display->panels['header_region_top'][2] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
+  $display->panels['header_region_top'][1] = 'new-7207f16c-0f9b-4f07-9331-f0ac20b315b0';
   $pane = new stdClass();
   $pane->pid = 'new-0dfa5ab7-63c8-40ea-9d85-3f442d5e4099';
   $pane->panel = 'header_title';
@@ -16478,7 +16006,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -16504,7 +16032,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -16547,7 +16075,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -22;
+  $handler->weight = -27;
   $handler->conf = array(
     'title' => 'American School for the Deaf',
     'no_blocks' => 0,
@@ -16748,7 +16276,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'American School for the Deaf Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__american-school-for-the-deaf';
@@ -16977,7 +16505,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-6ce1797d-f326-475c-a976-f9e0da419ed8';
+  $pane->pid = 'new-6585e874-a8c4-4e60-8bc2-6bfdb46c3ddd';
   $pane->panel = 'region_right';
   $pane->type = 'block';
   $pane->subtype = 'views-mods_page_title-block';
@@ -16996,9 +16524,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '6ce1797d-f326-475c-a976-f9e0da419ed8';
-  $display->content['new-6ce1797d-f326-475c-a976-f9e0da419ed8'] = $pane;
-  $display->panels['region_right'][0] = 'new-6ce1797d-f326-475c-a976-f9e0da419ed8';
+  $pane->uuid = '6585e874-a8c4-4e60-8bc2-6bfdb46c3ddd';
+  $display->content['new-6585e874-a8c4-4e60-8bc2-6bfdb46c3ddd'] = $pane;
+  $display->panels['region_right'][0] = 'new-6585e874-a8c4-4e60-8bc2-6bfdb46c3ddd';
   $pane = new stdClass();
   $pane->pid = 'new-e2e4d4e2-dce3-46b9-9444-3af068874adc';
   $pane->panel = 'region_right';
@@ -17057,7 +16585,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 17;
+  $handler->weight = 21;
   $handler->conf = array(
     'title' => 'Archives & Special Collections',
     'no_blocks' => 0,
@@ -17602,13 +17130,13 @@ function platform_main_feature_default_page_manager_handlers() {
   $export['pm_existing_pages_islandora_object__archives-special-collections'] = $handler;
 
   $handler = new stdClass();
-  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->disabled = TRUE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
   $handler->name = 'pm_existing_pages_islandora_object__avon-free-public-library-collection';
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -21;
+  $handler->weight = 27;
   $handler->conf = array(
     'title' => 'Avon Free Public Library Collection',
     'no_blocks' => 0,
@@ -17809,7 +17337,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Avon Free Public Library Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__avon-free-public-library-collection';
@@ -18038,14 +17566,17 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-989bc65c-0ffe-44ec-87fb-a2a1ebfec3ab';
+  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
   $pane->panel = 'region_right';
-  $pane->type = 'block';
-  $pane->subtype = 'views-mods_page_title-block';
+  $pane->type = 'page_title';
+  $pane->subtype = 'page_title';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'override_title' => 1,
+    'markup' => 'none',
+    'class' => '',
+    'id' => '',
+    'override_title' => 0,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -18057,9 +17588,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '989bc65c-0ffe-44ec-87fb-a2a1ebfec3ab';
-  $display->content['new-989bc65c-0ffe-44ec-87fb-a2a1ebfec3ab'] = $pane;
-  $display->panels['region_right'][0] = 'new-989bc65c-0ffe-44ec-87fb-a2a1ebfec3ab';
+  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
+  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
+  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
   $pane = new stdClass();
   $pane->pid = 'new-92be84f3-62ba-4be4-bb82-ce075650dd4f';
   $pane->panel = 'region_right';
@@ -18118,7 +17649,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -20;
+  $handler->weight = -26;
   $handler->conf = array(
     'title' => 'Barnum Museum Collection',
     'no_blocks' => 0,
@@ -18319,7 +17850,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Barnum Museum Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__barnum-museum-collection';
@@ -18622,13 +18153,13 @@ function platform_main_feature_default_page_manager_handlers() {
   $export['pm_existing_pages_islandora_object__barnum-museum-collection'] = $handler;
 
   $handler = new stdClass();
-  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->disabled = TRUE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
   $handler->name = 'pm_existing_pages_islandora_object__bellingtons-institute-collection';
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -18;
+  $handler->weight = 20;
   $handler->conf = array(
     'title' => 'Bellingtons Institute Collection',
     'no_blocks' => 0,
@@ -19193,7 +18724,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -17;
+  $handler->weight = -24;
   $handler->conf = array(
     'title' => 'Bethel Public Library Collection',
     'no_blocks' => 0,
@@ -19394,7 +18925,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Bethel Public Library Collection - Bibliomation Digital Collections';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__bethel-public-library-collection';
@@ -19703,7 +19234,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -19;
+  $handler->weight = -25;
   $handler->conf = array(
     'title' => 'Bibliomation Collection',
     'no_blocks' => 0,
@@ -19907,7 +19438,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Bibliomation Digital Collections';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__bibliomation-collection';
@@ -20216,7 +19747,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -16;
+  $handler->weight = -23;
   $handler->conf = array(
     'title' => 'Bill Memorial Library Collection',
     'no_blocks' => 0,
@@ -20417,7 +19948,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Bill Memorial Library Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__bill-memorial-library-collection';
@@ -20726,7 +20257,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -15;
+  $handler->weight = -22;
   $handler->conf = array(
     'title' => 'Bridgeport History Center Collection',
     'no_blocks' => 0,
@@ -20927,7 +20458,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Bridgeport History Center Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__bridgeport-history-center-collection';
@@ -21130,7 +20661,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-7adff704-6032-4b90-b671-33bc81eac9ad';
+  $pane->pid = 'new-c36e7483-c898-423e-9e62-4cac85e0f2c7';
   $pane->panel = 'region_right';
   $pane->type = 'block';
   $pane->subtype = 'views-mods_page_title-block';
@@ -21149,9 +20680,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '7adff704-6032-4b90-b671-33bc81eac9ad';
-  $display->content['new-7adff704-6032-4b90-b671-33bc81eac9ad'] = $pane;
-  $display->panels['region_right'][0] = 'new-7adff704-6032-4b90-b671-33bc81eac9ad';
+  $pane->uuid = 'c36e7483-c898-423e-9e62-4cac85e0f2c7';
+  $display->content['new-c36e7483-c898-423e-9e62-4cac85e0f2c7'] = $pane;
+  $display->panels['region_right'][0] = 'new-c36e7483-c898-423e-9e62-4cac85e0f2c7';
   $pane = new stdClass();
   $pane->pid = 'new-affcb42d-0398-44ca-a140-81aee9612d72';
   $pane->panel = 'region_right';
@@ -21210,7 +20741,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -12;
+  $handler->weight = -20;
   $handler->conf = array(
     'title' => 'CAHSL Collection',
     'no_blocks' => 0,
@@ -21411,7 +20942,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Connecticut Association of Health Science Librarians';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__cahsl-collection';
@@ -21640,7 +21171,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-05b20b16-b27f-49ad-aac8-85dc1e0bd9c0';
+  $pane->pid = 'new-6ef9ba7e-f6d6-419b-baaa-a1c15fa12083';
   $pane->panel = 'region_right';
   $pane->type = 'block';
   $pane->subtype = 'views-mods_page_title-block';
@@ -21659,9 +21190,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '05b20b16-b27f-49ad-aac8-85dc1e0bd9c0';
-  $display->content['new-05b20b16-b27f-49ad-aac8-85dc1e0bd9c0'] = $pane;
-  $display->panels['region_right'][0] = 'new-05b20b16-b27f-49ad-aac8-85dc1e0bd9c0';
+  $pane->uuid = '6ef9ba7e-f6d6-419b-baaa-a1c15fa12083';
+  $display->content['new-6ef9ba7e-f6d6-419b-baaa-a1c15fa12083'] = $pane;
+  $display->panels['region_right'][0] = 'new-6ef9ba7e-f6d6-419b-baaa-a1c15fa12083';
   $pane = new stdClass();
   $pane->pid = 'new-e6dad77a-df0f-4183-9a4c-e76d5aa1c69a';
   $pane->panel = 'region_right';
@@ -21720,7 +21251,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -14;
+  $handler->weight = 24;
   $handler->conf = array(
     'title' => 'CaliAuto Institute Collection',
     'no_blocks' => 0,
@@ -21991,13 +21522,13 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -13;
+  $handler->weight = -21;
   $handler->conf = array(
     'title' => 'Case Memorial Library Collection',
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => '',
+    'body_classes_to_add' => 'casememorial',
     'css_id' => '',
     'css' => '',
     'contexts' => array(),
@@ -22192,7 +21723,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Case Memorial Library Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__case-memorial-library-collection';
@@ -22501,7 +22032,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 20;
+  $handler->weight = 14;
   $handler->conf = array(
     'title' => 'CHI Collection',
     'no_blocks' => 0,
@@ -22985,13 +22516,13 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -10;
+  $handler->weight = -18;
   $handler->conf = array(
     'title' => 'Connecticut Historical Society Collection',
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => '',
+    'body_classes_to_add' => 'chs',
     'css_id' => '',
     'css' => '',
     'contexts' => array(),
@@ -23186,7 +22717,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Connecticut Historical Society Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__chs-collection';
@@ -23415,7 +22946,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-652f438d-754b-47b9-ad74-e697aec96f2d';
+  $pane->pid = 'new-57f35f9a-add2-4b3c-a302-e45981092894';
   $pane->panel = 'region_right';
   $pane->type = 'block';
   $pane->subtype = 'views-mods_page_title-block';
@@ -23434,9 +22965,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '652f438d-754b-47b9-ad74-e697aec96f2d';
-  $display->content['new-652f438d-754b-47b9-ad74-e697aec96f2d'] = $pane;
-  $display->panels['region_right'][0] = 'new-652f438d-754b-47b9-ad74-e697aec96f2d';
+  $pane->uuid = '57f35f9a-add2-4b3c-a302-e45981092894';
+  $display->content['new-57f35f9a-add2-4b3c-a302-e45981092894'] = $pane;
+  $display->panels['region_right'][0] = 'new-57f35f9a-add2-4b3c-a302-e45981092894';
   $pane = new stdClass();
   $pane->pid = 'new-39618fa9-6236-4e3c-b1aa-f9853e586e72';
   $pane->panel = 'region_right';
@@ -23495,7 +23026,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -11;
+  $handler->weight = -19;
   $handler->conf = array(
     'title' => 'Connecticut College Collection',
     'no_blocks' => 0,
@@ -23696,7 +23227,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Connecticut College Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__connecticut-college-collection';
@@ -24005,7 +23536,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 16;
+  $handler->weight = 19;
   $handler->conf = array(
     'title' => 'Connecticut Digital Archive',
     'no_blocks' => 0,
@@ -24565,7 +24096,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -9;
+  $handler->weight = -17;
   $handler->conf = array(
     'title' => 'Connecticut Landmarks Collection',
     'no_blocks' => 0,
@@ -24766,7 +24297,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Connecticut Landmarks Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__connecticut-landmarks-collection';
@@ -24995,7 +24526,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-065adccd-b149-46fa-96db-cc757c48c09e';
+  $pane->pid = 'new-63a9f7bd-54cc-402f-b282-bb6ce607290d';
   $pane->panel = 'region_right';
   $pane->type = 'block';
   $pane->subtype = 'views-mods_page_title-block';
@@ -25014,9 +24545,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '065adccd-b149-46fa-96db-cc757c48c09e';
-  $display->content['new-065adccd-b149-46fa-96db-cc757c48c09e'] = $pane;
-  $display->panels['region_right'][0] = 'new-065adccd-b149-46fa-96db-cc757c48c09e';
+  $pane->uuid = '63a9f7bd-54cc-402f-b282-bb6ce607290d';
+  $display->content['new-63a9f7bd-54cc-402f-b282-bb6ce607290d'] = $pane;
+  $display->panels['region_right'][0] = 'new-63a9f7bd-54cc-402f-b282-bb6ce607290d';
   $pane = new stdClass();
   $pane->pid = 'new-9836e344-27df-4afb-831d-97ca3cfbf29a';
   $pane->panel = 'region_right';
@@ -25075,7 +24606,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 18;
+  $handler->weight = -16;
   $handler->conf = array(
     'title' => 'Connecticut State Library Collection',
     'no_blocks' => 0,
@@ -25276,7 +24807,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Connecticut State Library Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__connecticut-state-library';
@@ -25505,10 +25036,10 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-4af58bd1-ba4a-4408-93bf-e49ec085d11b';
+  $pane->pid = 'new-827de960-dd0b-4bb0-8af9-0d0914d2fc33';
   $pane->panel = 'region_right';
   $pane->type = 'block';
-  $pane->subtype = 'views-mods_page_title-block';
+  $pane->subtype = 'views-object_description-block_2';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
@@ -25524,9 +25055,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '4af58bd1-ba4a-4408-93bf-e49ec085d11b';
-  $display->content['new-4af58bd1-ba4a-4408-93bf-e49ec085d11b'] = $pane;
-  $display->panels['region_right'][0] = 'new-4af58bd1-ba4a-4408-93bf-e49ec085d11b';
+  $pane->uuid = '827de960-dd0b-4bb0-8af9-0d0914d2fc33';
+  $display->content['new-827de960-dd0b-4bb0-8af9-0d0914d2fc33'] = $pane;
+  $display->panels['region_right'][0] = 'new-827de960-dd0b-4bb0-8af9-0d0914d2fc33';
   $pane = new stdClass();
   $pane->pid = 'new-24bf171b-e305-46e9-b664-c679f36007e3';
   $pane->panel = 'region_right';
@@ -25585,7 +25116,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -8;
+  $handler->weight = -15;
   $handler->conf = array(
     'title' => 'CT State Museum of Natural History Collection',
     'no_blocks' => 0,
@@ -26095,7 +25626,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 21;
+  $handler->weight = 18;
   $handler->conf = array(
     'title' => 'Default Institution Layout',
     'no_blocks' => 0,
@@ -26490,14 +26021,17 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-3b5230e9-6639-4af0-a89c-a934988d31ce';
+  $pane->pid = 'new-45588575-4602-4b39-a20e-37b7e9396324';
   $pane->panel = 'region_right';
-  $pane->type = 'block';
-  $pane->subtype = 'views-mods_page_title-block';
+  $pane->type = 'page_title';
+  $pane->subtype = 'page_title';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
-    'override_title' => 1,
+    'markup' => 'h2',
+    'class' => '',
+    'id' => '',
+    'override_title' => 0,
     'override_title_text' => '',
     'override_title_heading' => 'h2',
   );
@@ -26509,9 +26043,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '3b5230e9-6639-4af0-a89c-a934988d31ce';
-  $display->content['new-3b5230e9-6639-4af0-a89c-a934988d31ce'] = $pane;
-  $display->panels['region_right'][0] = 'new-3b5230e9-6639-4af0-a89c-a934988d31ce';
+  $pane->uuid = '45588575-4602-4b39-a20e-37b7e9396324';
+  $display->content['new-45588575-4602-4b39-a20e-37b7e9396324'] = $pane;
+  $display->panels['region_right'][0] = 'new-45588575-4602-4b39-a20e-37b7e9396324';
   $pane = new stdClass();
   $pane->pid = 'new-78db92d8-f7ae-4602-90d1-91cc7163c38f';
   $pane->panel = 'region_right';
@@ -26570,7 +26104,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -7;
+  $handler->weight = -14;
   $handler->conf = array(
     'title' => 'Enfield Public Library Collection',
     'no_blocks' => 0,
@@ -27080,7 +26614,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -6;
+  $handler->weight = -13;
   $handler->conf = array(
     'title' => 'Fairfield Museum & History Center',
     'no_blocks' => 0,
@@ -27590,7 +27124,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -5;
+  $handler->weight = -12;
   $handler->conf = array(
     'title' => 'Florence Griswold Museum Collection',
     'no_blocks' => 0,
@@ -28100,7 +27634,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -4;
+  $handler->weight = -11;
   $handler->conf = array(
     'title' => 'Groton Public Library Collection',
     'no_blocks' => 0,
@@ -28301,7 +27835,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Groton Public Library Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__groton-public-library-collection';
@@ -28610,14 +28144,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -3;
+  $handler->weight = -10;
   $handler->conf = array(
     'title' => 'Hagaman Memorial Library Collection',
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => '',
-    'css_id' => 'biblio',
+    'body_classes_to_add' => 'biblio',
+    'css_id' => '',
     'css' => '',
     'contexts' => array(),
     'relationships' => array(),
@@ -28811,7 +28345,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Hagaman Memorial Library Collection - Bibliomation Digital Collections';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__hagaman-memorial-library-collection';
@@ -29040,7 +28574,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-86a09872-6565-4d9b-936f-61b4d06dab8f';
+  $pane->pid = 'new-b44a27d8-3b8d-4553-83e8-9b77192b1ea1';
   $pane->panel = 'region_right';
   $pane->type = 'block';
   $pane->subtype = 'views-mods_page_title-block';
@@ -29059,9 +28593,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '86a09872-6565-4d9b-936f-61b4d06dab8f';
-  $display->content['new-86a09872-6565-4d9b-936f-61b4d06dab8f'] = $pane;
-  $display->panels['region_right'][0] = 'new-86a09872-6565-4d9b-936f-61b4d06dab8f';
+  $pane->uuid = 'b44a27d8-3b8d-4553-83e8-9b77192b1ea1';
+  $display->content['new-b44a27d8-3b8d-4553-83e8-9b77192b1ea1'] = $pane;
+  $display->panels['region_right'][0] = 'new-b44a27d8-3b8d-4553-83e8-9b77192b1ea1';
   $pane = new stdClass();
   $pane->pid = 'new-8adbc578-7a21-4288-87c3-8ac5a135e522';
   $pane->panel = 'region_right';
@@ -29120,7 +28654,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -2;
+  $handler->weight = 22;
   $handler->conf = array(
     'title' => 'Hangten Institute Collection',
     'no_blocks' => 0,
@@ -29391,7 +28925,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -1;
+  $handler->weight = -9;
   $handler->conf = array(
     'title' => 'Hartford Medical Society Collection',
     'no_blocks' => 0,
@@ -29901,7 +29435,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 0;
+  $handler->weight = -8;
   $handler->conf = array(
     'title' => 'Hartford Public Library Collection',
     'no_blocks' => 0,
@@ -30110,7 +29644,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Hartford Public Library Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__hartford-public-library-collection';
@@ -30419,7 +29953,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 1;
+  $handler->weight = -7;
   $handler->conf = array(
     'title' => 'Ivoryton Library Association Collection',
     'no_blocks' => 0,
@@ -30929,7 +30463,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 2;
+  $handler->weight = -4;
   $handler->conf = array(
     'title' => 'Kent Memorial Library Collection',
     'no_blocks' => 0,
@@ -31439,14 +30973,14 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 3;
+  $handler->weight = -3;
   $handler->conf = array(
     'title' => 'Litchfield Historical Society Collection',
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => '',
-    'css_id' => 'biblio',
+    'body_classes_to_add' => 'biblio',
+    'css_id' => '',
     'css' => '',
     'contexts' => array(),
     'relationships' => array(),
@@ -31640,7 +31174,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Litchfield Historical Society Collection - Bibliomation Digital Collections';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__litchfield-historical-society-collection';
@@ -31949,7 +31483,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 4;
+  $handler->weight = -2;
   $handler->conf = array(
     'title' => 'Lyman Allyn Art Museum Collection',
     'no_blocks' => 0,
@@ -32150,7 +31684,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Lyman Allyn Art Museum Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__lyman-allyn-art-museum-collection';
@@ -32459,7 +31993,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 5;
+  $handler->weight = -1;
   $handler->conf = array(
     'title' => 'Mattatuck Museum Collection',
     'no_blocks' => 0,
@@ -32660,7 +32194,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Mattatuck Museum Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__mattatuck-museum-collection';
@@ -32969,7 +32503,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 6;
+  $handler->weight = 0;
   $handler->conf = array(
     'title' => 'Mystic Arts Center Collection',
     'no_blocks' => 0,
@@ -33479,7 +33013,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 7;
+  $handler->weight = 1;
   $handler->conf = array(
     'title' => 'Mystic Seaport Collections',
     'no_blocks' => 0,
@@ -33680,7 +33214,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Mystic Seaport Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__mystic-seaport-collections';
@@ -33989,7 +33523,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 8;
+  $handler->weight = 2;
   $handler->conf = array(
     'title' => 'New Britain Museum of American Art Collection',
     'no_blocks' => 0,
@@ -34499,7 +34033,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 9;
+  $handler->weight = 3;
   $handler->conf = array(
     'title' => 'New Haven Museum Collection',
     'no_blocks' => 0,
@@ -34700,7 +34234,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'New Haven Museum Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__new-haven-museum-collection';
@@ -35009,7 +34543,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 10;
+  $handler->weight = 4;
   $handler->conf = array(
     'title' => 'Norwalk Public Library Collection',
     'no_blocks' => 0,
@@ -35210,7 +34744,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Norwalk Public Library Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__norwalk-public-library-collection';
@@ -35519,7 +35053,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -23;
+  $handler->weight = -28;
   $handler->conf = array(
     'title' => 'P.T. Barnum Digital Collection',
     'no_blocks' => 0,
@@ -35537,178 +35071,25 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'path_visibility',
           'settings' => array(
             'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:PTBarnumDigitalCollection',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        1 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_abarnumcompanion',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        2 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:_advertisements',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        3 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_architecture',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        4 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_books',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        5 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_manuscripts',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        6 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_sculpture',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        7 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_clothing',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        8 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_decorativearts',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        9 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_record',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        10 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_equipment',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        11 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_furniture',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        12 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_jewelry',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        13 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_newspapers',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        14 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_paintings',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        15 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_photographs',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        16 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_prints',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        17 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_programs',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        18 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_sheetmusic',
-          ),
-          'context' => 'empty',
-          'not' => FALSE,
-        ),
-        19 => array(
-          'name' => 'path_visibility',
-          'settings' => array(
-            'visibility_setting' => '1',
-            'paths' => 'islandora/object/60002:ptb_souvenirs',
+            'paths' => 'islandora/object/60002:ptb_manuscripts
+islandora/object/60002:ptb_books
+islandora/object/60002:ptb_architecture
+islandora/object/60002:_advertisements
+islandora/object/60002:ptb_abarnumcompanion
+islandora/object/60002:PTBarnumDigitalCollection
+islandora/object/60002:ptb_clothing
+islandora/object/60002:ptb_decorativearts
+islandora/object/60002:ptb_records
+islandora/object/60002:ptb_equipment
+islandora/object/60002:ptb_furniture
+islandora/object/60002:ptb_jewelry
+islandora/object/60002:ptb_newspapers
+islandora/object/60002:ptb_paintings
+islandora/object/60002:ptb_photographs
+islandora/object/60002:ptb_prints
+islandora/object/60002:ptb_programs
+islandora/object/60002:ptb_sheetmusic
+islandora/object/60002:ptb_souvenirs',
           ),
           'context' => 'empty',
           'not' => FALSE,
@@ -35892,7 +35273,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'P.T. Barnum Digital Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__p-t-barnum-digital-collection';
@@ -36095,7 +35476,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
   $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
   $pane = new stdClass();
-  $pane->pid = 'new-85c21834-1bc5-4718-b6c2-8d35be1e1927';
+  $pane->pid = 'new-c76e418b-23b5-4415-96a6-25eb8b8d79ef';
   $pane->panel = 'region_right';
   $pane->type = 'block';
   $pane->subtype = 'views-mods_page_title-block';
@@ -36114,11 +35495,11 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '85c21834-1bc5-4718-b6c2-8d35be1e1927';
-  $display->content['new-85c21834-1bc5-4718-b6c2-8d35be1e1927'] = $pane;
-  $display->panels['region_right'][0] = 'new-85c21834-1bc5-4718-b6c2-8d35be1e1927';
+  $pane->uuid = 'c76e418b-23b5-4415-96a6-25eb8b8d79ef';
+  $display->content['new-c76e418b-23b5-4415-96a6-25eb8b8d79ef'] = $pane;
+  $display->panels['region_right'][0] = 'new-c76e418b-23b5-4415-96a6-25eb8b8d79ef';
   $pane = new stdClass();
-  $pane->pid = 'new-9775394a-881a-430d-8df0-cc659943c790';
+  $pane->pid = 'new-e2cb3703-3f09-480b-bf14-897e09b1ac7f';
   $pane->panel = 'region_right';
   $pane->type = 'block';
   $pane->subtype = 'uconndora-uconndora_metadata_description';
@@ -36137,9 +35518,9 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->extras = array();
   $pane->position = 1;
   $pane->locks = array();
-  $pane->uuid = '9775394a-881a-430d-8df0-cc659943c790';
-  $display->content['new-9775394a-881a-430d-8df0-cc659943c790'] = $pane;
-  $display->panels['region_right'][1] = 'new-9775394a-881a-430d-8df0-cc659943c790';
+  $pane->uuid = 'e2cb3703-3f09-480b-bf14-897e09b1ac7f';
+  $display->content['new-e2cb3703-3f09-480b-bf14-897e09b1ac7f'] = $pane;
+  $display->panels['region_right'][1] = 'new-e2cb3703-3f09-480b-bf14-897e09b1ac7f';
   $pane = new stdClass();
   $pane->pid = 'new-39d6f81d-c8cd-43c4-b37f-4162e56007aa';
   $pane->panel = 'test_region';
@@ -36175,7 +35556,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -24;
+  $handler->weight = -29;
   $handler->conf = array(
     'title' => 'All Institute Collection',
     'no_blocks' => 0,
@@ -36482,7 +35863,7 @@ islandora/object/islandora:5',
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 12;
+  $handler->weight = 6;
   $handler->conf = array(
     'title' => 'The Stonington Historical Society Collection',
     'no_blocks' => 0,
@@ -36992,7 +36373,7 @@ islandora/object/islandora:5',
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 11;
+  $handler->weight = 5;
   $handler->conf = array(
     'title' => 'Slater Memorial Museum Collection',
     'no_blocks' => 0,
@@ -37496,13 +36877,13 @@ islandora/object/islandora:5',
   $export['pm_existing_pages_islandora_object__slater-memorial-museum-collection'] = $handler;
 
   $handler = new stdClass();
-  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->disabled = TRUE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
   $handler->name = 'pm_existing_pages_islandora_object__uconn-collection';
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 22;
+  $handler->weight = 23;
   $handler->conf = array(
     'title' => 'UConn Collection',
     'no_blocks' => 0,
@@ -37928,7 +37309,7 @@ islandora/object/islandora:5',
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 19;
+  $handler->weight = 11;
   $handler->conf = array(
     'title' => 'University of Connecticut Collection',
     'no_blocks' => 0,
@@ -38438,7 +37819,7 @@ islandora/object/islandora:5',
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 13;
+  $handler->weight = 7;
   $handler->conf = array(
     'title' => 'Wadsworth Athenum Museum of Art Collection',
     'no_blocks' => 0,
@@ -38639,7 +38020,7 @@ islandora/object/islandora:5',
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Wadsworth Athenum Museum of Art Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__wadsworth-athenum-museum-of-art-collection';
@@ -38948,7 +38329,7 @@ islandora/object/islandora:5',
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 14;
+  $handler->weight = 26;
   $handler->conf = array(
     'title' => 'Windham Textile & History Museum Collection',
     'no_blocks' => 0,
@@ -39149,210 +38530,14 @@ islandora/object/islandora:5',
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Windham Textile & History Museum Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__windham-textile-history-museum-collection';
   $display->content = array();
   $display->panels = array();
   $pane = new stdClass();
-  $pane->pid = 'new-8d0e580e-7f82-423a-952f-5ab1bac68b77';
-  $pane->panel = 'contextual_content';
-  $pane->type = 'block';
-  $pane->subtype = 'islandora_solr-islandora_solr_display_manager';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array();
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '8d0e580e-7f82-423a-952f-5ab1bac68b77';
-  $display->content['new-8d0e580e-7f82-423a-952f-5ab1bac68b77'] = $pane;
-  $display->panels['contextual_content'][0] = 'new-8d0e580e-7f82-423a-952f-5ab1bac68b77';
-  $pane = new stdClass();
-  $pane->pid = 'new-94a371ba-a746-4583-8c4a-8778045df78e';
-  $pane->panel = 'contextual_content';
-  $pane->type = 'page_tabs';
-  $pane->subtype = 'page_tabs';
-  $pane->shown = TRUE;
-  $pane->access = array(
-    'plugins' => array(),
-  );
-  $pane->configuration = array(
-    'type' => 'both',
-    'id' => 'tabs',
-    'override_title' => 0,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array();
-  $pane->extras = array();
-  $pane->position = 1;
-  $pane->locks = array();
-  $pane->uuid = '94a371ba-a746-4583-8c4a-8778045df78e';
-  $display->content['new-94a371ba-a746-4583-8c4a-8778045df78e'] = $pane;
-  $display->panels['contextual_content'][1] = 'new-94a371ba-a746-4583-8c4a-8778045df78e';
-  $pane = new stdClass();
-  $pane->pid = 'new-2e7c7180-2993-45de-b033-8e027cb249d5';
-  $pane->panel = 'contextual_content';
-  $pane->type = 'block';
-  $pane->subtype = 'uconndora-uconndora_metadata_markup';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array();
-  $pane->extras = array();
-  $pane->position = 2;
-  $pane->locks = array();
-  $pane->uuid = '2e7c7180-2993-45de-b033-8e027cb249d5';
-  $display->content['new-2e7c7180-2993-45de-b033-8e027cb249d5'] = $pane;
-  $display->panels['contextual_content'][2] = 'new-2e7c7180-2993-45de-b033-8e027cb249d5';
-  $pane = new stdClass();
-  $pane->pid = 'new-7c827cc4-d308-4fd2-bf41-d7188dba6921';
-  $pane->panel = 'first_sidebar_left';
-  $pane->type = 'block';
-  $pane->subtype = 'islandora_solr-basic_facets';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array();
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '7c827cc4-d308-4fd2-bf41-d7188dba6921';
-  $display->content['new-7c827cc4-d308-4fd2-bf41-d7188dba6921'] = $pane;
-  $display->panels['first_sidebar_left'][0] = 'new-7c827cc4-d308-4fd2-bf41-d7188dba6921';
-  $pane = new stdClass();
-  $pane->pid = 'new-6d982f04-b9ac-44b5-8f5a-955ad9adc082';
-  $pane->panel = 'page_views';
-  $pane->type = 'block';
-  $pane->subtype = 'uconndora-current_collection_view_count';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'pane-collection-view-count',
-  );
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '6d982f04-b9ac-44b5-8f5a-955ad9adc082';
-  $display->content['new-6d982f04-b9ac-44b5-8f5a-955ad9adc082'] = $pane;
-  $display->panels['page_views'][0] = 'new-6d982f04-b9ac-44b5-8f5a-955ad9adc082';
-  $pane = new stdClass();
-  $pane->pid = 'new-a4b4ab8e-5277-4597-959e-27768142352a';
-  $pane->panel = 'page_views';
-  $pane->type = 'block';
-  $pane->subtype = 'islandora_datastream_download-islandora_datastream_download_ds';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array();
-  $pane->extras = array();
-  $pane->position = 1;
-  $pane->locks = array();
-  $pane->uuid = 'a4b4ab8e-5277-4597-959e-27768142352a';
-  $display->content['new-a4b4ab8e-5277-4597-959e-27768142352a'] = $pane;
-  $display->panels['page_views'][1] = 'new-a4b4ab8e-5277-4597-959e-27768142352a';
-  $pane = new stdClass();
-  $pane->pid = 'new-17707632-f82c-4aae-b18a-2d4f8e06dd2a';
-  $pane->panel = 'page_views';
-  $pane->type = 'block';
-  $pane->subtype = 'menu-menu-windham-textile-history-con';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array(
-    'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
-  );
-  $pane->extras = array();
-  $pane->position = 2;
-  $pane->locks = array();
-  $pane->uuid = '17707632-f82c-4aae-b18a-2d4f8e06dd2a';
-  $display->content['new-17707632-f82c-4aae-b18a-2d4f8e06dd2a'] = $pane;
-  $display->panels['page_views'][2] = 'new-17707632-f82c-4aae-b18a-2d4f8e06dd2a';
-  $pane = new stdClass();
-  $pane->pid = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
-  $pane->panel = 'region_main_content';
-  $pane->type = 'pm_existing_pages';
-  $pane->subtype = 'pm_existing_pages';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    0 => 'task_id',
-    'task_id' => 'islandora_object',
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
-  $pane->css = array();
-  $pane->extras = array();
-  $pane->position = 0;
-  $pane->locks = array();
-  $pane->uuid = '4eb1f4a3-c106-49e3-8441-6871e934cdc9';
-  $display->content['new-4eb1f4a3-c106-49e3-8441-6871e934cdc9'] = $pane;
-  $display->panels['region_main_content'][0] = 'new-4eb1f4a3-c106-49e3-8441-6871e934cdc9';
-  $pane = new stdClass();
-  $pane->pid = 'new-d6c0e218-e201-4dea-a083-8f70465c4049';
+  $pane->pid = 'new-b175e43b-a67b-4e8f-86df-b88df7f875f4';
   $pane->panel = 'region_right';
   $pane->type = 'block';
   $pane->subtype = 'views-mods_page_title-block';
@@ -39364,18 +38549,16 @@ islandora/object/islandora:5',
     'override_title_heading' => 'h2',
   );
   $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
+  $pane->style = array();
   $pane->css = array();
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = 'd6c0e218-e201-4dea-a083-8f70465c4049';
-  $display->content['new-d6c0e218-e201-4dea-a083-8f70465c4049'] = $pane;
-  $display->panels['region_right'][0] = 'new-d6c0e218-e201-4dea-a083-8f70465c4049';
+  $pane->uuid = 'b175e43b-a67b-4e8f-86df-b88df7f875f4';
+  $display->content['new-b175e43b-a67b-4e8f-86df-b88df7f875f4'] = $pane;
+  $display->panels['region_right'][0] = 'new-b175e43b-a67b-4e8f-86df-b88df7f875f4';
   $pane = new stdClass();
-  $pane->pid = 'new-ce1de8b2-9cc5-419e-ad0f-d102be44c703';
+  $pane->pid = 'new-f7033f76-6ba3-483d-8ee9-15791be4e8be';
   $pane->panel = 'region_right';
   $pane->type = 'block';
   $pane->subtype = 'uconndora-uconndora_metadata_description';
@@ -39387,18 +38570,16 @@ islandora/object/islandora:5',
     'override_title_heading' => 'h2',
   );
   $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
+  $pane->style = array();
   $pane->css = array();
   $pane->extras = array();
   $pane->position = 1;
   $pane->locks = array();
-  $pane->uuid = 'ce1de8b2-9cc5-419e-ad0f-d102be44c703';
-  $display->content['new-ce1de8b2-9cc5-419e-ad0f-d102be44c703'] = $pane;
-  $display->panels['region_right'][1] = 'new-ce1de8b2-9cc5-419e-ad0f-d102be44c703';
+  $pane->uuid = 'f7033f76-6ba3-483d-8ee9-15791be4e8be';
+  $display->content['new-f7033f76-6ba3-483d-8ee9-15791be4e8be'] = $pane;
+  $display->panels['region_right'][1] = 'new-f7033f76-6ba3-483d-8ee9-15791be4e8be';
   $pane = new stdClass();
-  $pane->pid = 'new-6d6cba93-8f14-4442-8e5f-34cc2ec2ae28';
+  $pane->pid = 'new-42d6b383-5320-483c-9243-f669e678f34b';
   $pane->panel = 'test_region';
   $pane->type = 'block';
   $pane->subtype = 'views-4fe184b50f03f9ff1dee4ee83f30103a';
@@ -39410,16 +38591,14 @@ islandora/object/islandora:5',
     'override_title_heading' => 'h2',
   );
   $pane->cache = array();
-  $pane->style = array(
-    'settings' => NULL,
-  );
+  $pane->style = array();
   $pane->css = array();
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '6d6cba93-8f14-4442-8e5f-34cc2ec2ae28';
-  $display->content['new-6d6cba93-8f14-4442-8e5f-34cc2ec2ae28'] = $pane;
-  $display->panels['test_region'][0] = 'new-6d6cba93-8f14-4442-8e5f-34cc2ec2ae28';
+  $pane->uuid = '42d6b383-5320-483c-9243-f669e678f34b';
+  $display->content['new-42d6b383-5320-483c-9243-f669e678f34b'] = $pane;
+  $display->panels['test_region'][0] = 'new-42d6b383-5320-483c-9243-f669e678f34b';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
@@ -39432,14 +38611,14 @@ islandora/object/islandora:5',
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 15;
+  $handler->weight = 12;
   $handler->conf = array(
     'title' => 'Woodbury Public Library Collection',
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => '',
-    'css_id' => 'biblio',
+    'body_classes_to_add' => 'biblio',
+    'css_id' => '',
     'css' => '',
     'contexts' => array(),
     'relationships' => array(),
@@ -39449,7 +38628,7 @@ islandora/object/islandora:5',
         0 => array(
           'name' => 'islandora_institution_namespace_value',
           'settings' => array(
-            'namespace' => '140026',
+            'namespace' => '140065',
             'operation' => 'is_equal_to',
           ),
           'not' => FALSE,
@@ -39942,7 +39121,7 @@ islandora/object/islandora:5',
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_search_results_page';
   $handler->handler = 'panel_context';
-  $handler->weight = 0;
+  $handler->weight = -1;
   $handler->conf = array(
     'title' => 'Search Results All Pages',
     'no_blocks' => 0,

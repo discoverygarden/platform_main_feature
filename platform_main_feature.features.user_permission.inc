@@ -15,7 +15,6 @@ function platform_main_feature_user_default_permissions() {
     'name' => 'access google analytics reports',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'google_analytics_reports',
@@ -26,7 +25,6 @@ function platform_main_feature_user_default_permissions() {
     'name' => 'export islandora bookmarks',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'islandora_bookmark',
@@ -37,7 +35,6 @@ function platform_main_feature_user_default_permissions() {
     'name' => 'search islandora solr',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'islandora_solr',
@@ -48,7 +45,6 @@ function platform_main_feature_user_default_permissions() {
     'name' => 'use islandora_bookmark',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'islandora_bookmark',
@@ -59,8 +55,6 @@ function platform_main_feature_user_default_permissions() {
     'name' => 'view accordion_rotator',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'accordion_rotator',
   );
@@ -70,7 +64,6 @@ function platform_main_feature_user_default_permissions() {
     'name' => 'view fedora repository objects',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'islandora',

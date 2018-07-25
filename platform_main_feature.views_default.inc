@@ -2727,6 +2727,152 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['value'] = '537dbe8b-b463-4b78-93f2-eadc4c6b28c1';
   $handler->display->display_options['block_description'] = 'CHI Logo';
+
+  /* Display: CTDA Mantra */
+  $handler = $view->new_display('block', 'CTDA Mantra', 'block_44');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'CTDA Mantra';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Image */
+  $handler->display->display_options['fields']['field_image_block']['id'] = 'field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['table'] = 'field_data_field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['field'] = 'field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['label'] = '';
+  $handler->display->display_options['fields']['field_image_block']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_image_block']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_image_block']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = 'c3e8cc8e-2550-456c-a0fd-2dbad01e6fc8';
+  $handler->display->display_options['block_description'] = 'CTDA Mantra';
+
+  /* Display: Derby Public Library Logo */
+  $handler = $view->new_display('block', 'Derby Public Library Logo', 'block_45');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Derby Public Library Logo';
+  $handler->display->display_options['display_description'] = 'Derby Public Library Logo';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Institution Logo */
+  $handler->display->display_options['fields']['field_institution_logo']['id'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['table'] = 'field_data_field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140011:Derby" title=[field_institution_logo-title]">
+ [field_institution_logo]
+</a>';
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['more_link'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_institution_logo']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_institution_logo']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = '15097200-f6b4-4b6c-87fc-919b2e1e5a90';
+  $handler->display->display_options['block_description'] = 'Derby Public Library Logo';
+
+  /* Display: Deep River Public Library Logo */
+  $handler = $view->new_display('block', 'Deep River Public Library Logo', 'block_46');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Deep River Public Library Logo';
+  $handler->display->display_options['display_description'] = 'Deep River Public Library Logo';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Institution Logo */
+  $handler->display->display_options['fields']['field_institution_logo']['id'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['table'] = 'field_data_field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140066:DeepRiver" title=[field_institution_logo-title]">
+ [field_institution_logo]
+</a>';
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['more_link'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_institution_logo']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_institution_logo']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = '5a1f603c-444b-4f9b-bd58-3b5db96fdb60';
+  $handler->display->display_options['block_description'] = 'Deep River Public Library Logo';
+
+  /* Display: CH Booth Library Logo */
+  $handler = $view->new_display('block', 'CH Booth Library Logo', 'block_47');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'CH Booth Library Logo';
+  $handler->display->display_options['display_description'] = 'CH Booth Library Logo';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Institution Logo */
+  $handler->display->display_options['fields']['field_institution_logo']['id'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['table'] = 'field_data_field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140066:DeepRiver" title=[field_institution_logo-title]">
+ [field_institution_logo]
+</a>';
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['more_link'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_institution_logo']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_institution_logo']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = '053a6cfd-1eeb-43e3-b621-9a9a3851a1a2';
+  $handler->display->display_options['block_description'] = 'CH Booth Library Logo';
   $export['bellington_collection_logo'] = $view;
 
   $view = new view();
@@ -4049,6 +4195,26 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['value'] = '5aa1e5b6-2fa1-409e-993c-e312569d64c1';
   $handler->display->display_options['block_description'] = 'PT Barnum Digital Collection Logo';
+
+  /* Display: Remembering WWI Logo */
+  $handler = $view->new_display('block', 'Remembering WWI Logo', 'block_2');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Remembering WWI Logo';
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = '20352c23-8dd5-41d5-be5b-6188bf52694c';
+  $handler->display->display_options['block_description'] = 'Remember WWI Logo';
   $export['enhanced_collections_logo'] = $view;
 
   $view = new view();
@@ -4311,6 +4477,7 @@ function platform_main_feature_views_default_views() {
     1 => 'OR',
     2 => 'OR',
     3 => 'OR',
+    4 => 'OR',
   );
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Node UUID */
@@ -4331,6 +4498,12 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['uuid_2']['field'] = 'uuid';
   $handler->display->display_options['filters']['uuid_2']['value'] = '30e9886b-0cc0-44a0-a832-8f09724500e4';
   $handler->display->display_options['filters']['uuid_2']['group'] = 3;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_3']['id'] = 'uuid_3';
+  $handler->display->display_options['filters']['uuid_3']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_3']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_3']['value'] = 'b6c54649-bba0-44e6-9520-0dfe30e21fe2';
+  $handler->display->display_options['filters']['uuid_3']['group'] = 4;
   $export['front_page_icons'] = $view;
 
   $view = new view();
@@ -5137,6 +5310,15 @@ function platform_main_feature_views_default_views() {
   $handler = $view->new_display('block', 'Default Institution Object Description', 'block_2');
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'Defualt institution Object Description';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Islandora Solr: dc.title */
+  $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['element_type'] = 'h2';
+  $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
   $handler->display->display_options['defaults']['arguments'] = FALSE;
   /* Contextual filter: Islandora Solr: PID */
   $handler->display->display_options['arguments']['PID']['id'] = 'PID';
@@ -5150,6 +5332,33 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
+
+  /* Display: Object Title (Temporary View) */
+  $handler = $view->new_display('block', 'Object Title (Temporary View)', 'block_3');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Object Title (Temporary View)';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Islandora Solr: mods_title_ms */
+  $handler->display->display_options['fields']['mods_title_ms']['id'] = 'mods_title_ms';
+  $handler->display->display_options['fields']['mods_title_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['mods_title_ms']['field'] = 'mods_title_ms';
+  $handler->display->display_options['fields']['mods_title_ms']['label'] = '';
+  $handler->display->display_options['fields']['mods_title_ms']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['mods_title_ms']['link_to_object'] = 0;
+  $handler->display->display_options['defaults']['arguments'] = FALSE;
+  /* Contextual filter: Islandora Solr: PID */
+  $handler->display->display_options['arguments']['PID']['id'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['arguments']['PID']['field'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['PID']['default_argument_type'] = 'raw';
+  $handler->display->display_options['arguments']['PID']['default_argument_options']['index'] = '2';
+  $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  $handler->display->display_options['block_description'] = 'Object Title (Temporary View)';
   $export['object_description'] = $view;
 
   $view = new view();
@@ -5386,18 +5595,18 @@ function platform_main_feature_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Field: Internal Search: Site Search Category */
+  /* Field: Internal search dimensions: Site Search Category */
   $handler->display->display_options['fields']['facet']['id'] = 'facet';
   $handler->display->display_options['fields']['facet']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['facet']['field'] = 'searchCategory';
   $handler->display->display_options['fields']['facet']['label'] = 'Facet Terms';
   $handler->display->display_options['fields']['facet']['alter']['path'] = '[facet]';
-  /* Field: Internal Search: Results Pageviews */
+  /* Field: Internal search metrics: Results Pageviews */
   $handler->display->display_options['fields']['pageviews']['id'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['pageviews']['field'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['label'] = '# of Searches';
-  /* Sort criterion: Internal Search: Results Pageviews */
+  /* Sort criterion: Internal search metrics: Results Pageviews */
   $handler->display->display_options['sorts']['searchResultViews']['id'] = 'searchResultViews';
   $handler->display->display_options['sorts']['searchResultViews']['table'] = 'google_analytics';
   $handler->display->display_options['sorts']['searchResultViews']['field'] = 'searchResultViews';
@@ -5451,17 +5660,17 @@ function platform_main_feature_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Field: Internal Search: Search Term */
+  /* Field: Internal search dimensions: Search Term */
   $handler->display->display_options['fields']['search']['id'] = 'searchKeyword';
   $handler->display->display_options['fields']['search']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['search']['field'] = 'searchKeyword';
   $handler->display->display_options['fields']['search']['label'] = 'Search Terms';
-  /* Field: Internal Search: Results Pageviews */
+  /* Field: Internal search metrics: Results Pageviews */
   $handler->display->display_options['fields']['pageviews']['id'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['pageviews']['field'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['label'] = '# of Searches';
-  /* Sort criterion: Internal Search: Results Pageviews */
+  /* Sort criterion: Internal search metrics: Results Pageviews */
   $handler->display->display_options['sorts']['searchResultViews']['id'] = 'searchResultViews';
   $handler->display->display_options['sorts']['searchResultViews']['table'] = 'google_analytics';
   $handler->display->display_options['sorts']['searchResultViews']['field'] = 'searchResultViews';
