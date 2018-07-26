@@ -60,39 +60,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-american-school-for-the-dea_about--:node/20.
-  $menu_links['menu-american-school-for-the-dea_about--:node/20'] = array(
-    'menu_name' => 'menu-american-school-for-the-dea',
-    'link_path' => 'node/20',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-american-school-for-the-dea_about--:node/20',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-american-school-for-the-dea_asd-collections--:http://collections.ctdigitalarchive.org/islandora/object/290002%3AASDAdminJME.
   $menu_links['menu-american-school-for-the-dea_asd-collections--:http://collections.ctdigitalarchive.org/islandora/object/290002%3AASDAdminJME'] = array(
     'menu_name' => 'menu-american-school-for-the-dea',
@@ -298,72 +265,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -6,
     'customized' => 1,
   );
-  // Exported menu link: menu-avon-free-public-library-co_about--:node/21.
-  $menu_links['menu-avon-free-public-library-co_about--:node/21'] = array(
-    'menu_name' => 'menu-avon-free-public-library-co',
-    'link_path' => 'node/21',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-avon-free-public-library-co_about--:node/21',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-avon-free-public-library-co_avon-free-public-library-collections--:http://collections.ctdigitalarchive.org/islandora/object/150002%3A001.
-  $menu_links['menu-avon-free-public-library-co_avon-free-public-library-collections--:http://collections.ctdigitalarchive.org/islandora/object/150002%3A001'] = array(
-    'menu_name' => 'menu-avon-free-public-library-co',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/150002%3A001',
-    'router_path' => '',
-    'link_title' => 'Avon Free Public Library Collections | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-avon-free-public-library-co_avon-free-public-library-collections--:http://collections.ctdigitalarchive.org/islandora/object/150002%3A001',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
-    'customized' => 1,
-  );
   // Exported menu link: menu-avon-free-public-library-co_contact:https://avonctlibrary.info/contact/.
   $menu_links['menu-avon-free-public-library-co_contact:https://avonctlibrary.info/contact/'] = array(
     'menu_name' => 'menu-avon-free-public-library-co',
@@ -396,7 +297,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -2,
+    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: menu-avon-free-public-library-co_website-:https://avonctlibrary.info/.
@@ -431,7 +332,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -6,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-avon-free-public-library-so_facebook:https://www.facebook.com/avonfreepubliclibrary.
@@ -612,39 +513,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -46,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-barnum-museum-contextual-me_about--:node/22.
-  $menu_links['menu-barnum-museum-contextual-me_about--:node/22'] = array(
-    'menu_name' => 'menu-barnum-museum-contextual-me',
-    'link_path' => 'node/22',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-barnum-museum-contextual-me_about--:node/22',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
     'customized' => 1,
   );
   // Exported menu link: menu-barnum-museum-contextual-me_barnum-museum-collections--:http://collections.ctdigitalarchive.org/islandora/object/60002%3ABarnumMuseum.
@@ -994,140 +862,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-bethel-public-library-conte_about--:node/24.
-  $menu_links['menu-bethel-public-library-conte_about--:node/24'] = array(
-    'menu_name' => 'menu-bethel-public-library-conte',
-    'link_path' => 'node/24',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-bethel-public-library-conte_about--:node/24',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-bethel-public-library-conte_bethel-public-library-collections-:http://collections.ctdigitalarchive.org/islandora/object/140006%3ABethel.
-  $menu_links['menu-bethel-public-library-conte_bethel-public-library-collections-:http://collections.ctdigitalarchive.org/islandora/object/140006%3ABethel'] = array(
-    'menu_name' => 'menu-bethel-public-library-conte',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/140006%3ABethel',
-    'router_path' => '',
-    'link_title' => 'Bethel Public Library Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-bethel-public-library-conte_bethel-public-library-collections-:http://collections.ctdigitalarchive.org/islandora/object/140006%3ABethel',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-bethel-public-library-conte_bibliomation-collections:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio.
-  $menu_links['menu-bethel-public-library-conte_bibliomation-collections:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio'] = array(
-    'menu_name' => 'menu-bethel-public-library-conte',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio',
-    'router_path' => '',
-    'link_title' => 'Bibliomation Collections',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-bethel-public-library-conte_bibliomation-collections:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -3,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-bethel-public-library-conte_website--:http://www.bethellibrary.org/.
-  $menu_links['menu-bethel-public-library-conte_website--:http://www.bethellibrary.org/'] = array(
-    'menu_name' => 'menu-bethel-public-library-conte',
-    'link_path' => 'http://www.bethellibrary.org/',
-    'router_path' => '',
-    'link_title' => 'Website | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(
-        'target' => '_blank',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-bethel-public-library-conte_website--:http://www.bethellibrary.org/',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -6,
-    'customized' => 1,
-  );
   // Exported menu link: menu-bethel-public-library-socia_facebook:https://www.facebook.com/bethellibraryct.
   $menu_links['menu-bethel-public-library-socia_facebook:https://www.facebook.com/bethellibraryct'] = array(
     'menu_name' => 'menu-bethel-public-library-socia',
@@ -1266,40 +1000,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-bibliomation-contextual-men_bibliomation-collections-:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio.
-  $menu_links['menu-bibliomation-contextual-men_bibliomation-collections-:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio'] = array(
-    'menu_name' => 'menu-bibliomation-contextual-men',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio',
-    'router_path' => '',
-    'link_title' => 'Bibliomation Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-bibliomation-contextual-men_bibliomation-collections-:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
+    'weight' => -50,
     'customized' => 1,
   );
   // Exported menu link: menu-bibliomation-contextual-men_website:http://www.biblio.org/.
@@ -1334,7 +1035,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -4,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-bibliomation-social-media-m_facebook:https://www.facebook.com/bibliomation.
@@ -1400,72 +1101,6 @@ function platform_main_feature_menu_default_menu_links() {
         'style' => '',
       ),
       'identifier' => 'menu-bibliomation-social-media-m_twitter:https://twitter.com/bibliomation',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-bill-memorial-library-conte_about--:node/25.
-  $menu_links['menu-bill-memorial-library-conte_about--:node/25'] = array(
-    'menu_name' => 'menu-bill-memorial-library-conte',
-    'link_path' => 'node/25',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-bill-memorial-library-conte_about--:node/25',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-bill-memorial-library-conte_bill-memorial-library-collections-:http://collections.ctdigitalarchive.org/islandora/object/350002%3ABillMemorialLibrary.
-  $menu_links['menu-bill-memorial-library-conte_bill-memorial-library-collections-:http://collections.ctdigitalarchive.org/islandora/object/350002%3ABillMemorialLibrary'] = array(
-    'menu_name' => 'menu-bill-memorial-library-conte',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/350002%3ABillMemorialLibrary',
-    'router_path' => '',
-    'link_title' => 'Bill Memorial Library Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-bill-memorial-library-conte_bill-memorial-library-collections-:http://collections.ctdigitalarchive.org/islandora/object/350002%3ABillMemorialLibrary',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -1719,72 +1354,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-bridgeport-history-center-c_about--:node/26.
-  $menu_links['menu-bridgeport-history-center-c_about--:node/26'] = array(
-    'menu_name' => 'menu-bridgeport-history-center-c',
-    'link_path' => 'node/26',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-bridgeport-history-center-c_about--:node/26',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-bridgeport-history-center-c_bridgeport-history-center-collections-:http://collections.ctdigitalarchive.org/islandora/object/110002%3AAdmin001.
-  $menu_links['menu-bridgeport-history-center-c_bridgeport-history-center-collections-:http://collections.ctdigitalarchive.org/islandora/object/110002%3AAdmin001'] = array(
-    'menu_name' => 'menu-bridgeport-history-center-c',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/110002%3AAdmin001',
-    'router_path' => '',
-    'link_title' => 'Bridgeport History Center Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-bridgeport-history-center-c_bridgeport-history-center-collections-:http://collections.ctdigitalarchive.org/islandora/object/110002%3AAdmin001',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
     'customized' => 1,
   );
   // Exported menu link: menu-bridgeport-history-center-c_contact:http://bportlibrary.org/hc/contact/.
@@ -2055,39 +1624,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-cahsl-contextual-menu_about--:node/28.
-  $menu_links['menu-cahsl-contextual-menu_about--:node/28'] = array(
-    'menu_name' => 'menu-cahsl-contextual-menu',
-    'link_path' => 'node/28',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-cahsl-contextual-menu_about--:node/28',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-cahsl-contextual-menu_cahsl-collections-:http://collections.ctdigitalarchive.org/islandora/object/460002%3ACAHSL.
   $menu_links['menu-cahsl-contextual-menu_cahsl-collections-:http://collections.ctdigitalarchive.org/islandora/object/460002%3ACAHSL'] = array(
     'menu_name' => 'menu-cahsl-contextual-menu',
@@ -2118,42 +1654,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -8,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-cahsl-contextual-menu_website-:https://nahsl.libguides.com/cahsl.
-  $menu_links['menu-cahsl-contextual-menu_website-:https://nahsl.libguides.com/cahsl'] = array(
-    'menu_name' => 'menu-cahsl-contextual-menu',
-    'link_path' => 'https://nahsl.libguides.com/cahsl',
-    'router_path' => '',
-    'link_title' => 'Website |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(
-        'target' => '_blank',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-cahsl-contextual-menu_website-:https://nahsl.libguides.com/cahsl',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -6,
+    'weight' => -49,
     'customized' => 1,
   );
   // Exported menu link: menu-cahsl-social-media-menu_facebook:https://www.facebook.com/cahslct.
@@ -2226,39 +1727,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -8,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-case-memorial-library-conte_about--:node/27.
-  $menu_links['menu-case-memorial-library-conte_about--:node/27'] = array(
-    'menu_name' => 'menu-case-memorial-library-conte',
-    'link_path' => 'node/27',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-case-memorial-library-conte_about--:node/27',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
     'customized' => 1,
   );
   // Exported menu link: menu-case-memorial-library-conte_case-memorial-library-collections--:http://collections.ctdigitalarchive.org/islandora/object/320002%3AAdminJME.
@@ -2400,39 +1868,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -10,
     'customized' => 1,
   );
-  // Exported menu link: menu-chi-contextual-menu_about--:node/57.
-  $menu_links['menu-chi-contextual-menu_about--:node/57'] = array(
-    'menu_name' => 'menu-chi-contextual-menu',
-    'link_path' => 'node/57',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-chi-contextual-menu_about--:node/57',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-  );
   // Exported menu link: menu-chi-contextual-menu_contact:http://cthistoryillustrated.org/contact-us/.
   $menu_links['menu-chi-contextual-menu_contact:http://cthistoryillustrated.org/contact-us/'] = array(
     'menu_name' => 'menu-chi-contextual-menu',
@@ -2501,39 +1936,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -49,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-chs-contextual-menu_about--:node/30.
-  $menu_links['menu-chs-contextual-menu_about--:node/30'] = array(
-    'menu_name' => 'menu-chs-contextual-menu',
-    'link_path' => 'node/30',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-chs-contextual-menu_about--:node/30',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
     'customized' => 1,
   );
   // Exported menu link: menu-chs-contextual-menu_chs-collections-:http://collections.ctdigitalarchive.org/islandora/object/40002%3ACHS001.
@@ -2820,72 +2222,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-connecticut-college-context_about--:node/29.
-  $menu_links['menu-connecticut-college-context_about--:node/29'] = array(
-    'menu_name' => 'menu-connecticut-college-context',
-    'link_path' => 'node/29',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-connecticut-college-context_about--:node/29',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-connecticut-college-context_connecticut-college-collections-:http://collections.ctdigitalarchive.org/islandora/object/490002%3AConnCollege.
-  $menu_links['menu-connecticut-college-context_connecticut-college-collections-:http://collections.ctdigitalarchive.org/islandora/object/490002%3AConnCollege'] = array(
-    'menu_name' => 'menu-connecticut-college-context',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/490002%3AConnCollege',
-    'router_path' => '',
-    'link_title' => 'Connecticut College Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-connecticut-college-context_connecticut-college-collections-:http://collections.ctdigitalarchive.org/islandora/object/490002%3AConnCollege',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
-    'customized' => 1,
-  );
   // Exported menu link: menu-connecticut-college-context_wesbite:https://www.conncoll.edu/information-services/libraries/libraries-locations/linda-lear-center-for-special-collections-and-arc/.
   $menu_links['menu-connecticut-college-context_wesbite:https://www.conncoll.edu/information-services/libraries/libraries-locations/linda-lear-center-for-special-collections-and-arc/'] = array(
     'menu_name' => 'menu-connecticut-college-context',
@@ -2918,7 +2254,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -6,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-connecticut-college-social-_facebook:https://www.facebook.com/LindaLearCenter/.
@@ -2984,72 +2320,6 @@ function platform_main_feature_menu_default_menu_links() {
         'style' => '',
       ),
       'identifier' => 'menu-connecticut-college-social-_tumblr:http://lindalearcenter.tumblr.com/',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-connecticut-landmarks-conte_about--:node/31.
-  $menu_links['menu-connecticut-landmarks-conte_about--:node/31'] = array(
-    'menu_name' => 'menu-connecticut-landmarks-conte',
-    'link_path' => 'node/31',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-connecticut-landmarks-conte_about--:node/31',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-connecticut-landmarks-conte_ct-landmarks-collections-:http://collections.ctdigitalarchive.org/islandora/object/370002%3ACTLandmarksJME.
-  $menu_links['menu-connecticut-landmarks-conte_ct-landmarks-collections-:http://collections.ctdigitalarchive.org/islandora/object/370002%3ACTLandmarksJME'] = array(
-    'menu_name' => 'menu-connecticut-landmarks-conte',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/370002%3ACTLandmarksJME',
-    'router_path' => '',
-    'link_title' => 'CT Landmarks Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-connecticut-landmarks-conte_ct-landmarks-collections-:http://collections.ctdigitalarchive.org/islandora/object/370002%3ACTLandmarksJME',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -3164,39 +2434,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -8,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-connecticut-state-library-c_about-:node/55.
-  $menu_links['menu-connecticut-state-library-c_about-:node/55'] = array(
-    'menu_name' => 'menu-connecticut-state-library-c',
-    'link_path' => 'node/55',
-    'router_path' => 'node/%',
-    'link_title' => 'About |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-connecticut-state-library-c_about-:node/55',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
     'customized' => 1,
   );
   // Exported menu link: menu-connecticut-state-library-c_contact-:https://ctstatelibrary.org/contact-us/.
@@ -3482,72 +2719,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-csmnh-contextual-menu_about--:node/32.
-  $menu_links['menu-csmnh-contextual-menu_about--:node/32'] = array(
-    'menu_name' => 'menu-csmnh-contextual-menu',
-    'link_path' => 'node/32',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-csmnh-contextual-menu_about--:node/32',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-csmnh-contextual-menu_csmnh-collections-:http://collections.ctdigitalarchive.org/islandora/object/20006%3ACTSMNH.
-  $menu_links['menu-csmnh-contextual-menu_csmnh-collections-:http://collections.ctdigitalarchive.org/islandora/object/20006%3ACTSMNH'] = array(
-    'menu_name' => 'menu-csmnh-contextual-menu',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/20006%3ACTSMNH',
-    'router_path' => '',
-    'link_title' => 'CSMNH Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-csmnh-contextual-menu_csmnh-collections-:http://collections.ctdigitalarchive.org/islandora/object/20006%3ACTSMNH',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
-    'customized' => 1,
-  );
   // Exported menu link: menu-csmnh-contextual-menu_website:http://www.cac.uconn.edu/mnhhome.html.
   $menu_links['menu-csmnh-contextual-menu_website:http://www.cac.uconn.edu/mnhhome.html'] = array(
     'menu_name' => 'menu-csmnh-contextual-menu',
@@ -3718,72 +2889,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-enfield-public-library-cont_about--:node/33.
-  $menu_links['menu-enfield-public-library-cont_about--:node/33'] = array(
-    'menu_name' => 'menu-enfield-public-library-cont',
-    'link_path' => 'node/33',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-enfield-public-library-cont_about--:node/33',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-enfield-public-library-cont_enfield-public-library-collections-:http://collections.ctdigitalarchive.org/islandora/object/430002%3AEnfieldPublic.
-  $menu_links['menu-enfield-public-library-cont_enfield-public-library-collections-:http://collections.ctdigitalarchive.org/islandora/object/430002%3AEnfieldPublic'] = array(
-    'menu_name' => 'menu-enfield-public-library-cont',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/430002%3AEnfieldPublic',
-    'router_path' => '',
-    'link_title' => 'Enfield Public Library Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-enfield-public-library-cont_enfield-public-library-collections-:http://collections.ctdigitalarchive.org/islandora/object/430002%3AEnfieldPublic',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
-    'customized' => 1,
-  );
   // Exported menu link: menu-enfield-public-library-cont_website:https://www.enfieldpubliclibrary.org/.
   $menu_links['menu-enfield-public-library-cont_website:https://www.enfieldpubliclibrary.org/'] = array(
     'menu_name' => 'menu-enfield-public-library-cont',
@@ -3816,7 +2921,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -6,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-enfield-public-library-soci_facebook:https://www.facebook.com/enfieldpubliclibrary.
@@ -3855,39 +2960,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -10,
     'customized' => 1,
   );
-  // Exported menu link: menu-fairfield-museum-contextual_about--:node/34.
-  $menu_links['menu-fairfield-museum-contextual_about--:node/34'] = array(
-    'menu_name' => 'menu-fairfield-museum-contextual',
-    'link_path' => 'node/34',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-fairfield-museum-contextual_about--:node/34',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-fairfield-museum-contextual_contact:https://www.fairfieldhistory.org/contact-us/.
   $menu_links['menu-fairfield-museum-contextual_contact:https://www.fairfieldhistory.org/contact-us/'] = array(
     'menu_name' => 'menu-fairfield-museum-contextual',
@@ -3919,39 +2991,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -4,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-fairfield-museum-contextual_fairfield-museum-and-history-center-collections-:http://collections.ctdigitalarchive.org/islandora/object/80002%3A001.
-  $menu_links['menu-fairfield-museum-contextual_fairfield-museum-and-history-center-collections-:http://collections.ctdigitalarchive.org/islandora/object/80002%3A001'] = array(
-    'menu_name' => 'menu-fairfield-museum-contextual',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/80002%3A001',
-    'router_path' => '',
-    'link_title' => 'Fairfield Museum and History Center Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-fairfield-museum-contextual_fairfield-museum-and-history-center-collections-:http://collections.ctdigitalarchive.org/islandora/object/80002%3A001',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
     'customized' => 1,
   );
   // Exported menu link: menu-fairfield-museum-contextual_website-:https://www.fairfieldhistory.org/.
@@ -4059,39 +3098,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -8,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-florence-griswold-museum-co_about--:node/35.
-  $menu_links['menu-florence-griswold-museum-co_about--:node/35'] = array(
-    'menu_name' => 'menu-florence-griswold-museum-co',
-    'link_path' => 'node/35',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-florence-griswold-museum-co_about--:node/35',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
     'customized' => 1,
   );
   // Exported menu link: menu-florence-griswold-museum-co_contact:http://florencegriswoldmuseum.org/contact/.
@@ -4501,39 +3507,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-groton-public-library-conte_about--:node/36.
-  $menu_links['menu-groton-public-library-conte_about--:node/36'] = array(
-    'menu_name' => 'menu-groton-public-library-conte',
-    'link_path' => 'node/36',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-groton-public-library-conte_about--:node/36',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-groton-public-library-conte_contact:mailto:reference@groton-ct.gov.
   $menu_links['menu-groton-public-library-conte_contact:mailto:reference@groton-ct.gov'] = array(
     'menu_name' => 'menu-groton-public-library-conte',
@@ -4671,140 +3644,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -10,
     'customized' => 1,
   );
-  // Exported menu link: menu-hagaman-memorial-library-co_about--:node/37.
-  $menu_links['menu-hagaman-memorial-library-co_about--:node/37'] = array(
-    'menu_name' => 'menu-hagaman-memorial-library-co',
-    'link_path' => 'node/37',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-hagaman-memorial-library-co_about--:node/37',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-hagaman-memorial-library-co_bibliomation-collections:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio.
-  $menu_links['menu-hagaman-memorial-library-co_bibliomation-collections:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio'] = array(
-    'menu_name' => 'menu-hagaman-memorial-library-co',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio',
-    'router_path' => '',
-    'link_title' => 'Bibliomation Collections',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-hagaman-memorial-library-co_bibliomation-collections:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-hagaman-memorial-library-co_contact-:https://www.hagamanlibrary.org/staff-contacts/.
-  $menu_links['menu-hagaman-memorial-library-co_contact-:https://www.hagamanlibrary.org/staff-contacts/'] = array(
-    'menu_name' => 'menu-hagaman-memorial-library-co',
-    'link_path' => 'https://www.hagamanlibrary.org/staff-contacts/',
-    'router_path' => '',
-    'link_title' => 'Contact |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(
-        'target' => '_blank',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-hagaman-memorial-library-co_contact-:https://www.hagamanlibrary.org/staff-contacts/',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-hagaman-memorial-library-co_hagaman-memorial-library-collections--:http://collections.ctdigitalarchive.org/islandora/object/140019%3AHagaman.
-  $menu_links['menu-hagaman-memorial-library-co_hagaman-memorial-library-collections--:http://collections.ctdigitalarchive.org/islandora/object/140019%3AHagaman'] = array(
-    'menu_name' => 'menu-hagaman-memorial-library-co',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/140019%3AHagaman',
-    'router_path' => '',
-    'link_title' => 'Hagaman Memorial Library Collections | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-hagaman-memorial-library-co_hagaman-memorial-library-collections--:http://collections.ctdigitalarchive.org/islandora/object/140019%3AHagaman',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-  );
   // Exported menu link: menu-hagaman-memorial-library-co_website-:https://www.hagamanlibrary.org/.
   $menu_links['menu-hagaman-memorial-library-co_website-:https://www.hagamanlibrary.org/'] = array(
     'menu_name' => 'menu-hagaman-memorial-library-co',
@@ -4837,7 +3676,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: menu-hagaman-memorial-library-so_facebook:https://www.facebook.com/hagamanlibrary/.
@@ -4876,39 +3715,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-hartford-medical-society-co_about--:node/38.
-  $menu_links['menu-hartford-medical-society-co_about--:node/38'] = array(
-    'menu_name' => 'menu-hartford-medical-society-co',
-    'link_path' => 'node/38',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-hartford-medical-society-co_about--:node/38',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-hartford-medical-society-co_contact:http://hartfordmedicalsociety.org/contact-us/.
   $menu_links['menu-hartford-medical-society-co_contact:http://hartfordmedicalsociety.org/contact-us/'] = array(
     'menu_name' => 'menu-hartford-medical-society-co',
@@ -4942,39 +3748,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-hartford-medical-society-co_hartford-medical-society-collections-:http://collections.ctdigitalarchive.org/islandora/object/310002%3AAdminJME.
-  $menu_links['menu-hartford-medical-society-co_hartford-medical-society-collections-:http://collections.ctdigitalarchive.org/islandora/object/310002%3AAdminJME'] = array(
-    'menu_name' => 'menu-hartford-medical-society-co',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/310002%3AAdminJME',
-    'router_path' => '',
-    'link_title' => 'Hartford Medical Society Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-hartford-medical-society-co_hartford-medical-society-collections-:http://collections.ctdigitalarchive.org/islandora/object/310002%3AAdminJME',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
     'customized' => 1,
   );
   // Exported menu link: menu-hartford-medical-society-co_website-:http://hartfordmedicalsociety.org/.
@@ -5048,39 +3821,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -7,
     'customized' => 1,
   );
-  // Exported menu link: menu-hartford-public-library-men_about--:node/18.
-  $menu_links['menu-hartford-public-library-men_about--:node/18'] = array(
-    'menu_name' => 'menu-hartford-public-library-men',
-    'link_path' => 'node/18',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-hartford-public-library-men_about--:node/18',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-hartford-public-library-men_contact:https://www.hplct.org/contact-us.
   $menu_links['menu-hartford-public-library-men_contact:https://www.hplct.org/contact-us'] = array(
     'menu_name' => 'menu-hartford-public-library-men',
@@ -5113,40 +3853,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-hartford-public-library-men_hpl-collections--:http://collections.ctdigitalarchive.org/islandora/object/50002%3AAdminJME02.
-  $menu_links['menu-hartford-public-library-men_hpl-collections--:http://collections.ctdigitalarchive.org/islandora/object/50002%3AAdminJME02'] = array(
-    'menu_name' => 'menu-hartford-public-library-men',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/50002%3AAdminJME02',
-    'router_path' => '',
-    'link_title' => 'HPL Collections | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-hartford-public-library-men_hpl-collections--:http://collections.ctdigitalarchive.org/islandora/object/50002%3AAdminJME02',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
+    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: menu-hartford-public-library-men_website-:https://www.hplct.org/.
@@ -5181,7 +3888,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -6,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-hartford-public-library-soc_facebook:https://www.facebook.com/HartfordPublicLibrary/.
@@ -5361,109 +4068,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-ivoryton-library-contextual_about--:node/39.
-  $menu_links['menu-ivoryton-library-contextual_about--:node/39'] = array(
-    'menu_name' => 'menu-ivoryton-library-contextual',
-    'link_path' => 'node/39',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-ivoryton-library-contextual_about--:node/39',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-ivoryton-library-contextual_ivoryton-library-association-collections-:http://collections.ctdigitalarchive.org/islandora/object/220002%3AILA001.
-  $menu_links['menu-ivoryton-library-contextual_ivoryton-library-association-collections-:http://collections.ctdigitalarchive.org/islandora/object/220002%3AILA001'] = array(
-    'menu_name' => 'menu-ivoryton-library-contextual',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/220002%3AILA001',
-    'router_path' => '',
-    'link_title' => 'Ivoryton Library Association Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(
-        'target' => '_blank',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-ivoryton-library-contextual_ivoryton-library-association-collections-:http://collections.ctdigitalarchive.org/islandora/object/220002%3AILA001',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-ivoryton-library-contextual_website-:http://ivorytonlibrary.org/.
-  $menu_links['menu-ivoryton-library-contextual_website-:http://ivorytonlibrary.org/'] = array(
-    'menu_name' => 'menu-ivoryton-library-contextual',
-    'link_path' => 'http://ivorytonlibrary.org/',
-    'router_path' => '',
-    'link_title' => 'Website |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(
-        'target' => '_blank',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-ivoryton-library-contextual_website-:http://ivorytonlibrary.org/',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -3,
-    'customized' => 1,
-  );
   // Exported menu link: menu-ivoryton-library-social-med_facebook:https://www.facebook.com/Ivoryton-Library-Association-113795125303073/.
   $menu_links['menu-ivoryton-library-social-med_facebook:https://www.facebook.com/Ivoryton-Library-Association-113795125303073/'] = array(
     'menu_name' => 'menu-ivoryton-library-social-med',
@@ -5498,140 +4102,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -9,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-kent-memorial-library-conte_about--:node/40.
-  $menu_links['menu-kent-memorial-library-conte_about--:node/40'] = array(
-    'menu_name' => 'menu-kent-memorial-library-conte',
-    'link_path' => 'node/40',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-kent-memorial-library-conte_about--:node/40',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-kent-memorial-library-conte_bibliomation-collections:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio.
-  $menu_links['menu-kent-memorial-library-conte_bibliomation-collections:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio'] = array(
-    'menu_name' => 'menu-kent-memorial-library-conte',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio',
-    'router_path' => '',
-    'link_title' => 'Bibliomation Collections',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-kent-memorial-library-conte_bibliomation-collections:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -2,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-kent-memorial-library-conte_kent-memorial-library-collections-:http://collections.ctdigitalarchive.org/islandora/object/140026%3AkentSuffield.
-  $menu_links['menu-kent-memorial-library-conte_kent-memorial-library-collections-:http://collections.ctdigitalarchive.org/islandora/object/140026%3AkentSuffield'] = array(
-    'menu_name' => 'menu-kent-memorial-library-conte',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/140026%3AkentSuffield',
-    'router_path' => '',
-    'link_title' => 'Kent Memorial Library Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-kent-memorial-library-conte_kent-memorial-library-collections-:http://collections.ctdigitalarchive.org/islandora/object/140026%3AkentSuffield',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-kent-memorial-library-conte_website-:http://www.suffield-library.org/.
-  $menu_links['menu-kent-memorial-library-conte_website-:http://www.suffield-library.org/'] = array(
-    'menu_name' => 'menu-kent-memorial-library-conte',
-    'link_path' => 'http://www.suffield-library.org/',
-    'router_path' => '',
-    'link_title' => 'Website |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(
-        'target' => '_blank',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-kent-memorial-library-conte_website-:http://www.suffield-library.org/',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -6,
     'customized' => 1,
   );
   // Exported menu link: menu-kent-memorial-library-socia_facebook:https://www.facebook.com/KentMemorialLibrarySuffield/.
@@ -5688,39 +4158,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-litchfield-historical-conte_about--:node/41.
-  $menu_links['menu-litchfield-historical-conte_about--:node/41'] = array(
-    'menu_name' => 'menu-litchfield-historical-conte',
-    'link_path' => 'node/41',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-litchfield-historical-conte_about--:node/41',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-litchfield-historical-conte_contact:http://www.litchfieldhistoricalsociety.org/contact-us/.
   $menu_links['menu-litchfield-historical-conte_contact:http://www.litchfieldhistoricalsociety.org/contact-us/'] = array(
     'menu_name' => 'menu-litchfield-historical-conte',
@@ -5754,39 +4191,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -3,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-litchfield-historical-conte_litchfield-historical-society-collections-:http://collections.ctdigitalarchive.org/islandora/object/400002%3ALHS.
-  $menu_links['menu-litchfield-historical-conte_litchfield-historical-society-collections-:http://collections.ctdigitalarchive.org/islandora/object/400002%3ALHS'] = array(
-    'menu_name' => 'menu-litchfield-historical-conte',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/400002%3ALHS',
-    'router_path' => '',
-    'link_title' => 'Litchfield Historical Society Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-litchfield-historical-conte_litchfield-historical-society-collections-:http://collections.ctdigitalarchive.org/islandora/object/400002%3ALHS',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
     'customized' => 1,
   );
   // Exported menu link: menu-litchfield-historical-conte_website-:http://www.litchfieldhistoricalsociety.org/.
@@ -6011,12 +4415,13 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Instagram',
     'options' => array(
+      'identifier' => 'menu-lyman-allyn-art-museum-soci_instagram:https://www.instagram.com/lyman_allyn/',
       'icon' => array(
         'bundle' => 'dgi_default_bundle',
         'icon' => 'instagram-1',
         'wrapper' => '',
         'wrapper_class' => '',
-        'position' => 'title_before',
+        'position' => 'title_replace',
         'breadcrumb' => 0,
         'title_wrapper' => 0,
         'title_wrapper_element' => 'span',
@@ -6030,7 +4435,6 @@ function platform_main_feature_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'menu-lyman-allyn-art-museum-soci_instagram:https://www.instagram.com/lyman_allyn/',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -6047,12 +4451,13 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Twitter',
     'options' => array(
+      'identifier' => 'menu-lyman-allyn-art-museum-soci_twitter:https://twitter.com/@LymanAllyn',
       'icon' => array(
         'bundle' => 'dgi_default_bundle',
         'icon' => 'twitter-squared',
         'wrapper' => '',
         'wrapper_class' => '',
-        'position' => 'title_before',
+        'position' => 'title_replace',
         'breadcrumb' => 0,
         'title_wrapper' => 0,
         'title_wrapper_element' => 'span',
@@ -6066,7 +4471,6 @@ function platform_main_feature_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'menu-lyman-allyn-art-museum-soci_twitter:https://twitter.com/@LymanAllyn',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -6074,140 +4478,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -6,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-lymen-allyn-art-museum-cont_about--:node/42.
-  $menu_links['menu-lymen-allyn-art-museum-cont_about--:node/42'] = array(
-    'menu_name' => 'menu-lymen-allyn-art-museum-cont',
-    'link_path' => 'node/42',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-lymen-allyn-art-museum-cont_about--:node/42',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-lymen-allyn-art-museum-cont_lyman-allyn-art-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/170002%3ALAAM001.
-  $menu_links['menu-lymen-allyn-art-museum-cont_lyman-allyn-art-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/170002%3ALAAM001'] = array(
-    'menu_name' => 'menu-lymen-allyn-art-museum-cont',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/170002%3ALAAM001',
-    'router_path' => '',
-    'link_title' => 'Lyman Allyn Art Museum Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-lymen-allyn-art-museum-cont_lyman-allyn-art-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/170002%3ALAAM001',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-lymen-allyn-art-museum-cont_website-:https://www.lymanallyn.org/.
-  $menu_links['menu-lymen-allyn-art-museum-cont_website-:https://www.lymanallyn.org/'] = array(
-    'menu_name' => 'menu-lymen-allyn-art-museum-cont',
-    'link_path' => 'https://www.lymanallyn.org/',
-    'router_path' => '',
-    'link_title' => 'Website |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(
-        'target' => '_blank',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-lymen-allyn-art-museum-cont_website-:https://www.lymanallyn.org/',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -5,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-mattatuck-museum-contextual_about--:node/43.
-  $menu_links['menu-mattatuck-museum-contextual_about--:node/43'] = array(
-    'menu_name' => 'menu-mattatuck-museum-contextual',
-    'link_path' => 'node/43',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-mattatuck-museum-contextual_about--:node/43',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
     'customized' => 1,
   );
   // Exported menu link: menu-mattatuck-museum-contextual_contact:http://mattatuckmuseum.us3.list-manage1.com/subscribe?u=c29e7e791ec45edb4ebab63b7&id=dbddacc966.
@@ -6242,40 +4512,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -2,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-mattatuck-museum-contextual_mattatuck-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/260002%3AMM001.
-  $menu_links['menu-mattatuck-museum-contextual_mattatuck-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/260002%3AMM001'] = array(
-    'menu_name' => 'menu-mattatuck-museum-contextual',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/260002%3AMM001',
-    'router_path' => '',
-    'link_title' => 'Mattatuck Museum Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-mattatuck-museum-contextual_mattatuck-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/260002%3AMM001',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
+    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: menu-mattatuck-museum-contextual_website-:https://www.mattmuseum.org/.
@@ -6310,7 +4547,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -6,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-mattatuck-museum-social-med_facebook:https://www.facebook.com/Mattatuck-Museum-108040781038/.
@@ -6457,39 +4694,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-mystic-arts-center-contextu_about--:node/46.
-  $menu_links['menu-mystic-arts-center-contextu_about--:node/46'] = array(
-    'menu_name' => 'menu-mystic-arts-center-contextu',
-    'link_path' => 'node/46',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-mystic-arts-center-contextu_about--:node/46',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-mystic-arts-center-contextu_contact:https://www.mysticmuseumofart.org/visit/contact-us/.
   $menu_links['menu-mystic-arts-center-contextu_contact:https://www.mysticmuseumofart.org/visit/contact-us/'] = array(
     'menu_name' => 'menu-mystic-arts-center-contextu',
@@ -6523,39 +4727,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -2,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-mystic-arts-center-contextu_mystic-arts-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/200002%3AMAC001.
-  $menu_links['menu-mystic-arts-center-contextu_mystic-arts-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/200002%3AMAC001'] = array(
-    'menu_name' => 'menu-mystic-arts-center-contextu',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/200002%3AMAC001',
-    'router_path' => '',
-    'link_title' => 'Mystic Arts Museum Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-mystic-arts-center-contextu_mystic-arts-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/200002%3AMAC001',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
     'customized' => 1,
   );
   // Exported menu link: menu-mystic-arts-center-contextu_website-:https://www.mysticmuseumofart.org/.
@@ -6737,39 +4908,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -8,
     'customized' => 1,
   );
-  // Exported menu link: menu-mystic-seaport-contextual-m_about--:node/45.
-  $menu_links['menu-mystic-seaport-contextual-m_about--:node/45'] = array(
-    'menu_name' => 'menu-mystic-seaport-contextual-m',
-    'link_path' => 'node/45',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-mystic-seaport-contextual-m_about--:node/45',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-mystic-seaport-contextual-m_contact:https://www.mysticseaport.org/about/contact/.
   $menu_links['menu-mystic-seaport-contextual-m_contact:https://www.mysticseaport.org/about/contact/'] = array(
     'menu_name' => 'menu-mystic-seaport-contextual-m',
@@ -6803,39 +4941,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -4,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-mystic-seaport-contextual-m_mystic-seaport-collections-:http://collections.ctdigitalarchive.org/islandora/object/70002%3AAdminJME.
-  $menu_links['menu-mystic-seaport-contextual-m_mystic-seaport-collections-:http://collections.ctdigitalarchive.org/islandora/object/70002%3AAdminJME'] = array(
-    'menu_name' => 'menu-mystic-seaport-contextual-m',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/70002%3AAdminJME',
-    'router_path' => '',
-    'link_title' => 'Mystic Seaport Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-mystic-seaport-contextual-m_mystic-seaport-collections-:http://collections.ctdigitalarchive.org/islandora/object/70002%3AAdminJME',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
     'customized' => 1,
   );
   // Exported menu link: menu-mystic-seaport-contextual-m_website-:https://www.mysticseaport.org/.
@@ -7197,39 +5302,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -10,
     'customized' => 1,
   );
-  // Exported menu link: menu-new-britain-museum-of-ameri_about--:node/19.
-  $menu_links['menu-new-britain-museum-of-ameri_about--:node/19'] = array(
-    'menu_name' => 'menu-new-britain-museum-of-ameri',
-    'link_path' => 'node/19',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-new-britain-museum-of-ameri_about--:node/19',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -12,
-    'customized' => 1,
-  );
   // Exported menu link: menu-new-britain-museum-of-ameri_contact:http://www.nbmaa.org/museum-of-american-art/contact-us.
   $menu_links['menu-new-britain-museum-of-ameri_contact:http://www.nbmaa.org/museum-of-american-art/contact-us'] = array(
     'menu_name' => 'menu-new-britain-museum-of-ameri',
@@ -7262,40 +5334,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -2,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-new-britain-museum-of-ameri_nbmaa-collections--:http://ctda-public1.lib.uconn.edu/islandora/object/210002%3ANBMAA.
-  $menu_links['menu-new-britain-museum-of-ameri_nbmaa-collections--:http://ctda-public1.lib.uconn.edu/islandora/object/210002%3ANBMAA'] = array(
-    'menu_name' => 'menu-new-britain-museum-of-ameri',
-    'link_path' => 'http://ctda-public1.lib.uconn.edu/islandora/object/210002%3ANBMAA',
-    'router_path' => '',
-    'link_title' => 'NBMAA Collections | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-new-britain-museum-of-ameri_nbmaa-collections--:http://ctda-public1.lib.uconn.edu/islandora/object/210002%3ANBMAA',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
+    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: menu-new-britain-museum-of-ameri_website-:http://www.nbmaa.org/.
@@ -7330,40 +5369,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -6,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-new-haven-museum-contextual_about--:node/47.
-  $menu_links['menu-new-haven-museum-contextual_about--:node/47'] = array(
-    'menu_name' => 'menu-new-haven-museum-contextual',
-    'link_path' => 'node/47',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-new-haven-museum-contextual_about--:node/47',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-new-haven-museum-contextual_contact:http://www.newhavenmuseum.org/contact-us/.
@@ -7399,39 +5405,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -4,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-new-haven-museum-contextual_new-haven-museum-collections--:http://collections.ctdigitalarchive.org/islandora/object/280002%3ANHM001.
-  $menu_links['menu-new-haven-museum-contextual_new-haven-museum-collections--:http://collections.ctdigitalarchive.org/islandora/object/280002%3ANHM001'] = array(
-    'menu_name' => 'menu-new-haven-museum-contextual',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/280002%3ANHM001',
-    'router_path' => '',
-    'link_title' => 'New Haven Museum Collections | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-new-haven-museum-contextual_new-haven-museum-collections--:http://collections.ctdigitalarchive.org/islandora/object/280002%3ANHM001',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
     'customized' => 1,
   );
   // Exported menu link: menu-new-haven-museum-contextual_website-:http://www.newhavenmuseum.org/.
@@ -7577,39 +5550,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -8,
     'customized' => 1,
   );
-  // Exported menu link: menu-norwalk-public-library-cont_about--:node/48.
-  $menu_links['menu-norwalk-public-library-cont_about--:node/48'] = array(
-    'menu_name' => 'menu-norwalk-public-library-cont',
-    'link_path' => 'node/48',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-norwalk-public-library-cont_about--:node/48',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-norwalk-public-library-cont_contact:https://www.norwalkpl.org/directory.aspx.
   $menu_links['menu-norwalk-public-library-cont_contact:https://www.norwalkpl.org/directory.aspx'] = array(
     'menu_name' => 'menu-norwalk-public-library-cont',
@@ -7643,39 +5583,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -2,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-norwalk-public-library-cont_norwalk-public-library-collection-:http://collections.ctdigitalarchive.org/islandora/object/450002%3ANPL.
-  $menu_links['menu-norwalk-public-library-cont_norwalk-public-library-collection-:http://collections.ctdigitalarchive.org/islandora/object/450002%3ANPL'] = array(
-    'menu_name' => 'menu-norwalk-public-library-cont',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/450002%3ANPL',
-    'router_path' => '',
-    'link_title' => 'Norwalk Public Library Collection |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-norwalk-public-library-cont_norwalk-public-library-collection-:http://collections.ctdigitalarchive.org/islandora/object/450002%3ANPL',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
     'customized' => 1,
   );
   // Exported menu link: menu-norwalk-public-library-cont_website-:https://www.norwalkpl.org/.
@@ -7821,107 +5728,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -10,
     'customized' => 1,
   );
-  // Exported menu link: menu-pt-barnum-digital-collectio_abc-a-barnum-companion:http://ctda-public1.lib.uconn.edu/islandora/object/60002%3Aptb_abarnumcompanion.
-  $menu_links['menu-pt-barnum-digital-collectio_abc-a-barnum-companion:http://ctda-public1.lib.uconn.edu/islandora/object/60002%3Aptb_abarnumcompanion'] = array(
-    'menu_name' => 'menu-pt-barnum-digital-collectio',
-    'link_path' => 'http://ctda-public1.lib.uconn.edu/islandora/object/60002%3Aptb_abarnumcompanion',
-    'router_path' => '',
-    'link_title' => 'ABC: A Barnum Companion',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(
-        'target' => '_blank',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-pt-barnum-digital-collectio_abc-a-barnum-companion:http://ctda-public1.lib.uconn.edu/islandora/object/60002%3Aptb_abarnumcompanion',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -6,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-pt-barnum-digital-collectio_about--:node/54.
-  $menu_links['menu-pt-barnum-digital-collectio_about--:node/54'] = array(
-    'menu_name' => 'menu-pt-barnum-digital-collectio',
-    'link_path' => 'node/54',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-pt-barnum-digital-collectio_about--:node/54',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-slater-memorial-museum-cont_about--:node/49.
-  $menu_links['menu-slater-memorial-museum-cont_about--:node/49'] = array(
-    'menu_name' => 'menu-slater-memorial-museum-cont',
-    'link_path' => 'node/49',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-slater-memorial-museum-cont_about--:node/49',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-slater-memorial-museum-cont_contact:http://www.slatermuseum.org/contact/.
   $menu_links['menu-slater-memorial-museum-cont_contact:http://www.slatermuseum.org/contact/'] = array(
     'menu_name' => 'menu-slater-memorial-museum-cont',
@@ -7955,39 +5761,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -4,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-slater-memorial-museum-cont_slater-memorial-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/230002%3ASMM001.
-  $menu_links['menu-slater-memorial-museum-cont_slater-memorial-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/230002%3ASMM001'] = array(
-    'menu_name' => 'menu-slater-memorial-museum-cont',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/230002%3ASMM001',
-    'router_path' => '',
-    'link_title' => 'Slater Memorial Museum Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-slater-memorial-museum-cont_slater-memorial-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/230002%3ASMM001',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
     'customized' => 1,
   );
   // Exported menu link: menu-slater-memorial-museum-cont_website-:http://www.slatermuseum.org/.
@@ -8097,39 +5870,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -8,
     'customized' => 1,
   );
-  // Exported menu link: menu-stonington-historical-conte_about--:node/50.
-  $menu_links['menu-stonington-historical-conte_about--:node/50'] = array(
-    'menu_name' => 'menu-stonington-historical-conte',
-    'link_path' => 'node/50',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-stonington-historical-conte_about--:node/50',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-stonington-historical-conte_contact:https://www.stoningtonhistory.org/contact/.
   $menu_links['menu-stonington-historical-conte_contact:https://www.stoningtonhistory.org/contact/'] = array(
     'menu_name' => 'menu-stonington-historical-conte',
@@ -8163,39 +5903,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -4,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-stonington-historical-conte_stonington-historical-society-collections-:http://collections.ctdigitalarchive.org/islandora/object/240002%3ASHS001.
-  $menu_links['menu-stonington-historical-conte_stonington-historical-society-collections-:http://collections.ctdigitalarchive.org/islandora/object/240002%3ASHS001'] = array(
-    'menu_name' => 'menu-stonington-historical-conte',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/240002%3ASHS001',
-    'router_path' => '',
-    'link_title' => 'Stonington Historical Society Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-stonington-historical-conte_stonington-historical-society-collections-:http://collections.ctdigitalarchive.org/islandora/object/240002%3ASHS001',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
     'customized' => 1,
   );
   // Exported menu link: menu-stonington-historical-conte_website-:https://www.stoningtonhistory.org/.
@@ -8339,39 +6046,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -8,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-uconn-contextual-menu_about-:node/56.
-  $menu_links['menu-uconn-contextual-menu_about-:node/56'] = array(
-    'menu_name' => 'menu-uconn-contextual-menu',
-    'link_path' => 'node/56',
-    'router_path' => 'node/%',
-    'link_title' => 'About |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-uconn-contextual-menu_about-:node/56',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
     'customized' => 1,
   );
   // Exported menu link: menu-uconn-contextual-menu_contact:https://lib.uconn.edu/libraries/asc/about/contact/.
@@ -8586,39 +6260,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-wadsworth-atheneum-contextu_about--:node/51.
-  $menu_links['menu-wadsworth-atheneum-contextu_about--:node/51'] = array(
-    'menu_name' => 'menu-wadsworth-atheneum-contextu',
-    'link_path' => 'node/51',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-wadsworth-atheneum-contextu_about--:node/51',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-wadsworth-atheneum-contextu_contact:https://thewadsworth.org/contactus/.
   $menu_links['menu-wadsworth-atheneum-contextu_contact:https://thewadsworth.org/contactus/'] = array(
     'menu_name' => 'menu-wadsworth-atheneum-contextu',
@@ -8652,39 +6293,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -3,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-wadsworth-atheneum-contextu_wadsworth-atheneum-collections-:http://collections.ctdigitalarchive.org/islandora/object/250002%3AWA001.
-  $menu_links['menu-wadsworth-atheneum-contextu_wadsworth-atheneum-collections-:http://collections.ctdigitalarchive.org/islandora/object/250002%3AWA001'] = array(
-    'menu_name' => 'menu-wadsworth-atheneum-contextu',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/250002%3AWA001',
-    'router_path' => '',
-    'link_title' => 'Wadsworth Atheneum Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-wadsworth-atheneum-contextu_wadsworth-atheneum-collections-:http://collections.ctdigitalarchive.org/islandora/object/250002%3AWA001',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
     'customized' => 1,
   );
   // Exported menu link: menu-wadsworth-atheneum-contextu_website-:https://thewadsworth.org/.
@@ -8830,39 +6438,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -8,
     'customized' => 1,
   );
-  // Exported menu link: menu-windham-textile-history-con_about--:node/52.
-  $menu_links['menu-windham-textile-history-con_about--:node/52'] = array(
-    'menu_name' => 'menu-windham-textile-history-con',
-    'link_path' => 'node/52',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-windham-textile-history-con_about--:node/52',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 1,
-  );
   // Exported menu link: menu-windham-textile-history-con_website:http://www.millmuseum.org/.
   $menu_links['menu-windham-textile-history-con_website:http://www.millmuseum.org/'] = array(
     'menu_name' => 'menu-windham-textile-history-con',
@@ -8896,72 +6471,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -6,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-windham-textile-history-con_windham-textile--history-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/360002%3AAdminJEWTM.
-  $menu_links['menu-windham-textile-history-con_windham-textile--history-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/360002%3AAdminJEWTM'] = array(
-    'menu_name' => 'menu-windham-textile-history-con',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/360002%3AAdminJEWTM',
-    'router_path' => '',
-    'link_title' => 'Windham Textile & History Museum Collections |',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-windham-textile-history-con_windham-textile--history-museum-collections-:http://collections.ctdigitalarchive.org/islandora/object/360002%3AAdminJEWTM',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-woodbury-public-library-con_about--:node/53.
-  $menu_links['menu-woodbury-public-library-con_about--:node/53'] = array(
-    'menu_name' => 'menu-woodbury-public-library-con',
-    'link_path' => 'node/53',
-    'router_path' => 'node/%',
-    'link_title' => 'About | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-woodbury-public-library-con_about--:node/53',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
     'customized' => 1,
   );
   // Exported menu link: menu-woodbury-public-library-con_bibliomation-collections:http://collections.ctdigitalarchive.org/islandora/object/140002%3ABiblio.
@@ -9032,39 +6541,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -6,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-woodbury-public-library-con_woodbury-public-library-collections--:http://collections.ctdigitalarchive.org/islandora/object/140065%3AWoodbury.
-  $menu_links['menu-woodbury-public-library-con_woodbury-public-library-collections--:http://collections.ctdigitalarchive.org/islandora/object/140065%3AWoodbury'] = array(
-    'menu_name' => 'menu-woodbury-public-library-con',
-    'link_path' => 'http://collections.ctdigitalarchive.org/islandora/object/140065%3AWoodbury',
-    'router_path' => '',
-    'link_title' => 'Woodbury Public Library Collections | ',
-    'options' => array(
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-woodbury-public-library-con_woodbury-public-library-collections--:http://collections.ctdigitalarchive.org/islandora/object/140065%3AWoodbury',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -8,
     'customized' => 1,
   );
   // Exported menu link: menu-woodbury-public-library-soc_facebook:https://www.facebook.com/Woodbury-Public-Library-492675417506253/.
@@ -9211,82 +6687,51 @@ function platform_main_feature_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('A to Z Index');
-  t('ABC: A Barnum Companion');
   t('ASD Collections | ');
   t('About');
   t('About this site');
-  t('About |');
   t('About | ');
   t('Advanced Search');
   t('All Collections');
   t('Avon Free Public Library');
-  t('Avon Free Public Library Collections | ');
   t('Barnum Museum');
   t('Barnum Museum Collections | ');
-  t('Bethel Public Library Collections |');
   t('Bibliomation Collections');
-  t('Bibliomation Collections |');
-  t('Bill Memorial Library Collections |');
   t('Bridgeport History Center');
-  t('Bridgeport History Center Collections |');
   t('Browse repository');
   t('CAHSL Collections |');
   t('CHS Collections |');
-  t('CSMNH Collections |');
-  t('CT Landmarks Collections |');
   t('Case Memorial Library Collections | ');
-  t('Connecticut College Collections |');
   t('Connecticut Historical Society');
   t('Connecticut State Library');
   t('Contact');
   t('Contact Us');
   t('Contact |');
   t('Disclaimers, Privacy & Copyright');
-  t('Enfield Public Library Collections |');
   t('Facebook');
-  t('Fairfield Museum and History Center Collections |');
   t('Flickr');
   t('Florence Griswold Museum Collections |');
   t('Google Plus');
   t('Groton Public Library Collections |');
-  t('HPL Collections | ');
-  t('Hagaman Memorial Library Collections | ');
-  t('Hartford Medical Society Collections |');
   t('Home');
   t('Instagram');
-  t('Ivoryton Library Association Collections |');
   t('Join');
-  t('Kent Memorial Library Collections |');
   t('Linkedin');
-  t('Litchfield Historical Society Collections |');
   t('Log out');
   t('Logout');
-  t('Lyman Allyn Art Museum Collections |');
   t('Make contact');
-  t('Mattatuck Museum Collections |');
   t('My Bookmarks');
-  t('Mystic Arts Museum Collections |');
-  t('Mystic Seaport Collections |');
-  t('NBMAA Collections | ');
-  t('New Haven Museum Collections | ');
-  t('Norwalk Public Library Collection |');
   t('Pinterest');
   t('Pintrest');
   t('Search');
-  t('Slater Memorial Museum Collections |');
-  t('Stonington Historical Society Collections |');
   t('Support the Libraries');
   t('Tumblr');
   t('Twitter');
   t('UConn Archives Blog |');
   t('User account');
-  t('Wadsworth Atheneum Collections |');
   t('Website');
   t('Website |');
-  t('Website | ');
   t('Wesbite');
-  t('Windham Textile & History Museum Collections |');
-  t('Woodbury Public Library Collections | ');
   t('YouTube');
   t('Youtube');
   t('© University of Connecticut');
