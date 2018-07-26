@@ -6150,7 +6150,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'Object Title (Temporary View)';
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: mods_title_ms */
   $handler->display->display_options['fields']['mods_title_ms']['id'] = 'mods_title_ms';
   $handler->display->display_options['fields']['mods_title_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_title_ms']['field'] = 'mods_title_ms';
