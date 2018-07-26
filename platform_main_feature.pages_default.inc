@@ -1181,7 +1181,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About The Barnum Museum';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__barnum-museum-about-page';
@@ -1305,7 +1305,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -1331,7 +1331,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
@@ -1357,7 +1357,7 @@ function platform_main_feature_default_page_manager_handlers() {
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => 'about-institutions',
+    'body_classes_to_add' => 'about-institutions biblio',
     'css_id' => '',
     'css' => '',
     'contexts' => array(
@@ -1515,7 +1515,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About the Bethel Public Library';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__bethel-public-library-about-page';
@@ -2229,7 +2229,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'About Bill Memorial Library';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__bill-memorial-library-about-page';
@@ -2353,7 +2353,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-contextual-menu',
+    'css_class' => 'panel-social-media-menu',
   );
   $pane->extras = array();
   $pane->position = 0;
@@ -2379,7 +2379,7 @@ function platform_main_feature_default_page_manager_handlers() {
   );
   $pane->css = array(
     'css_id' => '',
-    'css_class' => 'panel-social-media-menu',
+    'css_class' => 'panel-contextual-menu',
   );
   $pane->extras = array();
   $pane->position = 1;
