@@ -1801,19 +1801,19 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: marc_holding_callNumber_ms */
   $handler->display->display_options['fields']['marc_holding_callNumber_ms']['id'] = 'marc_holding_callNumber_ms';
   $handler->display->display_options['fields']['marc_holding_callNumber_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['marc_holding_callNumber_ms']['field'] = 'marc_holding_callNumber_ms';
   $handler->display->display_options['fields']['marc_holding_callNumber_ms']['label'] = 'Call Number';
   $handler->display->display_options['fields']['marc_holding_callNumber_ms']['alter']['make_link'] = TRUE;
   $handler->display->display_options['fields']['marc_holding_callNumber_ms']['alter']['path'] = '/islandora/search/mods_identifier_lccallnumber_mt%3A[marc_holding_callNumber_ms]';
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: marc_holding_location_ms */
   $handler->display->display_options['fields']['marc_holding_location_ms']['id'] = 'marc_holding_location_ms';
   $handler->display->display_options['fields']['marc_holding_location_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['marc_holding_location_ms']['field'] = 'marc_holding_location_ms';
   $handler->display->display_options['fields']['marc_holding_location_ms']['label'] = 'Location';
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: marc_holding_libraryHas_ms */
   $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['id'] = 'marc_holding_libraryHas_ms';
   $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['field'] = 'marc_holding_libraryHas_ms';
@@ -1837,6 +1837,7 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $handler->display->display_options['enabled'] = FALSE;
   $translatables['serial_holdings_report'] = array(
     t('Master'),
     t('Serial Holdings Report'),
