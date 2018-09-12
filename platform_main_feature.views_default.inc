@@ -2873,6 +2873,44 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['value'] = '053a6cfd-1eeb-43e3-b621-9a9a3851a1a2';
   $handler->display->display_options['block_description'] = 'CH Booth Library Logo';
+
+  /* Display: Trinity College Logo */
+  $handler = $view->new_display('block', 'Trinity College Logo', 'block_48');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Trinity College Logo';
+  $handler->display->display_options['display_description'] = 'Trinity College Logo';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Institution Logo */
+  $handler->display->display_options['fields']['field_institution_logo']['id'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['table'] = 'field_data_field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
+  $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/120002:TC" title=[field_institution_logo-title]">
+ [field_institution_logo]
+</a>';
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['more_link'] = TRUE;
+  $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_institution_logo']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_institution_logo']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = 'e5e43b60-2d0c-4ab3-b1ca-dd6a0bf4d947';
+  $handler->display->display_options['block_description'] = 'Trinity College Logo';
   $export['bellington_collection_logo'] = $view;
 
   $view = new view();
@@ -4466,7 +4504,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '5';
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'grid';
-  $handler->display->display_options['style_options']['columns'] = '3';
   $handler->display->display_options['defaults']['style_options'] = FALSE;
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
