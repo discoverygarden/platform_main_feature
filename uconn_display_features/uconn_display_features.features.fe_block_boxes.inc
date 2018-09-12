@@ -11,12 +11,19 @@ function uconn_display_features_default_fe_block_boxes() {
   $export = array();
 
   $fe_block_boxes = new stdClass();
-  $fe_block_boxes->info = 'CTDA Information';
-  $fe_block_boxes->format = 'filtered_html';
-  $fe_block_boxes->machine_name = 'ctda_info';
-  $fe_block_boxes->body = 'CTDA Information';
+  $fe_block_boxes->info = 'information list';
+  $fe_block_boxes->format = 'full_html';
+  $fe_block_boxes->machine_name = 'cdta_info1';
+  $fe_block_boxes->body = '<ul>
+	<li><a href="https://confluence.uits.uconn.edu/confluence/display/CTDA/About+the+Connecticut+Digital+Archive" target="_blank">About the CTDA</a></li>
+	<li><a href="https://confluence.uits.uconn.edu/confluence/display/CTDA/CTDA+Resource+Center" target="_blank">Resource Center</a></li>
+	<li><a href="https://connecticut-digital-archive-community.mobilize.io/network-groups" target="_blank">Community Center</a></li>
+	<li><a href="https://connecticut-digital-archive-community.mobilize.io/registrations/groups/21426" target="_blank">Alert List</a></li>
+	<li><a href="mailto:ctda@uconn.edu">Contact the CTDA</a></li>
+</ul>
+';
 
-  $export['ctda_info'] = $fe_block_boxes;
+  $export['cdta_info1'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'News about the CTDA';

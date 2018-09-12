@@ -1070,72 +1070,6 @@ islandora/search/*',
     'visibility' => 0,
   );
 
-  $export['menu-menu-bellingtons-contextual-menu'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'menu-bellingtons-contextual-menu',
-    'module' => 'menu',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-      'uconn_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'uconn_theme',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['menu-menu-bellingtons-social-media'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'menu-bellingtons-social-media',
-    'module' => 'menu',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-      'uconn_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'uconn_theme',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
   $export['menu-menu-bethel-public-library-conte'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -1898,7 +1832,6 @@ islandora/search/*',
   $export['menu-menu-csl-contextual-menu'] = array(
     'cache' => -1,
     'css_class' => '',
-    'custom' => 0,
     'delta' => 'menu-csl-contextual-menu',
     'module' => 'menu',
     'node_types' => array(),
@@ -1924,8 +1857,6 @@ islandora/search/*',
         'weight' => 0,
       ),
     ),
-    'title' => '',
-    'visibility' => 0,
   );
 
   $export['menu-menu-csmnh-contextual-menu'] = array(

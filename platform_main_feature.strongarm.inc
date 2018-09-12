@@ -1218,8 +1218,15 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_base_sort';
-  $strongarm->value = 'mods_titleInfo_title_ss asc';
+  $strongarm->value = 'score desc';
   $export['islandora_solr_base_sort'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_collection_display_sort';
+  $strongarm->value = 'mods_titleInfo_title_ss asc';
+  $export['islandora_solr_collection_display_sort'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
