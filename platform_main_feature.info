@@ -199,6 +199,7 @@ features[variable][] = blockify_blocks
 features[variable][] = designkit_color
 features[variable][] = error_level
 features[variable][] = file_private_path
+features[variable][] = fontawesome_external
 features[variable][] = islandora_basic_collection_display_backend
 features[variable][] = islandora_collection_metadata_display
 features[variable][] = islandora_collection_search_advanced_search_alter
