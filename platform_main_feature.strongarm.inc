@@ -104,6 +104,40 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'fontawesome_allow_pseudo_elements';
+  $strongarm->value = 1;
+  $export['fontawesome_allow_pseudo_elements'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'fontawesome_external';
+  $strongarm->value = array(
+    'use_cdn' => 1,
+    'external_location' => 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+  );
+  $export['fontawesome_external'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'fontawesome_method';
+  $strongarm->value = 'webfonts';
+  $export['fontawesome_method'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'fontawesome_shim';
+  $strongarm->value = array(
+    'use_shim' => 0,
+    'external_location' => '',
+  );
+  $export['fontawesome_shim'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_basic_collection_default_view';
   $strongarm->value = 'list';
   $export['islandora_basic_collection_default_view'] = $strongarm;
@@ -267,11 +301,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-
   $strongarm->name = 'preprocess_css';
-  $strongarm->value = 1;
+  $strongarm->value = '0';
   $export['preprocess_css'] = $strongarm;
 
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'site_403';
   $strongarm->value = 'lib4ri-access-denied';
   $export['site_403'] = $strongarm;
