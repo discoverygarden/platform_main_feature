@@ -17,7 +17,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -28;
+  $handler->weight = -27;
   $handler->conf = array(
     'title' => 'About Archives & Special Collections',
     'no_blocks' => 0,
@@ -660,7 +660,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -24;
+  $handler->weight = -23;
   $handler->conf = array(
     'title' => 'Avon Free Public Library About Page',
     'no_blocks' => 0,
@@ -1017,7 +1017,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -23;
+  $handler->weight = -22;
   $handler->conf = array(
     'title' => 'Barnum Museum About Page',
     'no_blocks' => 0,
@@ -1351,7 +1351,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -22;
+  $handler->weight = -21;
   $handler->conf = array(
     'title' => 'Bethel Public Library About Page',
     'no_blocks' => 0,
@@ -1708,7 +1708,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -21;
+  $handler->weight = -20;
   $handler->conf = array(
     'title' => 'Bibliomation About Page',
     'no_blocks' => 0,
@@ -2065,7 +2065,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -20;
+  $handler->weight = -19;
   $handler->conf = array(
     'title' => 'Bill Memorial Library About Page',
     'no_blocks' => 0,
@@ -2422,7 +2422,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -26;
+  $handler->weight = -25;
   $handler->conf = array(
     'title' => 'Bridgeport History Center About Page',
     'no_blocks' => 0,
@@ -2809,7 +2809,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -19;
+  $handler->weight = -18;
   $handler->conf = array(
     'title' => 'Case Memorial Library About Page',
     'no_blocks' => 0,
@@ -3166,7 +3166,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 24;
+  $handler->weight = 22;
   $handler->conf = array(
     'title' => 'CHI About Page (Disabled)',
     'no_blocks' => 0,
@@ -3550,7 +3550,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -18;
+  $handler->weight = -17;
   $handler->conf = array(
     'title' => 'Connecticut College About Page',
     'no_blocks' => 0,
@@ -3884,7 +3884,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -17;
+  $handler->weight = -16;
   $handler->conf = array(
     'title' => 'Connecticut Historical Society About Page',
     'no_blocks' => 0,
@@ -4241,7 +4241,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -16;
+  $handler->weight = -15;
   $handler->conf = array(
     'title' => 'Connecticut Landmarks About Page',
     'no_blocks' => 0,
@@ -4267,7 +4267,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'path_visibility',
           'settings' => array(
             'visibility_setting' => '1',
-            'paths' => 'about-connecticut-landmarks',
+            'paths' => 'about-ct-landmarks',
           ),
           'context' => 'empty',
           'not' => FALSE,
@@ -4598,7 +4598,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 25;
+  $handler->weight = 24;
   $handler->conf = array(
     'title' => 'Connecticut State Library About Page',
     'no_blocks' => 0,
@@ -4982,7 +4982,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -15;
+  $handler->weight = -14;
   $handler->conf = array(
     'title' => 'Connecticut State Museum of Natural History About Page',
     'no_blocks' => 0,
@@ -5339,7 +5339,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 15;
+  $handler->weight = 16;
   $handler->conf = array(
     'title' => 'CSL About Page',
     'no_blocks' => 0,
@@ -5365,7 +5365,7 @@ function platform_main_feature_default_page_manager_handlers() {
           'name' => 'path_visibility',
           'settings' => array(
             'visibility_setting' => '1',
-            'paths' => 'about-csl',
+            'paths' => 'about-ct-state-library',
           ),
           'context' => 'empty',
           'not' => FALSE,
@@ -5673,7 +5673,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 11;
+  $handler->weight = 12;
   $handler->conf = array(
     'title' => 'CTDA About Page',
     'no_blocks' => 0,
@@ -5984,7 +5984,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -25;
+  $handler->weight = -24;
   $handler->conf = array(
     'title' => 'Digital Collections About Page',
     'no_blocks' => 0,
@@ -6368,7 +6368,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -14;
+  $handler->weight = -13;
   $handler->conf = array(
     'title' => 'Enfield Public Library About Page',
     'no_blocks' => 0,
@@ -6725,7 +6725,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -13;
+  $handler->weight = -12;
   $handler->conf = array(
     'title' => 'Fairfield Museum & History Center About Page',
     'no_blocks' => 0,
@@ -7082,7 +7082,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -12;
+  $handler->weight = -11;
   $handler->conf = array(
     'title' => 'Florence Griswold Museum About Page',
     'no_blocks' => 0,
@@ -7439,7 +7439,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -11;
+  $handler->weight = -10;
   $handler->conf = array(
     'title' => 'Groton Public Library About Page',
     'no_blocks' => 0,
@@ -7796,7 +7796,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -10;
+  $handler->weight = -9;
   $handler->conf = array(
     'title' => 'Hagaman Memorial Library About Page',
     'no_blocks' => 0,
@@ -8153,7 +8153,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -9;
+  $handler->weight = -8;
   $handler->conf = array(
     'title' => 'Hartford Medical Society About Page',
     'no_blocks' => 0,
@@ -8510,7 +8510,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -8;
+  $handler->weight = -7;
   $handler->conf = array(
     'title' => 'Hartford Public Library About Page',
     'no_blocks' => 0,
@@ -8868,7 +8868,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -7;
+  $handler->weight = -6;
   $handler->conf = array(
     'title' => 'Ivoryton Library Association About Page',
     'no_blocks' => 0,
@@ -9225,7 +9225,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -6;
+  $handler->weight = -5;
   $handler->conf = array(
     'title' => 'Kent Memorial Library About Page',
     'no_blocks' => 0,
@@ -9582,7 +9582,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -5;
+  $handler->weight = -4;
   $handler->conf = array(
     'title' => 'Litchfield Historical Society About Page',
     'no_blocks' => 0,
@@ -9939,7 +9939,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -4;
+  $handler->weight = -3;
   $handler->conf = array(
     'title' => 'Lyman Allyn Art Museum About Page',
     'no_blocks' => 0,
@@ -10296,7 +10296,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -2;
+  $handler->weight = -1;
   $handler->conf = array(
     'title' => 'Mattatuck Museum About Page',
     'no_blocks' => 0,
@@ -10653,7 +10653,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -1;
+  $handler->weight = 0;
   $handler->conf = array(
     'title' => 'Mystic Arts Center About Page',
     'no_blocks' => 0,
@@ -11010,7 +11010,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 0;
+  $handler->weight = 1;
   $handler->conf = array(
     'title' => 'Mystic Seaport About Page',
     'no_blocks' => 0,
@@ -11367,7 +11367,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 1;
+  $handler->weight = 2;
   $handler->conf = array(
     'title' => 'New Britain Museum of American Art About Page',
     'no_blocks' => 0,
@@ -11724,7 +11724,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 2;
+  $handler->weight = 3;
   $handler->conf = array(
     'title' => 'New Haven Museum About Page',
     'no_blocks' => 0,
@@ -12081,7 +12081,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 3;
+  $handler->weight = 4;
   $handler->conf = array(
     'title' => 'Norwalk Public Library About Page',
     'no_blocks' => 0,
@@ -12438,7 +12438,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 9;
+  $handler->weight = 10;
   $handler->conf = array(
     'title' => 'P.T. Barnum Digital Collection About Page',
     'no_blocks' => 0,
@@ -12743,7 +12743,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 16;
+  $handler->weight = 17;
   $handler->conf = array(
     'title' => 'CHI About Page',
     'no_blocks' => 0,
@@ -12907,7 +12907,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = 'About Connecticut History Illustrated';
+  $display->title = '';
   $display->uuid = '8aac6074-0bf9-4dee-b92d-75506f4bc360';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'node_view__panel_context_428f16a0-7825-436c-9735-a5bd0d9cafed';
@@ -13051,7 +13051,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 22;
+  $handler->weight = 21;
   $handler->conf = array(
     'title' => 'Basic Page',
     'no_blocks' => 0,
@@ -13214,7 +13214,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = -27;
+  $handler->weight = -26;
   $handler->conf = array(
     'title' => 'Bellingtons Historical Society About Page',
     'no_blocks' => 0,
@@ -13598,7 +13598,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 4;
+  $handler->weight = 5;
   $handler->conf = array(
     'title' => 'Slater Memorial Museum About Page',
     'no_blocks' => 0,
@@ -13955,7 +13955,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 5;
+  $handler->weight = 6;
   $handler->conf = array(
     'title' => 'Stonington Historical Society',
     'no_blocks' => 0,
@@ -14312,7 +14312,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 13;
+  $handler->weight = 14;
   $handler->conf = array(
     'title' => 'UConn About Page',
     'no_blocks' => 0,
@@ -14646,7 +14646,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 26;
+  $handler->weight = 25;
   $handler->conf = array(
     'title' => 'UCONN Institution About',
     'no_blocks' => 0,
@@ -15030,7 +15030,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 6;
+  $handler->weight = 7;
   $handler->conf = array(
     'title' => 'Wadsworth Atheneum Museum of Art',
     'no_blocks' => 0,
@@ -15387,7 +15387,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 7;
+  $handler->weight = 8;
   $handler->conf = array(
     'title' => 'Windham Textile & History Museum About Page',
     'no_blocks' => 0,
@@ -15718,7 +15718,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'node_view';
   $handler->subtask = '';
   $handler->handler = 'panel_context';
-  $handler->weight = 8;
+  $handler->weight = 9;
   $handler->conf = array(
     'title' => 'Woodbury Public Library About Page',
     'no_blocks' => 0,
@@ -16276,7 +16276,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'American School for the Deaf Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__american-school-for-the-deaf';
@@ -17655,7 +17655,7 @@ function platform_main_feature_default_page_manager_handlers() {
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => 'barnummuseum',
+    'body_classes_to_add' => '',
     'css_id' => '',
     'css' => '',
     'contexts' => array(),
@@ -20458,7 +20458,7 @@ function platform_main_feature_default_page_manager_handlers() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Bridgeport History Center Collection';
   $display->uuid = 'e5fb01b5-e3ef-4927-a3f1-6b9a555fee77';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'pm_existing_pages_islandora_object__bridgeport-history-center-collection';
@@ -22032,7 +22032,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 13;
+  $handler->weight = 14;
   $handler->conf = array(
     'title' => 'CHI Collection',
     'no_blocks' => 0,
@@ -22590,7 +22590,7 @@ function platform_main_feature_default_page_manager_handlers() {
       'test_region' => array(
         'type' => 'region',
         'title' => 'Branding Icon',
-        'width' => '21.989590200434264',
+        'width' => '24.961156443736193',
         'width_type' => '%',
         'parent' => 'main-row',
         'class' => '',
@@ -22599,7 +22599,7 @@ function platform_main_feature_default_page_manager_handlers() {
       'region_right' => array(
         'type' => 'region',
         'title' => 'Branding Description',
-        'width' => '78.01040979956574',
+        'width' => '75.03884355626381',
         'width_type' => '%',
         'parent' => 'main-row',
         'class' => '',
@@ -24628,14 +24628,6 @@ function platform_main_feature_default_page_manager_handlers() {
           ),
           'not' => FALSE,
         ),
-        1 => array(
-          'name' => 'islandora_institution_namespace_value',
-          'settings' => array(
-            'namespace' => '30002',
-            'operation' => 'is_equal_to',
-          ),
-          'not' => FALSE,
-        ),
       ),
       'logic' => 'or',
     ),
@@ -25198,7 +25190,7 @@ function platform_main_feature_default_page_manager_handlers() {
       'test_region' => array(
         'type' => 'region',
         'title' => 'Branding Icon',
-        'width' => '23.97063436263555',
+        'width' => '24.961156443736193',
         'width_type' => '%',
         'parent' => 'main-row',
         'class' => '',
@@ -25207,7 +25199,7 @@ function platform_main_feature_default_page_manager_handlers() {
       'region_right' => array(
         'type' => 'region',
         'title' => 'Branding Description',
-        'width' => '76.02936563736445',
+        'width' => '75.03884355626381',
         'width_type' => '%',
         'parent' => 'main-row',
         'class' => '',
@@ -25634,7 +25626,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 17;
+  $handler->weight = 18;
   $handler->conf = array(
     'title' => 'Default Institution Layout',
     'no_blocks' => 0,
@@ -26100,27 +26092,6 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = '5da76868-3441-4538-bb17-2cab1aa60cff';
   $display->content['new-5da76868-3441-4538-bb17-2cab1aa60cff'] = $pane;
   $display->panels['test_region'][0] = 'new-5da76868-3441-4538-bb17-2cab1aa60cff';
-  $pane = new stdClass();
-  $pane->pid = 'new-afa677eb-e241-4fa7-8ac9-aeb7ba566cdd';
-  $pane->panel = 'test_region';
-  $pane->type = 'block';
-  $pane->subtype = 'views-ebde2b0158caed4d926680a391e122c4';
-  $pane->shown = TRUE;
-  $pane->access = array();
-  $pane->configuration = array(
-    'override_title' => 1,
-    'override_title_text' => '',
-    'override_title_heading' => 'h2',
-  );
-  $pane->cache = array();
-  $pane->style = array();
-  $pane->css = array();
-  $pane->extras = array();
-  $pane->position = 1;
-  $pane->locks = array();
-  $pane->uuid = 'afa677eb-e241-4fa7-8ac9-aeb7ba566cdd';
-  $display->content['new-afa677eb-e241-4fa7-8ac9-aeb7ba566cdd'] = $pane;
-  $display->panels['test_region'][1] = 'new-afa677eb-e241-4fa7-8ac9-aeb7ba566cdd';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
@@ -26649,7 +26620,7 @@ function platform_main_feature_default_page_manager_handlers() {
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => 'fmhc',
+    'body_classes_to_add' => '',
     'css_id' => '',
     'css' => '',
     'contexts' => array(),
@@ -27141,7 +27112,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $pane->uuid = 'b4254e2d-9487-4cd9-9f5a-c2f7b1087c16';
   $display->content['new-b4254e2d-9487-4cd9-9f5a-c2f7b1087c16'] = $pane;
   $display->panels['test_region'][0] = 'new-b4254e2d-9487-4cd9-9f5a-c2f7b1087c16';
-  $display->hide_title = PANELS_TITLE_NONE;
+  $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $export['pm_existing_pages_islandora_object__fairfield-museum-history-center'] = $handler;
@@ -30492,7 +30463,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -5;
+  $handler->weight = -4;
   $handler->conf = array(
     'title' => 'Kent Memorial Library Collection',
     'no_blocks' => 0,
@@ -31002,7 +30973,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -4;
+  $handler->weight = -3;
   $handler->conf = array(
     'title' => 'Litchfield Historical Society Collection',
     'no_blocks' => 0,
@@ -31512,7 +31483,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -3;
+  $handler->weight = -2;
   $handler->conf = array(
     'title' => 'Lyman Allyn Art Museum Collection',
     'no_blocks' => 0,
@@ -32022,7 +31993,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -2;
+  $handler->weight = -1;
   $handler->conf = array(
     'title' => 'Mattatuck Museum Collection',
     'no_blocks' => 0,
@@ -32532,7 +32503,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = -1;
+  $handler->weight = 0;
   $handler->conf = array(
     'title' => 'Mystic Arts Center Collection',
     'no_blocks' => 0,
@@ -33042,7 +33013,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 0;
+  $handler->weight = 1;
   $handler->conf = array(
     'title' => 'Mystic Seaport Collections',
     'no_blocks' => 0,
@@ -33552,7 +33523,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 1;
+  $handler->weight = 2;
   $handler->conf = array(
     'title' => 'New Britain Museum of American Art Collection',
     'no_blocks' => 0,
@@ -34062,7 +34033,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 2;
+  $handler->weight = 3;
   $handler->conf = array(
     'title' => 'New Haven Museum Collection',
     'no_blocks' => 0,
@@ -34572,7 +34543,7 @@ function platform_main_feature_default_page_manager_handlers() {
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 3;
+  $handler->weight = 4;
   $handler->conf = array(
     'title' => 'Norwalk Public Library Collection',
     'no_blocks' => 0,
@@ -35892,7 +35863,7 @@ islandora/object/islandora:5',
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 5;
+  $handler->weight = 6;
   $handler->conf = array(
     'title' => 'The Stonington Historical Society Collection',
     'no_blocks' => 0,
@@ -36402,7 +36373,7 @@ islandora/object/islandora:5',
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 4;
+  $handler->weight = 5;
   $handler->conf = array(
     'title' => 'Slater Memorial Museum Collection',
     'no_blocks' => 0,
@@ -37338,7 +37309,7 @@ islandora/object/islandora:5',
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 10;
+  $handler->weight = 11;
   $handler->conf = array(
     'title' => 'University of Connecticut Collection',
     'no_blocks' => 0,
@@ -37848,7 +37819,7 @@ islandora/object/islandora:5',
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 6;
+  $handler->weight = 7;
   $handler->conf = array(
     'title' => 'Wadsworth Athenum Museum of Art Collection',
     'no_blocks' => 0,
@@ -38640,7 +38611,7 @@ islandora/object/islandora:5',
   $handler->task = 'pm_existing_pages';
   $handler->subtask = 'islandora_object';
   $handler->handler = 'panel_context';
-  $handler->weight = 11;
+  $handler->weight = 12;
   $handler->conf = array(
     'title' => 'Woodbury Public Library Collection',
     'no_blocks' => 0,
