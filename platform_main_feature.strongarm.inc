@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * platform_main_feature.strongarm.inc
@@ -87,9 +86,9 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'blockify_blocks';
   $strongarm->value = array(
     'blockify-logo' => 'blockify-logo',
-    'blockify-site-name' => 'blockify-site-name',
-    'blockify-site-slogan' => 'blockify-site-slogan',
     'blockify-breadcrumb' => 'blockify-breadcrumb',
+    'blockify-site-name' => 0,
+    'blockify-site-slogan' => 0,
     'blockify-page-title' => 0,
     'blockify-tabs' => 0,
     'blockify-messages' => 0,
@@ -101,62 +100,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_social_media';
-  $strongarm->value = 0;
-  $export['comment_anonymous_social_media'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_social_media';
-  $strongarm->value = 1;
-  $export['comment_default_mode_social_media'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_per_page_social_media';
-  $strongarm->value = '50';
-  $export['comment_default_per_page_social_media'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_form_location_social_media';
-  $strongarm->value = 1;
-  $export['comment_form_location_social_media'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_preview_social_media';
-  $strongarm->value = '1';
-  $export['comment_preview_social_media'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_social_media';
-  $strongarm->value = '2';
-  $export['comment_social_media'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_subject_field_social_media';
-  $strongarm->value = 1;
-  $export['comment_subject_field_social_media'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'background' => '#032a17',
     'header' => '#032a17',
     'content' => '#ffffff',
-    'navigation' => '#71C5E8',
-    'footer' => '#003300',
+    'navigation' => '#255302',
+    'footer' => '#585353',
     'bottom' => '#bbbaba',
     'sidebars' => '#ffffff',
   );
@@ -168,23 +118,6 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'error_level';
   $strongarm->value = '0';
   $export['error_level'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'field_bundle_settings_node__social_media';
-  $strongarm->value = array(
-    'view_modes' => array(),
-    'extra_fields' => array(
-      'form' => array(
-        'title' => array(
-          'weight' => '-5',
-        ),
-      ),
-      'display' => array(),
-    ),
-  );
-  $export['field_bundle_settings_node__social_media'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -271,21 +204,6 @@ function platform_main_feature_strongarm() {
       'label' => 'Title',
       'path' => 'title',
     ),
-    1 => array(
-      'solr_field' => 'fgs_createdDate_dt',
-      'label' => 'Date',
-      'path' => 'date',
-    ),
-    2 => array(
-      'solr_field' => 'mods_name_corporate_namePart_mt',
-      'label' => 'Name',
-      'path' => 'name',
-    ),
-    3 => array(
-      'solr_field' => 'dc.subject',
-      'label' => 'Subject',
-      'path' => 'subject',
-    ),
   );
   $export['islandora_solr_facet_pages_fields_data'] = $strongarm;
 
@@ -320,29 +238,6 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'language_content_type_social_media';
-  $strongarm->value = '0';
-  $export['language_content_type_social_media'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'menu_options_social_media';
-  $strongarm->value = array(
-    0 => 'main-menu',
-  );
-  $export['menu_options_social_media'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'menu_parent_social_media';
-  $strongarm->value = 'main-menu:0';
-  $export['menu_parent_social_media'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'node_admin_theme';
   $strongarm->value = 1;
   $export['node_admin_theme'] = $strongarm;
@@ -360,30 +255,6 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'node_export_reset_changed_image_block';
   $strongarm->value = 1;
   $export['node_export_reset_changed_image_block'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_options_social_media';
-  $strongarm->value = array(
-    0 => 'status',
-    1 => 'promote',
-  );
-  $export['node_options_social_media'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_preview_social_media';
-  $strongarm->value = '1';
-  $export['node_preview_social_media'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_submitted_social_media';
-  $strongarm->value = 1;
-  $export['node_submitted_social_media'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -505,7 +376,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'NEWCOMB ARCHIVES AND VORHOFF LIBRARY SPECIAL COLLECTIONS';
+  $strongarm->value = 'Howard Tilton Memorial Library';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -595,13 +466,13 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_tul_theme_settings';
   $strongarm->value = array(
-    'toggle_logo' => 0,
+    'toggle_logo' => 1,
     'toggle_name' => 0,
-    'toggle_slogan' => 0,
+    'toggle_slogan' => 1,
     'toggle_node_user_picture' => 1,
     'toggle_comment_user_picture' => 1,
     'toggle_favicon' => 1,
-    'toggle_main_menu' => 0,
+    'toggle_main_menu' => 1,
     'toggle_secondary_menu' => 0,
     'default_logo' => 1,
     'logo_path' => '',
@@ -624,16 +495,18 @@ function platform_main_feature_strongarm() {
     'zen_rebuild_registry' => 1,
     'zen_wireframes' => 0,
     'tul_theme_omit' => 1,
-    'tul_theme_background_image_datastream' => 'FRONT',
+    'tul_theme_background_image_datastream' => 'JPG',
+    'tul_theme_slideshow_height' => '700',
     'designkit_color' => array(
       'background' => '#032a17',
       'header' => '#032a17',
       'content' => '#ffffff',
-      'navigation' => '#71C5E8',
-      'footer' => '#003300',
+      'navigation' => '#255302',
+      'footer' => '#585353',
       'bottom' => '#bbbaba',
       'sidebars' => '#ffffff',
     ),
+    'jquery_update_jquery_version' => '',
   );
   $export['theme_tul_theme_settings'] = $strongarm;
 

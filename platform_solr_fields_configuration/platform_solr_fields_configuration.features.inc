@@ -1,29 +1,23 @@
 <?php
+
 /**
  * @file
- * platform_main_feature.features.inc
+ * platform_solr_fields_configuration.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function platform_main_feature_ctools_plugin_api($module = NULL, $api = NULL) {
+function platform_solr_fields_configuration_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
 }
 
 /**
- * Implements hook_views_api().
- */
-function platform_main_feature_views_api($module = NULL, $api = NULL) {
-  return array("api" => "3.0");
-}
-
-/**
  * Implements hook_islandora_solr_fields_features_default_fields().
  */
-function platform_main_feature_islandora_solr_fields_features_default_fields() {
+function platform_solr_fields_configuration_islandora_solr_fields_features_default_fields() {
   return array(
   0 => array(
     'solr_field' => 'dc.title',
@@ -33,6 +27,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       'label' => 'Title',
       'snippet' => NULL,
       'date_format' => '',
+      'truncation_type' => 'separate_value_option',
       'maximum_length' => 60,
       'add_ellipsis' => 1,
       'wordsafe' => FALSE,
@@ -42,6 +37,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
         2 => 2,
         3 => 3,
       ),
+      'replace_pid_with_label' => FALSE,
       'link_to_object' => TRUE,
       'link_to_search' => FALSE,
     ),
@@ -99,6 +95,42 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       'link_to_object' => FALSE,
       'link_to_search' => FALSE,
     ),
+  ),
+  4 => array(
+    'solr_field' => 'mods_titleInfo_title_mt',
+    'field_type' => 'search_fields',
+    'weight' => 1,
+    'solr_field_settings' => array(),
+  ),
+  5 => array(
+    'solr_field' => 'mods_name_personal_namePart_mt',
+    'field_type' => 'search_fields',
+    'weight' => 2,
+    'solr_field_settings' => array(),
+  ),
+  6 => array(
+    'solr_field' => 'mods_name_corporate_namePart_mt',
+    'field_type' => 'search_fields',
+    'weight' => 3,
+    'solr_field_settings' => array(),
+  ),
+  7 => array(
+    'solr_field' => 'mods_subject_temporal_mt',
+    'field_type' => 'search_fields',
+    'weight' => 4,
+    'solr_field_settings' => array(),
+  ),
+  8 => array(
+    'solr_field' => 'mods_subject_geographic_mt',
+    'field_type' => 'search_fields',
+    'weight' => 5,
+    'solr_field_settings' => array(),
+  ),
+  9 => array(
+    'solr_field' => 'mods_genre_mt',
+    'field_type' => 'search_fields',
+    'weight' => 6,
+    'solr_field_settings' => array(),
   ),
 );
 }

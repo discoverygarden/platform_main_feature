@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * platform_main_feature.features.menu_links.inc
@@ -11,7 +10,7 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_home:<front>.
+  // Exported menu link: main-menu_home:<front>
   $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
@@ -28,88 +27,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_our-organization:uuid/node/37e05a54-6e68-41e6-b3ab-330618485a71.
-  $menu_links['main-menu_our-organization:uuid/node/37e05a54-6e68-41e6-b3ab-330618485a71'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'uuid/node/37e05a54-6e68-41e6-b3ab-330618485a71',
-    'router_path' => 'uuid',
-    'link_title' => 'OUR ORGANIZATION',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_our-organization:uuid/node/37e05a54-6e68-41e6-b3ab-330618485a71',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-  );
-  // Exported menu link: main-menu_website-feedback:uuid/node/98395de0-49a4-4c32-9395-dcd7071561cc.
-  $menu_links['main-menu_website-feedback:uuid/node/98395de0-49a4-4c32-9395-dcd7071561cc'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'uuid/node/98395de0-49a4-4c32-9395-dcd7071561cc',
-    'router_path' => 'uuid',
-    'link_title' => 'WEBSITE FEEDBACK',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_website-feedback:uuid/node/98395de0-49a4-4c32-9395-dcd7071561cc',
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-footer-menu_contact:node/3.
-  $menu_links['menu-footer-menu_contact:node/3'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/3',
-    'router_path' => 'node/%',
-    'link_title' => 'Contact',
-    'options' => array(
-      'identifier' => 'menu-footer-menu_contact:node/3',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 0,
-  );
-  // Exported menu link: menu-footer-menu_contact:node/4.
-  $menu_links['menu-footer-menu_contact:node/4'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/4',
-    'router_path' => 'node/%',
-    'link_title' => 'Contact',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-footer-menu_contact:node/4',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-footer-menu_creative-content-license:node/1.
+  // Exported menu link: menu-footer-menu_creative-content-license:node/1
   $menu_links['menu-footer-menu_creative-content-license:node/1'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/1',
@@ -126,7 +44,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 0,
   );
-  // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d.
+  // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d
   $menu_links['menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d',
@@ -146,40 +64,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_email-sign-up:uuid/node/a477fee5-fbec-4661-b911-4ee84123af0c.
-  $menu_links['menu-footer-menu_email-sign-up:uuid/node/a477fee5-fbec-4661-b911-4ee84123af0c'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'uuid/node/a477fee5-fbec-4661-b911-4ee84123af0c',
-    'router_path' => 'uuid',
-    'link_title' => 'Email Sign Up',
-    'options' => array(
-      'identifier' => 'menu-footer-menu_email-sign-up:uuid/node/a477fee5-fbec-4661-b911-4ee84123af0c',
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => 'menu-email-us',
-        'style' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -45,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-footer-menu_login:user/login.
+  // Exported menu link: menu-footer-menu_login:user/login
   $menu_links['menu-footer-menu_login:user/login'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/login',
@@ -199,7 +84,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_logout:user/logout.
+  // Exported menu link: menu-footer-menu_logout:user/logout
   $menu_links['menu-footer-menu_logout:user/logout'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/logout',
@@ -219,7 +104,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_make-contact:node/4.
+  // Exported menu link: menu-footer-menu_make-contact:node/4
   $menu_links['menu-footer-menu_make-contact:node/4'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/4',
@@ -236,7 +121,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 0,
   );
-  // Exported menu link: menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
+  // Exported menu link: menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
   $menu_links['menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
@@ -256,7 +141,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_policies:node/10.
+  // Exported menu link: menu-footer-menu_policies:node/10
   $menu_links['menu-footer-menu_policies:node/10'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/10',
@@ -273,41 +158,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 0,
   );
-  // Exported menu link: menu-footer-menu_policies:node/28.
-  $menu_links['menu-footer-menu_policies:node/28'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/28',
-    'router_path' => 'node/%',
-    'link_title' => 'Policies',
-    'options' => array(
-      'identifier' => 'menu-footer-menu_policies:node/28',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 0,
-  );
-  // Exported menu link: menu-footer-menu_policies:node/34.
-  $menu_links['menu-footer-menu_policies:node/34'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/34',
-    'router_path' => 'node/%',
-    'link_title' => 'Policies',
-    'options' => array(
-      'identifier' => 'menu-footer-menu_policies:node/34',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 0,
-  );
-  // Exported menu link: menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523.
+  // Exported menu link: menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523
   $menu_links['menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/dd9db579-7172-436d-a740-721ec9a68523',
@@ -327,7 +178,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_researchers:node/2.
+  // Exported menu link: menu-footer-menu_researchers:node/2
   $menu_links['menu-footer-menu_researchers:node/2'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/2',
@@ -344,41 +195,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 0,
   );
-  // Exported menu link: menu-footer-menu_researchers:node/22.
-  $menu_links['menu-footer-menu_researchers:node/22'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/22',
-    'router_path' => 'node/%',
-    'link_title' => 'Researchers',
-    'options' => array(
-      'identifier' => 'menu-footer-menu_researchers:node/22',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 0,
-  );
-  // Exported menu link: menu-footer-menu_researchers:node/23.
-  $menu_links['menu-footer-menu_researchers:node/23'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/23',
-    'router_path' => 'node/%',
-    'link_title' => 'Researchers',
-    'options' => array(
-      'identifier' => 'menu-footer-menu_researchers:node/23',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 0,
-  );
-  // Exported menu link: menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005.
+  // Exported menu link: menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005
   $menu_links['menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/11ab3414-deb5-4985-9797-1a90ac057005',
@@ -398,148 +215,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_terms-of-use:uuid/node/b7fa5f34-ae36-4ac5-adb1-757c65813f4a.
-  $menu_links['menu-footer-menu_terms-of-use:uuid/node/b7fa5f34-ae36-4ac5-adb1-757c65813f4a'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'uuid/node/b7fa5f34-ae36-4ac5-adb1-757c65813f4a',
-    'router_path' => 'uuid',
-    'link_title' => 'Terms of Use',
-    'options' => array(
-      'identifier' => 'menu-footer-menu_terms-of-use:uuid/node/b7fa5f34-ae36-4ac5-adb1-757c65813f4a',
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -44,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-footer-social-media-menu_facebook:https://www.facebook.com/discgarden/.
-  $menu_links['menu-footer-social-media-menu_facebook:https://www.facebook.com/discgarden/'] = array(
-    'menu_name' => 'menu-footer-social-media-menu',
-    'link_path' => 'https://www.facebook.com/discgarden/',
-    'router_path' => '',
-    'link_title' => 'Facebook',
-    'options' => array(
-      'icon' => array(
-        'bundle' => 'dgi_default_bundle',
-        'icon' => 'facebook-squared',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_replace',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-      ),
-      'attributes' => array(
-        'target' => '_blank',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-footer-social-media-menu_facebook:https://www.facebook.com/discgarden/',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-footer-social-media-menu_twitter:https://twitter.com/discgarden.
-  $menu_links['menu-footer-social-media-menu_twitter:https://twitter.com/discgarden'] = array(
-    'menu_name' => 'menu-footer-social-media-menu',
-    'link_path' => 'https://twitter.com/discgarden',
-    'router_path' => '',
-    'link_title' => 'Twitter',
-    'options' => array(
-      'icon' => array(
-        'bundle' => 'dgi_default_bundle',
-        'icon' => 'twitter-squared',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_replace',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-      ),
-      'attributes' => array(
-        'target' => '_blank',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-footer-social-media-menu_twitter:https://twitter.com/discgarden',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-footer-social-media-menu_youtube:https://www.youtube.com/channel/UCdssmuc1TIHR-2ScQB1iqIQ.
-  $menu_links['menu-footer-social-media-menu_youtube:https://www.youtube.com/channel/UCdssmuc1TIHR-2ScQB1iqIQ'] = array(
-    'menu_name' => 'menu-footer-social-media-menu',
-    'link_path' => 'https://www.youtube.com/channel/UCdssmuc1TIHR-2ScQB1iqIQ',
-    'router_path' => '',
-    'link_title' => 'YouTube',
-    'options' => array(
-      'icon' => array(
-        'bundle' => 'dgi_default_bundle',
-        'icon' => 'youtube-play',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_replace',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-      ),
-      'attributes' => array(
-        'target' => '_blank',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-footer-social-media-menu_youtube:https://www.youtube.com/channel/UCdssmuc1TIHR-2ScQB1iqIQ',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
+  // Exported menu link: menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5
   $menu_links['menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
@@ -559,12 +235,12 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_finding-aids:https://archives.tulane.edu/repositories/9.
-  $menu_links['menu-header-menu_finding-aids:https://archives.tulane.edu/repositories/9'] = array(
+  // Exported menu link: menu-header-menu_collections:islandora/object/islandora:root
+  $menu_links['menu-header-menu_collections:islandora/object/islandora:root'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'https://archives.tulane.edu/repositories/9',
-    'router_path' => '',
-    'link_title' => 'FINDING AIDS',
+    'link_path' => 'islandora/object/islandora:root',
+    'router_path' => 'islandora/object/%',
+    'link_title' => 'Collections',
     'options' => array(
       'attributes' => array(
         'title' => '',
@@ -572,17 +248,17 @@ function platform_main_feature_menu_default_menu_links() {
       'query' => array(
         'display' => 'list',
       ),
-      'identifier' => 'menu-header-menu_finding-aids:https://archives.tulane.edu/repositories/9',
+      'identifier' => 'menu-header-menu_collections:islandora/object/islandora:root',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_home:<front>.
+  // Exported menu link: menu-header-menu_home:<front>
   $menu_links['menu-header-menu_home:<front>'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => '<front>',
@@ -602,7 +278,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_login:user/login.
+  // Exported menu link: menu-header-menu_login:user/login
   $menu_links['menu-header-menu_login:user/login'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'user/login',
@@ -622,7 +298,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_logout:user/logout.
+  // Exported menu link: menu-header-menu_logout:user/logout
   $menu_links['menu-header-menu_logout:user/logout'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'user/logout',
@@ -639,30 +315,30 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -45,
+    'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_newcomb-archives:islandora.
-  $menu_links['menu-header-menu_newcomb-archives:islandora'] = array(
+  // Exported menu link: menu-header-menu_tulane-digital-repository:http://library.tulane.edu/repository/
+  $menu_links['menu-header-menu_tulane-digital-repository:http://library.tulane.edu/repository/'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'islandora',
-    'router_path' => 'islandora',
-    'link_title' => 'Newcomb Archives',
+    'link_path' => 'http://library.tulane.edu/repository/',
+    'router_path' => '',
+    'link_title' => 'Tulane Digital Repository',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-header-menu_newcomb-archives:islandora',
+      'identifier' => 'menu-header-menu_tulane-digital-repository:http://library.tulane.edu/repository/',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 0,
+    'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-quick-links_view-sample-page-one:uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193.
+  // Exported menu link: menu-quick-links_view-sample-page-one:uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193
   $menu_links['menu-quick-links_view-sample-page-one:uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193'] = array(
     'menu_name' => 'menu-quick-links',
     'link_path' => 'uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193',
@@ -682,7 +358,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-quick-links_view-sample-page-two:uuid/node/7185680c-7425-4b08-8c22-328a569e9f51.
+  // Exported menu link: menu-quick-links_view-sample-page-two:uuid/node/7185680c-7425-4b08-8c22-328a569e9f51
   $menu_links['menu-quick-links_view-sample-page-two:uuid/node/7185680c-7425-4b08-8c22-328a569e9f51'] = array(
     'menu_name' => 'menu-quick-links',
     'link_path' => 'uuid/node/7185680c-7425-4b08-8c22-328a569e9f51',
@@ -702,7 +378,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-site-navigation_happenings:uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136.
+  // Exported menu link: menu-site-navigation_happenings:uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136
   $menu_links['menu-site-navigation_happenings:uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136'] = array(
     'menu_name' => 'menu-site-navigation',
     'link_path' => 'uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136',
@@ -722,7 +398,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-site-navigation_research-and-services:uuid/node/83ed1638-66e0-44cb-853a-624a3614f789.
+  // Exported menu link: menu-site-navigation_research-and-services:uuid/node/83ed1638-66e0-44cb-853a-624a3614f789
   $menu_links['menu-site-navigation_research-and-services:uuid/node/83ed1638-66e0-44cb-853a-624a3614f789'] = array(
     'menu_name' => 'menu-site-navigation',
     'link_path' => 'uuid/node/83ed1638-66e0-44cb-853a-624a3614f789',
@@ -742,169 +418,23 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_ask-us:uuid/node/7a2de4ee-072d-4a47-bc21-feabb7e6e934.
-  $menu_links['user-menu_ask-us:uuid/node/7a2de4ee-072d-4a47-bc21-feabb7e6e934'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'uuid/node/7a2de4ee-072d-4a47-bc21-feabb7e6e934',
-    'router_path' => 'uuid',
-    'link_title' => 'ASK US',
-    'options' => array(
-      'identifier' => 'user-menu_ask-us:uuid/node/7a2de4ee-072d-4a47-bc21-feabb7e6e934',
-      'icon' => array(
-        'icon' => '',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_before',
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -44,
-    'customized' => 1,
-  );
-  // Exported menu link: user-menu_browse:islandora.
-  $menu_links['user-menu_browse:islandora'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'islandora',
-    'router_path' => 'islandora',
-    'link_title' => 'BROWSE',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'user-menu_browse:islandora',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 1,
-    'weight' => -48,
-    'customized' => 1,
-  );
-  // Exported menu link: user-menu_collections:islandora.
-  $menu_links['user-menu_collections:islandora'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'islandora',
-    'router_path' => 'islandora',
-    'link_title' => 'COLLECTIONS',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'user-menu_collections:islandora',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-  );
-  // Exported menu link: user-menu_home:<front>.
-  $menu_links['user-menu_home:<front>'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'HOME',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'user-menu_home:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-  );
-  // Exported menu link: user-menu_log-out:user/logout.
-  $menu_links['user-menu_log-out:user/logout'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'user/logout',
-    'router_path' => 'user/logout',
-    'link_title' => 'Log out',
-    'options' => array(
-      'identifier' => 'user-menu_log-out:user/logout',
-    ),
-    'module' => 'system',
-    'hidden' => 1,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-  );
-  // Exported menu link: user-menu_user-account:user.
-  $menu_links['user-menu_user-account:user'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'user',
-    'router_path' => 'user',
-    'link_title' => 'User account',
-    'options' => array(
-      'alter' => TRUE,
-      'identifier' => 'user-menu_user-account:user',
-    ),
-    'module' => 'system',
-    'hidden' => 1,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-  );
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('ASK US');
   t('About');
-  t('BROWSE');
-  t('COLLECTIONS');
-  t('Contact');
+  t('Collections');
   t('Creative content license');
-  t('Email Sign Up');
-  t('FINDING AIDS');
-  t('Facebook');
-  t('HOME');
   t('Happenings');
   t('Home');
-  t('Log out');
   t('Login');
   t('Logout');
   t('Make contact');
-  t('Newcomb Archives');
-  t('OUR ORGANIZATION');
   t('Policies');
   t('Research and Services');
   t('Researchers');
-  t('Terms of Use');
-  t('Twitter');
-  t('User account');
+  t('Tulane Digital Repository');
   t('View Sample Page One');
   t('View Sample Page Two');
-  t('WEBSITE FEEDBACK');
-  t('YouTube');
 
   return $menu_links;
 }

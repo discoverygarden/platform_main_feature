@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * platform_main_feature.features.user_permission.inc
