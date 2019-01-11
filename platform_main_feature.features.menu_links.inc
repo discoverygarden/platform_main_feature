@@ -559,10 +559,10 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_finding-aids:https://archives.tulane.edu/repositories/9.
-  $menu_links['menu-header-menu_finding-aids:https://archives.tulane.edu/repositories/9'] = array(
+  // Exported menu link: menu-header-menu_finding-aids:https://archives.tulane.edu/.
+  $menu_links['menu-header-menu_finding-aids:https://archives.tulane.edu/'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'https://archives.tulane.edu/repositories/9',
+    'link_path' => 'https://archives.tulane.edu/',
     'router_path' => '',
     'link_title' => 'FINDING AIDS',
     'options' => array(
@@ -572,7 +572,7 @@ function platform_main_feature_menu_default_menu_links() {
       'query' => array(
         'display' => 'list',
       ),
-      'identifier' => 'menu-header-menu_finding-aids:https://archives.tulane.edu/repositories/9',
+      'identifier' => 'menu-header-menu_finding-aids:https://archives.tulane.edu/',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -642,21 +642,21 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_newcomb-archives:islandora.
-  $menu_links['menu-header-menu_newcomb-archives:islandora'] = array(
+  // Exported menu link: menu-header-menu_newcomb-archives:https://newcomb.tulane.edu/content/archives.
+  $menu_links['menu-header-menu_newcomb-archives:https://newcomb.tulane.edu/content/archives'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'islandora',
-    'router_path' => 'islandora',
+    'link_path' => 'https://newcomb.tulane.edu/content/archives',
+    'router_path' => '',
     'link_title' => 'Newcomb Archives',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-header-menu_newcomb-archives:islandora',
+      'identifier' => 'menu-header-menu_newcomb-archives:https://newcomb.tulane.edu/content/archives',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 0,
+    'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -47,
