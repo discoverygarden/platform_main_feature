@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * platform_main_feature.features.inc
@@ -18,6 +19,21 @@ function platform_main_feature_ctools_plugin_api($module = NULL, $api = NULL) {
  */
 function platform_main_feature_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
+}
+
+/**
+ * Implements hook_image_default_styles().
+ */
+function platform_main_feature_image_default_styles() {
+  $styles = array();
+
+  // Exported image style: origional.
+  $styles['origional'] = array(
+    'label' => 'Origional',
+    'effects' => array(),
+  );
+
+  return $styles;
 }
 
 /**
@@ -101,4 +117,22 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
     ),
   ),
 );
+}
+
+/**
+ * Implements hook_node_info().
+ */
+function platform_main_feature_node_info() {
+  $items = array(
+    'social_media' => array(
+      'name' => t('Social Media'),
+      'base' => 'node_content',
+      'description' => t('Social Media Icon'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
+  );
+  drupal_alter('node_info', $items);
+  return $items;
 }
