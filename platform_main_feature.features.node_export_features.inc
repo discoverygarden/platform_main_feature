@@ -2680,7 +2680,15 @@ function platform_main_feature_node_export_features_default() {
           ),
         ),
       ),
-      \'field_image_block_link\' => array(),
+      \'field_image_block_link\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'https://newcomb.tulane.edu/\',
+            \'format\' => NULL,
+            \'safe_value\' => \'https://newcomb.tulane.edu/\',
+          ),
+        ),
+      ),
       \'files\' => array(),
       \'language\' => \'en\',
       \'last_comment_name\' => NULL,
