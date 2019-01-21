@@ -754,11 +754,20 @@ function platform_main_feature_views_default_views() {
   /* Display: Tulane Footer Center */
   $handler = $view->new_display('block', 'Tulane Footer Center', 'block_5');
   $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Image Block Link */
+  $handler->display->display_options['fields']['field_image_block_link']['id'] = 'field_image_block_link';
+  $handler->display->display_options['fields']['field_image_block_link']['table'] = 'field_data_field_image_block_link';
+  $handler->display->display_options['fields']['field_image_block_link']['field'] = 'field_image_block_link';
+  $handler->display->display_options['fields']['field_image_block_link']['label'] = '';
+  $handler->display->display_options['fields']['field_image_block_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_image_block_link']['element_label_colon'] = FALSE;
   /* Field: Content: Image */
   $handler->display->display_options['fields']['field_image_block']['id'] = 'field_image_block';
   $handler->display->display_options['fields']['field_image_block']['table'] = 'field_data_field_image_block';
   $handler->display->display_options['fields']['field_image_block']['field'] = 'field_image_block';
   $handler->display->display_options['fields']['field_image_block']['label'] = '';
+  $handler->display->display_options['fields']['field_image_block']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_image_block']['alter']['text'] = '<a href="[field_image_block_link]" title="[field_image_block_link]" target="_blank">[field_image_block]</a>';
   $handler->display->display_options['fields']['field_image_block']['element_type'] = '0';
   $handler->display->display_options['fields']['field_image_block']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_image_block']['element_wrapper_type'] = '0';
@@ -854,6 +863,7 @@ function platform_main_feature_views_default_views() {
     t('The text only logo found in the header'),
     t('Tulane Footer Logo'),
     t('Tulane Footer Center'),
+    t('<a href="[field_image_block_link]" title="[field_image_block_link]" target="_blank">[field_image_block]</a>'),
     t('Tulane Footer Contact'),
   );
   $export['image_blocks'] = $view;
