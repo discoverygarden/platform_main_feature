@@ -50,7 +50,7 @@ function platform_main_feature_node_export_features_default() {
       \'name\' => \'admin\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => NULL,
+      \'path\' => FALSE,
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -344,7 +344,7 @@ function platform_main_feature_node_export_features_default() {
       \'name\' => \'admin\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => NULL,
+      \'path\' => FALSE,
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -414,6 +414,327 @@ function platform_main_feature_node_export_features_default() {
       \'uuid\' => \'15310bdf-5e1b-408b-8a7b-19ae5569eabd\',
       \'vid\' => NULL,
       \'vuuid\' => \'1e26a683-a08d-4655-8907-c793c08bf24e\',
+    ),
+  (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<p>High-resolution reproductions of photographs can be provided as digital TIFF files.</p>\\r\\n<p style=\\"padding-left: 30px;\\">600 dpi scans&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $10.00 each</p>\\r\\n<p style=\\"padding-left: 30px;\\">1200 dpi scans &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $25.00 each</p>\\r\\n<p>&nbsp;Scans at 1200 dpi can be requested for negatives, slides, contact prints and enlargements larger than 11&rdquo;x 17&rdquo;.</p>\\r\\n<h3><strong>Electronic format</strong></h3>\\r\\n<p>Files are delivered via&nbsp;<a href=\\"https://www.dropbox.com/plans?trigger=sem\\">Dropbox</a>&nbsp;by 5 p.m., one week from the date ordered for up to five photos. Please allow two weeks for orders of six to ten photos. Delivery of orders for more than ten photos will be scheduled at the time of order. Rush orders are double the scan charge and delivered via&nbsp;<a href=\\"https://www.dropbox.com/plans?trigger=sem\\">Dropbox</a>&nbsp;by 5 p.m. three business days after the order. Files can be saved on a CD provided by the library as a special request and an additional cost of $4.00 per CD<strong>.&nbsp;</strong>A CD can be mailed for a $3.00 charge.</p>\\r\\n<h3><strong>Photograph Collections with Restrictions</strong></h3>\\r\\n<p><strong>For the Museum of Boulder Photos&nbsp;</strong>(starting with call numbers BHS 000-399) Complete the&nbsp;<u><a href=\\"https://www.museumofboulder.org/archive-photograph-use-agreement/\\">Museum of Boulder Archive/Photograph Use Agreement&nbsp;</a></u>. Submit it&nbsp;after placing the order with the Carnegie Library.&nbsp;</p>\\r\\n<p><strong>For the Boulder Daily Camera Photos (BDC and 928)</strong>&nbsp;For photos from this collection being used&nbsp; for commercial purposes, complete the&nbsp;<u><a href=\\"https://boulderlibrary.org/wp-content/uploads/2016/02/BDC-Use-fee-form-updated.pdf\\">Daily Camera Use Fee Form</a></u>. Submit any use fees to the Boulder Daily Camera Editor BEFORE placing the order with the Carnegie Library. The order will be processed once verification from the Boulder Daily Camera is received.&nbsp;</p>\\r\\n<p><strong>Payment</strong>&nbsp;</p>\\r\\nComplete and return the <a href=\\"https://boulderlibrary.org/wp-content/uploads/2018/10/2018-Carnegie-Photograph-Order-Form.pdf\\">2018 Carnegie Photograph Order Form</a> with payment to the Carnegie Library for Local History. Email the completed form to&nbsp;<u><a href=\\"mailto:photorequest@boulderlibrary.org\\">photorequest@boulderlibrary.org</a></u>&nbsp;and call 303-441-3110 during&nbsp;<a href=\\"https://boulderlibrary.org/locations/carnegie/\\">open hours</a>&nbsp;to pay with a credit card. If you have questions on how to fill out the form, please call (303) 441-3110.</p>",
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<p>High-resolution reproductions of photographs can be provided as digital TIFF files.</p>\\n<p style=\\"padding-left: 30px;\\">600 dpi scans                         $10.00 each</p>\\n<p style=\\"padding-left: 30px;\\">1200 dpi scans                        $25.00 each</p>\\n<p> Scans at 1200 dpi can be requested for negatives, slides, contact prints and enlargements larger than 11”x 17”.</p>\\n<h3><strong>Electronic format</strong></h3>\\n<p>Files are delivered via <a href=\\"https://www.dropbox.com/plans?trigger=sem\\">Dropbox</a> by 5 p.m., one week from the date ordered for up to five photos. Please allow two weeks for orders of six to ten photos. Delivery of orders for more than ten photos will be scheduled at the time of order. Rush orders are double the scan charge and delivered via <a href=\\"https://www.dropbox.com/plans?trigger=sem\\">Dropbox</a> by 5 p.m. three business days after the order. Files can be saved on a CD provided by the library as a special request and an additional cost of $4.00 per CD<strong>. </strong>A CD can be mailed for a $3.00 charge.</p>\\n<h3><strong>Photograph Collections with Restrictions</strong></h3>\\n<p><strong>For the Museum of Boulder Photos </strong>(starting with call numbers BHS 000-399) Complete the <u><a href=\\"https://www.museumofboulder.org/archive-photograph-use-agreement/\\">Museum of Boulder Archive/Photograph Use Agreement </a></u>. Submit it after placing the order with the Carnegie Library. </p>\\n<p><strong>For the Boulder Daily Camera Photos (BDC and 928)</strong> For photos from this collection being used  for commercial purposes, complete the <u><a href=\\"https://boulderlibrary.org/wp-content/uploads/2016/02/BDC-Use-fee-form-updated.pdf\\">Daily Camera Use Fee Form</a></u>. Submit any use fees to the Boulder Daily Camera Editor BEFORE placing the order with the Carnegie Library. The order will be processed once verification from the Boulder Daily Camera is received. </p>\\n<p><strong>Payment</strong> </p>\\nComplete and return the <a href=\\"https://boulderlibrary.org/wp-content/uploads/2018/10/2018-Carnegie-Photograph-Order-Form.pdf\\">2018 Carnegie Photograph Order Form</a> with payment to the Carnegie Library for Local History. Email the completed form to <u><a href=\\"mailto:photorequest@boulderlibrary.org\\">photorequest@boulderlibrary.org</a></u> and call 303-441-3110 during <a href=\\"https://boulderlibrary.org/locations/carnegie/\\">open hours</a> to pay with a credit card. If you have questions on how to fill out the form, please call (303) 441-3110.",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => NULL,
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'log\' => \'\',
+      \'menu\' => array(
+        \'link_title\' => \'Photo Requests\',
+        \'mlid\' => 0,
+        \'plid\' => \'0\',
+        \'menu_name\' => \'menu-header-menu\',
+        \'weight\' => \'-45\',
+        \'options\' => array(),
+        \'module\' => \'menu\',
+        \'expanded\' => \'0\',
+        \'hidden\' => \'0\',
+        \'has_children\' => \'0\',
+        \'customized\' => 0,
+        \'parent_depth_limit\' => 8,
+        \'description\' => \'\',
+        \'enabled\' => 1,
+      ),
+      \'name\' => \'admin\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/20\',
+        \'alias\' => \'request-a-photo\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Photo Requests\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'1aeff5c2-2be8-44be-9976-4b14febb5ba8\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'ca652df5-4870-4afb-8dc9-25cb80f1357f\',
+    ),
+  (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<p><strong>Carnegie Library for Local History Donation Evaluation Questions</strong></p>\\r\\n<p><strong>Provenance</strong></p>\\r\\n<ul>\\r\\n<li>What is the provenance or background history of the donation?</li>\\r\\n<li>Who compiled the donation?</li>\\r\\n<li>Does the donor have the authority to transfer ownership?</li>\\r\\n</ul>\\r\\n<p>&nbsp;</p>\\r\\n<p><a href=\\"https://localhistory.boulderlibrary.org/Collection-policy\\"><strong><u>Meets Collection Policy </u></strong></a></p>\\r\\n<ul>\\r\\n<li>Did the subject of the donation play an important role in the city or county of Boulder?</li>\\r\\n</ul>\\r\\n<p>If so, what role?</p>\\r\\n<ul>\\r\\n<li>Do the materials lead to a better understanding of under-represented groups such as ethnic groups, minorities, homeless, etc.?</li>\\r\\n<li>Does the staff believe patrons will find the materials useful?</li>\\r\\n<li>Are the donated materials unique to the Carnegie Library and not able to be found elsewhere?</li>\\r\\n<li>Does the donation add depth to the archive collections?</li>\\r\\n<li>Do the records appear to completely document a person, organization, etc.? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>\\r\\n<li>Are there concerns regarding the physical condition of the donation (e.g. smell of mildew, mold, pets, or smoke? Signs of insect or rodent infestation?)</li>\\r\\n<li>Are the materials in order or organized?</li>\\r\\n<li>Are the subjects in the photographs identified?</li>\\r\\n<li>What is the value of the donation: administrative, legal, fiscal, evidential, or informational?</li>\\r\\n</ul>\\r\\n<p>&nbsp;</p>\\r\\n<p><strong>Processing</strong></p>\\r\\n<ul>\\r\\n<li>Does the donation warrant the cost of archival supplies?</li>\\r\\n<li>What is the proportion of useful material to the overall size?</li>\\r\\n<li>Does Carnegie have the storage space required to house the donation?</li>\\r\\n<li>Will the donor provide financial backing for storage of collection?</li>\\r\\n<li>How much time is needed to organize the collection?</li>\\r\\n<li>Are there format considerations? (See digital donations below)</li>\\r\\n<li>Does the donation include any of the following types of materials:\\r\\n<ul>\\r\\n<li>oversized</li>\\r\\n<li>film or electronic</li>\\r\\n<li>born-digital</li>\\r\\n</ul>\\r\\n</li>\\r\\n<li>Are the contents unrestricted?</li>\\r\\n</ul>\\r\\n<p>&nbsp;</p>\\r\\n<p>&nbsp;</p>",
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<p><strong>Carnegie Library for Local History Donation Evaluation Questions</strong></p>\\n<p><strong>Provenance</strong></p>\\n<ul><li>What is the provenance or background history of the donation?</li>\\n<li>Who compiled the donation?</li>\\n<li>Does the donor have the authority to transfer ownership?</li>\\n</ul><p> </p>\\n<p><a href=\\"https://localhistory.boulderlibrary.org/Collection-policy\\"><strong><u>Meets Collection Policy </u></strong></a></p>\\n<ul><li>Did the subject of the donation play an important role in the city or county of Boulder?</li>\\n</ul><p>If so, what role?</p>\\n<ul><li>Do the materials lead to a better understanding of under-represented groups such as ethnic groups, minorities, homeless, etc.?</li>\\n<li>Does the staff believe patrons will find the materials useful?</li>\\n<li>Are the donated materials unique to the Carnegie Library and not able to be found elsewhere?</li>\\n<li>Does the donation add depth to the archive collections?</li>\\n<li>Do the records appear to completely document a person, organization, etc.?      </li>\\n<li>Are there concerns regarding the physical condition of the donation (e.g. smell of mildew, mold, pets, or smoke? Signs of insect or rodent infestation?)</li>\\n<li>Are the materials in order or organized?</li>\\n<li>Are the subjects in the photographs identified?</li>\\n<li>What is the value of the donation: administrative, legal, fiscal, evidential, or informational?</li>\\n</ul><p> </p>\\n<p><strong>Processing</strong></p>\\n<ul><li>Does the donation warrant the cost of archival supplies?</li>\\n<li>What is the proportion of useful material to the overall size?</li>\\n<li>Does Carnegie have the storage space required to house the donation?</li>\\n<li>Will the donor provide financial backing for storage of collection?</li>\\n<li>How much time is needed to organize the collection?</li>\\n<li>Are there format considerations? (See digital donations below)</li>\\n<li>Does the donation include any of the following types of materials:\\n<ul><li>oversized</li>\\n<li>film or electronic</li>\\n<li>born-digital</li>\\n</ul></li>\\n<li>Are the contents unrestricted?</li>\\n</ul><p> </p>\\n<p> </p>",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => NULL,
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'902\',
+      \'log\' => \'\',
+      \'menu\' => NULL,
+      \'name\' => \'admin\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/26\',
+        \'alias\' => \'Donation-evaluation-questions\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Donation Evaluation Questions\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'263e581b-fe9f-4678-bceb-fa1cd684d948\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'8d39c7ad-f389-4658-92e4-d8b6c4782ab1\',
+    ),
+  (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<p><strong>Carnegie Library for Local History Accepted Digital Formats of Donations</strong></p>\\r\\n<p>&nbsp;PHOTOS:</p>\\r\\n<table border=\\"2px\\" cellpadding=\\"3px\\">\\r\\n<tbody>\\r\\n<tr style=\\"background-color: #dddddd;\\">\\r\\n<td width=\\"76\\">\\r\\n<p><strong>Format</strong></p>\\r\\n</td>\\r\\n<td width=\\"80\\">\\r\\n<p><strong>File Extension</strong></p>\\r\\n</td>\\r\\n<td width=\\"82\\">\\r\\n<p><strong>Mime Type</strong></p>\\r\\n</td>\\r\\n<td width=\\"331\\">\\r\\n<p><strong>Qualifying Factors/Notes</strong></p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"76\\">\\r\\n<p>TIFF</p>\\r\\n</td>\\r\\n<td width=\\"80\\">\\r\\n<p>.tiff</p>\\r\\n</td>\\r\\n<td width=\\"82\\">\\r\\n<p>image/tiff</p>\\r\\n</td>\\r\\n<td width=\\"331\\">\\r\\n<p>This format is often slow to load unless compressed into a lossless format such as JPEG 2000</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"76\\">\\r\\n<p>JPEG&nbsp;2000</p>\\r\\n</td>\\r\\n<td width=\\"80\\">\\r\\n<p>&nbsp;.jp2</p>\\r\\n</td>\\r\\n<td width=\\"82\\">\\r\\n<p>image/jp2</p>\\r\\n</td>\\r\\n<td width=\\"331\\">\\r\\n<p>Preferred over JPEG</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"76\\">\\r\\n<p>JPEG</p>\\r\\n</td>\\r\\n<td width=\\"80\\">\\r\\n<p>.jpg</p>\\r\\n</td>\\r\\n<td width=\\"82\\">\\r\\n<p>image/jpeg</p>\\r\\n</td>\\r\\n<td width=\\"331\\">\\r\\n<p>JPEG 2000 preferred.</p>\\r\\n</td>\\r\\n</tr>\\r\\n</tbody>\\r\\n</table>\\r\\n<p>&nbsp;</p>\\r\\n<p>AUDIO/VIDEO:</p>\\r\\n<table border=\\"2px\\" cellpadding=\\"3px\\">\\r\\n<tbody>\\r\\n<tr style=\\"background-color: #dddddd;\\">\\r\\n<td width=\\"99\\">\\r\\n<p><strong>Format</strong></p>\\r\\n</td>\\r\\n<td width=\\"78\\">\\r\\n<p><strong>File Extension</strong></p>\\r\\n</td>\\r\\n<td width=\\"177\\">\\r\\n<p><strong>Mime Type</strong></p>\\r\\n</td>\\r\\n<td width=\\"208\\">\\r\\n<p><strong>Qualifying Factors/Notes</strong></p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"99\\">\\r\\n<p>Wave</p>\\r\\n</td>\\r\\n<td width=\\"78\\">\\r\\n<p>.wav</p>\\r\\n</td>\\r\\n<td width=\\"177\\">\\r\\n<p>audio/x-wav or audio/wav</p>\\r\\n</td>\\r\\n<td width=\\"208\\">\\r\\n<p>&nbsp;</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"99\\">\\r\\n<p>MPEG audio</p>\\r\\n</td>\\r\\n<td width=\\"78\\">\\r\\n<p>.mp3</p>\\r\\n</td>\\r\\n<td width=\\"177\\">\\r\\n<p>audio/mpeg, audio/mp3</p>\\r\\n</td>\\r\\n<td width=\\"208\\">\\r\\n<p>&nbsp;</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"99\\">\\r\\n<p>MPEG-4</p>\\r\\n</td>\\r\\n<td width=\\"78\\">\\r\\n<p>.mp4</p>\\r\\n</td>\\r\\n<td width=\\"177\\">\\r\\n<p>video/mp4</p>\\r\\n</td>\\r\\n<td width=\\"208\\">\\r\\n<p>Many variants possible; preservation level not yet established</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"99\\">\\r\\n<p>AVI</p>\\r\\n</td>\\r\\n<td width=\\"78\\">\\r\\n<p>.avi</p>\\r\\n</td>\\r\\n<td width=\\"177\\">\\r\\n<p>video/avi, video/msvideo, video/x-msvideo +</p>\\r\\n</td>\\r\\n<td width=\\"208\\">\\r\\n<p>.mp4 preferred</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"99\\">\\r\\n<p>Quicktime</p>\\r\\n</td>\\r\\n<td width=\\"78\\">\\r\\n<p>.mov</p>\\r\\n</td>\\r\\n<td width=\\"177\\">\\r\\n<p>video/quicktime, video/x-quicktime</p>\\r\\n</td>\\r\\n<td width=\\"208\\">\\r\\n<p>.mp4 preferred</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"99\\">\\r\\n<p>MPEG-1<br /> MPEG-2</p>\\r\\n</td>\\r\\n<td width=\\"78\\">\\r\\n<p>.mp1<br /> .mp2</p>\\r\\n</td>\\r\\n<td width=\\"177\\">\\r\\n<p>video/mpeg<br /> video/mpeg2</p>\\r\\n</td>\\r\\n<td width=\\"208\\">\\r\\n<p>Many variants possible; preservation level not yet established<br /> .mp4 preferred</p>\\r\\n</td>\\r\\n</tr>\\r\\n</tbody>\\r\\n</table>\\r\\n<p>&nbsp;</p>\\r\\n<p>&nbsp;</p>\\r\\n<p>DOCUMENTS:</p>\\r\\n<table border=\\"2px\\" cellpadding=\\"2px\\">\\r\\n<tbody>\\r\\n<tr style=\\"background-color: #dddddd;\\">\\r\\n<td width=\\"57\\">\\r\\n<p><strong>Format</strong></p>\\r\\n</td>\\r\\n<td width=\\"74\\">\\r\\n<p><strong>File Extension</strong></p>\\r\\n</td>\\r\\n<td width=\\"428\\">\\r\\n<p><strong>Qualifying Factors/Notes</strong></p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"57\\">\\r\\n<p>PDF/A*</p>\\r\\n</td>\\r\\n<td width=\\"74\\">\\r\\n<p>.pdf</p>\\r\\n</td>\\r\\n<td width=\\"428\\">\\r\\n<p>Files not created per the &ldquo;Best Practices&rdquo; receive Level 2 support, and may be migrated to PDF/A</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"57\\">\\r\\n<p>XML</p>\\r\\n</td>\\r\\n<td width=\\"74\\">\\r\\n<p>.xml</p>\\r\\n</td>\\r\\n<td width=\\"428\\">\\r\\n<p>Deposit of appropriate DTD/schema with XML file is strongly encouraged and may impact preservation. Minimally, XML should be well-formed; explicit namespaces strongly preferred.<br /> Assumes no DTD/schema but that XML file is well formed.</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"57\\">\\r\\n<p>HTML</p>\\r\\n</td>\\r\\n<td width=\\"74\\">\\r\\n<p>.html</p>\\r\\n<p>.htm</p>\\r\\n</td>\\r\\n<td width=\\"428\\">\\r\\n<p>Requires HTML 4.0 or 4.01 validated markup and CSS files(s), if referenced, must be deposited with document.</p>\\r\\n</td>\\r\\n</tr>\\r\\n</tbody>\\r\\n</table>\\r\\n<p>*PDF/A is preferred over PDF whenever possible, as it is becoming recognized as the archival standard. PDF is also recommended over Word, PowerPoint and Excel as a stable format.<br /> </p>\\r\\n<table border=\\"2px\\" cellpadding=\\"3px\\">\\r\\n<tbody>\\r\\n<tr style=\\"background-color: #dddddd;\\">\\r\\n<td width=\\"106\\">\\r\\n<p><strong>Format</strong></p>\\r\\n</td>\\r\\n<td width=\\"79\\">\\r\\n<p><strong>File Extension</strong></p>\\r\\n</td>\\r\\n<td width=\\"161\\">\\r\\n<p><strong>Mime Type</strong></p>\\r\\n</td>\\r\\n<td width=\\"216\\">\\r\\n<p><strong>Qualifying Factors/Notes</strong></p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"106\\">\\r\\n<p>Microsoft Word</p>\\r\\n</td>\\r\\n<td width=\\"79\\">\\r\\n<p>.doc<br /> .docx</p>\\r\\n</td>\\r\\n<td width=\\"161\\">\\r\\n<p>application/msword</p>\\r\\n</td>\\r\\n<td width=\\"216\\">\\r\\n<p>Content must be converted to PDF/A and macros disabled by the depositor</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"106\\">\\r\\n<p>Microsoft PowerPoint</p>\\r\\n</td>\\r\\n<td width=\\"79\\">\\r\\n<p>.ppt<br /> .pptx</p>\\r\\n</td>\\r\\n<td width=\\"161\\">\\r\\n<p>application/vnd.ms-PowerPoint</p>\\r\\n</td>\\r\\n<td width=\\"216\\">\\r\\n<p>Content must be converted to PDF/A and macros, animations and other effects disabled by the depositor</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr>\\r\\n<td width=\\"106\\">\\r\\n<p>Microsoft Excel</p>\\r\\n</td>\\r\\n<td width=\\"79\\">\\r\\n<p>.xls<br /> .xlsx</p>\\r\\n</td>\\r\\n<td width=\\"161\\">\\r\\n<p>application/vnd.ms-excel</p>\\r\\n</td>\\r\\n<td width=\\"216\\">\\r\\n<p>Content must be converted to PDF/A and macros disabled by the depositor</p>\\r\\n</td>\\r\\n</tr>\\r\\n</tbody>\\r\\n</table>\\r\\n<p>&nbsp;</p>\\r\\n<p>&nbsp;</p>",
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<p><strong>Carnegie Library for Local History Accepted Digital Formats of Donations</strong></p>\\n<p> PHOTOS:</p>\\n<table border=\\"2px\\" cellpadding=\\"3px\\"><tbody><tr style=\\"background-color: #dddddd;\\"><td width=\\"76\\">\\n<p><strong>Format</strong></p>\\n</td>\\n<td width=\\"80\\">\\n<p><strong>File Extension</strong></p>\\n</td>\\n<td width=\\"82\\">\\n<p><strong>Mime Type</strong></p>\\n</td>\\n<td width=\\"331\\">\\n<p><strong>Qualifying Factors/Notes</strong></p>\\n</td>\\n</tr><tr><td width=\\"76\\">\\n<p>TIFF</p>\\n</td>\\n<td width=\\"80\\">\\n<p>.tiff</p>\\n</td>\\n<td width=\\"82\\">\\n<p>image/tiff</p>\\n</td>\\n<td width=\\"331\\">\\n<p>This format is often slow to load unless compressed into a lossless format such as JPEG 2000</p>\\n</td>\\n</tr><tr><td width=\\"76\\">\\n<p>JPEG 2000</p>\\n</td>\\n<td width=\\"80\\">\\n<p> .jp2</p>\\n</td>\\n<td width=\\"82\\">\\n<p>image/jp2</p>\\n</td>\\n<td width=\\"331\\">\\n<p>Preferred over JPEG</p>\\n</td>\\n</tr><tr><td width=\\"76\\">\\n<p>JPEG</p>\\n</td>\\n<td width=\\"80\\">\\n<p>.jpg</p>\\n</td>\\n<td width=\\"82\\">\\n<p>image/jpeg</p>\\n</td>\\n<td width=\\"331\\">\\n<p>JPEG 2000 preferred.</p>\\n</td>\\n</tr></tbody></table><p> </p>\\n<p>AUDIO/VIDEO:</p>\\n<table border=\\"2px\\" cellpadding=\\"3px\\"><tbody><tr style=\\"background-color: #dddddd;\\"><td width=\\"99\\">\\n<p><strong>Format</strong></p>\\n</td>\\n<td width=\\"78\\">\\n<p><strong>File Extension</strong></p>\\n</td>\\n<td width=\\"177\\">\\n<p><strong>Mime Type</strong></p>\\n</td>\\n<td width=\\"208\\">\\n<p><strong>Qualifying Factors/Notes</strong></p>\\n</td>\\n</tr><tr><td width=\\"99\\">\\n<p>Wave</p>\\n</td>\\n<td width=\\"78\\">\\n<p>.wav</p>\\n</td>\\n<td width=\\"177\\">\\n<p>audio/x-wav or audio/wav</p>\\n</td>\\n<td width=\\"208\\">\\n<p> </p>\\n</td>\\n</tr><tr><td width=\\"99\\">\\n<p>MPEG audio</p>\\n</td>\\n<td width=\\"78\\">\\n<p>.mp3</p>\\n</td>\\n<td width=\\"177\\">\\n<p>audio/mpeg, audio/mp3</p>\\n</td>\\n<td width=\\"208\\">\\n<p> </p>\\n</td>\\n</tr><tr><td width=\\"99\\">\\n<p>MPEG-4</p>\\n</td>\\n<td width=\\"78\\">\\n<p>.mp4</p>\\n</td>\\n<td width=\\"177\\">\\n<p>video/mp4</p>\\n</td>\\n<td width=\\"208\\">\\n<p>Many variants possible; preservation level not yet established</p>\\n</td>\\n</tr><tr><td width=\\"99\\">\\n<p>AVI</p>\\n</td>\\n<td width=\\"78\\">\\n<p>.avi</p>\\n</td>\\n<td width=\\"177\\">\\n<p>video/avi, video/msvideo, video/x-msvideo +</p>\\n</td>\\n<td width=\\"208\\">\\n<p>.mp4 preferred</p>\\n</td>\\n</tr><tr><td width=\\"99\\">\\n<p>Quicktime</p>\\n</td>\\n<td width=\\"78\\">\\n<p>.mov</p>\\n</td>\\n<td width=\\"177\\">\\n<p>video/quicktime, video/x-quicktime</p>\\n</td>\\n<td width=\\"208\\">\\n<p>.mp4 preferred</p>\\n</td>\\n</tr><tr><td width=\\"99\\">\\n<p>MPEG-1<br /> MPEG-2</p>\\n</td>\\n<td width=\\"78\\">\\n<p>.mp1<br /> .mp2</p>\\n</td>\\n<td width=\\"177\\">\\n<p>video/mpeg<br /> video/mpeg2</p>\\n</td>\\n<td width=\\"208\\">\\n<p>Many variants possible; preservation level not yet established<br /> .mp4 preferred</p>\\n</td>\\n</tr></tbody></table><p> </p>\\n<p> </p>\\n<p>DOCUMENTS:</p>\\n<table border=\\"2px\\" cellpadding=\\"2px\\"><tbody><tr style=\\"background-color: #dddddd;\\"><td width=\\"57\\">\\n<p><strong>Format</strong></p>\\n</td>\\n<td width=\\"74\\">\\n<p><strong>File Extension</strong></p>\\n</td>\\n<td width=\\"428\\">\\n<p><strong>Qualifying Factors/Notes</strong></p>\\n</td>\\n</tr><tr><td width=\\"57\\">\\n<p>PDF/A*</p>\\n</td>\\n<td width=\\"74\\">\\n<p>.pdf</p>\\n</td>\\n<td width=\\"428\\">\\n<p>Files not created per the “Best Practices” receive Level 2 support, and may be migrated to PDF/A</p>\\n</td>\\n</tr><tr><td width=\\"57\\">\\n<p>XML</p>\\n</td>\\n<td width=\\"74\\">\\n<p>.xml</p>\\n</td>\\n<td width=\\"428\\">\\n<p>Deposit of appropriate DTD/schema with XML file is strongly encouraged and may impact preservation. Minimally, XML should be well-formed; explicit namespaces strongly preferred.<br /> Assumes no DTD/schema but that XML file is well formed.</p>\\n</td>\\n</tr><tr><td width=\\"57\\">\\n<p>HTML</p>\\n</td>\\n<td width=\\"74\\">\\n<p>.html</p>\\n<p>.htm</p>\\n</td>\\n<td width=\\"428\\">\\n<p>Requires HTML 4.0 or 4.01 validated markup and CSS files(s), if referenced, must be deposited with document.</p>\\n</td>\\n</tr></tbody></table><p>*PDF/A is preferred over PDF whenever possible, as it is becoming recognized as the archival standard. PDF is also recommended over Word, PowerPoint and Excel as a stable format.<br /></p>\\n<table border=\\"2px\\" cellpadding=\\"3px\\"><tbody><tr style=\\"background-color: #dddddd;\\"><td width=\\"106\\">\\n<p><strong>Format</strong></p>\\n</td>\\n<td width=\\"79\\">\\n<p><strong>File Extension</strong></p>\\n</td>\\n<td width=\\"161\\">\\n<p><strong>Mime Type</strong></p>\\n</td>\\n<td width=\\"216\\">\\n<p><strong>Qualifying Factors/Notes</strong></p>\\n</td>\\n</tr><tr><td width=\\"106\\">\\n<p>Microsoft Word</p>\\n</td>\\n<td width=\\"79\\">\\n<p>.doc<br /> .docx</p>\\n</td>\\n<td width=\\"161\\">\\n<p>application/msword</p>\\n</td>\\n<td width=\\"216\\">\\n<p>Content must be converted to PDF/A and macros disabled by the depositor</p>\\n</td>\\n</tr><tr><td width=\\"106\\">\\n<p>Microsoft PowerPoint</p>\\n</td>\\n<td width=\\"79\\">\\n<p>.ppt<br /> .pptx</p>\\n</td>\\n<td width=\\"161\\">\\n<p>application/vnd.ms-PowerPoint</p>\\n</td>\\n<td width=\\"216\\">\\n<p>Content must be converted to PDF/A and macros, animations and other effects disabled by the depositor</p>\\n</td>\\n</tr><tr><td width=\\"106\\">\\n<p>Microsoft Excel</p>\\n</td>\\n<td width=\\"79\\">\\n<p>.xls<br /> .xlsx</p>\\n</td>\\n<td width=\\"161\\">\\n<p>application/vnd.ms-excel</p>\\n</td>\\n<td width=\\"216\\">\\n<p>Content must be converted to PDF/A and macros disabled by the depositor</p>\\n</td>\\n</tr></tbody></table><p> </p>\\n<p> </p>",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => NULL,
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'902\',
+      \'log\' => \'\',
+      \'menu\' => NULL,
+      \'name\' => \'admin\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/22\',
+        \'alias\' => \'accepted-formats\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Accepted Formats\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'28148533-9a4e-4fc2-b42f-ad54718c4e86\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'366b3322-ae19-4c06-b241-6bb2d6478389\',
     ),
   (object) array(
       \'body\' => array(
@@ -571,7 +892,7 @@ function platform_main_feature_node_export_features_default() {
       \'name\' => \'admin\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => NULL,
+      \'path\' => FALSE,
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -745,6 +1066,240 @@ function platform_main_feature_node_export_features_default() {
       \'vuuid\' => \'97667383-3f6c-4db7-a93c-c5112ae72e99\',
     ),
   (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<p dir=\\"LTR\\" align=\\"LEFT\\"><strong>We are always looking for volunteers!</strong>\\r\\n<p dir=\\"LTR\\" align=\\"LEFT\\">Volunteers make meaningful contributions to the operations of the library, help to expand and enhance library services, strengthen ties to the community and build public awareness of the diverse services provided by Carnegie Library for Local History.</p>\\r\\n\\r\\n<h2 class=\\"title\\">On-going Opportunities</h2>\\r\\n<ul>\\r\\n\\t<li>Photograph scanner</li>\\r\\n\\t<li>Collection arrangement</li>\\r\\n\\t<li>Photocopying and clerical assistance</li>\\r\\n\\t<li>Oral History interviewer</li>\\r\\n\\t<li>Oral History Transcriber</li>\\r\\n</ul>\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n<p dir=\\"LTR\\" align=\\"LEFT\\">Most of these positions require in-depth training on the part of our staff as well as on the part of our volunteers. We are looking for people who are seriously committed to assisting us in making our materials available while also focusing on preservation.  Our needs are varied, so don\'t hesitate to ask if you have a special area of interest.</p>\\r\\n\\r\\n For more information, call the Volunteer Services Office at<strong> 303-441-3114</strong>.</p>\\r\\n\\r\\n<p><a class=\\"btn btn-primary\\" href=\\"https://boulderlibrary.org/about/support-your-library/volunteer/\\">Apply to be a Volunteer</a>\\r\\n",
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<p dir=\\"LTR\\" align=\\"LEFT\\"><strong>We are always looking for volunteers!</strong>\\n</p><p dir=\\"LTR\\" align=\\"LEFT\\">Volunteers make meaningful contributions to the operations of the library, help to expand and enhance library services, strengthen ties to the community and build public awareness of the diverse services provided by Carnegie Library for Local History.</p>\\n\\n<h2 class=\\"title\\">On-going Opportunities</h2>\\n<ul><li>Photograph scanner</li>\\n\\t<li>Collection arrangement</li>\\n\\t<li>Photocopying and clerical assistance</li>\\n\\t<li>Oral History interviewer</li>\\n\\t<li>Oral History Transcriber</li>\\n</ul><p dir=\\"LTR\\" align=\\"LEFT\\">Most of these positions require in-depth training on the part of our staff as well as on the part of our volunteers. We are looking for people who are seriously committed to assisting us in making our materials available while also focusing on preservation.  Our needs are varied, so don\'t hesitate to ask if you have a special area of interest.</p>\\n\\n For more information, call the Volunteer Services Office at<strong> 303-441-3114</strong>.\\n\\n<p><a class=\\"btn btn-primary\\" href=\\"https://boulderlibrary.org/about/support-your-library/volunteer/\\">Apply to be a Volunteer</a>\\n</p>",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => NULL,
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'log\' => \'\',
+      \'menu\' => array(
+        \'link_title\' => \'Volunteer\',
+        \'mlid\' => 0,
+        \'plid\' => \'0\',
+        \'menu_name\' => \'menu-header-menu\',
+        \'weight\' => \'-43\',
+        \'options\' => array(),
+        \'module\' => \'menu\',
+        \'expanded\' => \'0\',
+        \'hidden\' => \'0\',
+        \'has_children\' => \'0\',
+        \'customized\' => 0,
+        \'parent_depth_limit\' => 8,
+        \'description\' => \'\',
+        \'enabled\' => 1,
+      ),
+      \'name\' => \'admin\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/16\',
+        \'alias\' => \'volunteering\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Volunteering at the Carnegie Library\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'43fd1202-bc6e-473b-bdd3-51315e78219b\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'6425ce60-0cbb-46b7-9ca5-e8123c882d5c\',
+    ),
+  (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<p>In 1906 the library was built with $15,000 donated by steel tycoon Andrew Carnegie with the agreement from the city that $1,500 would be set aside each year to maintain the building and the collection.</p>\\r\\n<p>Because the people of Boulder referred to their town as the &ldquo;Athens of the West,&rdquo; architect Thomas McLaren patterned the library after a small Greek temple that had been unearthed in 1905 near Athens.</p>\\r\\n<p dir=\\"LTR\\" align=\\"LEFT\\">&nbsp;The large open two-story room, complete with fireplace, was designed to allow librarians over the years to move furniture and stacks to meet the demands of a growing collection. The Carnegie Library was able to keep up with the town&rsquo;s needs until the population doubled and the books and patrons began to exceed the space. &nbsp;Once the new library on Canyon Boulevard was built, Carnegie&rsquo;s role in the community diminished and the building began to show signs of deterioration and neglect.</p>\\r\\n<p>In 1981, Library staff rallied to regain ownership of the building. With the Colorado collection outgrowing space at the Main Library, the entire collection of books, maps, oral histories and documents were moved into the little building on Pine Street.&nbsp;By 1983, the Carnegie was re-opened as the Carnegie Library for Local History.&nbsp; The city of Boulder is proud to have such a comprehensive and extensive collection housed in the Carnegie Library for Local History.</p>\\r\\n<p><a href=\\"https://localhistory.boulderlibrary.org\\">Search our catalog</a></p>\\r\\n<h2 class=\\"title\\">Our Local History Collections</h2>\\r\\n<p>Very few public libraries have collections of local history materials as comprehensive or as exciting as those in the Carnegie Library for Local History.</p>\\r\\n<p><strong>Documents Collection</strong> consisting of 750,000 items specific to Boulder City and Boulder County, many of which were created before the name Colorado was given to this area, including diaries, letters, maps, and newspaper clippings, papers of pioneer families and businesses as well as records of churches, clubs, and mining districts. Click here to view a sampling of our documents collection.</p>\\r\\n<p><strong>Newspapers</strong> include bound and loose newspapers as well as Boulder Daily Camera newspaper clippings. Several newspapers ranging from 1869- present can be viewed on microfilm. Included are the Boulder Daily Camera, Colorado Daily, The Boulder County Miner, the Boulder Tribune, and The Boulder News and Banner, to name a few.</p>\\r\\n<p><strong>Maps</strong> of Boulder City and Boulder County are specific to the growth of the area.&nbsp; Many maps have been digitized.</p>\\r\\n<p><strong>Photograph Collection </strong>shows what life was like in the towns, farms, and mining camps of early Boulder County through the 1970s. This collection also includes slides, glass-plate negatives, stereo views, and film, dating from the 1850s to the present. Many digital images can be viewed&nbsp;online. Click here to view a sampling of our photograph collection.</p>\\r\\n<p><strong>Oral History Interviews </strong>of long time Boulder county residents reflect what life was and is like living in our ever-changing community. Over 1,900 interviews ranging from farming and mining to politics are accessible online through the&nbsp;Maria Rogers Oral History Program.</p>\\r\\n<p><strong>Books and Periodicals</strong> covering the various aspects of Boulder county history including city/county directories, high school and university yearbooks, and Boulder phone books.</p>\\r\\n<p><strong>Vertical Files</strong> contain newspaper clippings, pamphlets, brochures, and ephemera covering general Boulder County topics. The contents of these files are in the process of being cataloged.</p>",
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<p>In 1906 the library was built with $15,000 donated by steel tycoon Andrew Carnegie with the agreement from the city that $1,500 would be set aside each year to maintain the building and the collection.</p>\\n<p>Because the people of Boulder referred to their town as the “Athens of the West,” architect Thomas McLaren patterned the library after a small Greek temple that had been unearthed in 1905 near Athens.</p>\\n<p dir=\\"LTR\\" align=\\"LEFT\\"> The large open two-story room, complete with fireplace, was designed to allow librarians over the years to move furniture and stacks to meet the demands of a growing collection. The Carnegie Library was able to keep up with the town’s needs until the population doubled and the books and patrons began to exceed the space.  Once the new library on Canyon Boulevard was built, Carnegie’s role in the community diminished and the building began to show signs of deterioration and neglect.</p>\\n<p>In 1981, Library staff rallied to regain ownership of the building. With the Colorado collection outgrowing space at the Main Library, the entire collection of books, maps, oral histories and documents were moved into the little building on Pine Street. By 1983, the Carnegie was re-opened as the Carnegie Library for Local History.  The city of Boulder is proud to have such a comprehensive and extensive collection housed in the Carnegie Library for Local History.</p>\\n<p><a href=\\"https://localhistory.boulderlibrary.org\\">Search our catalog</a></p>\\n<h2 class=\\"title\\">Our Local History Collections</h2>\\n<p>Very few public libraries have collections of local history materials as comprehensive or as exciting as those in the Carnegie Library for Local History.</p>\\n<p><strong>Documents Collection</strong> consisting of 750,000 items specific to Boulder City and Boulder County, many of which were created before the name Colorado was given to this area, including diaries, letters, maps, and newspaper clippings, papers of pioneer families and businesses as well as records of churches, clubs, and mining districts. Click here to view a sampling of our documents collection.</p>\\n<p><strong>Newspapers</strong> include bound and loose newspapers as well as Boulder Daily Camera newspaper clippings. Several newspapers ranging from 1869- present can be viewed on microfilm. Included are the Boulder Daily Camera, Colorado Daily, The Boulder County Miner, the Boulder Tribune, and The Boulder News and Banner, to name a few.</p>\\n<p><strong>Maps</strong> of Boulder City and Boulder County are specific to the growth of the area.  Many maps have been digitized.</p>\\n<p><strong>Photograph Collection </strong>shows what life was like in the towns, farms, and mining camps of early Boulder County through the 1970s. This collection also includes slides, glass-plate negatives, stereo views, and film, dating from the 1850s to the present. Many digital images can be viewed online. Click here to view a sampling of our photograph collection.</p>\\n<p><strong>Oral History Interviews </strong>of long time Boulder county residents reflect what life was and is like living in our ever-changing community. Over 1,900 interviews ranging from farming and mining to politics are accessible online through the Maria Rogers Oral History Program.</p>\\n<p><strong>Books and Periodicals</strong> covering the various aspects of Boulder county history including city/county directories, high school and university yearbooks, and Boulder phone books.</p>\\n<p><strong>Vertical Files</strong> contain newspaper clippings, pamphlets, brochures, and ephemera covering general Boulder County topics. The contents of these files are in the process of being cataloged.</p>",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => NULL,
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'log\' => \'\',
+      \'menu\' => array(
+        \'link_title\' => \'Our History\',
+        \'mlid\' => 0,
+        \'plid\' => \'0\',
+        \'menu_name\' => \'menu-header-menu\',
+        \'weight\' => \'-42\',
+        \'options\' => array(),
+        \'module\' => \'menu\',
+        \'expanded\' => \'0\',
+        \'hidden\' => \'1\',
+        \'has_children\' => \'0\',
+        \'customized\' => 0,
+        \'parent_depth_limit\' => 8,
+        \'description\' => \'\',
+        \'enabled\' => 1,
+      ),
+      \'name\' => \'admin\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/19\',
+        \'alias\' => \'Our-history\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Our History\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'46ea6d7a-a792-4b42-becc-f619966b92e5\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'c3ace779-74c1-494d-a814-203de172c8f6\',
+    ),
+  (object) array(
       \'body\' => array(),
       \'changed\' => NULL,
       \'cid\' => \'0\',
@@ -833,6 +1388,123 @@ function platform_main_feature_node_export_features_default() {
       \'vuuid\' => \'f436b187-2bf5-4484-bb57-b79dee365a0e\',
     ),
   (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<p><strong>Mission</strong>&nbsp;</p>\\r\\n<p>The mission of the Carnegie Library for Local History is to collect, protect, and make available for research, materials in physical and digital formats relating to the history of Boulder County with a special emphasis on the city of Boulder. &nbsp;&nbsp;</p>\\r\\n<p><strong>C</strong><strong>ollection Policy</strong>&nbsp;</p>\\r\\n<p>The Carnegie Library collects, preserves, and provides research materials relating to the history of Boulder County with a special emphasis on the city of Boulder. The collections focus on original and secondary physical and digital materials about the people, real estate, events, and businesses in Boulder&rsquo;s history. The Carnegie Library collections include documents, photographs, maps, microforms, oral history interviews, dated newspaper clippings pertaining to a single topic, scrapbooks, ephemera, books, pamphlets, architectural drawings, periodicals and digital files. These collections are valuable historical resources, intended to be protected in perpetuity. Their care and preservation for the use of present and future generations is the principal responsibility of the Carnegie Library. &nbsp;&nbsp;</p>\\r\\n<p><u>Scope of Collections</u></p>\\r\\n<p>Historically significant materials relating to the city and county of Boulder will be accessioned into the archival collections. Any item selected for the archival collection, must undergo assessment to determine its suitability for inclusion. Archival collections focus on materials with local, regional, and enduring value and represent the social, political, cultural, and economic history of the city and county of Boulder. &nbsp;</p>\\r\\n<p>The archival component of the collections emphasizes the history of the area. Carnegie collects historic records of area businesses, community and civic organizations, religious institutions, and other public or private groups which have influenced Boulder\'s development, or have had a significant impact on the city and county of Boulder and its citizens. Selection of archival materials is assigned to the Carnegie Library archivists and is at their discretion whether materials will be added to Carnegie&rsquo;s holdings. &nbsp;&nbsp;</p>\\r\\n<p><u>Collection Criteria&nbsp;</u></p>\\r\\n<p>In general, the collections are limited to images and documentary materials that support Boulder County history. Artifacts and other objects deemed to have a significant relationship to other items in the collections may be donated to the Museum of Boulder. &nbsp;</p>\\r\\n<p>Types of items collected:</p>\\r\\n<ul>\\r\\n<li>Documents (correspondence, diaries, notebooks, etc.)</li>\\r\\n<li>Photographs</li>\\r\\n<li>Oral Histories</li>\\r\\n<li>Architectural Plans</li>\\r\\n<li>Maps</li>\\r\\n<li>Digital files</li>\\r\\n</ul>\\r\\n<p><u>Description of Collections&nbsp;</u></p>\\r\\n<p><strong>The Document Collection</strong>&nbsp;</p>\\r\\n<p>The Document collection encompasses over 3 million materials that have been deposited at Carnegie in the print format. It includes a wide variety of sub-collections including newspaper clippings, business papers, catalogs, diaries, correspondence, ledgers, brochures, etc.&nbsp;<strong>&nbsp;</strong>&nbsp;</p>\\r\\n<p><strong>The Photograph Collection</strong>&nbsp;</p>\\r\\n<p>Created when the Carnegie opened in 1983, the Photograph Collection is a combination of many different photograph sub-collections that document Boulder from 1859 to the present. Over 500,000 images of people, buildings, events and scenery document what life was like in Boulder during the past 150 years. This collection is built by donations as small as one photograph and as large as the entire negative collections of longtime Boulder area commercial photographers. Many of these photos are digitized and viewable on the&nbsp;<a href=\\"https://localhistory.boulderlibrary.org/\\">Carnegie Library website</a>.&nbsp;<strong>&nbsp;</strong>&nbsp;</p>\\r\\n<p><strong>The Oral History Collection</strong>&nbsp;</p>\\r\\n<p>An active oral history program complements the archival and manuscript collections by providing information not available through written sources. This collection consists of more than 3,000 reminiscences and analyses of events from persons who have firsthand knowledge of significant political, cultural, and economic events. The collection is in digital and audio format with transcripts and available on the <a href=\\"https://localhistory.boulderlibrary.org/MROH\\">Carnegie Library website</a>. More than 1,000 interviews are also available in video format online. &nbsp;&nbsp;</p>\\r\\n<p><strong>The Architectural Plans Collection</strong>&nbsp;</p>\\r\\n<p>The Carnegie Library&rsquo;s architectural collection consists mostly of drawings and some photographs. This collection documents part of Boulder\'s built environment, providing information about the work of Charles Haertling and Hobart Wagener, architects who practiced in Boulder. Their architectural drawings comprise most of the collection with highlights including: drawings of local residences and downtown buildings. Reproduction of the drawings from the Haertling and Wagener collections are restricted. Please ask staff for more information regarding use of this collection. &nbsp;&nbsp;</p>\\r\\n<p><strong>The Map Collection&nbsp;</strong></p>\\r\\n<p>The Map Collection consists of more than 800 maps that document Boulder&rsquo;s and Boulder County&rsquo;s growth, streets, ditches, subdivisions, zoning, bicycle routes, etc. The maps are categorized by city, county and mining and are organized by year beginning in 1860. &nbsp;&nbsp;</p>\\r\\n<p><strong>The Boulder Historical Society collection</strong>&nbsp;</p>\\r\\n<p>This collection was created from the archives of the Boulder Daily Camera newspaper, whose editor, A. A. Paddock founded the Boulder Historical Society in 1964 to preserve and make available the Camera&rsquo;s growing collection of community materials. &nbsp;The collection documents the Boulder community from 1859 to the mid-1950s. Photographs emphasize prominent individuals, long-established families, churches, views and structures of Boulder, Colorado Chautauqua, Bluebird Cottage, schools, transportation, mines and mills, east county views, railroads, agriculture, sports, businesses, fire department, floods, Boulder-Colorado Sanitarium, and many others. The document collection includes articles pertaining to what was covered in the paper at the time as well as local history items the Camera collected for its archives. This collection was placed at the Carnegie Library in 1986. &nbsp;&nbsp;</p>\\r\\n<p><strong>The Daily Camera collection</strong>&nbsp;</p>\\r\\n<p>Placed at the Carnegie Library in 2011, this collection documents the growth of Boulder through clippings and photographs from the Boulder Daily Camera from ca. 1930 to ca. 1996. This collection includes many clippings of community organizations, individuals and families, city and county government, business and political activities, and social/cultural events and small-scale articles, such as wedding announcements, arrests, births, obituaries, etc.&nbsp;<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong><strong>&nbsp;</strong>&nbsp;</p>\\r\\n<p><strong>Boulder County</strong>&nbsp;<strong>Assessor&rsquo;s Office - Real Estate Appraisal Collection</strong>&nbsp;</p>\\r\\n<p>Consisting of 191 boxes of Boulder County Assessor&rsquo;s cards from 1929 to the 1960s, this collection is a visual record of all structures in Boulder county mostly from 1929 to 1949. Each card has at least one photograph of the structure and documentation of building characteristics. Cards from the city of Broomfield were given to the Mamie Doud Eisenhower Public Library in Broomfield. &nbsp;</p>\\r\\n<p><u>Deaccessioning</u>&nbsp;</p>\\r\\n<p>Materials held by the Carnegie Library for Local History are considered for deaccession if one or more of these conditions are met:</p>\\r\\n<ul>\\r\\n<li>Do not meet the collection policy.</li>\\r\\n<li>Damaged or deteriorated to a degree to be unusable and/or a threat to other items in the</li>\\r\\n<li>Cannot be placed in any identifiable historical</li>\\r\\n<li>Have minimal research</li>\\r\\n<li>Duplicated in the other readily accessible</li>\\r\\n</ul>\\r\\n<p>Donors who completed a <a href=\\"https://boulderlibrary.org/wp-content/uploads/2018/10/2018-Carnegie-Deed-of-Gift-Form.pdf\\">Deed of Gift</a> form and chose to be notified of materials not to be retained by the library will be contacted and offered the option of retrieving those materials from their donation. &nbsp;&nbsp;</p>\\r\\n<p><strong>Approved by the Library Commission on September 5, 2018.</strong></p>",
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<p><strong>Mission</strong> </p>\\n<p>The mission of the Carnegie Library for Local History is to collect, protect, and make available for research, materials in physical and digital formats relating to the history of Boulder County with a special emphasis on the city of Boulder.   </p>\\n<p><strong>C</strong><strong>ollection Policy</strong> </p>\\n<p>The Carnegie Library collects, preserves, and provides research materials relating to the history of Boulder County with a special emphasis on the city of Boulder. The collections focus on original and secondary physical and digital materials about the people, real estate, events, and businesses in Boulder’s history. The Carnegie Library collections include documents, photographs, maps, microforms, oral history interviews, dated newspaper clippings pertaining to a single topic, scrapbooks, ephemera, books, pamphlets, architectural drawings, periodicals and digital files. These collections are valuable historical resources, intended to be protected in perpetuity. Their care and preservation for the use of present and future generations is the principal responsibility of the Carnegie Library.   </p>\\n<p><u>Scope of Collections</u></p>\\n<p>Historically significant materials relating to the city and county of Boulder will be accessioned into the archival collections. Any item selected for the archival collection, must undergo assessment to determine its suitability for inclusion. Archival collections focus on materials with local, regional, and enduring value and represent the social, political, cultural, and economic history of the city and county of Boulder.  </p>\\n<p>The archival component of the collections emphasizes the history of the area. Carnegie collects historic records of area businesses, community and civic organizations, religious institutions, and other public or private groups which have influenced Boulder\'s development, or have had a significant impact on the city and county of Boulder and its citizens. Selection of archival materials is assigned to the Carnegie Library archivists and is at their discretion whether materials will be added to Carnegie’s holdings.   </p>\\n<p><u>Collection Criteria </u></p>\\n<p>In general, the collections are limited to images and documentary materials that support Boulder County history. Artifacts and other objects deemed to have a significant relationship to other items in the collections may be donated to the Museum of Boulder.  </p>\\n<p>Types of items collected:</p>\\n<ul><li>Documents (correspondence, diaries, notebooks, etc.)</li>\\n<li>Photographs</li>\\n<li>Oral Histories</li>\\n<li>Architectural Plans</li>\\n<li>Maps</li>\\n<li>Digital files</li>\\n</ul><p><u>Description of Collections </u></p>\\n<p><strong>The Document Collection</strong> </p>\\n<p>The Document collection encompasses over 3 million materials that have been deposited at Carnegie in the print format. It includes a wide variety of sub-collections including newspaper clippings, business papers, catalogs, diaries, correspondence, ledgers, brochures, etc. <strong> </strong> </p>\\n<p><strong>The Photograph Collection</strong> </p>\\n<p>Created when the Carnegie opened in 1983, the Photograph Collection is a combination of many different photograph sub-collections that document Boulder from 1859 to the present. Over 500,000 images of people, buildings, events and scenery document what life was like in Boulder during the past 150 years. This collection is built by donations as small as one photograph and as large as the entire negative collections of longtime Boulder area commercial photographers. Many of these photos are digitized and viewable on the <a href=\\"https://localhistory.boulderlibrary.org/\\">Carnegie Library website</a>. <strong> </strong> </p>\\n<p><strong>The Oral History Collection</strong> </p>\\n<p>An active oral history program complements the archival and manuscript collections by providing information not available through written sources. This collection consists of more than 3,000 reminiscences and analyses of events from persons who have firsthand knowledge of significant political, cultural, and economic events. The collection is in digital and audio format with transcripts and available on the <a href=\\"https://localhistory.boulderlibrary.org/MROH\\">Carnegie Library website</a>. More than 1,000 interviews are also available in video format online.   </p>\\n<p><strong>The Architectural Plans Collection</strong> </p>\\n<p>The Carnegie Library’s architectural collection consists mostly of drawings and some photographs. This collection documents part of Boulder\'s built environment, providing information about the work of Charles Haertling and Hobart Wagener, architects who practiced in Boulder. Their architectural drawings comprise most of the collection with highlights including: drawings of local residences and downtown buildings. Reproduction of the drawings from the Haertling and Wagener collections are restricted. Please ask staff for more information regarding use of this collection.   </p>\\n<p><strong>The Map Collection </strong></p>\\n<p>The Map Collection consists of more than 800 maps that document Boulder’s and Boulder County’s growth, streets, ditches, subdivisions, zoning, bicycle routes, etc. The maps are categorized by city, county and mining and are organized by year beginning in 1860.   </p>\\n<p><strong>The Boulder Historical Society collection</strong> </p>\\n<p>This collection was created from the archives of the Boulder Daily Camera newspaper, whose editor, A. A. Paddock founded the Boulder Historical Society in 1964 to preserve and make available the Camera’s growing collection of community materials.  The collection documents the Boulder community from 1859 to the mid-1950s. Photographs emphasize prominent individuals, long-established families, churches, views and structures of Boulder, Colorado Chautauqua, Bluebird Cottage, schools, transportation, mines and mills, east county views, railroads, agriculture, sports, businesses, fire department, floods, Boulder-Colorado Sanitarium, and many others. The document collection includes articles pertaining to what was covered in the paper at the time as well as local history items the Camera collected for its archives. This collection was placed at the Carnegie Library in 1986.   </p>\\n<p><strong>The Daily Camera collection</strong> </p>\\n<p>Placed at the Carnegie Library in 2011, this collection documents the growth of Boulder through clippings and photographs from the Boulder Daily Camera from ca. 1930 to ca. 1996. This collection includes many clippings of community organizations, individuals and families, city and county government, business and political activities, and social/cultural events and small-scale articles, such as wedding announcements, arrests, births, obituaries, etc. <strong>             </strong><strong> </strong> </p>\\n<p><strong>Boulder County</strong> <strong>Assessor’s Office - Real Estate Appraisal Collection</strong> </p>\\n<p>Consisting of 191 boxes of Boulder County Assessor’s cards from 1929 to the 1960s, this collection is a visual record of all structures in Boulder county mostly from 1929 to 1949. Each card has at least one photograph of the structure and documentation of building characteristics. Cards from the city of Broomfield were given to the Mamie Doud Eisenhower Public Library in Broomfield.  </p>\\n<p><u>Deaccessioning</u> </p>\\n<p>Materials held by the Carnegie Library for Local History are considered for deaccession if one or more of these conditions are met:</p>\\n<ul><li>Do not meet the collection policy.</li>\\n<li>Damaged or deteriorated to a degree to be unusable and/or a threat to other items in the</li>\\n<li>Cannot be placed in any identifiable historical</li>\\n<li>Have minimal research</li>\\n<li>Duplicated in the other readily accessible</li>\\n</ul><p>Donors who completed a <a href=\\"https://boulderlibrary.org/wp-content/uploads/2018/10/2018-Carnegie-Deed-of-Gift-Form.pdf\\">Deed of Gift</a> form and chose to be notified of materials not to be retained by the library will be contacted and offered the option of retrieving those materials from their donation.   </p>\\n<p><strong>Approved by the Library Commission on September 5, 2018.</strong></p>",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => NULL,
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'log\' => \'\',
+      \'menu\' => array(
+        \'link_title\' => \'Collection Policy\',
+        \'mlid\' => 0,
+        \'plid\' => \'0\',
+        \'menu_name\' => \'menu-header-menu\',
+        \'weight\' => \'-47\',
+        \'options\' => array(),
+        \'module\' => \'menu\',
+        \'expanded\' => \'0\',
+        \'hidden\' => \'0\',
+        \'has_children\' => \'0\',
+        \'customized\' => 0,
+        \'parent_depth_limit\' => 8,
+        \'description\' => \'\',
+        \'enabled\' => 1,
+      ),
+      \'name\' => \'admin\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/17\',
+        \'alias\' => \'Collection-policy\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Carnegie Library for Local History Collection Policy \',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'695ed58c-87e1-4a88-af7e-e710da41a506\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'e53f6fa8-234a-4a7f-b176-e9293f5c8a16\',
+    ),
+  (object) array(
       \'body\' => array(),
       \'changed\' => NULL,
       \'cid\' => \'0\',
@@ -871,7 +1543,7 @@ function platform_main_feature_node_export_features_default() {
       \'name\' => \'admin\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => NULL,
+      \'path\' => FALSE,
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -971,7 +1643,7 @@ function platform_main_feature_node_export_features_default() {
       \'name\' => \'admin\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => NULL,
+      \'path\' => FALSE,
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -1054,6 +1726,233 @@ function platform_main_feature_node_export_features_default() {
         \'und\' => array(
           array(
             \'fid\' => NULL,
+            \'uid\' => \'902\',
+            \'filename\' => \'BDC logo-small.png\',
+            \'uri\' => \'public://BDC logo-small.png\',
+            \'filemime\' => \'image/png\',
+            \'filesize\' => \'18848\',
+            \'status\' => \'1\',
+            \'timestamp\' => \'1522097034\',
+            \'uuid\' => \'28b0c0e2-37e3-4ae0-8731-aa9f9232c556\',
+            \'rdf_mapping\' => array(),
+            \'alt\' => \'\',
+            \'title\' => \'\',
+            \'width\' => \'103\',
+            \'height\' => \'18\',
+            \'node_export_file_data\' => \'iVBORw0KGgoAAAANSUhEUgAAAGcAAAASCAYAAABGrsCLAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAADhpaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzEzOCA3OS4xNTk4MjQsIDIwMTYvMDkvMTQtMDE6MDk6MDEgICAgICAgICI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIKICAgICAgICAgICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICAgICAgICAgICB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIgogICAgICAgICAgICB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgICAgICAgICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iPgogICAgICAgICA8eG1wOkNyZWF0b3JUb29sPkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKTwveG1wOkNyZWF0b3JUb29sPgogICAgICAgICA8eG1wOkNyZWF0ZURhdGU+MjAxOC0wMy0yNlQxNDo0MjoxNi0wNjowMDwveG1wOkNyZWF0ZURhdGU+CiAgICAgICAgIDx4bXA6TW9kaWZ5RGF0ZT4yMDE4LTAzLTI2VDE0OjQyOjUyLTA2OjAwPC94bXA6TW9kaWZ5RGF0ZT4KICAgICAgICAgPHhtcDpNZXRhZGF0YURhdGU+MjAxOC0wMy0yNlQxNDo0Mjo1Mi0wNjowMDwveG1wOk1ldGFkYXRhRGF0ZT4KICAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9wbmc8L2RjOmZvcm1hdD4KICAgICAgICAgPHBob3Rvc2hvcDpDb2xvck1vZGU+MzwvcGhvdG9zaG9wOkNvbG9yTW9kZT4KICAgICAgICAgPHBob3Rvc2hvcDpJQ0NQcm9maWxlPnNSR0IgSUVDNjE5NjYtMi4xPC9waG90b3Nob3A6SUNDUHJvZmlsZT4KICAgICAgICAgPHhtcE1NOkluc3RhbmNlSUQ+eG1wLmlpZDo3OTUzNzEzMS1jOTk2LWQzNDEtOTFlYi04YmY1MjA0NmIwMzA8L3htcE1NOkluc3RhbmNlSUQ+CiAgICAgICAgIDx4bXBNTTpEb2N1bWVudElEPnhtcC5kaWQ6Nzk1MzcxMzEtYzk5Ni1kMzQxLTkxZWItOGJmNTIwNDZiMDMwPC94bXBNTTpEb2N1bWVudElEPgogICAgICAgICA8eG1wTU06T3JpZ2luYWxEb2N1bWVudElEPnhtcC5kaWQ6Nzk1MzcxMzEtYzk5Ni1kMzQxLTkxZWItOGJmNTIwNDZiMDMwPC94bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ+CiAgICAgICAgIDx4bXBNTTpIaXN0b3J5PgogICAgICAgICAgICA8cmRmOlNlcT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+Y3JlYXRlZDwvc3RFdnQ6YWN0aW9uPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6aW5zdGFuY2VJRD54bXAuaWlkOjc5NTM3MTMxLWM5OTYtZDM0MS05MWViLThiZjUyMDQ2YjAzMDwvc3RFdnQ6aW5zdGFuY2VJRD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OndoZW4+MjAxOC0wMy0yNlQxNDo0MjoxNi0wNjowMDwvc3RFdnQ6d2hlbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OnNvZnR3YXJlQWdlbnQ+QWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpPC9zdEV2dDpzb2Z0d2FyZUFnZW50PgogICAgICAgICAgICAgICA8L3JkZjpsaT4KICAgICAgICAgICAgPC9yZGY6U2VxPgogICAgICAgICA8L3htcE1NOkhpc3Rvcnk+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlhSZXNvbHV0aW9uPjcyMDAwMC8xMDAwMDwvdGlmZjpYUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6WVJlc29sdXRpb24+NzIwMDAwLzEwMDAwPC90aWZmOllSZXNvbHV0aW9uPgogICAgICAgICA8dGlmZjpSZXNvbHV0aW9uVW5pdD4yPC90aWZmOlJlc29sdXRpb25Vbml0PgogICAgICAgICA8ZXhpZjpDb2xvclNwYWNlPjE8L2V4aWY6Q29sb3JTcGFjZT4KICAgICAgICAgPGV4aWY6UGl4ZWxYRGltZW5zaW9uPjEwMzwvZXhpZjpQaXhlbFhEaW1lbnNpb24+CiAgICAgICAgIDxleGlmOlBpeGVsWURpbWVuc2lvbj4xODwvZXhpZjpQaXhlbFlEaW1lbnNpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg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\',
+          ),
+        ),
+      ),
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'902\',
+      \'log\' => \'\',
+      \'menu\' => NULL,
+      \'name\' => \'admin\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => FALSE,
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'sioc:Item\',
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Boulder Daily Camera logo\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'image_block\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'a1266c79-93d3-4d7b-b838-bcd627411256\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'e2946415-8d66-452d-a2b5-b276f5d532f1\',
+    ),
+  (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<div>&nbsp;</div>\\r\\n<div>The Carnegie Library for Local History began collecting oral histories in 1976. In the early 1980s, the program was led by Maria Rogers, a volunteer manager. After the death of Maria, her family worked with the Boulder Public Library Foundation (BPLF) to endow the program and fund a coordinator position. With this endowment the program was named the Maria Rogers Oral History Program (MROHP). Oral history is one way the library fulfills its mission of helping people engage with information that can enrich their lives.</div>\\r\\n<div>&nbsp;</div>\\r\\n<div><strong>The Oral History Collection</strong>\\r\\n<ul>\\r\\n<li>MROHP records, preserves, and makes accessible first-hand stories as primary-source material. Interviews help fill gaps in the historical record; researchers use the raw material to create new kinds of documentation such as books, films, and exhibits. The collection scope is broad and diverse, including &ldquo;life&rdquo; interviews&mdash;where individuals have been identified for their depth of knowledge and enduring contribution to the community&mdash;and &ldquo;topic&rdquo; interviews, where narrators give their perspectives on a subject that is being explored. (The largest special collection to date explores the subject of the Rocky Flats nuclear weapons plant; more than 150 people were interviewed.)</li>\\r\\n<li>MROHP is committed to having interviews available as digital files that can be shared through the library&rsquo;s website. Some oral histories originally were done as video; those &ldquo;moving image&rdquo; interviews are gathered in a video collection that is supplemental to the audio collection, which includes the entirety of the oral histories. For a majority of interviews, a summary or transcript also has been created; when these documents exist, they are coupled with the audio. The total collection grows each year, as we actively target new subject areas and new voices.</li>\\r\\n</ul>\\r\\n<strong>Volunteers</strong></div>\\r\\n<div>&nbsp;</div>\\r\\n<div>MROHP relies on a pool of volunteers who bring ideas to the program and work on projects developed by the library. Volunteers contribute to every aspect of the oral history lifecycle: conducting interviews, taking notes, transcribing, describing, and posting interviews online. Volunteers shape the program, through their dedication and creativity. For more information, call the Volunteer Services Office at<strong>&nbsp;</strong>303-441-3114&nbsp;or&nbsp;<a href=\\"https://boulderlibrary.org/about/support-your-library/volunteer/\\">visit our volunteer page.</a></div>\\r\\n<div>&nbsp;</div>\\r\\n<div><strong>Using Interviews</strong> MROHP encourages the public use of interviews (or excerpts) for educational purposes. The collection is copyrighted under a Creative Commons Attribution-NonCommercial 4.0 International License.&nbsp;</div>\\r\\n<div>Oral&nbsp;histories may be used for non-commercial purposes, with attribution to the Carnegie Library for Local&nbsp;<strong>History</strong>. Here is how we suggest that attribution be worded: &ldquo;Oral histories contributing to this _____ (book, documentary, etc.) were accessed from the Carnegie Library for Local History, Boulder, Colorado.&rdquo; If quotes are pulled directly from an interview, source citation must include a title and call number, e.g. &ldquo;Oral History Interview with ________, OHXXXX.&rdquo;</div>\\r\\n<p><a href=\\"https://localhistory.boulderlibrary.org/islandora/search?type=edismax&cp=islandora%3AOH0000&islandora_solr_search_navigation=1&sort=bpl_mods_identifier_non_marc_call_number_ss%20asc\\">Access our online interviews</a></p>\\r\\n<h2>For More Information</h2>\\r\\n<p>For more information on the collection, to refer someone to be interviewed, or to inquire about becoming a volunteer for the Maria Rogers Oral History Program, visit the Carnegie Branch Library for Local History at 1125 Pine Street in Boulder, Colorado or call 303-441-1981. View or print our <a href=\\"https://boulderlibrary.org/wp-content/uploads/2018/11/2018-Carnegie-Oral-History-Release-Form.pdf\\" target=\\"_blank\\" rel=\\"noopener\\">Interview Donation form</a>. Oral history interviews may be copied for patrons who are using them for personal, research and/or educational purposes only. Complete and return the&nbsp;&nbsp;<a href=\\"https://boulderlibrary.org/wp-content/uploads/2018/03/2018_MROHPReproductionOrder_PatronCopy.pdf\\" target=\\"_blank\\" rel=\\"noopener\\">Oral History request form</a>&nbsp;for a copy of an oral history interview. To help support the work of the oral history program, please print out our form for making a <a href=\\"https://boulderlibrary.org/wp-content/uploads/2015/01/Donation_flyer1.pdf\\" target=\\"_blank\\" rel=\\"noopener\\">tax-deductible monetary donation</a>&nbsp;to the Maria Rogers Oral History Program.</p>",
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<div> </div>\\n<div>The Carnegie Library for Local History began collecting oral histories in 1976. In the early 1980s, the program was led by Maria Rogers, a volunteer manager. After the death of Maria, her family worked with the Boulder Public Library Foundation (BPLF) to endow the program and fund a coordinator position. With this endowment the program was named the Maria Rogers Oral History Program (MROHP). Oral history is one way the library fulfills its mission of helping people engage with information that can enrich their lives.</div>\\n<div> </div>\\n<div><strong>The Oral History Collection</strong>\\n<ul><li>MROHP records, preserves, and makes accessible first-hand stories as primary-source material. Interviews help fill gaps in the historical record; researchers use the raw material to create new kinds of documentation such as books, films, and exhibits. The collection scope is broad and diverse, including “life” interviews—where individuals have been identified for their depth of knowledge and enduring contribution to the community—and “topic” interviews, where narrators give their perspectives on a subject that is being explored. (The largest special collection to date explores the subject of the Rocky Flats nuclear weapons plant; more than 150 people were interviewed.)</li>\\n<li>MROHP is committed to having interviews available as digital files that can be shared through the library’s website. Some oral histories originally were done as video; those “moving image” interviews are gathered in a video collection that is supplemental to the audio collection, which includes the entirety of the oral histories. For a majority of interviews, a summary or transcript also has been created; when these documents exist, they are coupled with the audio. The total collection grows each year, as we actively target new subject areas and new voices.</li>\\n</ul><strong>Volunteers</strong></div>\\n<div> </div>\\n<div>MROHP relies on a pool of volunteers who bring ideas to the program and work on projects developed by the library. Volunteers contribute to every aspect of the oral history lifecycle: conducting interviews, taking notes, transcribing, describing, and posting interviews online. Volunteers shape the program, through their dedication and creativity. For more information, call the Volunteer Services Office at<strong> </strong>303-441-3114 or <a href=\\"https://boulderlibrary.org/about/support-your-library/volunteer/\\">visit our volunteer page.</a></div>\\n<div> </div>\\n<div><strong>Using Interviews</strong> MROHP encourages the public use of interviews (or excerpts) for educational purposes. The collection is copyrighted under a Creative Commons Attribution-NonCommercial 4.0 International License. </div>\\n<div>Oral histories may be used for non-commercial purposes, with attribution to the Carnegie Library for Local <strong>History</strong>. Here is how we suggest that attribution be worded: “Oral histories contributing to this _____ (book, documentary, etc.) were accessed from the Carnegie Library for Local History, Boulder, Colorado.” If quotes are pulled directly from an interview, source citation must include a title and call number, e.g. “Oral History Interview with ________, OHXXXX.”</div>\\n<p><a href=\\"https://localhistory.boulderlibrary.org/islandora/search?type=edismax&amp;cp=islandora%3AOH0000&amp;islandora_solr_search_navigation=1&amp;sort=bpl_mods_identifier_non_marc_call_number_ss%20asc\\">Access our online interviews</a></p>\\n<h2>For More Information</h2>\\n<p>For more information on the collection, to refer someone to be interviewed, or to inquire about becoming a volunteer for the Maria Rogers Oral History Program, visit the Carnegie Branch Library for Local History at 1125 Pine Street in Boulder, Colorado or call 303-441-1981. View or print our <a href=\\"https://boulderlibrary.org/wp-content/uploads/2018/11/2018-Carnegie-Oral-History-Release-Form.pdf\\" target=\\"_blank\\" rel=\\"noopener\\">Interview Donation form</a>. Oral history interviews may be copied for patrons who are using them for personal, research and/or educational purposes only. Complete and return the  <a href=\\"https://boulderlibrary.org/wp-content/uploads/2018/03/2018_MROHPReproductionOrder_PatronCopy.pdf\\" target=\\"_blank\\" rel=\\"noopener\\">Oral History request form</a> for a copy of an oral history interview. To help support the work of the oral history program, please print out our form for making a <a href=\\"https://boulderlibrary.org/wp-content/uploads/2015/01/Donation_flyer1.pdf\\" target=\\"_blank\\" rel=\\"noopener\\">tax-deductible monetary donation</a> to the Maria Rogers Oral History Program.</p>",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => NULL,
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'log\' => \'\',
+      \'menu\' => array(
+        \'link_title\' => \'Oral History\',
+        \'mlid\' => 0,
+        \'plid\' => \'0\',
+        \'menu_name\' => \'menu-header-menu\',
+        \'weight\' => \'-44\',
+        \'options\' => array(),
+        \'module\' => \'menu\',
+        \'expanded\' => \'0\',
+        \'hidden\' => \'0\',
+        \'has_children\' => \'0\',
+        \'customized\' => 0,
+        \'parent_depth_limit\' => 8,
+        \'description\' => \'\',
+        \'enabled\' => 1,
+      ),
+      \'name\' => \'admin\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/18\',
+        \'alias\' => \'MROH\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Oral History Program & Collection\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'b1395e3f-9f08-4cb6-869c-5dab6d5d77f7\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'f8f3c128-8261-4aea-a906-63866f09f779\',
+    ),
+  (object) array(
+      \'body\' => array(),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => NULL,
+      \'field_image_block\' => array(
+        \'und\' => array(
+          array(
+            \'fid\' => NULL,
             \'uid\' => \'1\',
             \'filename\' => \'Carnegie logo_black.jpg\',
             \'uri\' => \'public://Carnegie logo_black.jpg\',
@@ -1081,7 +1980,7 @@ function platform_main_feature_node_export_features_default() {
       \'name\' => \'admin\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => NULL,
+      \'path\' => FALSE,
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -1362,6 +2261,342 @@ function platform_main_feature_node_export_features_default() {
       \'vuuid\' => \'f1c3f843-cb61-41c8-9eb1-74da357c68cf\',
     ),
   (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<p><strong>Hours and Parking</strong></p>\\r\\n<p>See the <u><a href=\\"https://boulderlibrary.org/locations/carnegie/\\">location page</a></u>.</p>\\r\\n<p><strong>Class or Group Visits</strong></p>\\r\\n<p>At least two weeks in advance of the date you would like to visit, please fill out and submit the <u><a href=\\"https://boulderlibrary.org/services/class-visits/\\">class visit form</a></u>. Staff will contact you to confirm availability. Drop-in class or group visits cannot be accommodated due to space limitations of the facility.</p>\\r\\n<p><strong>Hours by Appointment on Wednesdays </strong></p>\\r\\n<p>In addition to the <a href=\\"https://boulderlibrary.org/locations/carnegie/\\">regular hours</a> of operation, the Carnegie Library is open by appointment only on Wednesdays from 10 a.m. to 1 p.m.</p>\\r\\n<p>To make an appointment:</p>\\r\\n<ul>\\r\\n<li><u><a href=\\"https://localhistory.boulderlibrary.org\\">Search the Catalog</a></u> and make a&nbsp;list of materials or topics you would like to research. The list is required when you contact the library to make an appointment.</li>\\r\\n<li>Call (303) 441-3110. Appointments must be made at least 24 hours in advance.</li>\\r\\n<li>See the Carnegie Library for Local History terms of use.</li>\\r\\n</ul>\\r\\n<p><strong>Carnegie Library for Local History Terms of Use</strong></p>\\r\\n<p>In addition to the <a href=\\"https://boulderlibrary.org/about/rules/\\">Boulder Public Library Rules of Conduct</a><strong>, </strong>please comply with the following terms of use while visiting the Carnegie Library:</p>\\r\\n<ul>\\r\\n<li>Keep voices and conversation low to not distract other researchers in the room.</li>\\r\\n<li>Take cell phone calls outside the building.</li>\\r\\n<li>Food or drink are not permitted inside. Please leave food/drink in the entryway.</li>\\r\\n<li>Materials may not be borrowed or checked out.</li>\\r\\n<li>Large bags, backpacks or briefcases are not allowed in the stacks. Please place them on a chair or on the floor next to you.</li>\\r\\n<li>Children under the age of ten must always be supervised by an adult.</li>\\r\\n<li>If the weather is inclement, please place any wet coats or other belongings on the coat rack.</li>\\r\\n</ul>\\r\\n<p><strong>&nbsp;</strong><strong>Guidelines for Handling the Collections</strong></p>\\r\\n<p>Please observe the following guidelines when using materials:</p>\\r\\n<ul>\\r\\n<li>Use nitrile gloves provided. Gloves are required for use for photographic collections and non-encapsulated architectural drawings.</li>\\r\\n<li>Do not apply hand lotion or cream prior to handling archival materials.</li>\\r\\n<li>After eating, wash and thoroughly dry hands before working with archival</li>\\r\\n<li>Archival materials must be viewed flat on the tables available in the research area. Avoid allowing material to hang over the table</li>\\r\\n<li>Always handle archival materials with both hands, carefully and deliberately.</li>\\r\\n<li>Only one archival record should be handled at a time.</li>\\r\\n<li>Never flip archival materials like magazine or newspaper pages.</li>\\r\\n<li>Only pencils or computers may be used to take personal notes. Any implement that might leave a permanent mark on archival materials is not permitted.</li>\\r\\n<li>Avoid placing your note-taking pad on top or leaning directly on archival materials.</li>\\r\\n<li>Do not write on archival materials. Tracing maps or other materials, using &ldquo;post-it&rdquo; or other self-sticking notes, staples or paper clips on archival materials is not</li>\\r\\n<li>Avoid forcing bound volumes open to lie flat, especially on the photocopier.</li>\\r\\n<li>Some photograph collections have restrictions. Ask staff before photographing photographs.</li>\\r\\n</ul>\\r\\n<p><strong>&nbsp;</strong></p>\\r\\n<p><strong>Terms of Use approved by the Library Commission on September 5, 2018.</strong></p>",
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<p><strong>Hours and Parking</strong></p>\\n<p>See the <u><a href=\\"https://boulderlibrary.org/locations/carnegie/\\">location page</a></u>.</p>\\n<p><strong>Class or Group Visits</strong></p>\\n<p>At least two weeks in advance of the date you would like to visit, please fill out and submit the <u><a href=\\"https://boulderlibrary.org/services/class-visits/\\">class visit form</a></u>. Staff will contact you to confirm availability. Drop-in class or group visits cannot be accommodated due to space limitations of the facility.</p>\\n<p><strong>Hours by Appointment on Wednesdays </strong></p>\\n<p>In addition to the <a href=\\"https://boulderlibrary.org/locations/carnegie/\\">regular hours</a> of operation, the Carnegie Library is open by appointment only on Wednesdays from 10 a.m. to 1 p.m.</p>\\n<p>To make an appointment:</p>\\n<ul><li><u><a href=\\"https://localhistory.boulderlibrary.org\\">Search the Catalog</a></u> and make a list of materials or topics you would like to research. The list is required when you contact the library to make an appointment.</li>\\n<li>Call (303) 441-3110. Appointments must be made at least 24 hours in advance.</li>\\n<li>See the Carnegie Library for Local History terms of use.</li>\\n</ul><p><strong>Carnegie Library for Local History Terms of Use</strong></p>\\n<p>In addition to the <a href=\\"https://boulderlibrary.org/about/rules/\\">Boulder Public Library Rules of Conduct</a><strong>, </strong>please comply with the following terms of use while visiting the Carnegie Library:</p>\\n<ul><li>Keep voices and conversation low to not distract other researchers in the room.</li>\\n<li>Take cell phone calls outside the building.</li>\\n<li>Food or drink are not permitted inside. Please leave food/drink in the entryway.</li>\\n<li>Materials may not be borrowed or checked out.</li>\\n<li>Large bags, backpacks or briefcases are not allowed in the stacks. Please place them on a chair or on the floor next to you.</li>\\n<li>Children under the age of ten must always be supervised by an adult.</li>\\n<li>If the weather is inclement, please place any wet coats or other belongings on the coat rack.</li>\\n</ul><p><strong> </strong><strong>Guidelines for Handling the Collections</strong></p>\\n<p>Please observe the following guidelines when using materials:</p>\\n<ul><li>Use nitrile gloves provided. Gloves are required for use for photographic collections and non-encapsulated architectural drawings.</li>\\n<li>Do not apply hand lotion or cream prior to handling archival materials.</li>\\n<li>After eating, wash and thoroughly dry hands before working with archival</li>\\n<li>Archival materials must be viewed flat on the tables available in the research area. Avoid allowing material to hang over the table</li>\\n<li>Always handle archival materials with both hands, carefully and deliberately.</li>\\n<li>Only one archival record should be handled at a time.</li>\\n<li>Never flip archival materials like magazine or newspaper pages.</li>\\n<li>Only pencils or computers may be used to take personal notes. Any implement that might leave a permanent mark on archival materials is not permitted.</li>\\n<li>Avoid placing your note-taking pad on top or leaning directly on archival materials.</li>\\n<li>Do not write on archival materials. Tracing maps or other materials, using “post-it” or other self-sticking notes, staples or paper clips on archival materials is not</li>\\n<li>Avoid forcing bound volumes open to lie flat, especially on the photocopier.</li>\\n<li>Some photograph collections have restrictions. Ask staff before photographing photographs.</li>\\n</ul><p><strong> </strong></p>\\n<p><strong>Terms of Use approved by the Library Commission on September 5, 2018.</strong></p>",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => NULL,
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'log\' => \'\',
+      \'menu\' => array(
+        \'link_title\' => \'Plan a visit\',
+        \'mlid\' => 0,
+        \'plid\' => \'0\',
+        \'menu_name\' => \'menu-header-menu\',
+        \'weight\' => \'-49\',
+        \'options\' => array(),
+        \'module\' => \'menu\',
+        \'expanded\' => \'0\',
+        \'hidden\' => \'0\',
+        \'has_children\' => \'0\',
+        \'customized\' => 0,
+        \'parent_depth_limit\' => 8,
+        \'description\' => \'\',
+        \'enabled\' => 1,
+      ),
+      \'name\' => \'admin\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/15\',
+        \'alias\' => \'Plan-a-visit\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Plan a Visit\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'deedcd7f-f357-4d66-b833-e406dfe4e595\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'b4c48465-5ac9-4418-8093-4f51c125d368\',
+    ),
+  (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<p><strong>Carnegie Library for Local History Donation Policy</strong></p>\\r\\n<p>Donations are important to the vitality of the Carnegie Library and its mission to collect materials illustrating the history of Boulder county. The Carnegie Library accepts donations of historic materials that will enhance its collections and contribute to the uniqueness of the archive. Monetary gifts are also welcomed and support the preservation and maintenance of the collections. Current topics of interest for the archive are listed on the <a title=\\"Carnegie Library website\\" href=\\"https://localhistory.boulderlibrary.org/Collection-policy\\">Carnegie Library <u>website</u></a>.</p>\\r\\n<p>&nbsp;<strong>MATERIALS DONATIONS</strong></p>\\r\\n<ul>\\r\\n<li>Please make an appointment to meet with a staff member to review your donation by calling 303-441-3110. Appointments are required.</li>\\r\\n<li>Donated materials must meet the <u><a href=\\"https://localhistory.boulderlibrary.org/Collection-policy\\">Carnegie Library for Local History Collection Policy</u></a>.</li>\\r\\n<li>Materials must be organized, dated and identified to the best of the donor&rsquo;s ability. Any items unidentifiable by staff will be returned to donor. Please include all background information to enhance the cataloging of your donation.</li>\\r\\n<li>All duplicate written materials must be removed prior to donation.</li>\\r\\n<li>Donations will be accepted only from businesses or organizations that are no longer operating.</li>\\r\\n<li>All materials must be in English unless they are accompanied by an English transcription or translation.</li>\\r\\n<li>The donor must establish the value of the donated materials prior to the donation if needed for tax purposes. Staff cannot determine the monetary value of donations.</li>\\r\\n<li>Books by Boulder authors of fiction and non-fiction pertaining to subjects other than Boulder county are not accepted.</li>\\r\\n</ul>\\r\\n<p>Donors are asked to complete the <a href=\\"https://boulderlibrary.org/wp-content/uploads/2018/10/2018-Carnegie-Deed-of-Gift-Form.pdf\\"><u>Deed of Gift Form</u></a>. Staff considers the answers to several <a href=\\"https://localhistory.boulderlibrary.org/Donation-evaluation-questions\\"><u>questions</u></a> when evaluating donations for acceptance. Please read the questions before scheduling an appointment to have the donations reviewed.</p>\\r\\n<p><strong>&nbsp;</strong><strong>DIGITAL DONATIONS </strong></p>\\r\\n<p>The following criteria also apply to digital donations.</p>\\r\\n<ul>\\r\\n<li>The number of digital images per donation may be limited to 25 items.</li>\\r\\n<li>Appropriate descriptive, administrative, structural, technical and preservation metadata must be submitted with donation.</li>\\r\\n</ul>\\r\\n<p>&nbsp;Staff reserves the right to make printed copies of digital donations.</p>\\r\\n<p>&nbsp;<strong>Born digital and media formats accepted </strong></p>\\r\\n<p>The Carnegie Library is committed to providing long-term access to the digital works held by the archive by adhering to digital preservation best practices. The level of preservation support provided for a donation is determined by the file format in which it is donated. Software, hardware and file format obsolescence is a complex issue with outcomes that are difficult to predict.&nbsp; This includes the future ability of the library to convert obsolete file formats without any loss to the &lsquo;look and feel&rsquo; of the original material.</p>\\r\\n<p>Staff will advise donors in creating, converting and depositing items of the quality necessary for full information capture and the highest degree of preservability over time. Converting items to <a href=\\"https://localhistory.boulderlibrary.org/accepted-formats\\"><u>proper format</u></a> will be the donor&rsquo;s responsibility and expense. In addition to current industry standards for media types, staff will also consider floppy disks, reel to reel tapes, hard drives, etc. on a case by case basis provided that suitable technology to read the original and convert it to the appropriate modern format is available to the archive.</p>\\r\\n<p>&nbsp;</p>\\r\\n<p><strong>Approved by the Library Commission on September 5, 2018.</strong></p>",
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<p><strong>Carnegie Library for Local History Donation Policy</strong></p>\\n<p>Donations are important to the vitality of the Carnegie Library and its mission to collect materials illustrating the history of Boulder county. The Carnegie Library accepts donations of historic materials that will enhance its collections and contribute to the uniqueness of the archive. Monetary gifts are also welcomed and support the preservation and maintenance of the collections. Current topics of interest for the archive are listed on the <a title=\\"Carnegie Library website\\" href=\\"https://localhistory.boulderlibrary.org/Collection-policy\\">Carnegie Library <u>website</u></a>.</p>\\n<p> <strong>MATERIALS DONATIONS</strong></p>\\n<ul><li>Please make an appointment to meet with a staff member to review your donation by calling 303-441-3110. Appointments are required.</li>\\n<li>Donated materials must meet the <u><a href=\\"https://localhistory.boulderlibrary.org/Collection-policy\\">Carnegie Library for Local History Collection Policy</a></u>.</li>\\n<li>Materials must be organized, dated and identified to the best of the donor’s ability. Any items unidentifiable by staff will be returned to donor. Please include all background information to enhance the cataloging of your donation.</li>\\n<li>All duplicate written materials must be removed prior to donation.</li>\\n<li>Donations will be accepted only from businesses or organizations that are no longer operating.</li>\\n<li>All materials must be in English unless they are accompanied by an English transcription or translation.</li>\\n<li>The donor must establish the value of the donated materials prior to the donation if needed for tax purposes. Staff cannot determine the monetary value of donations.</li>\\n<li>Books by Boulder authors of fiction and non-fiction pertaining to subjects other than Boulder county are not accepted.</li>\\n</ul><p>Donors are asked to complete the <a href=\\"https://boulderlibrary.org/wp-content/uploads/2018/10/2018-Carnegie-Deed-of-Gift-Form.pdf\\"><u>Deed of Gift Form</u></a>. Staff considers the answers to several <a href=\\"https://localhistory.boulderlibrary.org/Donation-evaluation-questions\\"><u>questions</u></a> when evaluating donations for acceptance. Please read the questions before scheduling an appointment to have the donations reviewed.</p>\\n<p><strong> </strong><strong>DIGITAL DONATIONS </strong></p>\\n<p>The following criteria also apply to digital donations.</p>\\n<ul><li>The number of digital images per donation may be limited to 25 items.</li>\\n<li>Appropriate descriptive, administrative, structural, technical and preservation metadata must be submitted with donation.</li>\\n</ul><p> Staff reserves the right to make printed copies of digital donations.</p>\\n<p> <strong>Born digital and media formats accepted </strong></p>\\n<p>The Carnegie Library is committed to providing long-term access to the digital works held by the archive by adhering to digital preservation best practices. The level of preservation support provided for a donation is determined by the file format in which it is donated. Software, hardware and file format obsolescence is a complex issue with outcomes that are difficult to predict.  This includes the future ability of the library to convert obsolete file formats without any loss to the ‘look and feel’ of the original material.</p>\\n<p>Staff will advise donors in creating, converting and depositing items of the quality necessary for full information capture and the highest degree of preservability over time. Converting items to <a href=\\"https://localhistory.boulderlibrary.org/accepted-formats\\"><u>proper format</u></a> will be the donor’s responsibility and expense. In addition to current industry standards for media types, staff will also consider floppy disks, reel to reel tapes, hard drives, etc. on a case by case basis provided that suitable technology to read the original and convert it to the appropriate modern format is available to the archive.</p>\\n<p> </p>\\n<p><strong>Approved by the Library Commission on September 5, 2018.</strong></p>",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => NULL,
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'902\',
+      \'log\' => \'\',
+      \'menu\' => array(
+        \'link_title\' => \'Donations\',
+        \'mlid\' => 0,
+        \'plid\' => \'0\',
+        \'menu_name\' => \'menu-header-menu\',
+        \'weight\' => \'-46\',
+        \'options\' => array(),
+        \'module\' => \'menu\',
+        \'expanded\' => \'0\',
+        \'hidden\' => \'0\',
+        \'has_children\' => \'0\',
+        \'customized\' => 0,
+        \'parent_depth_limit\' => 8,
+        \'description\' => \'\',
+        \'enabled\' => 1,
+      ),
+      \'name\' => \'admin\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/24\',
+        \'alias\' => \'Donations-policy\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Donations Policy\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'e33df9a8-9357-42bd-9123-ff0cf74eaa12\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'15753eef-d5b4-49df-a208-41cfff53e37f\',
+    ),
+  (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<p><strong>APPRAISAL QUESTIONS:</strong></p>\\r\\n<ol>\\r\\n<li>What is the provenance or background history of the donation?\\r\\n<ol style=\\"list-style-type: lower-alpha;\\"><li>If the donor did not compile the collection, who did?</li>\\r\\n<li>Does the Donor have the authority to transfer ownership?</li>\\r\\n</ol>\\r\\n</li>\\r\\n<li>Do the materials fall within our Collection Policy? (see above)\\r\\n<ol style=\\"list-style-type: lower-alpha;\\"><li>Did the person or organization play an important role in the City or County of Boulder?</li>\\r\\n<li>Do the materials lead to a better understanding of under-represented groups such as ethnic groups, minorities, homeless, etc.?</li>\\r\\n<li>Can we envision future patrons using the materials?</li>\\r\\n</ol>\\r\\n</li>\\r\\n<li>Would this information be unique to Carnegie and not able to be found elsewhere?</li>\\r\\n<li>Does the donation add depth to what we already have?</li>\\r\\n<li>Do the records appear to completely document a person, organization, etc.?</li>\\r\\n<li>Are the records in order?</li>\\r\\n<li>Are the people and buildings in the photographs identified?</li>\\r\\n<li>What is the donation value: administrative, legal, fiscal, evidential, or informational?</li>\\r\\n<li>What is the proportion of useful material to the overall size?\\r\\n<ol style=\\"list-style-type: lower-alpha;\\"><li>Do we have the shelf space needed?</li>\\r\\n<li>Does the donation warrant the cost of archival supplies?</li>\\r\\n<li>Will the donor provide financial backing for storage of collection?</li>\\r\\n</ol>\\r\\n</li>\\r\\n<li>How much time is needed to organize the collection?</li>\\r\\n<li>Are there format considerations? (See digital donations below)\\r\\n<ol style=\\"list-style-type: lower-alpha;\\"><li>Are any materials oversized?</li>\\r\\n<li>Are there film or electronic records that need to be transferred?</li>\\r\\n<li>Are there born-digital materials?</li>\\r\\n</ol>\\r\\n</li>\\r\\n<li>Are the contents unrestricted?</li>\\r\\n</ol>\\r\\n<p>&nbsp;</p>\\r\\n<p><strong>CRITERIA FOR DIGITAL DONATIONS:</strong></p>\\r\\n<p>In addition to the Appraisal Questions listed above, the following criteria also apply:</p>\\r\\n<ul>\\r\\n<li>The number of digital images per donation may be limited to 50 items&nbsp;</li>\\r\\n<li>Appropriate descriptive, administrative, structural and possible preservation metadata must be submitted with donation.</li>\\r\\n<li>If collection is submitted to the archive in digital form, technical (and possibly preservation) metadata should be submitted by collection owner at time of deposit.</li>\\r\\n</ul>\\r\\n<p>Terms of use:</p>\\r\\n<ul>\\r\\n<li>Staff may remove the objects from the Digital Archive as part of a responsible collection management decision. This processes is sometimes referred to as &ldquo;deaccession.&rdquo;</li>\\r\\n<li>Prints may or may not be made of digital donations by library staff</li>\\r\\n</ul>",
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p><strong>APPRAISAL QUESTIONS:</strong></p>\\n<ol><li>What is the provenance or background history of the donation?\\n<ol><li>If the donor did not compile the collection, who did?</li>\\n<li>Does the Donor have the authority to transfer ownership?</li>\\n</ol></li>\\n<li>Do the materials fall within our Collection Policy? (see above)\\n<ol><li>Did the person or organization play an important role in the City or County of Boulder?</li>\\n<li>Do the materials lead to a better understanding of under-represented groups such as ethnic groups, minorities, homeless, etc.?</li>\\n<li>Can we envision future patrons using the materials?</li>\\n</ol></li>\\n<li>Would this information be unique to Carnegie and not able to be found elsewhere?</li>\\n<li>Does the donation add depth to what we already have?</li>\\n<li>Do the records appear to completely document a person, organization, etc.?</li>\\n<li>Are the records in order?</li>\\n<li>Are the people and buildings in the photographs identified?</li>\\n<li>What is the donation value: administrative, legal, fiscal, evidential, or informational?</li>\\n<li>What is the proportion of useful material to the overall size?\\n<ol><li>Do we have the shelf space needed?</li>\\n<li>Does the donation warrant the cost of archival supplies?</li>\\n<li>Will the donor provide financial backing for storage of collection?</li>\\n</ol></li>\\n<li>How much time is needed to organize the collection?</li>\\n<li>Are there format considerations? (See digital donations below)\\n<ol><li>Are any materials oversized?</li>\\n<li>Are there film or electronic records that need to be transferred?</li>\\n<li>Are there born-digital materials?</li>\\n</ol></li>\\n<li>Are the contents unrestricted?</li>\\n</ol><p> <br /><strong>CRITERIA FOR DIGITAL DONATIONS:</strong><br />\\nIn addition to the Appraisal Questions listed above, the following criteria also apply:</p>\\n<ul><li>The number of digital images per donation may be limited to 50 items </li>\\n<li>Appropriate descriptive, administrative, structural and possible preservation metadata must be submitted with donation.</li>\\n<li>If collection is submitted to the archive in digital form, technical (and possibly preservation) metadata should be submitted by collection owner at time of deposit.</li>\\n</ul><p>Terms of use:</p>\\n<ul><li>Staff may remove the objects from the Digital Archive as part of a responsible collection management decision. This processes is sometimes referred to as “deaccession.”</li>\\n<li>Prints may or may not be made of digital donations by library staff</li>\\n</ul>",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => NULL,
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'902\',
+      \'log\' => \'\',
+      \'menu\' => NULL,
+      \'name\' => \'admin\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/25\',
+        \'alias\' => \'appraisal-questions-and-criteria\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Appraisal Questions and Criteria\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'f47efd44-3fe9-48d5-8047-7991911a976b\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'1c23cbae-caf0-424a-aa64-9a058d196443\',
+    ),
+  (object) array(
       \'body\' => array(),
       \'changed\' => NULL,
       \'cid\' => \'0\',
@@ -1400,7 +2635,7 @@ function platform_main_feature_node_export_features_default() {
       \'name\' => \'admin\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => NULL,
+      \'path\' => FALSE,
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
