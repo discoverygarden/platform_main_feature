@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * platform_main_feature.features.fe_block_boxes.inc
@@ -14,7 +15,7 @@ function platform_main_feature_default_fe_block_boxes() {
   $fe_block_boxes->info = 'Advanced Search Link';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'advanced_islandora_search_link';
-  $fe_block_boxes->body = '<a href="/advanced-search" title="Advanced Search">Advanced Search</a>
+  $fe_block_boxes->body = '<a href="/advanced-search" title="Refine Your Search">Advanced Search</a>
 ';
 
   $export['advanced_islandora_search_link'] = $fe_block_boxes;
@@ -23,7 +24,7 @@ function platform_main_feature_default_fe_block_boxes() {
   $fe_block_boxes->info = 'Provides a label for use with Featured Collections';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'featured_collections_label';
-  $fe_block_boxes->body = '<h2 class="block__title">Featured Collections</h2>';
+  $fe_block_boxes->body = '<h2 class="block__title">Carnegie Library Collection Sampler</h2>';
 
   $export['featured_collections_label'] = $fe_block_boxes;
 
@@ -40,9 +41,9 @@ function platform_main_feature_default_fe_block_boxes() {
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'social_media_footer';
   $fe_block_boxes->body = '<div class="footer-social-media--links">
-<a title="Facebook" href="https://www.facebook.com/"><i class=\'icon-facebook-squared\'></i></a>
-<a title="Flickr" href="https://www.flickr.com/"><i class=\'icon-flickr\'></i></a>
-<a title="YouTube" href="https://www.youtube.com/"><i class=\'icon-youtube-squared\'></i></a>
+<a title="Facebook" href="https://www.facebook.com/boulderlibrary/"><i class=\'icon-facebook-squared\'></i></a>
+<a title="Flickr" href="https://www.flickr.com/photos/boulderlibrary/"><i class=\'icon-flickr\'></i></a>
+<a title="YouTube" href="https://www.youtube.com/user/boulderlibrary"><i class=\'icon-youtube-squared\'></i></a>
 </div>';
 
   $export['social_media_footer'] = $fe_block_boxes;

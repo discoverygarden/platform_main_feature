@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * platform_main_feature.features.inc
@@ -40,13 +41,21 @@ function platform_main_feature_image_default_styles() {
   $styles['collection_display_thumbnails'] = array(
     'label' => 'Collection Display Thumbnails',
     'effects' => array(
-      3 => array(
+      22 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 200,
           'height' => 160,
         ),
         'weight' => 1,
+      ),
+      23 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 120,
+          'height' => 120,
+        ),
+        'weight' => 2,
       ),
     ),
   );
@@ -70,13 +79,21 @@ function platform_main_feature_image_default_styles() {
   $styles['owl_slider_thumbnail_explore'] = array(
     'label' => 'Owl Slider Thumbnail Explore',
     'effects' => array(
-      2 => array(
+      20 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 300,
+          'height' => 300,
+        ),
+        'weight' => -10,
+      ),
+      17 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 200,
           'height' => 200,
         ),
-        'weight' => 1,
+        'weight' => -9,
       ),
     ),
   );
