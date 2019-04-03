@@ -111,42 +111,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_collection-policy:node/17.
-  $menu_links['menu-header-menu_collection-policy:node/17'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/17',
-    'router_path' => 'node/%',
-    'link_title' => 'Collection Policy',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-header-menu_collection-policy:node/17',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_donations:node/24.
-  $menu_links['menu-header-menu_donations:node/24'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/24',
-    'router_path' => 'node/%',
-    'link_title' => 'Donations',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-header-menu_donations:node/24',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
-    'customized' => 1,
-  );
   // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
   $menu_links['menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-header-menu',
@@ -185,116 +149,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -38,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_oral-history:node/18.
-  $menu_links['menu-header-menu_oral-history:node/18'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/18',
-    'router_path' => 'node/%',
-    'link_title' => 'Oral History',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-header-menu_oral-history:node/18',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -44,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_our-history:node/19.
-  $menu_links['menu-header-menu_our-history:node/19'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/19',
-    'router_path' => 'node/%',
-    'link_title' => 'Our History',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-header-menu_our-history:node/19',
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -42,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_photo-requests:node/20.
-  $menu_links['menu-header-menu_photo-requests:node/20'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/20',
-    'router_path' => 'node/%',
-    'link_title' => 'Photo Requests',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-header-menu_photo-requests:node/20',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -45,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_plan-a-visit:node/15.
-  $menu_links['menu-header-menu_plan-a-visit:node/15'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/15',
-    'router_path' => 'node/%',
-    'link_title' => 'Plan a visit',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-header-menu_plan-a-visit:node/15',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_research-policies:node/13.
-  $menu_links['menu-header-menu_research-policies:node/13'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/13',
-    'router_path' => 'node/%',
-    'link_title' => 'Research Policies',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-header-menu_research-policies:node/13',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_volunteer:node/16.
-  $menu_links['menu-header-menu_volunteer:node/16'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/16',
-    'router_path' => 'node/%',
-    'link_title' => 'Volunteer',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-header-menu_volunteer:node/16',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -43,
     'customized' => 1,
   );
   // Exported menu link: menu-quick-links_about-us:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
@@ -488,8 +342,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Browse Collections');
   t('CHNC Newspapers');
   t('Clerk and Recorder');
-  t('Collection Policy');
-  t('Donations');
   t('EMapping');
   t('Genealogy ');
   t('Log In');
@@ -497,13 +349,7 @@ function platform_main_feature_menu_default_menu_links() {
   t('Make contact');
   t('Museum of Boulder');
   t('My Bookmarks');
-  t('Oral History');
-  t('Our History');
-  t('Photo Requests');
-  t('Plan a visit');
-  t('Research Policies');
   t('Sanborn Maps');
-  t('Volunteer');
 
   return $menu_links;
 }

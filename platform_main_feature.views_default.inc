@@ -54,6 +54,18 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['carnegie_library_image_block'] = array(
+    t('Master'),
+    t('Carnegie Library Image Block'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<a title="Home" href="/">[field_image_block]</a>'),
+    t('Block'),
+  );
   $export['carnegie_library_image_block'] = $view;
 
   $view = new view();
@@ -104,6 +116,17 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['contact_information'] = array(
+    t('Master'),
+    t('Contact Information'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Block'),
+  );
   $export['contact_information'] = $view;
 
   $view = new view();
@@ -957,6 +980,30 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['PID_14']['field'] = 'PID';
   $handler->display->display_options['filters']['PID_14']['value'] = 'islandora:62104';
   $handler->display->display_options['filters']['PID_14']['group'] = 1;
+  $translatables['featured_collection'] = array(
+    t('Master'),
+    t('Featured Collection Three'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<span class="owl-pager-count"></span>'),
+    t('Featured Collection One'),
+    t('Featured Collection'),
+    t('Featured Collection Two'),
+    t('Featured Collection Four'),
+    t('Explore'),
+    t('Score'),
+    t('PID'),
+    t('Featured Collection Five'),
+    t('Featured Collection Six'),
+    t('Featured Collection Seven'),
+    t('Featured Collection Eight'),
+    t('Featured Collection Nine'),
+    t('Featured Collection Ten'),
+  );
   $export['featured_collection'] = $view;
 
   $view = new view();
@@ -1099,6 +1146,22 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['uuid']['table'] = 'node';
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['value'] = 'fcf3ee69-3b74-4973-8ce9-a1e1f16f6b8d';
+  $translatables['footer_logos'] = array(
+    t('Master'),
+    t('Footer Logos'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('City of Boulder Logo'),
+    t('<a title="City of Boulder, Colorado" href="https://bouldercolorado.gov/">[field_image_block]</a>'),
+    t('BPL Logo'),
+    t('<a title="Boulder Library" href="https://boulderlibrary.org/">[field_image_block]</a>'),
+    t('Museum of Boulder Logo'),
+    t('Genealogical Society Logo'),
+  );
   $export['footer_logos'] = $view;
 
   $view = new view();
@@ -1226,6 +1289,18 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['PID_1']['value'] = 'islandora:78689';
   $handler->display->display_options['filters']['PID_1']['group'] = 1;
   $handler->display->display_options['block_description'] = 'Front Page Owl Slideshow';
+  $translatables['front_page_slideshow'] = array(
+    t('Master'),
+    t('Front Page Slideshow'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Block'),
+    t('Front Page Owl Slideshow'),
+  );
   $export['front_page_slideshow'] = $view;
 
   $view = new view();
@@ -1381,6 +1456,22 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['table'] = 'islandora_solr';
   $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['field'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
   $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['value'] = 'islandora:featured_collection';
+  $translatables['frontpage_solr_boxes'] = array(
+    t('Master'),
+    t('Frontpage Solr boxes'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Browse Collections'),
+    t('Object TN'),
+    t('RELS_EXT_isMemberOfCollection_uri_mt'),
+    t('Featured Collections'),
+    t('There are no featured collections.'),
+    t('<a href="islandora/object/[PID]"><img class="featured-thumb" src="islandora/object/[PID]/datastream/TN/view" alt=""/></a>'),
+  );
   $export['frontpage_solr_boxes'] = $view;
 
   $view = new view();
@@ -1424,6 +1515,19 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['grid_item_metadata'] = array(
+    t('Master'),
+    t('Grid Item Metadata'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Title'),
+    t('All'),
+    t('Block'),
+  );
   $export['grid_item_metadata'] = $view;
 
   $view = new view();
@@ -1608,6 +1712,21 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['uuid']['table'] = 'node';
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['value'] = '9c8f491e-d901-4fc8-9b5d-75490185bdd6';
+  $translatables['image_blocks'] = array(
+    t('Master'),
+    t('Image blocks'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Image Block 1'),
+    t('<img src="sites/all/modules/platform_main_feature/images/award_winning.png"/>'),
+    t('Footer logo'),
+    t('<img src="/sites/all/modules/platform_main_feature/images/dgi-footer-logo.png"/>'),
+    t('Welcome Message'),
+  );
   $export['image_blocks'] = $view;
 
   $view = new view();
@@ -1683,6 +1802,20 @@ function platform_main_feature_views_default_views() {
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
   $handler->display->display_options['link_url'] = '/islandora/object/!1';
+  $translatables['list_item_metadata'] = array(
+    t('Master'),
+    t('List Item Metadata'),
+    t('Browse'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<a title="Browse" href="/islandora/object/[PID]">Browse</a>'),
+    t('All'),
+    t('Block'),
+    t('more'),
+  );
   $export['list_item_metadata'] = $view;
 
   $view = new view();
@@ -1707,13 +1840,12 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '5';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Islandora Solr: mods_abstract_Summary_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['id'] = 'mods_abstract_Summary_ms';
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['field'] = 'mods_abstract_Summary_ms';
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_abstract_Summary_ms']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['mods_abstract_Summary_ms']['link_to_object'] = 0;
   /* Contextual filter: Islandora Solr: PID */
   $handler->display->display_options['arguments']['PID']['id'] = 'PID';
   $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
@@ -1727,6 +1859,18 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['object_description'] = array(
+    t('Master'),
+    t('Object Description'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('All'),
+    t('Block'),
+  );
   $export['object_description'] = $view;
 
   $view = new view();
@@ -1778,6 +1922,23 @@ function platform_main_feature_views_default_views() {
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
   $handler->display->display_options['path'] = 'front';
+  $translatables['platform_front_page'] = array(
+    t('Master'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('Page'),
+  );
   $export['platform_front_page'] = $view;
 
   $view = new view();
@@ -1843,6 +2004,21 @@ function platform_main_feature_views_default_views() {
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
+  $translatables['top_facet_searches'] = array(
+    t('Master'),
+    t('Top Facet Searches'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Facet Terms'),
+    t('# of Searches'),
+    t('.'),
+    t(','),
+    t('Block'),
+  );
   $export['top_facet_searches'] = $view;
 
   $view = new view();
@@ -1916,6 +2092,22 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['empty']['area']['empty'] = TRUE;
   $handler->display->display_options['empty']['area']['content'] = 'You need to configure Google Analytics to show the Top Site Searches';
   $handler->display->display_options['empty']['area']['format'] = 'filtered_html';
+  $translatables['top_site_searches'] = array(
+    t('Master'),
+    t('Top Site Searches'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Search Terms'),
+    t('# of Searches'),
+    t('.'),
+    t(','),
+    t('Block'),
+    t('You need to configure Google Analytics to show the Top Site Searches'),
+  );
   $export['top_site_searches'] = $view;
 
   return $export;
