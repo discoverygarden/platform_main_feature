@@ -1198,7 +1198,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/islandora:root2" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/islandora:root2" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1384,7 +1384,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/50002:AdminJME02" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/50002:AdminJME02" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1420,7 +1420,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/210002:NBMAA" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/210002:NBMAA" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1456,7 +1456,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/290002:ASDAdminJME" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/290002:ASDAdminJME" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1492,7 +1492,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/150002:001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/150002:001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1528,7 +1528,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/60002:BarnumMuseum" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/60002:BarnumMuseum" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1564,7 +1564,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140002:Biblio" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140002:Biblio" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1600,7 +1600,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140006:Bethel" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140006:Bethel" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1636,7 +1636,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/350002:BillMemorialLibrary" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/350002:BillMemorialLibrary" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1672,7 +1672,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/110002:Admin001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/110002:Admin001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1708,7 +1708,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/320002:AdminJME" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/320002:AdminJME" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1744,7 +1744,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/460002:CAHSL" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/460002:CAHSL" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1780,7 +1780,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/490002:ConnCollege" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/490002:ConnCollege" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1816,7 +1816,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/40002:CHS001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/40002:CHS001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1852,7 +1852,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/370002:CTLandmarksJME" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/370002:CTLandmarksJME" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1888,7 +1888,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/20006:CTSMNH" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/20006:CTSMNH" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1924,7 +1924,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/430002:EnfieldPublic" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/430002:EnfieldPublic" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1960,7 +1960,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/80002:001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/80002:001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -1996,7 +1996,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/270002:FGM001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/270002:FGM001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2032,7 +2032,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/180002:GPL001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/180002:GPL001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2068,7 +2068,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140019:Hagaman" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140019:Hagaman" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2104,7 +2104,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/310002:AdminJME" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/310002:AdminJME" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2140,7 +2140,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/220002:ILA001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/220002:ILA001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2176,7 +2176,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140026:kentSuffield" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140026:kentSuffield" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2216,7 +2216,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/400002:LHS" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/400002:LHS" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2252,7 +2252,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/170002:LAAM001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/170002:LAAM001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2287,7 +2287,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/260002:MM001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/260002:MM001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2323,7 +2323,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/70002:AdminJME" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/70002:AdminJME" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2359,7 +2359,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/200002:MAC001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/200002:MAC001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2395,7 +2395,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/280002:NHM001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/280002:NHM001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2431,7 +2431,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/450002:NPL" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/450002:NPL" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2467,7 +2467,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/230002:SMM001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/230002:SMM001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2503,7 +2503,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/240002:SHS001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/240002:SHS001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2539,7 +2539,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/250002:WA001" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/250002:WA001" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2575,7 +2575,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/360002:AdminJEWTM" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/360002:AdminJEWTM" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2611,7 +2611,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140065:Woodbury" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140065:Woodbury" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2647,7 +2647,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/30002:csl" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/30002:csl" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2683,7 +2683,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/20002:UniversityofConnecticut" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/20002:UniversityofConnecticut" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['element_label_colon'] = FALSE;
@@ -2772,7 +2772,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140011:Derby" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140011:Derby" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['more_link'] = TRUE;
@@ -2810,7 +2810,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140066:DeepRiver" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140066:DeepRiver" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['more_link'] = TRUE;
@@ -2848,7 +2848,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_institution_logo']['field'] = 'field_institution_logo';
   $handler->display->display_options['fields']['field_institution_logo']['label'] = '';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140066:DeepRiver" title=[field_institution_logo-title]">
+  $handler->display->display_options['fields']['field_institution_logo']['alter']['text'] = '<a href="/islandora/object/140066:DeepRiver" title="[field_institution_logo-title]">
  [field_institution_logo]
 </a>';
   $handler->display->display_options['fields']['field_institution_logo']['alter']['more_link'] = TRUE;
