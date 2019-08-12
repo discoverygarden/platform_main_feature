@@ -617,7 +617,7 @@ function platform_main_feature_strongarm() {
     'zen_rebuild_registry' => 1,
     'zen_wireframes' => 0,
     'tul_theme_omit' => 1,
-    'tul_theme_background_image_datastream' => 'FRONT',
+    'tul_theme_background_image_datastream' => 'OBJ',
     'designkit_color' => array(
       'background' => '#032a17',
       'header' => '#032a17',
