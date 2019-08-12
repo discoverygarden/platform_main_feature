@@ -345,31 +345,11 @@ function platform_main_feature_views_default_views() {
     2 => 'AND',
   );
   $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filter criterion: Islandora Solr: dc.title */
-  $handler->display->display_options['filters']['dc.title']['id'] = 'dc.title';
-  $handler->display->display_options['filters']['dc.title']['table'] = 'islandora_solr';
-  $handler->display->display_options['filters']['dc.title']['field'] = 'dc.title';
-  $handler->display->display_options['filters']['dc.title']['group'] = 1;
-  /* Filter criterion: Islandora Solr: PID */
-  $handler->display->display_options['filters']['PID']['id'] = 'PID';
-  $handler->display->display_options['filters']['PID']['table'] = 'islandora_solr';
-  $handler->display->display_options['filters']['PID']['field'] = 'PID';
-  $handler->display->display_options['filters']['PID']['value'] = 'islandora:root';
-  $handler->display->display_options['filters']['PID']['group'] = 1;
-  $handler->display->display_options['filters']['PID']['exposed'] = TRUE;
-  $handler->display->display_options['filters']['PID']['expose']['operator_id'] = '';
-  $handler->display->display_options['filters']['PID']['expose']['identifier'] = 'pid';
-  $handler->display->display_options['filters']['PID']['expose']['remember_roles'] = array(
-    2 => '2',
-    1 => 0,
-    3 => 0,
-  );
-  /* Filter criterion: Islandora Solr: PID */
-  $handler->display->display_options['filters']['PID_1']['id'] = 'PID_1';
-  $handler->display->display_options['filters']['PID_1']['table'] = 'islandora_solr';
-  $handler->display->display_options['filters']['PID_1']['field'] = 'PID';
-  $handler->display->display_options['filters']['PID_1']['value'] = 'islandora:sp_basic_image_collection';
-  $handler->display->display_options['filters']['PID_1']['group'] = 2;
+  /* Filter criterion: Islandora Solr: RELS_EXT_isMemberOfCollection_uri_s */
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_s']['id'] = 'RELS_EXT_isMemberOfCollection_uri_s';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_s']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_s']['field'] = 'RELS_EXT_isMemberOfCollection_uri_s';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_s']['value'] = 'info:fedora/navlsc:slide';
 
   /* Display: Latest Objects in Collection */
   $handler = $view->new_display('block', 'Latest Objects in Collection', 'block_4');
