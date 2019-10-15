@@ -1779,6 +1779,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['field'] = 'mods_originInfo_dateIssued_s';
   $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['label'] = 'Date';
+  $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['hide_empty'] = TRUE;
   $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['link_to_object'] = 0;
   /* Field: Islandora Solr: bpl_mods_physicalDescription_extent_concatenated_unit_ms */
@@ -1786,6 +1787,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['field'] = 'bpl_mods_physicalDescription_extent_concatenated_unit_ms';
   $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['label'] = 'Contents';
+  $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['hide_empty'] = TRUE;
   $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['link_to_object'] = 0;
   /* Field: Islandora Solr: bpl_mods_abstract_all_types_mt */
@@ -1793,6 +1795,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['field'] = 'bpl_mods_abstract_all_types_mt';
   $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['label'] = 'Description';
+  $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['hide_empty'] = TRUE;
   $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['link_to_object'] = 0;
   /* Contextual filter: Islandora Solr: PID */
