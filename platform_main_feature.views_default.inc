@@ -101,7 +101,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['sorts']['created']['table'] = 'node';
   $handler->display->display_options['sorts']['created']['field'] = 'created';
   $handler->display->display_options['sorts']['created']['order'] = 'DESC';
-  /* Filter criterion: Content: Published */
+  /* Filter criterion: Content: Published status */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
@@ -1045,7 +1045,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['sorts']['created']['table'] = 'node';
   $handler->display->display_options['sorts']['created']['field'] = 'created';
   $handler->display->display_options['sorts']['created']['order'] = 'DESC';
-  /* Filter criterion: Content: Published */
+  /* Filter criterion: Content: Published status */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
@@ -1083,7 +1083,7 @@ function platform_main_feature_views_default_views() {
   );
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filter criterion: Content: Published */
+  /* Filter criterion: Content: Published status */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
@@ -1117,7 +1117,7 @@ function platform_main_feature_views_default_views() {
   $handler = $view->new_display('block', 'Museum of Boulder Logo', 'block_2');
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filter criterion: Content: Published */
+  /* Filter criterion: Content: Published status */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
@@ -1134,7 +1134,7 @@ function platform_main_feature_views_default_views() {
   $handler = $view->new_display('block', 'Genealogical Society Logo', 'block_3');
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filter criterion: Content: Published */
+  /* Filter criterion: Content: Published status */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
@@ -1572,7 +1572,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['sorts']['created']['table'] = 'node';
   $handler->display->display_options['sorts']['created']['field'] = 'created';
   $handler->display->display_options['sorts']['created']['order'] = 'DESC';
-  /* Filter criterion: Content: Published */
+  /* Filter criterion: Content: Published status */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
@@ -1612,7 +1612,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_image_block']['field_api_classes'] = TRUE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filter criterion: Content: Published */
+  /* Filter criterion: Content: Published status */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
@@ -1654,7 +1654,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_image_block']['field_api_classes'] = TRUE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filter criterion: Content: Published */
+  /* Filter criterion: Content: Published status */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
@@ -1693,7 +1693,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filter criterion: Content: Published */
+  /* Filter criterion: Content: Published status */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
@@ -1760,34 +1760,44 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['footer']['area']['content'] = '<a title="Browse" href="/islandora/object/[PID]">Browse</a>';
   $handler->display->display_options['footer']['area']['format'] = 'filtered_html';
   $handler->display->display_options['footer']['area']['tokenize'] = TRUE;
-  /* Field: Islandora Solr: PID */
-  $handler->display->display_options['fields']['PID']['id'] = 'PID';
-  $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
-  $handler->display->display_options['fields']['PID']['field'] = 'PID';
-  $handler->display->display_options['fields']['PID']['label'] = '';
-  $handler->display->display_options['fields']['PID']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
-  /* Field: Islandora Solr: mods_titleInfo_title_ms */
-  $handler->display->display_options['fields']['mods_titleInfo_title_ms']['id'] = 'mods_titleInfo_title_ms';
-  $handler->display->display_options['fields']['mods_titleInfo_title_ms']['table'] = 'islandora_solr';
-  $handler->display->display_options['fields']['mods_titleInfo_title_ms']['field'] = 'mods_titleInfo_title_ms';
-  $handler->display->display_options['fields']['mods_titleInfo_title_ms']['label'] = '';
-  $handler->display->display_options['fields']['mods_titleInfo_title_ms']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['mods_titleInfo_title_ms']['link_to_object'] = 1;
-  /* Field: Broken/missing handler */
-  $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['id'] = 'mods_titleInfo_none_subTitle_ms';
-  $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['table'] = 'islandora_solr';
-  $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['field'] = 'mods_titleInfo_none_subTitle_ms';
-  $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['label'] = '';
-  $handler->display->display_options['fields']['mods_titleInfo_none_subTitle_ms']['element_label_colon'] = FALSE;
-  /* Field: Islandora Solr: mods_abstract_ms */
-  $handler->display->display_options['fields']['mods_abstract_ms_1']['id'] = 'mods_abstract_ms_1';
-  $handler->display->display_options['fields']['mods_abstract_ms_1']['table'] = 'islandora_solr';
-  $handler->display->display_options['fields']['mods_abstract_ms_1']['field'] = 'mods_abstract_ms';
-  $handler->display->display_options['fields']['mods_abstract_ms_1']['label'] = '';
-  $handler->display->display_options['fields']['mods_abstract_ms_1']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['mods_abstract_ms_1']['link_to_object'] = 0;
+  /* Field: Islandora Solr: bpl_mods_titleInfo_title_concatenated_nonSort_concatenated_subTitle_ms */
+  $handler->display->display_options['fields']['bpl_mods_titleInfo_title_concatenated_nonSort_concatenated_subTitle_ms']['id'] = 'bpl_mods_titleInfo_title_concatenated_nonSort_concatenated_subTitle_ms';
+  $handler->display->display_options['fields']['bpl_mods_titleInfo_title_concatenated_nonSort_concatenated_subTitle_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['bpl_mods_titleInfo_title_concatenated_nonSort_concatenated_subTitle_ms']['field'] = 'bpl_mods_titleInfo_title_concatenated_nonSort_concatenated_subTitle_ms';
+  $handler->display->display_options['fields']['bpl_mods_titleInfo_title_concatenated_nonSort_concatenated_subTitle_ms']['label'] = '';
+  $handler->display->display_options['fields']['bpl_mods_titleInfo_title_concatenated_nonSort_concatenated_subTitle_ms']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['bpl_mods_titleInfo_title_concatenated_nonSort_concatenated_subTitle_ms']['link_to_object'] = 1;
+  /* Field: Islandora Solr: mods_identifier_non-marc-call-number_ms */
+  $handler->display->display_options['fields']['mods_identifier_non-marc-call-number_ms']['id'] = 'mods_identifier_non-marc-call-number_ms';
+  $handler->display->display_options['fields']['mods_identifier_non-marc-call-number_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['mods_identifier_non-marc-call-number_ms']['field'] = 'mods_identifier_non-marc-call-number_ms';
+  $handler->display->display_options['fields']['mods_identifier_non-marc-call-number_ms']['label'] = 'Call Number';
+  $handler->display->display_options['fields']['mods_identifier_non-marc-call-number_ms']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['mods_identifier_non-marc-call-number_ms']['link_to_object'] = 0;
+  /* Field: Islandora Solr: mods_originInfo_dateIssued_s */
+  $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['id'] = 'mods_originInfo_dateIssued_s';
+  $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['field'] = 'mods_originInfo_dateIssued_s';
+  $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['label'] = 'Date';
+  $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['link_to_object'] = 0;
+  /* Field: Islandora Solr: bpl_mods_physicalDescription_extent_concatenated_unit_ms */
+  $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['id'] = 'bpl_mods_physicalDescription_extent_concatenated_unit_ms';
+  $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['field'] = 'bpl_mods_physicalDescription_extent_concatenated_unit_ms';
+  $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['label'] = 'Contents';
+  $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['link_to_object'] = 0;
+  /* Field: Islandora Solr: bpl_mods_abstract_all_types_mt */
+  $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['id'] = 'bpl_mods_abstract_all_types_mt';
+  $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['field'] = 'bpl_mods_abstract_all_types_mt';
+  $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['label'] = 'Description';
+  $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['link_to_object'] = 0;
   /* Contextual filter: Islandora Solr: PID */
   $handler->display->display_options['arguments']['PID']['id'] = 'PID';
   $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
@@ -1812,6 +1822,10 @@ function platform_main_feature_views_default_views() {
     t('Asc'),
     t('Desc'),
     t('<a title="Browse" href="/islandora/object/[PID]">Browse</a>'),
+    t('Call Number'),
+    t('Contents'),
+    t('Date'),
+    t('Description'),
     t('All'),
     t('Block'),
     t('more'),
@@ -1894,7 +1908,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'full';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'node';
-  /* Sort criterion: Content: Sticky */
+  /* Sort criterion: Content: Sticky status */
   $handler->display->display_options['sorts']['sticky']['id'] = 'sticky';
   $handler->display->display_options['sorts']['sticky']['table'] = 'node';
   $handler->display->display_options['sorts']['sticky']['field'] = 'sticky';
@@ -1904,14 +1918,14 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['sorts']['created']['table'] = 'node';
   $handler->display->display_options['sorts']['created']['field'] = 'created';
   $handler->display->display_options['sorts']['created']['order'] = 'DESC';
-  /* Filter criterion: Content: Promoted to front page */
+  /* Filter criterion: Content: Promoted to front page status */
   $handler->display->display_options['filters']['promote']['id'] = 'promote';
   $handler->display->display_options['filters']['promote']['table'] = 'node';
   $handler->display->display_options['filters']['promote']['field'] = 'promote';
   $handler->display->display_options['filters']['promote']['value'] = '1';
   $handler->display->display_options['filters']['promote']['group'] = 0;
   $handler->display->display_options['filters']['promote']['expose']['operator'] = FALSE;
-  /* Filter criterion: Content: Published */
+  /* Filter criterion: Content: Published status */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
