@@ -1819,6 +1819,8 @@ function platform_main_feature_views_default_views() {
     t('Asc'),
     t('Desc'),
     t('<a title="Browse" href="/islandora/object/[PID]">Browse</a>'),
+    t('Call Number'),
+    t('Contents'),
     t('Date'),
     t('Description'),
     t('All'),
