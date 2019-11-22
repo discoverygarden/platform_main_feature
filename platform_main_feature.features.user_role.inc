@@ -12,8 +12,8 @@ function platform_main_feature_user_default_roles() {
   $roles = array();
 
   // Exported role: collection admin.
-  $roles['Collection Admin'] = array(
-    'name' => 'Collection Admin',
+  $roles['Collection Administrator'] = array(
+    'name' => 'Collection Administrator',
     'weight' => 3,
   );
 
