@@ -2,22 +2,22 @@
 
 /**
  * @file
- * platform_main_feature.features.user_role.inc
+ * cths_roles_and_permissions.features.user_role.inc
  */
 
 /**
  * Implements hook_user_default_roles().
  */
-function platform_main_feature_user_default_roles() {
+function cths_roles_and_permissions_user_default_roles() {
   $roles = array();
 
-  // Exported role: collection admin.
+  // Exported role: Collection Administrator.
   $roles['Collection Administrator'] = array(
     'name' => 'Collection Administrator',
     'weight' => 3,
   );
 
-  // Exported role: staff.
+  // Exported role: Staff.
   $roles['Staff'] = array(
     'name' => 'Staff',
     'weight' => 2,
