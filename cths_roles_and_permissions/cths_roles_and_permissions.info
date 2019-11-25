@@ -1,0 +1,9 @@
+name = CTHS Roles and Permissions
+core = 7.x
+package = Features
+dependencies[] = features
+features[features_api][] = api:2
+features[user_role][] = Collection Administrator
+features[user_role][] = Staff
+features[user_role][] = administrator
+project path = sites/all/modules/platform_main_feature
