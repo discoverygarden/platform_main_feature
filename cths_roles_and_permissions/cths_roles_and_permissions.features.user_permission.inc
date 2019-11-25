@@ -57,16 +57,6 @@ function cths_roles_and_permissions_user_default_permissions() {
     'module' => 'islandora_paged_content',
   );
 
-  // Exported permission: 'Import entities from csv'.
-  $permissions['Import entities from csv'] = array(
-    'name' => 'Import entities from csv',
-    'roles' => array(
-      'Collection Administrator' => 'Collection Administrator',
-      'administrator' => 'administrator',
-    ),
-    'module' => 'islandora_entities_csv_import',
-  );
-
   // Exported permission: 'List XML Forms'.
   $permissions['List XML Forms'] = array(
     'name' => 'List XML Forms',
@@ -144,15 +134,6 @@ function cths_roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_bookmark',
-  );
-
-  // Exported permission: 'administer islandora_pathauto'.
-  $permissions['administer islandora_pathauto'] = array(
-    'name' => 'administer islandora_pathauto',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'islandora_pathauto',
   );
 
   // Exported permission: 'administer islandora_solr_metadata'.
@@ -314,15 +295,6 @@ function cths_roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_entities',
-  );
-
-  // Exported permission: 'execute islandora backup'.
-  $permissions['execute islandora backup'] = array(
-    'name' => 'execute islandora backup',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'islandora_backup',
   );
 
   // Exported permission: 'export islandora bookmarks'.
