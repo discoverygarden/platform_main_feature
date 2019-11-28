@@ -1744,10 +1744,28 @@ function cths_solr_fields_configuration_islandora_solr_metadata_configurations_d
       ),
       'mods_note_publications_ms' => array(
         'solr_field' => 'mods_note_publications_ms',
-        'data' => 'a:2:{s:13:"display_label";s:25:"mods_note_publications_ms";s:9:"hyperlink";i:0;}',
+        'data' => 'a:5:{s:13:"display_label";s:20:"Published References";s:9:"hyperlink";i:0;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:3;s:1:"3";i:1;i:0;i:2;i:0;i:5;i:0;i:4;i:0;}}}',
         'weight' => 42,
-        'display_label' => 'mods_note_publications_ms',
+        'display_label' => 'Published References',
         'hyperlink' => 0,
+        'uri_replacement' => '',
+        'truncation' => array(
+          'truncation_type' => 'separate_value_option',
+          'max_length' => 0,
+          'word_safe' => 0,
+          'ellipsis' => 0,
+          'min_wordsafe_length' => 1,
+        ),
+        'permissions' => array(
+          'enable_permissions' => 0,
+          'permissions' => array(
+            3 => 3,
+            1 => 0,
+            2 => 0,
+            5 => 0,
+            4 => 0,
+          ),
+        ),
       ),
       'mods_subject_cartographics_coordinates_ms' => array(
         'solr_field' => 'mods_subject_cartographics_coordinates_ms',
