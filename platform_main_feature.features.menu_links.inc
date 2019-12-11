@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * platform_main_feature.features.menu_links.inc
@@ -27,24 +28,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu-digital_contact-us:http://www.nyam.org/contact-us.
-  $menu_links['menu-footer-menu-digital_contact-us:http://www.nyam.org/contact-us'] = array(
-    'menu_name' => 'menu-footer-menu-digital',
-    'link_path' => 'http://www.nyam.org/contact-us',
-    'router_path' => '',
-    'link_title' => 'Contact Us',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-footer-menu-digital_contact-us:http://www.nyam.org/contact-us',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-  );
   // Exported menu link: menu-footer-menu-digital_email-sign-up:http://support.nyam.org/site/Survey?ACTION_REQUIRED=URI_ACTION_USER_REQUESTS&SURVEY_ID=1741.
   $menu_links['menu-footer-menu-digital_email-sign-up:http://support.nyam.org/site/Survey?ACTION_REQUIRED=URI_ACTION_USER_REQUESTS&SURVEY_ID=1741'] = array(
     'menu_name' => 'menu-footer-menu-digital',
@@ -56,7 +39,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu-digital_email-sign-up:http://support.nyam.org/site/Survey?ACTION_REQUIRED=URI_ACTION_USER_REQUESTS&SURVEY_ID=1741',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
@@ -74,7 +57,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu-digital_follow-us:http://www.nyam.org/follow-us',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
@@ -92,7 +75,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu-digital_subscribe-rss:http://www.nyam.org/rss-feeds',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
@@ -242,23 +225,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_make-contact:node/4.
-  $menu_links['menu-footer-menu_make-contact:node/4'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/4',
-    'router_path' => 'node/%',
-    'link_title' => 'Make contact',
-    'options' => array(
-      'identifier' => 'menu-footer-menu_make-contact:node/4',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 0,
-  );
   // Exported menu link: menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
   $menu_links['menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -285,6 +251,12 @@ function platform_main_feature_menu_default_menu_links() {
     'link_title' => 'Policies',
     'options' => array(
       'identifier' => 'menu-footer-menu_policies:node/10',
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -347,6 +319,24 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
+  // Exported menu link: menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
+  $menu_links['menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
+    'router_path' => 'uuid',
+    'link_title' => 'About this site',
+    'options' => array(
+      'attributes' => array(),
+      'identifier' => 'menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
+    ),
+    'module' => 'menu',
+    'hidden' => 1,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -35,
+    'customized' => 1,
+  );
   // Exported menu link: menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
   $menu_links['menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
     'menu_name' => 'menu-header-menu',
@@ -380,7 +370,30 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -44,
+    'weight' => -37,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_browse-collection:http://digitalcollections.nyam.org/islandora/object/islandora%3Aroot.
+  $menu_links['menu-header-menu_browse-collection:http://digitalcollections.nyam.org/islandora/object/islandora%3Aroot'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'http://digitalcollections.nyam.org/islandora/object/islandora%3Aroot',
+    'router_path' => '',
+    'link_title' => 'Browse Collection',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-header-menu_browse-collection:http://digitalcollections.nyam.org/islandora/object/islandora%3Aroot',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-header-menu_collections:islandora/object/islandora:root.
@@ -401,35 +414,81 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -38,
+    'weight' => -36,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_conference-center:http://www.nyam.org/conference-center/.
-  $menu_links['menu-header-menu_conference-center:http://www.nyam.org/conference-center/'] = array(
+  // Exported menu link: menu-header-menu_contact:https://digitalcollections.nyam.org/contact#overlay-context=policies.
+  $menu_links['menu-header-menu_contact:https://digitalcollections.nyam.org/contact#overlay-context=policies'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'http://www.nyam.org/conference-center/',
+    'link_path' => 'https://digitalcollections.nyam.org/contact#overlay-context=policies',
     'router_path' => '',
-    'link_title' => 'CONFERENCE CENTER',
+    'link_title' => 'Contact',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-header-menu_contact:https://digitalcollections.nyam.org/contact#overlay-context=policies',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -44,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_discover:http://library.nyam.org/.
+  $menu_links['menu-header-menu_discover:http://library.nyam.org/'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'http://library.nyam.org/',
+    'router_path' => '',
+    'link_title' => 'Discover',
     'options' => array(
       'attributes' => array(
-        'title' => 'Conference Center',
-        'class' => array(
-          0 => 'conference-center',
-        ),
+        'target' => '_blank',
       ),
       'item_attributes' => array(
         'id' => '',
-        'class' => 'c-menu',
+        'class' => '',
         'style' => '',
       ),
-      'identifier' => 'menu-header-menu_conference-center:http://www.nyam.org/conference-center/',
+      'identifier' => 'menu-header-menu_discover:http://library.nyam.org/',
     ),
     'module' => 'menu',
     'hidden' => 1,
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -43,
+    'weight' => -45,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_donate:https://nyam.org/donate/.
+  $menu_links['menu-header-menu_donate:https://nyam.org/donate/'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'https://nyam.org/donate/',
+    'router_path' => '',
+    'link_title' => 'Donate',
+    'options' => array(
+      'identifier' => 'menu-header-menu_donate:https://nyam.org/donate/',
+      'attributes' => array(
+        'title' => 'Donate to the Academy Library',
+        'target' => '_blank',
+      ),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
     'customized' => 1,
   );
   // Exported menu link: menu-header-menu_events:http://www.nyam.org/events/.
@@ -447,7 +506,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -39,
     'customized' => 1,
   );
   // Exported menu link: menu-header-menu_home:<front>.
@@ -465,61 +524,69 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -39,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_log-in:user/login.
-  $menu_links['menu-header-menu_log-in:user/login'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'user/login',
-    'router_path' => 'user/login',
-    'link_title' => 'LOG IN',
-    'options' => array(
-      'attributes' => array(
-        'class' => array(
-          0 => 'log-in',
-        ),
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-header-menu_log-in:user/login',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
     'weight' => -41,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_log-out:user/logout.
-  $menu_links['menu-header-menu_log-out:user/logout'] = array(
+  // Exported menu link: menu-header-menu_library-catalog:http://catalog.nyam.org/.
+  $menu_links['menu-header-menu_library-catalog:http://catalog.nyam.org/'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'user/logout',
-    'router_path' => 'user/logout',
-    'link_title' => 'LOG OUT',
+    'link_path' => 'http://catalog.nyam.org/',
+    'router_path' => '',
+    'link_title' => 'Library Catalog',
     'options' => array(
       'attributes' => array(
-        'class' => array(
-          0 => 'log-out',
-        ),
+        'title' => 'Library Catalog',
+        'target' => '_blank',
       ),
       'item_attributes' => array(
         'id' => '',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'menu-header-menu_log-out:user/logout',
+      'identifier' => 'menu-header-menu_library-catalog:http://catalog.nyam.org/',
     ),
     'module' => 'menu',
     'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
+  $menu_links['menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
+    'router_path' => 'uuid',
+    'link_title' => 'Make contact',
+    'options' => array(
+      'attributes' => array(),
+      'identifier' => 'menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
+    ),
+    'module' => 'menu',
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -42,
+    'weight' => -34,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_my-bookmarks:islandora-bookmark.
+  $menu_links['menu-header-menu_my-bookmarks:islandora-bookmark'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'islandora-bookmark',
+    'router_path' => 'islandora-bookmark',
+    'link_title' => 'My Bookmarks',
+    'options' => array(
+      'attributes' => array(),
+      'identifier' => 'menu-header-menu_my-bookmarks:islandora-bookmark',
+    ),
+    'module' => 'menu',
+    'hidden' => 1,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -33,
     'customized' => 1,
   );
   // Exported menu link: menu-header-menu_news:http://www.nyam.org/news/.
@@ -537,7 +604,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => -40,
     'customized' => 1,
   );
   // Exported menu link: menu-header-menu_publications:http://www.nyam.org/publications/.
@@ -555,25 +622,34 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -45,
+    'weight' => -38,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_support:http://www.nyam.org/support.
-  $menu_links['menu-header-menu_support:http://www.nyam.org/support'] = array(
+  // Exported menu link: menu-header-menu_search:node/9.
+  $menu_links['menu-header-menu_search:node/9'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'http://www.nyam.org/support',
-    'router_path' => '',
-    'link_title' => 'Support',
+    'link_path' => 'node/9',
+    'router_path' => 'node/%',
+    'link_title' => 'SEARCH',
     'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-header-menu_support:http://www.nyam.org/support',
+      'identifier' => 'menu-header-menu_search:node/9',
+      'attributes' => array(
+        'class' => array(
+          0 => 'search-header',
+        ),
+      ),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
     ),
     'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
+    'hidden' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => -50,
     'customized' => 1,
   );
   // Exported menu link: menu-quick-links_view-sample-page-one:uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193.
@@ -641,7 +717,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-site-navigation_research-and-services:uuid/node/83ed1638-66e0-44cb-853a-624a3614f789',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -652,32 +728,35 @@ function platform_main_feature_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('About');
+  t('About this site');
   t('Awards & Grants');
-  t('CONFERENCE CENTER');
+  t('Browse Collection');
   t('Careers');
   t('Collections');
-  t('Contact Us');
+  t('Contact');
   t('Creative content license');
   t('Directions');
+  t('Discover');
+  t('Donate');
   t('Email Sign Up');
   t('Events');
   t('Follow Us');
   t('Happenings');
   t('Home');
-  t('LOG IN');
-  t('LOG OUT');
+  t('Library Catalog');
   t('Login');
   t('Logout');
   t('Make contact');
+  t('My Bookmarks');
   t('News');
   t('Policies');
   t('Privacy Policy');
   t('Publications');
   t('Research and Services');
   t('Researchers');
+  t('SEARCH');
   t('Spokespersons');
   t('Subscribe (RSS)');
-  t('Support');
   t('View Sample Page One');
   t('View Sample Page Two');
 
