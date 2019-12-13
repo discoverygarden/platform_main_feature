@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * platform_main_feature.features.fe_block_settings.inc
@@ -95,10 +96,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'nyam_theme' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'nyam_theme',
-        'weight' => -37,
+        'weight' => -35,
       ),
       'seven' => array(
         'region' => '',
@@ -152,7 +153,9 @@ function platform_main_feature_default_fe_block_settings() {
     'module' => 'islandora_basic_collection',
     'node_types' => array(),
     'pages' => '',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 3,
+    ),
     'themes' => array(
       'bartik' => array(
         'region' => '',
@@ -161,10 +164,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'nyam_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_second',
+        'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -23,
+        'weight' => -42,
       ),
       'seven' => array(
         'region' => '',
@@ -173,8 +176,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
-    'visibility' => 0,
+    'title' => 'Count of Objects',
+    'visibility' => 1,
   );
 
   $export['islandora_bookmark-islandora_bookmark'] = array(
@@ -263,7 +266,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -42,
+        'weight' => -47,
       ),
       'seven' => array(
         'region' => '',
@@ -283,7 +286,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'advanced',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'facendo',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -296,7 +299,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -40,
+        'weight' => -46,
       ),
       'seven' => array(
         'region' => '',
@@ -305,13 +308,13 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'Advanced Search',
+    'title' => 'Search',
     'visibility' => 0,
   );
 
   $export['islandora_solr-basic_facets'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => '<style type="text/css"> <!-- .tab { margin-left: 40px; } --> </style>',
     'custom' => 0,
     'delta' => 'basic_facets',
     'module' => 'islandora_solr',
@@ -329,7 +332,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -36,
+        'weight' => -42,
       ),
       'seven' => array(
         'region' => '',
@@ -338,7 +341,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'Facets',
+    'title' => 'Filter',
     'visibility' => 0,
   );
 
@@ -395,7 +398,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -37,
+        'weight' => -44,
       ),
       'seven' => array(
         'region' => '',
@@ -476,7 +479,7 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['islandora_solr-sort'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => '<style type="text/css"> <!-- .tab { margin-left: 40px; } --> </style>',
     'custom' => 0,
     'delta' => 'sort',
     'module' => 'islandora_solr',
@@ -491,10 +494,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'nyam_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_first',
+        'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -15,
+        'weight' => -43,
       ),
       'seven' => array(
         'region' => '',
@@ -514,7 +517,8 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'islandora-solr-facet-pages',
     'module' => 'islandora_solr_facet_pages',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>
+facendo',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -527,7 +531,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -39,
+        'weight' => -45,
       ),
       'seven' => array(
         'region' => '',
@@ -692,7 +696,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sub_header',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -39,
+        'weight' => -41,
       ),
       'seven' => array(
         'region' => '',
@@ -758,7 +762,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'footer',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -38,
+        'weight' => -40,
       ),
       'seven' => array(
         'region' => '',
@@ -824,7 +828,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sub_header',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -38,
+        'weight' => -40,
       ),
       'seven' => array(
         'region' => '',
@@ -890,7 +894,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'nyam_theme',
-        'weight' => 0,
+        'weight' => -40,
       ),
       'seven' => array(
         'region' => '',
@@ -1055,7 +1059,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'help',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => 0,
+        'weight' => -40,
       ),
       'seven' => array(
         'region' => 'help',
@@ -1088,7 +1092,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -36,
+        'weight' => -43,
       ),
       'seven' => array(
         'region' => 'content',
@@ -1108,7 +1112,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'main-menu',
     'module' => 'system',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'facendo',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1118,8 +1122,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'nyam_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'nyam_theme',
         'weight' => -13,
       ),
@@ -1131,7 +1135,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['system-management'] = array(
@@ -1382,14 +1386,14 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'nyam_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'bottom',
+        'status' => 1,
         'theme' => 'nyam_theme',
         'weight' => 3,
       ),
       'seven' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'dashboard_main',
+        'status' => 1,
         'theme' => 'seven',
         'weight' => 0,
       ),
@@ -1415,8 +1419,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'nyam_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'bottom',
+        'status' => 1,
         'theme' => 'nyam_theme',
         'weight' => 2,
       ),
@@ -1484,7 +1488,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -35,
+        'weight' => -42,
       ),
       'seven' => array(
         'region' => '',
@@ -1570,7 +1574,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'frontpage_solr_boxes-block_2',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'facendo',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1583,7 +1587,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -38,
+        'weight' => -43,
       ),
       'seven' => array(
         'region' => '',
@@ -1592,7 +1596,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'Collections',
+    'title' => 'Recently Added Collections',
     'visibility' => 0,
   );
 
@@ -1668,9 +1672,13 @@ function platform_main_feature_default_fe_block_settings() {
     'custom' => 0,
     'delta' => 'image_blocks-block',
     'module' => 'views',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
+    'node_types' => array(
+      0 => 'image_block',
+    ),
+    'pages' => 'facendo',
+    'roles' => array(
+      'administrator' => 3,
+    ),
     'themes' => array(
       'bartik' => array(
         'region' => '',
@@ -1679,8 +1687,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'nyam_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'highlighted',
+        'status' => 1,
         'theme' => 'nyam_theme',
         'weight' => 6,
       ),
@@ -1913,7 +1921,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'footer',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -39,
+        'weight' => -41,
       ),
       'seven' => array(
         'region' => '',
@@ -1976,10 +1984,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'nyam_theme' => array(
-        'region' => 'footer',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'nyam_theme',
-        'weight' => -36,
+        'weight' => -39,
       ),
       'seven' => array(
         'region' => '',
@@ -2048,8 +2056,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 9,
       ),
       'seven' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'dashboard_sidebar',
+        'status' => 1,
         'theme' => 'seven',
         'weight' => 0,
       ),

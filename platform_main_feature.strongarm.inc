@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * platform_main_feature.strongarm.inc
@@ -103,12 +104,12 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'background' => '#032a17',
-    'header' => '#ffffff',
+    'header' => '#f2f2f2',
     'content' => '#ffffff',
     'navigation' => '#848484',
     'footer' => '#585353',
     'bottom' => '#bbbaba',
-    'sidebars' => '#ffffff',
+    'sidebars' => '#f2f2f2',
   );
   $export['designkit_color'] = $strongarm;
 
@@ -125,13 +126,6 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'file_private_path';
   $strongarm->value = '/var/www/drupal7/sites/default/files/private';
   $export['file_private_path'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'islandora_imagecache_cache_solr_backend_display';
-  $strongarm->value = 1;
-  $export['islandora_imagecache_cache_solr_backend_display'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -180,26 +174,45 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_collection_search_searchable_collections';
   $strongarm->value = array(
-    'islandora:audio_collection' => 'islandora:audio_collection',
-    'islandora:sp_basic_image_collection' => 'islandora:sp_basic_image_collection',
-    'islandora:binary_object_collection' => 'islandora:binary_object_collection',
-    'islandora:bookCollection' => 'islandora:bookCollection',
-    'ir:citationCollection' => 'ir:citationCollection',
-    'islandora:compound_collection' => 'islandora:compound_collection',
-    'islandora:sp_document_collection' => 'islandora:sp_document_collection',
-    'islandora:entity_collection' => 'islandora:entity_collection',
-    'islandora:featured_collection' => 'islandora:featured_collection',
-    'islandora:sp_large_image_collection' => 'islandora:sp_large_image_collection',
-    'islandora:manuscriptCollection' => 'islandora:manuscriptCollection',
-    'islandora:newspaper_collection' => 'islandora:newspaper_collection',
-    'islandora:sp_pdf_collection' => 'islandora:sp_pdf_collection',
-    'islandora:sample_collection' => 'islandora:sample_collection',
-    'islandora:serial_collection' => 'islandora:serial_collection',
-    'islandora:root' => 'islandora:root',
-    'islandora:transformCollection' => 'islandora:transformCollection',
-    'islandora:video_collection' => 'islandora:video_collection',
+    'digital:ladd' => 'digital:ladd',
+    'facendoillibro:root' => 'facendoillibro:root',
+    'islandora:3481' => 'islandora:3481',
+    'digital:427' => 'digital:427',
+    'digital:milk' => 'digital:milk',
+    'digital:resurrectionists' => 'digital:resurrectionists',
+    'digital:454' => 'digital:454',
+    'digital:top-level-collection' => 'digital:top-level-collection',
+    'digital:helfand' => 'digital:helfand',
+    'digital:1922' => 0,
+    'digital:1923' => 0,
+    'digital:wonders' => 0,
+    'digital:1316' => 0,
+    'digital:creature' => 0,
+    'digital:darkarts' => 0,
+    'digital:divinations' => 0,
+    'digital:1317' => 0,
+    'digital:bhl' => 0,
+    'digital:1318' => 0,
+    'greylit:root' => 0,
+    'digital:herbology' => 0,
+    'digital:magic' => 0,
+    'digital:1319' => 0,
+    'digital:1315' => 0,
+    'digital:potions' => 0,
+    'islandora:root' => 0,
+    'digital:1924' => 0,
+    'digital:vesalius_suite' => 0,
+    'facendoillibro:162' => 0,
+    'digital:transfiguration' => 0,
   );
   $export['islandora_collection_search_searchable_collections'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_imagecache_cache_solr_backend_display';
+  $strongarm->value = '1';
+  $export['islandora_imagecache_cache_solr_backend_display'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -214,9 +227,34 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'islandora_solr_facet_pages_fields_data';
   $strongarm->value = array(
     0 => array(
-      'solr_field' => 'dc.title',
+      'solr_field' => 'mods_titleInfo_title_s',
       'label' => 'Title',
       'path' => 'title',
+    ),
+    1 => array(
+      'solr_field' => 'mods_subject_topic_ms',
+      'label' => 'Subject',
+      'path' => 'subject',
+    ),
+    2 => array(
+      'solr_field' => 'mods_name_corporate_namePart_ms',
+      'label' => 'Corporate Name',
+      'path' => 'corporatename',
+    ),
+    3 => array(
+      'solr_field' => 'mods_name_personal_namePart_ms',
+      'label' => 'Personal Name',
+      'path' => 'personalname',
+    ),
+    4 => array(
+      'solr_field' => 'mods_originInfo_place_placeTerm_text_ms',
+      'label' => 'Location',
+      'path' => 'location',
+    ),
+    5 => array(
+      'solr_field' => 'mods_language_languageTerm_code_ms',
+      'label' => 'Language',
+      'path' => 'language',
     ),
   );
   $export['islandora_solr_facet_pages_fields_data'] = $strongarm;
@@ -369,14 +407,14 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'THE NEW YORK ACADEMY OF MEDICINE LIBRARY';
+  $strongarm->value = 'LIBRARY DIGITAL COLLECTIONS & EXHIBITS';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Digital Collections & Exhibits';
+  $strongarm->value = '';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -461,21 +499,22 @@ function platform_main_feature_strongarm() {
       'html5' => 'html5',
       'meta' => 'meta',
     ),
-    'zen_rebuild_registry' => 1,
+    'zen_rebuild_registry' => 0,
     'zen_wireframes' => 0,
     'nyam_theme_omit' => 0,
-    'nyam_theme_background_image_datastream' => 'TN',
+    'nyam_theme_background_image_datastream' => 'SLIDE',
     'nyam_theme_advanced_search_field_label' => 'Field',
     'nyam_theme_advanced_search_field_placeholder' => 'TYPE A SEARCH TERM HERE',
-    'nyam_theme_advanced_search_search_terms_label' => 'Search Terms',
+    'nyam_theme_advanced_search_search_terms_label' => 'Search',
+    'nyam_theme_all_collections_description_field' => 'mods_abstract_ms',
     'designkit_color' => array(
       'background' => '#032a17',
-      'header' => '#ffffff',
+      'header' => '#f2f2f2',
       'content' => '#ffffff',
       'navigation' => '#848484',
       'footer' => '#585353',
       'bottom' => '#bbbaba',
-      'sidebars' => '#ffffff',
+      'sidebars' => '#f2f2f2',
     ),
   );
   $export['theme_nyam_theme_settings'] = $strongarm;

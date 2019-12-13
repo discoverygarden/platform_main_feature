@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * platform_main_feature.features.user_permission.inc
@@ -36,6 +37,7 @@ function platform_main_feature_user_default_permissions() {
   $permissions['search islandora solr'] = array(
     'name' => 'search islandora solr',
     'roles' => array(
+      'QA Reviewer' => 'QA Reviewer',
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
@@ -69,6 +71,7 @@ function platform_main_feature_user_default_permissions() {
   $permissions['view fedora repository objects'] = array(
     'name' => 'view fedora repository objects',
     'roles' => array(
+      'QA Reviewer' => 'QA Reviewer',
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
