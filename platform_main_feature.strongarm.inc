@@ -481,10 +481,11 @@ function platform_main_feature_strongarm() {
     'toggle_favicon' => 1,
     'toggle_main_menu' => 1,
     'toggle_secondary_menu' => 0,
-    'default_logo' => 0,
-    'logo_path' => 'public://NYAM-RGB.png',
-    'default_favicon' => 0,
-    'favicon_path' => 'public://favicon.ico',
+    'default_logo' => 1,
+    'logo_path' => '',
+    'logo_upload' => '',
+    'default_favicon' => 1,
+    'favicon_path' => '',
     'favicon_upload' => '',
     'zen_breadcrumb' => 'yes',
     'zen_breadcrumb_separator' => ' › ',
@@ -515,7 +516,6 @@ function platform_main_feature_strongarm() {
       'bottom' => '#bbbaba',
       'sidebars' => '#f2f2f2',
     ),
-    'favicon_mimetype' => 'image/vnd.microsoft.icon',
   );
   $export['theme_nyam_theme_settings'] = $strongarm;
 
