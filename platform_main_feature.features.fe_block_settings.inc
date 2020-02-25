@@ -620,8 +620,7 @@ islandora/search*',
     'delta' => 'advanced',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => 'advanced-search
-islandora/search*',
+    'pages' => 'advanced-search',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
