@@ -191,6 +191,7 @@ features[variable][] = islandora_imagecache_cache_solr_backend_display
 features[variable][] = islandora_large_image_viewers
 features[variable][] = islandora_show_print_option
 features[variable][] = islandora_solr_collection_sort_block_override
+features[variable][] = islandora_solr_facet_pages_fields_data
 features[variable][] = islandora_solr_primary_display
 features[variable][] = islandora_solr_primary_display_table
 features[variable][] = islandora_solr_search_navigation
