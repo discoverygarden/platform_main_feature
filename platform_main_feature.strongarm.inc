@@ -127,7 +127,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'error_level';
-  $strongarm->value = '0';
+  $strongarm->value = '2';
   $export['error_level'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -773,6 +773,34 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'islandora_solr_collection_sort_block_override';
   $strongarm->value = 1;
   $export['islandora_solr_collection_sort_block_override'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_facet_pages_fields_data';
+  $strongarm->value = array(
+    0 => array(
+      'solr_field' => 'mods_subject_topic_mt',
+      'label' => 'Subject',
+      'path' => 'compressed-search-subject',
+    ),
+    1 => array(
+      'solr_field' => 'bpl_mods_all_call_numbers_est',
+      'label' => 'Call Number',
+      'path' => 'compressed-search-call-number',
+    ),
+    2 => array(
+      'solr_field' => 'author donor alias',
+      'label' => 'Author / Donor',
+      'path' => 'compressed-search-author-donor',
+    ),
+    3 => array(
+      'solr_field' => 'mods_titleInfo_title_mt',
+      'label' => 'Title',
+      'path' => 'compressed-search-title',
+    ),
+  );
+  $export['islandora_solr_facet_pages_fields_data'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

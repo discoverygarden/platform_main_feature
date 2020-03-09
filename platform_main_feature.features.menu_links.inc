@@ -111,6 +111,46 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
+  // Exported menu link: menu-header-menu_collection-policy:uuid/node/695ed58c-87e1-4a88-af7e-e710da41a506.
+  $menu_links['menu-header-menu_collection-policy:uuid/node/695ed58c-87e1-4a88-af7e-e710da41a506'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'uuid/node/695ed58c-87e1-4a88-af7e-e710da41a506',
+    'router_path' => 'uuid',
+    'link_title' => 'Collection Policy',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-header-menu_collection-policy:uuid/node/695ed58c-87e1-4a88-af7e-e710da41a506',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_donations:uuid/node/e33df9a8-9357-42bd-9123-ff0cf74eaa12.
+  $menu_links['menu-header-menu_donations:uuid/node/e33df9a8-9357-42bd-9123-ff0cf74eaa12'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'uuid/node/e33df9a8-9357-42bd-9123-ff0cf74eaa12',
+    'router_path' => 'uuid',
+    'link_title' => 'Donations',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-header-menu_donations:uuid/node/e33df9a8-9357-42bd-9123-ff0cf74eaa12',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+  );
   // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
   $menu_links['menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-header-menu',
@@ -149,6 +189,126 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -38,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_oral-history:uuid/node/b1395e3f-9f08-4cb6-869c-5dab6d5d77f7.
+  $menu_links['menu-header-menu_oral-history:uuid/node/b1395e3f-9f08-4cb6-869c-5dab6d5d77f7'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'uuid/node/b1395e3f-9f08-4cb6-869c-5dab6d5d77f7',
+    'router_path' => 'uuid',
+    'link_title' => 'Oral History',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-header-menu_oral-history:uuid/node/b1395e3f-9f08-4cb6-869c-5dab6d5d77f7',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -44,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_our-history:uuid/node/46ea6d7a-a792-4b42-becc-f619966b92e5.
+  $menu_links['menu-header-menu_our-history:uuid/node/46ea6d7a-a792-4b42-becc-f619966b92e5'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'uuid/node/46ea6d7a-a792-4b42-becc-f619966b92e5',
+    'router_path' => 'uuid',
+    'link_title' => 'Our History',
+    'options' => array(
+      'identifier' => 'menu-header-menu_our-history:uuid/node/46ea6d7a-a792-4b42-becc-f619966b92e5',
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 1,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -42,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_photo-requests:uuid/node/1aeff5c2-2be8-44be-9976-4b14febb5ba8.
+  $menu_links['menu-header-menu_photo-requests:uuid/node/1aeff5c2-2be8-44be-9976-4b14febb5ba8'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'uuid/node/1aeff5c2-2be8-44be-9976-4b14febb5ba8',
+    'router_path' => 'uuid',
+    'link_title' => 'Photo Requests',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-header-menu_photo-requests:uuid/node/1aeff5c2-2be8-44be-9976-4b14febb5ba8',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -45,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_plan-a-visit:uuid/node/deedcd7f-f357-4d66-b833-e406dfe4e595.
+  $menu_links['menu-header-menu_plan-a-visit:uuid/node/deedcd7f-f357-4d66-b833-e406dfe4e595'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'uuid/node/deedcd7f-f357-4d66-b833-e406dfe4e595',
+    'router_path' => 'uuid',
+    'link_title' => 'Plan a visit',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-header-menu_plan-a-visit:uuid/node/deedcd7f-f357-4d66-b833-e406dfe4e595',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_research-policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523.
+  $menu_links['menu-header-menu_research-policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'uuid/node/dd9db579-7172-436d-a740-721ec9a68523',
+    'router_path' => 'uuid',
+    'link_title' => 'Research Policies',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-header-menu_research-policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_volunteer:uuid/node/43fd1202-bc6e-473b-bdd3-51315e78219b.
+  $menu_links['menu-header-menu_volunteer:uuid/node/43fd1202-bc6e-473b-bdd3-51315e78219b'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'uuid/node/43fd1202-bc6e-473b-bdd3-51315e78219b',
+    'router_path' => 'uuid',
+    'link_title' => 'Volunteer',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-header-menu_volunteer:uuid/node/43fd1202-bc6e-473b-bdd3-51315e78219b',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -43,
     'customized' => 1,
   );
   // Exported menu link: menu-quick-links_about-us:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
@@ -342,6 +502,8 @@ function platform_main_feature_menu_default_menu_links() {
   t('Browse Collections');
   t('CHNC Newspapers');
   t('Clerk and Recorder');
+  t('Collection Policy');
+  t('Donations');
   t('EMapping');
   t('Genealogy ');
   t('Log In');
@@ -349,7 +511,13 @@ function platform_main_feature_menu_default_menu_links() {
   t('Make contact');
   t('Museum of Boulder');
   t('My Bookmarks');
+  t('Oral History');
+  t('Our History');
+  t('Photo Requests');
+  t('Plan a visit');
+  t('Research Policies');
   t('Sanborn Maps');
+  t('Volunteer');
 
   return $menu_links;
 }
