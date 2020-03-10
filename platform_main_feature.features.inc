@@ -41,7 +41,7 @@ function platform_main_feature_image_default_styles() {
   $styles['collection_display_thumbnails'] = array(
     'label' => 'Collection Display Thumbnails',
     'effects' => array(
-      22 => array(
+      2 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 200,
@@ -49,7 +49,7 @@ function platform_main_feature_image_default_styles() {
         ),
         'weight' => 1,
       ),
-      23 => array(
+      3 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 120,
