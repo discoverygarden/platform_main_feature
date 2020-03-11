@@ -41,7 +41,7 @@ function platform_main_feature_image_default_styles() {
   $styles['collection_display_thumbnails'] = array(
     'label' => 'Collection Display Thumbnails',
     'effects' => array(
-      22 => array(
+      2 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 200,
@@ -49,13 +49,43 @@ function platform_main_feature_image_default_styles() {
         ),
         'weight' => 1,
       ),
-      23 => array(
+      3 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 120,
           'height' => 120,
         ),
         'weight' => 2,
+      ),
+    ),
+  );
+
+  // Exported image style: featured_items_long.
+  $styles['featured_items_long'] = array(
+    'label' => 'featured items long',
+    'effects' => array(
+      4 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 570,
+          'height' => 225,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: featured_items_tall.
+  $styles['featured_items_tall'] = array(
+    'label' => 'featured items tall',
+    'effects' => array(
+      6 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 285,
+          'height' => 450,
+        ),
+        'weight' => 1,
       ),
     ),
   );

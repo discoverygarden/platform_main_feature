@@ -2133,6 +2133,72 @@ islandora/search/*',
     'visibility' => 1,
   );
 
+  $export['views-featured_item_details-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'featured_item_details-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'boulder_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-featured_items-block'] = array(
+    'cache' => -1,
+    'css_class' => 'block-views-featured-items-block',
+    'custom' => 0,
+    'delta' => 'featured_items-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'boulder_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Discover Collections',
+    'visibility' => 1,
+  );
+
   $export['views-footer_logos-block'] = array(
     'cache' => -1,
     'css_class' => 'default-max-logo cob',
