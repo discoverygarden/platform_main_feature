@@ -60,6 +60,36 @@ function platform_main_feature_image_default_styles() {
     ),
   );
 
+  // Exported image style: featured_items_long.
+  $styles['featured_items_long'] = array(
+    'label' => 'featured items long',
+    'effects' => array(
+      4 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 570,
+          'height' => 225,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: featured_items_tall.
+  $styles['featured_items_tall'] = array(
+    'label' => 'featured items tall',
+    'effects' => array(
+      6 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 285,
+          'height' => 450,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: owl_slider_thumbnail.
   $styles['owl_slider_thumbnail'] = array(
     'label' => 'Owl Slider Thumbnail',
