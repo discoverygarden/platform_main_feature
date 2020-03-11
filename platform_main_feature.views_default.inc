@@ -1767,7 +1767,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['bpl_mods_titleInfo_title_concatenated_nonSort_concatenated_subTitle_ms']['label'] = '';
   $handler->display->display_options['fields']['bpl_mods_titleInfo_title_concatenated_nonSort_concatenated_subTitle_ms']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['bpl_mods_titleInfo_title_concatenated_nonSort_concatenated_subTitle_ms']['link_to_object'] = 1;
-  /* Field: Islandora Solr: mods_identifier_non-marc-call-number_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['mods_identifier_non-marc-call-number_ms']['id'] = 'mods_identifier_non-marc-call-number_ms';
   $handler->display->display_options['fields']['mods_identifier_non-marc-call-number_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_identifier_non-marc-call-number_ms']['field'] = 'mods_identifier_non-marc-call-number_ms';
@@ -1781,7 +1781,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['hide_empty'] = TRUE;
   $handler->display->display_options['fields']['mods_originInfo_dateIssued_s']['link_to_object'] = 0;
-  /* Field: Islandora Solr: bpl_mods_physicalDescription_extent_concatenated_unit_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['id'] = 'bpl_mods_physicalDescription_extent_concatenated_unit_ms';
   $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['bpl_mods_physicalDescription_extent_concatenated_unit_ms']['field'] = 'bpl_mods_physicalDescription_extent_concatenated_unit_ms';
