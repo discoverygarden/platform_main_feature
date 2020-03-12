@@ -790,7 +790,7 @@ function platform_main_feature_strongarm() {
       'path' => 'compressed-search-call-number',
     ),
     2 => array(
-      'solr_field' => 'author donor alias',
+      'solr_field' => 'bpl_mods_author_donor_ms',
       'label' => 'Author / Donor',
       'path' => 'compressed-search-author-donor',
     ),
