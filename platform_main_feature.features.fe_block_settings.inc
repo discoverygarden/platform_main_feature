@@ -31,7 +31,7 @@ islandora/search*',
         'weight' => 0,
       ),
       'boulder_theme' => array(
-        'region' => 'search',
+        'region' => 'blockgroup_collection_search_group',
         'status' => 1,
         'theme' => 'boulder_theme',
         'weight' => -38,
@@ -214,6 +214,39 @@ islandora/search*',
     ),
     'title' => '<none>',
     'visibility' => 1,
+  );
+
+  $export['blockgroup-collection_search_group'] = array(
+    'cache' => -1,
+    'css_class' => 'layout-center',
+    'custom' => 0,
+    'delta' => 'collection_search_group',
+    'module' => 'blockgroup',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => 'hero',
+        'status' => 1,
+        'theme' => 'boulder_theme',
+        'weight' => -57,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Collection search Group',
+    'visibility' => 0,
   );
 
   $export['blockgroup-featured_collections_group'] = array(
@@ -564,7 +597,7 @@ islandora/search*',
         'weight' => 0,
       ),
       'boulder_theme' => array(
-        'region' => 'search',
+        'region' => 'blockgroup_collection_search_group',
         'status' => 1,
         'theme' => 'boulder_theme',
         'weight' => -39,
@@ -2351,7 +2384,7 @@ islandora/search/*',
         'region' => 'hero',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -32,
+        'weight' => -56,
       ),
       'seven' => array(
         'region' => '',

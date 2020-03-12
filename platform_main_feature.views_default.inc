@@ -1254,6 +1254,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
   $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['exclude'] = TRUE;
   $handler->display->display_options['fields']['dc.title']['element_class'] = 'title-field';
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
@@ -1262,6 +1263,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['label'] = '';
+  $handler->display->display_options['fields']['dc.description']['exclude'] = TRUE;
   $handler->display->display_options['fields']['dc.description']['alter']['max_length'] = '200';
   $handler->display->display_options['fields']['dc.description']['alter']['trim'] = TRUE;
   $handler->display->display_options['fields']['dc.description']['element_class'] = 'desc-field';
@@ -1276,10 +1278,13 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['tn_cache']['link_to_object'] = 0;
   $handler->display->display_options['fields']['tn_cache']['tn_dsid'] = 'JPG';
   $handler->display->display_options['fields']['tn_cache']['tn_style'] = 'flexslider_full';
+  $handler->display->display_options['fields']['tn_cache']['auto_dsid'] = 1;
+  $handler->display->display_options['fields']['tn_cache']['image_raw'] = 0;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['filter_groups']['operator'] = 'OR';
   $handler->display->display_options['filter_groups']['groups'] = array(
     1 => 'OR',
+    2 => 'AND',
   );
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Islandora Solr: PID */
@@ -1292,7 +1297,7 @@ function platform_main_feature_views_default_views() {
   $translatables['front_page_slideshow'] = array(
     t('Master'),
     t('Front Page Slideshow'),
-    t('more'),
+    t('more'), 
     t('Apply'),
     t('Reset'),
     t('Sort by'),
