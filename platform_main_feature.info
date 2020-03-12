@@ -47,6 +47,7 @@ features[fe_block_settings][] = block-footer_copyright
 features[fe_block_settings][] = block-social_media_footer
 features[fe_block_settings][] = block-submit_to_collection_anonymous
 features[fe_block_settings][] = block-submit_to_collection_box
+features[fe_block_settings][] = blockgroup-collection_search_group
 features[fe_block_settings][] = blockgroup-featured_collections_group
 features[fe_block_settings][] = blockgroup-featured_collections_second
 features[fe_block_settings][] = blockify-blockify-breadcrumb
