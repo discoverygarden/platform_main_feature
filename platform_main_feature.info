@@ -30,6 +30,7 @@ dependencies[] = views
 dependencies[] = views_responsive_grid
 dependencies[] = views_slideshow
 dependencies[] = widgets
+features[blockgroup][] = collection_search_group
 features[blockgroup][] = featured_collections_group
 features[blockgroup][] = featured_collections_second
 features[ctools][] = strongarm:strongarm:1
