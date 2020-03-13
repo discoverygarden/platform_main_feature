@@ -780,22 +780,22 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'islandora_solr_facet_pages_fields_data';
   $strongarm->value = array(
     0 => array(
-      'solr_field' => 'mods_subject_topic_mt',
+      'solr_field' => 'mods_subject_topic_ms',
       'label' => 'Subject',
       'path' => 'compressed-search-subject',
     ),
     1 => array(
-      'solr_field' => 'bpl_mods_all_call_numbers_est',
+      'solr_field' => 'bpl_mods_all_call_numbers_ms',
       'label' => 'Call Number',
       'path' => 'compressed-search-call-number',
     ),
     2 => array(
-      'solr_field' => 'author donor alias',
+      'solr_field' => 'bpl_mods_author_donor_ms',
       'label' => 'Author / Donor',
       'path' => 'compressed-search-author-donor',
     ),
     3 => array(
-      'solr_field' => 'mods_titleInfo_title_mt',
+      'solr_field' => 'mods_titleInfo_title_ms',
       'label' => 'Title',
       'path' => 'compressed-search-title',
     ),
