@@ -1803,6 +1803,39 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['views-content_explore-block_1'] = array(
+    'cache' => -1,
+    'css_class' => 'content-explore-block',
+    'custom' => 0,
+    'delta' => 'content_explore-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => 'pre_footer',
+        'status' => 1,
+        'theme' => 'boulder_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-featured_collection-block'] = array(
     'cache' => -1,
     'css_class' => 'featured-collection-block',
