@@ -1292,7 +1292,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['PID_1']['id'] = 'PID_1';
   $handler->display->display_options['filters']['PID_1']['table'] = 'islandora_solr';
   $handler->display->display_options['filters']['PID_1']['field'] = 'PID';
-  $handler->display->display_options['filters']['PID_1']['value'] = 'islandora:sample_Greek_Church';
+  $handler->display->display_options['filters']['PID_1']['value'] = 'islandora:78689';
   $handler->display->display_options['filters']['PID_1']['group'] = 1;
   $handler->display->display_options['block_description'] = 'Front Page Owl Slideshow';
   $translatables['front_page_slideshow'] = array(

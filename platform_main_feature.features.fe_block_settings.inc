@@ -1810,7 +1810,7 @@ islandora/search/*',
     'delta' => 'content_explore-block_1',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1833,7 +1833,7 @@ islandora/search/*',
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-featured_collection-block'] = array(
