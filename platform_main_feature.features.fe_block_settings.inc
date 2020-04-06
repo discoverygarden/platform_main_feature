@@ -21,7 +21,8 @@ function platform_main_feature_default_fe_block_settings() {
     'module' => 'block',
     'node_types' => array(),
     'pages' => 'advanced-search
-islandora/search*',
+islandora/search*
+browse/compressed-search-*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -388,7 +389,7 @@ islandora/search*',
     'delta' => 'blockify-page-title',
     'module' => 'blockify',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'browse/compressed-search-*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -587,7 +588,8 @@ islandora/search*',
     'module' => 'islandora_collection_search',
     'node_types' => array(),
     'pages' => 'advanced-search
-islandora/search*',
+islandora/search*
+browse/compressed-search-*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
