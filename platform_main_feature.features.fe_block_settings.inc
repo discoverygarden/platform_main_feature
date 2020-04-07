@@ -20,9 +20,7 @@ function platform_main_feature_default_fe_block_settings() {
     'machine_name' => 'advanced_islandora_search_link',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => 'advanced-search
-islandora/search*
-browse/compressed-search-*',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -45,7 +43,7 @@ browse/compressed-search-*',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['block-featured_collections_label'] = array(
@@ -587,9 +585,7 @@ browse/compressed-search-*',
     'delta' => 'islandora_collection_search',
     'module' => 'islandora_collection_search',
     'node_types' => array(),
-    'pages' => 'advanced-search
-islandora/search*
-browse/compressed-search-*',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -612,7 +608,7 @@ browse/compressed-search-*',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['islandora_compound_object-compound_navigation'] = array(
