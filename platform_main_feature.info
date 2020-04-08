@@ -62,6 +62,7 @@ features[fe_block_settings][] = islandora_collection_search-islandora_collection
 features[fe_block_settings][] = islandora_compound_object-compound_navigation
 features[fe_block_settings][] = islandora_solr-advanced
 features[fe_block_settings][] = islandora_solr-basic_facets
+features[fe_block_settings][] = islandora_solr-bpldora_current_query_facets
 features[fe_block_settings][] = islandora_solr-current_query
 features[fe_block_settings][] = islandora_solr-current_query_displays
 features[fe_block_settings][] = islandora_solr-current_query_result
