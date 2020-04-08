@@ -20,8 +20,7 @@ function platform_main_feature_default_fe_block_settings() {
     'machine_name' => 'advanced_islandora_search_link',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => 'advanced-search
-islandora/search*',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -44,7 +43,7 @@ islandora/search*',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['block-featured_collections_label'] = array(
@@ -266,8 +265,8 @@ islandora/search*',
         'weight' => 0,
       ),
       'boulder_theme' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'boulder_theme',
         'weight' => -47,
       ),
@@ -299,8 +298,8 @@ islandora/search*',
         'weight' => 0,
       ),
       'boulder_theme' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'boulder_theme',
         'weight' => -46,
       ),
@@ -388,7 +387,7 @@ islandora/search*',
     'delta' => 'blockify-page-title',
     'module' => 'blockify',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'browse/compressed-search-*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -586,8 +585,7 @@ islandora/search*',
     'delta' => 'islandora_collection_search',
     'module' => 'islandora_collection_search',
     'node_types' => array(),
-    'pages' => 'advanced-search
-islandora/search*',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -610,7 +608,7 @@ islandora/search*',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['islandora_compound_object-compound_navigation'] = array(
@@ -1834,6 +1832,39 @@ islandora/search/*',
     ),
     'title' => '<none>',
     'visibility' => 0,
+  );
+
+  $export['views-content_explore-block_1'] = array(
+    'cache' => -1,
+    'css_class' => 'content-explore-block',
+    'custom' => 0,
+    'delta' => 'content_explore-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => 'pre_footer',
+        'status' => 1,
+        'theme' => 'boulder_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
   );
 
   $export['views-featured_collection-block'] = array(
