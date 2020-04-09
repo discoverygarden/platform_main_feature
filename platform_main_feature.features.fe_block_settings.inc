@@ -20,7 +20,8 @@ function platform_main_feature_default_fe_block_settings() {
     'machine_name' => 'advanced_islandora_search_link',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => 'advanced-search
+islandora/search*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -43,7 +44,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['block-featured_collections_label'] = array(
@@ -222,7 +223,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'collection_search_group',
     'module' => 'blockgroup',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -245,7 +246,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => 'Collection search Group',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['blockgroup-featured_collections_group'] = array(
@@ -265,8 +266,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'boulder_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'boulder_theme',
         'weight' => -47,
       ),
@@ -298,8 +299,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'boulder_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'boulder_theme',
         'weight' => -46,
       ),
@@ -312,6 +313,39 @@ function platform_main_feature_default_fe_block_settings() {
     ),
     'title' => 'Featured Collections Second Row',
     'visibility' => 0,
+  );
+
+  $export['blockgroup-search_and_slider'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'search_and_slider',
+    'module' => 'blockgroup',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'boulder_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Search and Slider',
+    'visibility' => 1,
   );
 
   $export['blockify-blockify-breadcrumb'] = array(
@@ -585,7 +619,8 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'islandora_collection_search',
     'module' => 'islandora_collection_search',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => 'advanced-search
+islandora/search*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -608,7 +643,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['islandora_compound_object-compound_navigation'] = array(
@@ -1865,6 +1900,41 @@ islandora/search/*',
     ),
     'title' => '',
     'visibility' => 1,
+  );
+
+  $export['views-content_explore-block_2'] = array(
+    'cache' => -1,
+    'css_class' => 'content-explore-block',
+    'custom' => 0,
+    'delta' => 'content_explore-block_2',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>
+islandora/search*
+islandora/search/*',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => 'hero',
+        'status' => 1,
+        'theme' => 'boulder_theme',
+        'weight' => -58,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Explore',
+    'visibility' => 0,
   );
 
   $export['views-featured_collection-block'] = array(

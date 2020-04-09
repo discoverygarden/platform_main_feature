@@ -13,6 +13,7 @@ function platform_main_feature_default_blockgroups() {
     'collection_search_group' => 'Collection search Group',
     'featured_collections_group' => 'Featured Collections Group',
     'featured_collections_second' => 'Featured Collections Second Row',
+    'search_and_slider' => 'Search and Slider',
   );
 }
 
