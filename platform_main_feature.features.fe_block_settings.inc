@@ -421,7 +421,7 @@ islandora/search*',
     'delta' => 'blockify-page-title',
     'module' => 'blockify',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'browse/compressed-search-*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
