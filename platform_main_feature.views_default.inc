@@ -1277,9 +1277,9 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['tn_cache']['label'] = '';
   $handler->display->display_options['fields']['tn_cache']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['tn_cache']['link_to_object'] = 0;
-  $handler->display->display_options['fields']['tn_cache']['tn_dsid'] = 'JPG';
+  $handler->display->display_options['fields']['tn_cache']['tn_dsid'] = 'JPG_FULL';
   $handler->display->display_options['fields']['tn_cache']['tn_style'] = 'flexslider_full';
-  $handler->display->display_options['fields']['tn_cache']['auto_dsid'] = 1;
+  $handler->display->display_options['fields']['tn_cache']['auto_dsid'] = 0;
   $handler->display->display_options['fields']['tn_cache']['image_raw'] = 0;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['filter_groups']['operator'] = 'OR';
