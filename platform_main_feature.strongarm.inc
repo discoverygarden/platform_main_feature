@@ -795,7 +795,7 @@ function platform_main_feature_strongarm() {
       'path' => 'compressed-search-author-donor',
     ),
     3 => array(
-      'solr_field' => 'mods_titleInfo_title_sci',
+      'solr_field' => 'bpl_mods_titleInfo_title_sci',
       'label' => 'Title',
       'path' => 'compressed-search-title',
     ),
