@@ -16,7 +16,8 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'addtoany_additional_js';
   $strongarm->value = 'a2a_config.exclude_services = [\'yahoo\', \'telegram\', \'balatarin\', \'blinklist\', \'pocket\', \'aol\', \'myspace\', \'linkedin\', \'whatsapp\', \'pinterest\', \'reddit\', \'mix\',\'tumblr\', \'email\', \'gmail\'];
-a2a_config.num_services = 2;';
+a2a_config.num_services = 2;
+a2a_config.prioritize = [\'facebook\', \'twitter\'];';
   $export['addtoany_additional_js'] = $strongarm;
 
   $strongarm = new stdClass();

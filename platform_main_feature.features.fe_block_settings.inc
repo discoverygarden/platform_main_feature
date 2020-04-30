@@ -488,7 +488,9 @@ islandora/search*',
     'module' => 'bpldora',
     'node_types' => array(),
     'pages' => '<front>',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 3,
+    ),
     'themes' => array(
       'bartik' => array(
         'region' => '',
