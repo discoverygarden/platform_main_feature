@@ -13,6 +13,39 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
+  $export['addtoany-addtoany_button'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'addtoany_button',
+    'module' => 'addtoany',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'boulder_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['block-advanced_islandora_search_link'] = array(
     'cache' => -1,
     'css_class' => 'adv-search',
@@ -464,8 +497,8 @@ islandora/search*',
         'weight' => 0,
       ),
       'boulder_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'boulder_theme',
         'weight' => -48,
       ),
