@@ -20,5 +20,14 @@ function platform_main_feature_user_default_permissions() {
     'module' => 'google_analytics_reports',
   );
 
+  // Exported permission: 'administer addtoany'.
+  $permissions['administer addtoany'] = array(
+    'name' => 'administer addtoany',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'addtoany',
+  );
+
   return $permissions;
 }

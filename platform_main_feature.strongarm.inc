@@ -14,6 +14,15 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'addtoany_additional_js';
+  $strongarm->value = 'a2a_config.exclude_services = [\'yahoo\', \'telegram\', \'balatarin\', \'blinklist\', \'pocket\', \'aol\', \'myspace\', \'linkedin\', \'whatsapp\', \'pinterest\', \'reddit\', \'mix\',\'tumblr\', \'email\', \'gmail\'];
+a2a_config.num_services = 2;
+a2a_config.prioritize = [\'facebook\', \'twitter\'];';
+  $export['addtoany_additional_js'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'addtoany_image';
   $strongarm->value = 'share_16_16.png|16|16';
   $export['addtoany_image'] = $strongarm;
@@ -26,6 +35,7 @@ function platform_main_feature_strongarm() {
     'article' => 0,
     'page' => 0,
     'image_block' => 0,
+    'imagecache_default_thumbnail' => 0,
   );
   $export['addtoany_nodetypes'] = $strongarm;
 
