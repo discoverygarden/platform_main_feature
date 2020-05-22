@@ -1946,7 +1946,8 @@ islandora/search/*',
     'node_types' => array(),
     'pages' => '<front>
 islandora/search*
-islandora/search/*',
+islandora/search/*
+browse/compressed-search*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
