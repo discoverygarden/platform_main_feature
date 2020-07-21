@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * platform_main_feature.features.fe_block_settings.inc
@@ -155,7 +156,10 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'islandora_collection_search',
     'module' => 'islandora_collection_search',
     'node_types' => array(),
-    'pages' => 'islandora/object/*',
+    'pages' => '<front>
+users/*
+user
+advanced-search',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -177,8 +181,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
-    'visibility' => 1,
+    'title' => 'Search',
+    'visibility' => 0,
   );
 
   $export['islandora_compound_object-compound_navigation'] = array(
