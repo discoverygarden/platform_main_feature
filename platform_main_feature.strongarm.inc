@@ -795,7 +795,7 @@ a2a_config.prioritize = [\'facebook\', \'twitter\'];';
       'path' => 'compressed-search-subject',
     ),
     1 => array(
-      'solr_field' => 'bpl_mods_all_call_numbers_sci',
+      'solr_field' => 'bpl_mods_identifier_non_marc_call_number_ss',
       'label' => 'Call Number',
       'path' => 'compressed-search-call-number',
     ),
