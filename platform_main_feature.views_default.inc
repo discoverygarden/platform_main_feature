@@ -1802,6 +1802,14 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['hide_empty'] = TRUE;
   $handler->display->display_options['fields']['bpl_mods_abstract_all_types_mt']['link_to_object'] = 0;
+  /* Field: Islandora Solr: PID */
+  $handler->display->display_options['fields']['PID']['id'] = 'PID';
+  $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['PID']['field'] = 'PID';
+  $handler->display->display_options['fields']['PID']['label'] = '';
+  $handler->display->display_options['fields']['PID']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
   /* Contextual filter: Islandora Solr: PID */
   $handler->display->display_options['arguments']['PID']['id'] = 'PID';
   $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
