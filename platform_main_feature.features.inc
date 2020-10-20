@@ -95,6 +95,88 @@ function platform_main_feature_image_default_styles() {
     ),
   );
 
+  // Exported image style: islandora_social_media_thumbnail_facebook.
+  $styles['islandora_social_media_thumbnail_facebook'] = array(
+    'label' => 'Islandora Social Media Thumbnail Facebook',
+    'effects' => array(
+      4 => array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 190,
+          'height' => 190,
+          'upscale' => 1,
+        ),
+        'weight' => -10,
+      ),
+      3 => array(
+        'name' => 'canvasactions_definecanvas',
+        'data' => array(
+          'RGB' => array(
+            'HEX' => '#FFFFFF',
+          ),
+          'under' => 1,
+          'exact' => array(
+            'width' => 200,
+            'height' => 200,
+            'xpos' => 'center',
+            'ypos' => 'center',
+          ),
+          'relative' => array(
+            'leftdiff' => '',
+            'rightdiff' => '',
+            'topdiff' => '',
+            'bottomdiff' => '',
+          ),
+        ),
+        'weight' => -9,
+      ),
+      5 => array(
+        'name' => 'canvasactions_definecanvas',
+        'data' => array(
+          'RGB' => array(
+            'HEX' => '#FFFFFF',
+          ),
+          'under' => 1,
+          'exact' => array(
+            'width' => '',
+            'height' => '',
+            'xpos' => 'center',
+            'ypos' => 'center',
+          ),
+          'relative' => array(
+            'leftdiff' => 20,
+            'rightdiff' => 20,
+            'topdiff' => 20,
+            'bottomdiff' => 20,
+          ),
+        ),
+        'weight' => 3,
+      ),
+      6 => array(
+        'name' => 'canvasactions_definecanvas',
+        'data' => array(
+          'RGB' => array(
+            'HEX' => '#333333',
+          ),
+          'under' => 1,
+          'exact' => array(
+            'width' => '',
+            'height' => '',
+            'xpos' => 'center',
+            'ypos' => 'center',
+          ),
+          'relative' => array(
+            'leftdiff' => 5,
+            'rightdiff' => 5,
+            'topdiff' => 5,
+            'bottomdiff' => 5,
+          ),
+        ),
+        'weight' => 4,
+      ),
+    ),
+  );
+
   // Exported image style: owl_slider_thumbnail.
   $styles['owl_slider_thumbnail'] = array(
     'label' => 'Owl Slider Thumbnail',
