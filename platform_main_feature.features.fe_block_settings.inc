@@ -80,6 +80,39 @@ islandora/search*',
     'visibility' => 0,
   );
 
+  $export['block-announcements'] = array(
+    'cache' => -1,
+    'css_class' => 'announcements',
+    'custom' => 0,
+    'machine_name' => 'announcements',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => 'highlighted',
+        'status' => 1,
+        'theme' => 'boulder_theme',
+        'weight' => -57,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['block-featured_collections_label'] = array(
     'cache' => -1,
     'css_class' => 'featured-collection-title',

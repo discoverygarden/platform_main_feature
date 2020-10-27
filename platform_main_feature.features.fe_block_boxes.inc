@@ -21,6 +21,15 @@ function platform_main_feature_default_fe_block_boxes() {
   $export['advanced_islandora_search_link'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Announcements and Postings';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'announcements';
+  $fe_block_boxes->body = '<p>Carnegie Library for Local History is now offering basic research and scanning services&nbsp;<a href="mailto:AskCarnegie@boulderlibrary.org" data-name="by email" data-type="email">by email.</a>&nbsp;Requests are fulfilled first-come first-served.</p>
+';
+
+  $export['announcements'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Provides a label for use with Featured Collections';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'featured_collections_label';
